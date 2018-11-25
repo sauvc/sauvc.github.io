@@ -65,14 +65,9 @@
     }
 
     function isElementInViewport (el) {
-
       var rect = el.getBoundingClientRect();
-
-      return (
-        rect.top >= 0 &&
-        rect.left >= 0 &&
-        (rect.bottom <= (window.innerHeight || document.documentElement.clientHeight)) &&
-        (rect.right <= (window.innerWidth || document.documentElement.clientWidth)));
+      var screenHeight = window.innerHeight || document.documentElement.clientHeight;
+      return (rect.top >= 0 && rect.top <= screenHeight) || (rect.bottom >= 0 && rect.bottom <= screenHeight);
     }
 
   })
