@@ -1043,6 +1043,13 @@
         "title": "flag for Macao"
     },
     {
+        "code": "MO",
+        "emoji": "🇲🇴",
+        "unicode": "U+1F1F2 U+1F1F4",
+        "name": "Macau",
+        "title": "flag for Macau"
+    },
+    {
         "code": "MP",
         "emoji": "🇲🇵",
         "unicode": "U+1F1F2 U+1F1F5",
