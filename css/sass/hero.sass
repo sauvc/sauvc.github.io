@@ -67,7 +67,7 @@
 .action
   margin: 0 auto 1.5em
 
-.action-button
+.action-button, .action-emphasis
   background: $emphasis-color
   text-align: center
   display: inline-block
@@ -76,8 +76,13 @@
   border: 4px solid $dark-color
   font-size: 2em
   border-radius: 10px
+  text-decoration: none
+  margin: 0
+
+.action-button
   &:link, &:visited, &:hover, &n:active
     color: $dark-color
+    text-decoration: none
   &:hover
     cursor: pointer
     background: $important-color
