@@ -1,10 +1,18 @@
-language: generic
+language: python
+python:
+ - "3.6"
+addons:
+  apt:
+    packages:
+      - openjdk-8-jre  # install Java8 as required by vnu.jar
+
 branches:
   only:
     - master
 
-before_install:
+install:
  - pip install html5validator
  - gem install awesome_bot
 
-script: html5validator --match *.html && awesome_bot index.html --allow-dupe
+script:
+  - html5validator --match *.html && awesome_bot index.html --allow-dupe
