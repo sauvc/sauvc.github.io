@@ -6,15 +6,20 @@ var totalEl;
 var endOfAttemptInput;
 var runtimeInput;
 var runtimeMirror;
+var runtimeCalc;
+var task1Input;
+var task2None;
+var task3Input;
+var task4Input;
 window.addEventListener('load', function(){
   totalEl = document.getElementById('total-points');
   var allCheckInputs = document.querySelectorAll('input[type=checkbox]');
-  for (index = 0; index < allCheckInputs.length; index++){
-    allCheckInputs[index].addEventListener('change', recalculatePoints)
+  for (var index = 0; index < allCheckInputs.length; index++){
+    allCheckInputs[index].addEventListener('change', recalculatePoints);
   }
   var task2Inputs = document.querySelectorAll('#task2-inputs input[type=radio]');
   for (index = 0; index < task2Inputs.length; index++){
-    task2Inputs[index].addEventListener('change', recalculateTask2Points)
+    task2Inputs[index].addEventListener('change', recalculateTask2Points);
   }
 
   runTimeBonusLabel = document.getElementById('run-time-bonus');
@@ -32,7 +37,7 @@ window.addEventListener('load', function(){
 });
 
 function recalculateRunTimeBonus(){
-    var bonus = (900 - parseFloat(runtimeInput.value)) * 0.03
+    var bonus = (900 - parseFloat(runtimeInput.value)) * 0.03;
     if (!bonus || bonus < 0) bonus = 0;
 
     runtimeMirror.innerHTML = runtimeInput.value;
@@ -48,12 +53,12 @@ function recalculatePoints(ev){
     taskPoints -= parseInt(ev.target.dataset.points);
   }
   updateRunTimeBonus();
-  updateTotal()
+  updateTotal();
 }
 
 function updateRunTimeBonus(){
   if (runTimeBonusUnlocked()){
-      for (index = 0; index < runtimeCalc.length; index++){
+      for (var index = 0; index < runtimeCalc.length; index++){
         runtimeCalc[index].classList.remove('greyedout');
         runtimeCalc[index].disabled = false;
         recalculateRunTimeBonus();
@@ -70,7 +75,7 @@ function updateRunTimeBonus(){
 }
 
 function runTimeBonusUnlocked(){
-  return endOfAttemptInput.checked && task1Input.checked && (!task2None.checked || task3Input.checked || task4Input.checked)
+  return endOfAttemptInput.checked && task1Input.checked && (!task2None.checked || task3Input.checked || task4Input.checked);
 }
 
 function recalculateTask2Points(ev){
@@ -80,5 +85,5 @@ function recalculateTask2Points(ev){
 }
 
 function updateTotal(){
-  totalEl.innerHTML = "Total = " + (taskPoints+task3Points+runTimePoints).toFixed(2) + " pts";
+  totalEl.innerHTML = 'Total = ' + (taskPoints+task3Points+runTimePoints).toFixed(2) + ' pts';
 }

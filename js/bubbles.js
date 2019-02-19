@@ -34,9 +34,9 @@
       }else{
         fadeOut();
       }
-    })
+    });
 
-    document.addEventListener("visibilitychange", function(){
+    document.addEventListener('visibilitychange', function(){
       if (document.visibilityState == 'visible' && isElementInViewport(action)){
         fadeIn();
       }else if (document.visibilityState == 'hidden' || document.visibilityState == 'unloaded' ){
@@ -70,5 +70,5 @@
       return (rect.top >= 0 && rect.top <= screenHeight) || (rect.bottom >= 0 && rect.bottom <= screenHeight);
     }
 
-  })
-}())
+  });
+}());
