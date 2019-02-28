@@ -15,4 +15,4 @@ install:
  - gem install awesome_bot
 
 script:
-  - html5validator --match *.html && awesome_bot index.html --allow-dupe --allow-redirect --allow-ssl --white-list "singaporeair.com,flyscoot.com,bluerobotics.com" --set-timeout 60
+  - html5validator --match *.html && awesome_bot index.html --allow-dupe --allow-redirect --allow-ssl --white-list "singaporeair.com,flyscoot.com,bluerobotics.com,navy.mil" --set-timeout 100
