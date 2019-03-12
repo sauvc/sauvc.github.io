@@ -12,6 +12,11 @@ org.json: org.csv
 	csv2json org.csv > org.json
 	node addpics.js
 
+
+final.json: final.csv
+	csv2json final.csv > final.json
+	node final.js
+
 clean :
 	rm registered.json
 	rm registered-teams.json

@@ -3,6 +3,7 @@
     populateRegisteredTeams();
     populateQualifiedTeams();
     populateOrgTeam();
+    populateFinalTeams();
     makeBubbleGraphics();
   });
 
@@ -154,6 +155,35 @@
             name.innerHTML = org.Committee;
             role.innerHTML = org.Role;
 
+            regTeamsTable.appendChild(clone);
+          });
+        });
+      });
+    }
+  }
+
+  function populateFinalTeams() {
+    if ('content' in document.createElement('template')) {
+      var template = document.querySelector('#final-team-template');
+      var regTeamsTable = document.querySelector('#final-teams');
+
+      fetch('data/final-teams.json').then(response => {
+        response.json().then (regTeams => {
+          regTeams.sort((a,b) => {
+            return a.rank - b.rank;
+          }).forEach(team => {
+            var clone = document.importNode(template.content, true);
+            var td = clone.querySelectorAll('td');
+            var flagspan = clone.querySelectorAll('span');
+
+            var location = (team.city ? team.city + ', ' : '') + team.country;
+            td[0].textContent = team['rank'];
+            td[1].textContent = team['id'];
+            td[2].append(linkedEntry(team['url'], team['name']));
+            td[3].append(linkedEntry(team['institute-url'], team['institute']));
+            td[4].append(location);
+            td[5].textContent = team['qrank'];
+            flagspan[0].textContent = team.flag;
             regTeamsTable.appendChild(clone);
           });
         });

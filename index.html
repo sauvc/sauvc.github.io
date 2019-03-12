@@ -101,10 +101,9 @@
       <!-- p.action-emphasis: for an short announcement -->
       <!-- p.action-info: for deadline or more information -->
 
-      <a href="#teams" id="register" class="action-button">Short-listed Teams Announced</a>
+      <a href="#teams" id="register" class="action-button">SAUVC 2019 Winners Announced</a>
       <!-- <a id="register" class="action-button">Register Here</a> -->
-       <p class="action-info action-info-large">IEEE OES is presenting an award for <strong>Most Innovative Engineering</strong> at SAUVC 2019</p>
-      <p class="action-info action-info-large"><strong>Chief Guest: Dr. Mohamad Maliki Bin Osman</strong> <br> Senior Minister of State, Ministry of Defence & Ministry of Foreign Affairs <br> Mayor, South East District</p>
+      <!-- <p class="action-info action-info-large">IEEE OES is presenting an award for <strong>Most Innovative Engineering</strong> at SAUVC 2019</p> -->
       <!-- <p class="action-info">Submit video by : 8 February 2019</p> -->
       <!-- <p class="action-info">Register by : 15 November 2018</p> -->
       <!-- <p class="action-info">Submit video by : 31 Dec 2018</p> -->
@@ -200,10 +199,46 @@
     </tr>
   </template>
 
-<!-- This sections has to have the id of `teams` for the top bar link to work -->
+  <template id="final-team-template">
+    <tr>
+      <td></td>
+      <td class="team-id"></td>
+      <td></td>
+      <td></td>
+      <td><span class="flag"></span></td>
+      <td></td>
+    </tr>
+  </template>
+
   <section id="teams">
+    <h3>SAUVC 2019 Winners</h3>
+    <ul class="winners">
+      <li data-caption="Champion">
+        <img src="img/competitors/fefu.jpg" alt="Champion">
+        <p>FEFU/IMTP (SAUVC-RU-01) <br> <a href="https://www.dvfu.ru/en/">Far Eastern Federal University</a> <br> Vladivostok, Russia</p>
+      </li>
+      <li data-caption="1st Runner-up">
+        <img src="img/competitors/n2auv.jpg" alt="1st Runner-up">
+        <p>N2-AUV(SAUVC-ID-03) <br> <a href="https://ipb.ac.id/">Bogor Agricultural University</a> <br> Bogor, Indonesia</p>
+      </li>
+      <li data-caption="2nd Runner-up">
+        <img src="img/competitors/imvt.jpg" alt="2nd Runner-up">
+        <p>Intelligent Marine Vehicle Team (SAUVC-CN-02) <br> <a href="http://en.nwpu.edu.cn/">Northwestern Polytechnical University</a> <br> Xi'an, China</p>
+      </li>
+    </ul>
+
     <div class="wrap-collabsible">
-      <input id="collapsible-qual" class="toggle" type="checkbox" checked>
+      <input id="collapsible-qual" class="toggle" type="checkbox" checked="">
+      <label for="collapsible-qual" class="lbl-toggle">SAUVC 2019 Finalists</label>
+      <div class="collapsible-content">
+        <table class="table-finalists" id="final-teams">
+          <tr><th>Final Rank</th> <th>Team ID</th> <th>Team Name</th> <th>Institute</th> <th>Location</th> <th class="team-rank">Qualifiers Rank</th> </tr>
+        </table>
+      </div>
+    </div>
+
+    <div class="wrap-collabsible">
+      <input id="collapsible-qual" class="toggle" type="checkbox">
       <label for="collapsible-qual" class="lbl-toggle">SAUVC 2019 Short-listed Teams</label>
       <div class="collapsible-content">
         <table class="table-teams" id="qual-teams">
@@ -211,9 +246,7 @@
         </table>
       </div>
     </div>
-  </section>
 
-  <section id="reg-teams-sec">
     <div class="wrap-collabsible">
       <input id="collapsible-reg" class="toggle" type="checkbox">
       <label for="collapsible-reg" class="lbl-toggle">SAUVC 2019 Registered Teams</label>
