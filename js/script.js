@@ -182,7 +182,7 @@
             td[2].append(linkedEntry(team['url'], team['name']));
             td[3].append(linkedEntry(team['institute-url'], team['institute']));
             td[4].append(location);
-            td[5].textContent = team['qrank'];
+            td[5].textContent = 17-parseInt(team['qrank']);
             flagspan[0].textContent = team.flag;
             regTeamsTable.appendChild(clone);
           });
