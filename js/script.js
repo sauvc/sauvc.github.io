@@ -1,7 +1,7 @@
 (function(){
   window.addEventListener('load', function(){
     populateRegisteredTeams();
-    populateQualifiedTeams();
+    populateShortListedTeams();
     populateOrgTeam();
     populateFinalTeams();
     makeBubbleGraphics();
@@ -112,12 +112,12 @@
     }
   }
 
-  function populateQualifiedTeams() {
+  function populateShortListedTeams() {
     if ('content' in document.createElement('template')) {
       var template = document.querySelector('#team-template');
-      var regTeamsTable = document.querySelector('#qual-teams');
+      var regTeamsTable = document.querySelector('#short-teams');
 
-      fetch('data/qualified-teams.json').then(response => {
+      fetch('data/shortlisted-teams.json').then(response => {
         response.json().then (regTeams => {
           regTeams.forEach(team => {
             var clone = document.importNode(template.content, true);

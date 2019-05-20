@@ -4,9 +4,9 @@ registered.json: registered.csv
 	csv2json registered.csv > registered.json
 	node addflags.js
 
-qualified.json: qualified.csv registered.json
-	csv2json qualified.csv > qualified.json
-	node qualified.js
+shortlisted.json: shortlisted.csv shortlisted.json
+	csv2json shortlisted.csv > shortlisted.json
+	node shortlisted.js
 
 org.json: org.csv
 	csv2json org.csv > org.json
@@ -20,8 +20,8 @@ final.json: final.csv
 clean :
 	rm registered.json
 	rm registered-teams.json
-	rm qualified.json
-	rm qualified-teams.json
+	rm shortlisted.json
+	rm shortlisted-teams.json
 	rm org.json
 	rm org-team.json
 
