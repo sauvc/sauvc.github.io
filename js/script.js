@@ -170,6 +170,8 @@
       fetch('data/final-teams.json').then(response => {
         response.json().then (regTeams => {
           regTeams.sort((a,b) => {
+            if (isNaN(a.rank)) return 1;
+            if (isNaN(b.rank)) return -1;
             return a.rank - b.rank;
           }).forEach(team => {
             var clone = document.importNode(template.content, true);
@@ -182,7 +184,7 @@
             td[2].append(linkedEntry(team['url'], team['name']));
             td[3].append(linkedEntry(team['institute-url'], team['institute']));
             td[4].append(location);
-            td[5].textContent = 17-parseInt(team['qrank']);
+            td[5].textContent = isNaN(team['qrank']) ? '-' : 17-parseInt(team['qrank']);
             flagspan[0].textContent = team.flag;
             regTeamsTable.appendChild(clone);
           });
