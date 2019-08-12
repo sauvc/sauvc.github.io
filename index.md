@@ -664,31 +664,3 @@ permalink: /
     </li>
   </ul>
 </section>
-
-<section id="venue">
-  <h2>Venue</h2>
-
-  <p class="address">
-    Singapore Polytechnic
-    <br>
-    500 Dover Road
-    <br>
-    Singapore 139651
-  </p>
-
-  <img class="landscape" src="img/sauvc-2017.jpg" alt="SAUVC 2017 group photo">
-  <div class="map">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3988.776008851886!2d103.7770932354432!3d1.309692342211474!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa9545dd23993859e!2sSingapore+Polytechnic!5e0!3m2!1sen!2ssg!4v1503211253327" width="500" height="300" style="border:0" allowfullscreen></iframe>
-  </div>
-
-  <ul class="info-list">
-    <li>
-      <p class="info-title">By Public Transport</p>
-      <p class="info-content">Singapore Polytechnic is at the door step of <a href="https://arl.nus.edu.sg/~bharath/SMRTmap.pdf"> Dover MRT (train) Station (EW22 Dover)</a>. You can also take buses from various parts of Singapore to either Commonwealth Avenue West, Dover Road or Dover Avenue. <a href="https://www.google.com/maps">Google Maps</a> and <a href="https://gothere.sg/maps">Gothere.sg</a> are handy websites for finding out bus routes.</p>
-    </li>
-    <li>
-      <p class="info-title">By Car</p>
-      <p class="info-content">The venue address is <a href="https://www.google.com/maps/place/Singapore+Polytechnic">Singapore Polytechnic, 500 Dover Road, Singapore 139651</a>. The nearest <a href="https://arl.nus.edu.sg/~bharath/SPMap.pdf">car park to the venue is near Gate 2 or Gate 3</a>.</p>
-    </li>
-  </ul>
-</section>

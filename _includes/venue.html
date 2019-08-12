@@ -1,0 +1,17 @@
+<section id="venue">
+  <h2>Venue</h2>
+
+  <p class="address">{{ site.data.venue.address }} </p>
+
+  <img class="landscape" src="{{ site.data.venue.image_path }}" alt="{{ site.data.venue.image_path }}">
+  <div class="map"><iframe src="{{ site.data.venue.google_map }}" width="500" height="300" style="border:0" allowfullscreen></iframe></div>
+
+  <ul class="info-list">
+    {% for opt in site.data.venue.travel_options %}
+    <li>
+      <p class="info-title">{{ opt.name }}</p>
+      <p class="info-content">{{ opt.description }}</p>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
