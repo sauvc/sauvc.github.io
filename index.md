@@ -720,17 +720,3 @@ permalink: /
   </ul>
 
 </section>
-
-<template id="org-template">
-   <li>
-      <img class="team-pic" src="" alt="">
-      <p class=team-name></p>
-      <p class=team-role></p>
-    </li>
-</template>
-
-<!--   <section id="about" >
-  <h2>About us</h2>
-  <ul class="team" id="org-list">
-  </ul>
-</section> -->

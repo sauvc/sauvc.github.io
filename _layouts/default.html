@@ -3,6 +3,11 @@
 {%- include head.html -%}
 <body>
 {{ content }}
+
+{% if site.data.section_visbility == true %}
+  {%- include about.html -%}
+{% endif %}
+
 {%- include footer.html -%}
 {%- include scripts.html -%}
 </body>

@@ -1,0 +1,12 @@
+<section id="about" >
+  <h2>About us</h2>
+  <ul class="team" id="org-list">
+    {% for org in site.data.organizers.list %}
+    <li>
+       <img class="team-pic" src="{{ org.image_path }}" alt="{{ org.name }}">
+       <p class=team-name>{{ org.name }}</p>
+       <p class=team-role>{{ org.role }}</p>
+     </li>
+    {% endfor %}
+  </ul>
+</section>

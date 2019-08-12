@@ -137,31 +137,6 @@
     }
   }
 
-  function populateOrgTeam() {
-    if ('content' in document.createElement('template')) {
-      var template = document.querySelector('#org-template');
-      var regTeamsTable = document.querySelector('#org-list');
-
-      fetch('data/org-team.json').then(response => {
-        response.json().then (regTeams => {
-          regTeams.forEach(org => {
-            var clone = document.importNode(template.content, true);
-            var img = clone.querySelector('img');
-            var name = clone.querySelector('.team-name');
-            var role = clone.querySelector('.team-role');
-            img.src = org.img;
-            img.alt = org.Committee;
-
-            name.innerHTML = org.Committee;
-            role.innerHTML = org.Role;
-
-            regTeamsTable.appendChild(clone);
-          });
-        });
-      });
-    }
-  }
-
   function populateFinalTeams() {
     if ('content' in document.createElement('template')) {
       var template = document.querySelector('#final-team-template');
