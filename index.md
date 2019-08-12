@@ -1,4 +1,9 @@
-<!doctype html>
+---
+layout: default
+title: SAUVC 2020
+permalink: /
+---
+
 <html lang="en">
 <head>
   <meta charset="utf-8">
