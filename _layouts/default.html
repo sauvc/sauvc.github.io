@@ -1,14 +1,17 @@
 <!doctype html>
 <html lang="en">
-{%- include head.html -%}
+  {%- include head.html -%}
 <body>
-{{ content }}
+  {{ content }}
 
-{% if site.data.section_visbility == true %}
-  {%- include about.html -%}
-{% endif %}
+  {%- include contact.html -%}
 
-{%- include footer.html -%}
-{%- include scripts.html -%}
+  {% if site.data.section_visbility == true %}
+    {%- include about.html -%}
+  {% endif %}
+
+  {%- include footer.html -%}
+
+  {%- include scripts.html -%}
 </body>
 </html>

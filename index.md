@@ -705,18 +705,3 @@ permalink: /
 <p>We are very grateful and would like to say a big <span class="highlight">Thank You</span> to all the sponsors of SAUVC over the years.</p>
 <p>We are currently looking for sponsors for SAUVC 2020. Interested in encouraging underwater robotics? Contact us at auvc.singapore@gmail.com</p>
 </section>
-
-<section id="contact">
-  <h2>Contact us</h2>
-  <ul class="social">
-    <li>
-      <img src="img/social/email.png" alt="Email">
-      <a href="mailto:auvc.singapore@gmail.com">Email us</a>
-    </li>
-    <li>
-      <img src="img/social/messenger.png" alt="Messenger">
-      <a href="https://m.me/SingaporeAUVChallenge" target="_blank">Message us</a>
-    </li>
-  </ul>
-
-</section>

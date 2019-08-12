@@ -1,0 +1,11 @@
+<section id="contact">
+  <h2>Contact us</h2>
+  <ul class="social">
+    {% for contact in site.data.contacts.list %}
+    <li>
+      <img src="{{ contact.image_path }}" alt="{{ contact.name }}">
+      <a href="{{ contact.url }}" target="_blank">{{ contact.action }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
