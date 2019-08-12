@@ -1,0 +1,9 @@
+title: SAUVC
+description: Singapore AUV Challenge
+url: "https://sauvc.org"
+markdown: kramdown
+permalink: /:title
+google_analytics: UA-105062391-1
+github:
+  repository_url: https://github.com/sauvc/sauvc.github.io
+exclude: ["Gemfile", "Gemfile.lock", "contributing.md", "Makefile"]
