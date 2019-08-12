@@ -692,16 +692,3 @@ permalink: /
     </li>
   </ul>
 </section>
-
-<section id="sponsors">
-  <h2>Sponsors</h2>
-  <ul class="sponsors">
-   <!--  <li>
-      <div class="sponsors-container">
-        <a href="http://www.oceanicengineering.org/"><img class="landscape sponsor-img" src="img/sponsors/oes.png" alt="IEEE OES"></a>
-      </div>
-    </li> -->
-</ul>
-<p>We are very grateful and would like to say a big <span class="highlight">Thank You</span> to all the sponsors of SAUVC over the years.</p>
-<p>We are currently looking for sponsors for SAUVC 2020. Interested in encouraging underwater robotics? Contact us at auvc.singapore@gmail.com</p>
-</section>

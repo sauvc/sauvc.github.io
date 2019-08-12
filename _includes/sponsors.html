@@ -1,0 +1,12 @@
+<section id="sponsors">
+  <h2>Sponsors</h2>
+  {{ site.data.sponsors.description }}
+
+  {% if site.data.sponsors.sponsor_list_visibility == true %}
+  <ul class="sponsors">
+    {% for sponsor in site.data.sponsors.list %}
+    <li><div class="sponsors-container"><a href="{{ sponsor.url }}"><img class="landscape sponsor-img" src="{{ sponsor.image_path }}" alt="{{ sponsor.name }}"></a></div></li>
+    {% endfor %}
+  </ul>
+  {% endif %}
+</section>

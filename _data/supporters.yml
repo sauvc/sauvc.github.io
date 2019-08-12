@@ -1,0 +1,17 @@
+description: SAUVC is organised by IEEE OES Singapore <br> with support of National University of Singapore and Singapore Polytechnic.
+list:
+  - name: IEEE
+    url: https://www.ieee.org
+    image_path: img/sponsors/ieee.jpg
+  - name: OES
+    url: http://www.oceanicengineering.org
+    image_path: img/sponsors/oes.png
+  - name: NUS
+    url: http://nus.edu.sg
+    image_path: img/sponsors/nus.png
+  - name: SP
+    url: https://www.sp.edu.sg
+    image_path: img/sponsors/sp.png
+  - name: DSO
+    url: https://www.dso.org.sg
+    image_path: img/sponsors/dso.jpg

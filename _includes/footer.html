@@ -1,10 +1,10 @@
 <footer class="footer">
   <div class="sponsor-logos">
-    {% for sponsor in site.data.sponsors.list %}
-    <a href="{{ sponsor.url }}"><img src="{{ sponsor.image_path }}" alt="{{ sponsor.name }}"></a>
+    {% for supporter in site.data.supporters.list %}
+    <a href="{{ supporter.url }}"><img src="{{ supporter.image_path }}" alt="{{ supporter.name }}"></a>
     {% endfor %}
   </div>
-  <p>{{ site.data.sponsors.description }}</p>
+  <p>{{ site.data.supporters.description }}</p>
   <svg viewbox="0 0 100 12">
     <path fill="#A0DCF1" opacity="0.2" d="M0 12 V9 Q30 10 40 7 T85 6 T100 2 V12z" />
     <path fill="#A0DCF1" opacity="0.5" d="M0 12 V10 Q30 1.5 60 10 V12z" />
