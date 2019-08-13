@@ -1,19 +1,10 @@
 <ul class="social">
-  <li>2019 photos:</li>
+  <li>{{ site.data.photolinks.year }} photos:</li>
+
+  {% for day in site.data.photolinks.days %}
   <li>
-    <img src="img/social/google_photos.png" alt="Google Photos">
-    <a href="https://photos.app.goo.gl/WnjjVjMPrWe7FYJk6">Day 1</a>
+    <img src="{{ site.data.photolinks.link_image }}" alt="Day {{ day.sequence }} from {{  site.data.photolinks.link_name }} album">
+    <a href="{{ day.link }}">Day {{ day.sequence }}</a>
   </li>
-  <li>
-    <img src="img/social/google_photos.png" alt="Google Photos">
-    <a href="https://photos.app.goo.gl/5sTLZQY6btk8TL7t9">Day 2</a>
-  </li>
-  <li>
-    <img src="img/social/google_photos.png" alt="Google Photos">
-    <a href=" https://photos.app.goo.gl/r9Rr59wc8k2p24Y26">Day 3</a>
-  </li>
-  <li>
-    <img src="img/social/google_photos.png" alt="Google Photos">
-    <a href="https://photos.app.goo.gl/mXYKhcDEK98pHAw29">Day 4</a>
-  </li>
+  {% endfor %}
 </ul>

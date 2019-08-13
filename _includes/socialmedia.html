@@ -1,0 +1,8 @@
+<ul class="social">
+  {% for social in site.data.socialmedia.list %}
+  <li>
+    <img src="{{ social.image_path }}" alt="{{ social.name }}">
+    <a href="{{ social.url }}">{{ social.name }}</a>
+  </li>
+  {% endfor %}
+</ul>
