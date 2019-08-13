@@ -22,7 +22,7 @@
   <ul id="menu">
     <li><a href="#information">Information</a></li>
     <li><a href="#competition">Competition</a></li>
-    <li><a href="#teams">Teams</a></li>
+    % if site.data.sections.teams == true %}<li><a href="#teams">Teams</a></li>{% endif %}
     {% if site.data.sections.schedule == true %}<li><a href="#schedule">Schedule</a></li>{% endif %}
     {% if site.data.sections.speakers == true %}<li><a href="#speakers">Speakers</a></li>{% endif %}
     <li><a href="#travel">Travel</a></li>
