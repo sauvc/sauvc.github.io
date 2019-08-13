@@ -4,6 +4,12 @@
 <body>
   {{ content }}
 
+  {%- include competition.html -%}
+
+  {% if site.data.sections.calculator == true %}
+  {%- include calculator.html -%}
+  {% endif %}
+
   {% if site.data.sections.schedule == true %}
   {%- include schedule.html -%}
   {% endif %}
@@ -26,6 +32,14 @@
 
   {%- include footer.html -%}
 
-  {%- include scripts.html -%}
+  <!-- Scripts -->
+  <script async src="js/bubbles.js"></script>
+  {%- include ga.html -%}
+
+  {% if site.data.sections.calculator == true %}
+  <script src="js/calc.js"></script>
+  {% endif %}
+
+  <script async src="js/script.js"></script>
 </body>
 </html>
