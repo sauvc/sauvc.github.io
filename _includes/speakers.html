@@ -1,0 +1,23 @@
+<section id="speakers">
+  <h2>Speakers</h2>
+
+  <ul class="speakers">
+    {% for speaker in site.data.speakers.list %}
+    <li>
+      <div class="speaker-photo">
+        <img src="{{ speaker.profile_image }}" alt="Speaker: {{ speaker.name }}">
+        <p class="speaker-name">{{ speaker.name }}</p>
+        <p class="speaker-title"><small>{{ speaker.title }}</small></p>
+      </div>
+      <div class="speaker-talk">
+        <p class="speaker-heading">{{ speaker.talk_title }}</p>
+        <p>{{ speaker.talk_description }}</p>
+      </div>
+      <div class="speaker-bio">
+        <p class="speaker-heading">Speaker's Bio</p>
+        <p>{{ speaker.bio }}</p>
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
+</section>

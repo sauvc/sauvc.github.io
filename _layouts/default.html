@@ -4,6 +4,10 @@
 <body>
   {{ content }}
 
+  {% if site.data.sections.speakers == true %}
+  {%- include speakers.html -%}
+  {% endif %}
+
   {%- include travel.html -%}
 
   {%- include venue.html -%}
@@ -12,8 +16,8 @@
 
   {%- include contact.html -%}
 
-  {% if site.data.section_visbility == true %}
-    {%- include about.html -%}
+  {% if site.data.sections.about == true %}
+  {%- include about.html -%}
   {% endif %}
 
   {%- include footer.html -%}

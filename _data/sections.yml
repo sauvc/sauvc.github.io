@@ -1,0 +1,4 @@
+# Indicate true or false to turn on the section display
+
+about: false # About section with list of organizers
+speakers: false # Speakers section with talks and bio

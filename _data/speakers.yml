@@ -1,0 +1,42 @@
+list:
+  - name: Kelly B. Cooper
+    title: Program Officer, Office of Naval Research
+    profile_image: img/speakers/kelly.jpg
+    talk_title: Using a simulation environment (virtual competition) to enhance the performance of autonomous vehicles.
+    talk_description: The Office of Naval Research is committed to supporting continued engagement and growth of students. The ONR also sponsors multiple robotics programs managed by RoboNation, a nonprofit dedicated to providing a pathway of hands-on educational experiences that empower students to find innovative solutions to global challenges. This talk will discuss some of the programming that exists including SeaPerch, RoboBoat, RoboSub, Maritime RobotX and a new Virtual RobotX competition.
+    bio: Ms. Kelly B. Cooper is a Program Officer at the Office of Naval Research, Mission Capable, Persistent and Survivable Naval Platforms Department, Advanced Naval Platforms Division where she specializes in Naval ship design sciences, especially design generation, and modeling & simulation using advanced computational techniques. She initiated a variety of student robotics competitions for the US Navy, including the Maritime RobotX Challenge, RoboBoat and SeaPerch.
+
+  - name: Richard Mills
+    title: Director of Marine Robotics Sales, Kongsberg Maritime
+    profile_image: img/speakers/richard-mills.png
+    talk_title: Improving Productivity in Deep Water AUV Surveys
+    talk_description: Productivity can be measured in many ways - effective survey time, area coverage rates, data volume and so on. With productivity in mind Kongsberg has introduced the HUGIN Superior, a 6000-meter rated AUV which is configured with best of everything that can fit into an AUV. This talk will showcase the various technologies that have gone into the HUGIN Superior including synthetic aperture sonar, multibeam echo-sounder, sub-bottom profiler, camera, laser, magnetometer and methane sensors.
+    bio: Richard Mills is the Director of Marine Robotics Sales with Kongsberg Maritime. He is responsible for the HUGIN and MUNIN Autonomous Underwater Vehicles and K-MATE, the latest generation Unmanned Surface Vessel controller. Leading a team of sales personnel located in Norway, the UK and USA, Richard is based out of the Kongsberg Maritime office in Westhill, Aberdeen
+
+  - name: Marcelo H. Ang, Jr.
+    title: Associate Professor, Mechanical Engineering Department, National University of Singapore
+    profile_image: img/speakers/marcelo-ang.png
+    talk_title: Robotics in Our Daily Lives
+    talk_description: Robotics science and technology have evolved from the seminal applications in industrial robotics and other industries including construction, mining and agriculture. One common theme in these emerging applications is the human-centered nature and applications in unstructured environments, where robotic systems surround humans. This talk reviews the state-of-the-art developments in fundamental capabilities in both hardware and software and will conclude with the challenges in science and technology to further accelerate the robotics revolution.
+    bio: Marcelo H. Ang, Jr. is an Associate Professor in the Department of Mechanical Engineering of the National University of Singapore and also the Acting Director of the Advanced Robotics Center. His research interests span the areas of robotics, mechatronics, autonomous systems, and applications of intelligent systems.
+
+  - name: Dr Gabriele Ferri
+    title: Research Scientist, NATO STO CMRE
+    profile_image: img/speakers/gabriele.png
+    talk_title: Autonomous robotics networks for underwater surveillance.
+    talk_description: Advances in marine robotics have made it possible to detect, localize and track an underwater object autonomously. Autonomous Underwater Vehicles (AUVs) provides low cost and less resource intensive approach for such tasks. However, a single AUV is limited in its processing capabilities when a large surveillance area is required to be monitored. It has been tested and verified that a group of low cost AUVs operating in a networked configuration can address this issue. In this talk, the performance of autonomous systems in a surveillance application is explored along with their potentialities and the challenges.
+    bio: Dr Gabriele Ferri is a Research Scientist at the CMRE where he investigates novel approaches for the autonomy of AUVs in ASW applications. He has been the Technical Director of SAUC-E from 2014 to 2018 <a href="http://sauc-europe.org/"> Student Autonomous Underwater Vehicle Challenge-Europe</a> and of <a href="www.eurathlon.eu"> euRathlon 2014 and 2015 robot competitions</a> and Technical Director of the European Robotics League Emergency 2017.
+
+  - name: William J Kirkwood
+    title: Senior Research and Development Engineer at Monterey Bay Aquarium Research Institute
+    profile_image: img/speakers/kirkwood-bill.jpg
+    talk_title: Plastics in the Food Web. A problem for future technology solutions.
+    talk_description: There are more than 51 trillion pieces of microplastic in our oceans. This plastic is having an impact on every part of our ocean and on every person dependent on the food web. This plastic waste has reached depths over 10km deep and has been found frozen into icebergs. Now, what do we do? With the help of advanced instrumentation and robotics we are starting to be able identify these plastics and trace them to their source. This talk discusses the issue and gives background on the science and impacts to the environment we live in. Then discusses the challenges this places on the future for society and begins to give hints at some of the technology approaches being considered to correct this issue.
+    bio: William (Bill) Kirkwood has been with the Monterey Bay Aquarium Research Institute (MBARI) since 1991, and in that time has held many positions, including Director of Engineering. Bill has also developed a number of vehicles and instruments at MBARI including the remotely operated vehicle (ROV) Tiburon, the autonomous vehicle class (AUV) Dorado and the deep ocean Raman systems (DORISS) to name a few.
+
+  - name: Liu Ren Jie
+    title: Technical Lead, NUS, Bumblebee Autonomous Systems
+    profile_image: img/speakers/renjie.jpg
+    talk_title: Growing a student-run Robotics Team – Bumblebee Autonomous Systems.
+    talk_description: Team Bumblebee started out with just 7 undergraduate students 7 years ago. It was with much effort and dedication that the team is able to sustain and grow beyond what many initially thought was not possible; developing 3 generations of Autonomous Underwater Vehicles and 2 generations of Autonomous Surface Vessels to represent Singapore in international autonomous vehicle competitions.. This talk will share how Team Bumblebee manages the challenges of sustaining and growing a student-run team, from the topics of Knowledge Management to Competition Preparations.
+    bio: Ren Jie is a Year 4 Electrical Engineering student from the National University of Singapore. He joined Team Bumblebee as a freshman and was part of the first ever “Hornet Training Program” designed by Team Bumblebee to nurture new talents. He went on to become the Electrical Lead after the Hornet Program and took up the role of the Technical Lead in his final year. He has since participated in 3 RoboSub and 2 Maritime RobotX Competitions.
