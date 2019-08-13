@@ -6,6 +6,12 @@
 
   {%- include hero.html -%}
 
+  {%- include social.html -%}
+
+  {% if site.data.sections.competition_photos == true %}
+  {%- include competition-photos.html -%}
+  {% endif %}
+
   {{ content }}
 
   {%- include competition.html -%}

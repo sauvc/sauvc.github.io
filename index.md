@@ -4,52 +4,7 @@ title: SAUVC 2020
 permalink: /
 ---
 
-<ul class="social">
-  <li>
-    <img src="img/social/facebook.png" alt="Facebook">
-    <a href="https://www.facebook.com/SingaporeAUVChallenge/">Facebook</a>
-  </li>
-  <li>
-    <img src="img/social/reddit.png" alt="Reddit">
-    <a href="https://www.reddit.com/r/SAUVC/">Reddit</a>
-  </li>
-  <li>
-    <img src="img/social/twitter.png" alt="Twitter">
-    <a href="https://twitter.com/sauvcsg">Twitter</a>
-  </li>
-  <li>
-    <img src="img/social/flickr.png" alt="Flickr">
-    <a href="https://www.flickr.com/photos/sauvc/">Flickr</a>
-  </li>
-  <li>
-    <img src="img/social/youtube.png" alt="YouTube">
-    <a href="https://www.youtube.com/channel/UCC1XR5k-A8oQUrXvRDni_YQ">YouTube</a>
-  </li>
-  <li>
-    <img src="img/social/github.png" alt="Github">
-    <a href="https://github.com/sauvc">Github</a>
-  </li>
-</ul>
 
-<!--   <ul class="social">
-  <li>2019 photos:</li>
-  <li>
-    <img src="img/social/google_photos.png" alt="Google Photos">
-    <a href="https://photos.app.goo.gl/WnjjVjMPrWe7FYJk6">Day 1</a>
-  </li>
-  <li>
-    <img src="img/social/google_photos.png" alt="Google Photos">
-    <a href="https://photos.app.goo.gl/5sTLZQY6btk8TL7t9">Day 2</a>
-  </li>
-  <li>
-    <img src="img/social/google_photos.png" alt="Google Photos">
-    <a href=" https://photos.app.goo.gl/r9Rr59wc8k2p24Y26">Day 3</a>
-  </li>
-  <li>
-    <img src="img/social/google_photos.png" alt="Google Photos">
-    <a href="https://photos.app.goo.gl/mXYKhcDEK98pHAw29">Day 4</a>
-  </li>
-</ul> -->
 
 <section id="information">
   <ul class="info-list">
