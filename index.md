@@ -4,29 +4,6 @@ title: SAUVC 2020
 permalink: /
 ---
 
-
-
-<section id="information">
-  <ul class="info-list">
-    <li>
-      <p class="info-title">Competition</p>
-      <p class="info-content">Autonomous underwater robotics is an exciting challenge in engineering, which participants get to experience at SAUVC. The competition is great learning ground for participants to experience the challenges of AUV system engineering and develop skills in the related fields of mechanical, electrical and software engineering.</p>
-    </li>
-    <li>
-      <p class="info-title">Mentorship</p>
-      <p class="info-content">Participants will have access to mentors and support. Teams will be assigned liaisons who will be able to provide mentorship and technical guidance as the teams work on designing and building their AUVs. SAUVC emphasises outreach, learning and skill development and we want to ensure everyone learns and grows through the course of SAUVC.</p>
-    </li>
-    <li>
-      <p class="info-title">Guest speakers</p>
-      <p class="info-content">The competition will also feature workshops and lectures from world renowned experts in the field of marine robotics and autonomous underwater systems to inspire participants with new ideas and techniques to solve challenges and build an interest in careers related to marine robotics.</p>
-    </li>
-    <li>
-      <p class="info-title">Get-together</p>
-      <p class="info-content">The competition is also about meeting others like us, who are also interested in underwater robotics and autonomous systems, to get to know one another, to share ideas and make connections.</p>
-    </li>
-  </ul>
-</section>
-
 <template id="team-template">
   <tr>
     <td class="team-id"></td>

@@ -1,0 +1,10 @@
+<section id="information">
+  <ul class="info-list">
+    {% for info in site.data.info.list %}
+    <li>
+      <p class="info-title">{{ info.title }}</p>
+      <p class="info-content">{{ info.description }}</p>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
