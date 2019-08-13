@@ -1,0 +1,46 @@
+visibility: false
+list:
+  - sequence: 1
+    position: Champion
+    image_path: img/competitors/fefu.jpg
+    name: FEFU/IMTP
+    id: SAUVC-RU-01
+    url: https://www.dvfu.ru/en
+    institute: Far Eastern Federal University
+    location: Vladivostok, Russia
+
+  - sequence: 2
+    position: 1st Runner-up
+    image_path: img/competitors/n2auv.jpg
+    name: N2-AUV
+    id: SAUVC-ID-03
+    url: https://ipb.ac.id
+    institute: Bogor Agricultural University
+    location: Bogor, Indonesia
+
+  - sequence: 3
+    position: 2nd Runner-up
+    image_path: img/competitors/imvt.jpg
+    name: Intelligent Marine Vehicle Team
+    id: SAUVC-CN-02
+    url: http://en.nwpu.edu.cn
+    institute: Northwestern Polytechnical University
+    location: Xi'an, China
+
+  - sequence: 4
+    position: Innovative Engineering Prize
+    image_path: img/competitors/cityupioneer.jpg
+    name: CityU Underwater Robotics - Pioneer
+    id: SAUVC-HK-02
+    url: https://www.cityu.edu.hk
+    institute: City University of Hong Kong
+    location: Hong Kong
+
+  - sequence: 5
+    position: Social Media Prize
+    image_path: img/competitors/mpstme.jpg
+    name: Team AUV MPSTME
+    id: SAUVC-IN-05
+    url: http://engineering.nmims.edu
+    institute: Mukesh Patel School of Technology Management & Engineering
+    location: Mumbai, India

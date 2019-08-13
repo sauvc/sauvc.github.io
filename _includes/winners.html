@@ -1,0 +1,10 @@
+<h3>SAUVC 2019 Winners</h3>
+
+<ul class="winners">
+  {% for team in site.data.winners.list %}
+  <li data-caption="{{ team.position }}">
+    <img src="{{ team.image_path }}" alt="{{ team.position }}">
+    <p>{{ team.name }} ({{ team.id }}) <br> <a href="{{ team.url }}">{{ team.institute }}</a> <br> {{ team.location }}</p>
+  </li>
+  {% endfor %}
+</ul>
