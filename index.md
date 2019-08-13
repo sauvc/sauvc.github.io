@@ -636,31 +636,3 @@ permalink: /
     </li>
   </ul>
 </section> -->
-
-<section id="travel">
-  <h2>Travel</h2>
-  <img class="landscape" src="img/singapore.jpg" alt="Singapore">
-
-  <ul class="info-list">
-    <li>
-      <p class="info-title">Getting to Singapore</p>
-      <p class="info-content">Singapore is one of Southeast Asia's largest aviation hubs, so unless you're coming from Peninsular Malaysia or Batam/Bintan in Indonesia, the easiest way to enter Singapore is by air. In addition to <a href="https://www.singaporeair.com/">Singapore Airlines</a> and <a href="https://www.silkair.com/en_UK/sg/home">SilkAir</a>, Singapore is also home to low-cost carriers, <a href="https://www.flyscoot.com/en">Scoot</a> and <a href="https://www.jetstar.com/sg/en/home">Jetstar Asia</a>. In addition to the locals, every carrier of any size in Asia offers flights to Singapore, with <a href="https://www.airasia.com/en/home.page?cid=1">Air Asia</a> and <a href="https://www.fireflyz.com.my/">Firefly</a> operating dense networks from Singapore.</p>
-      <a href="http://wikitravel.org/en/Singapore#Get_in" class="type-link">More Information</a>
-    </li>
-    <li>
-      <p class="info-title">Visa</p>
-      <p class="info-content">Many nationalities can enter Singapore without a visa. Refer to the <a href="https://www.ica.gov.sg/visitor/visitor_entryvisa">Immigration and Checkpoints Authority</a> for current guidelines. Entry permit duration depends on nationality and entry point. Most people get 14 or 30 days, although EU, Norwegian, Swiss and US passport holders can get up to 90 days. If you are a registered team and need invitation letters to apply for a Visa to Singapore, please contact your Team Liaison.</p>
-    </li>
-
-    <li>
-      <p class="info-title">Get Around</p>
-      <p class="info-content">Getting around Singapore is easy. The public transportation system is extremely easy to use and taxis are reasonably priced. All public transport systems in Singapore use the <a href="https://www.ezlink.com.sg/">EZ-link contactless RFID farecard</a> or a <a href="https://www.nets.com.sg/personal/transit-payments/nets-flashpay/">Nets Flash Pay card</a>. You can store value on it and use it on trains (MRT) and city buses. The card can be bought at MRT stations can be "topped up" in increments at the farecard vending machines or 7-Eleven stores. Taxis use meters and are reasonably priced and honest. Mobile apps like <a href="https://www.go-jek.com/sg/">Gojek</a> and <a href="https://www.grab.com/sg/taxi/">Grab</a> are handy in getting Taxis.</p>
-      <a href="https://wikitravel.org/en/Singapore#Get_around" class="type-link">More Information</a>
-    </li>
-    <li>
-      <p class="info-title">Accomodation</p>
-      <p class="info-content">Accommodation in Singapore is expensive by South-East Asian standards. Backpackers' hostels can be found primarily in Little India, Chinatown, Bugis, Clarke Quay and the East Coast at about $25-40 for a dorm bed. Some hostels will rent out whole rooms. Alternatively, the entire dorm room (4 or more beds) can be booked. This provides space for equipment. Check out <a href="http://www.65hostel.com/hostel/singapore-short-term-stay-1396.html">65hostel</a>, <a href="https://www.airbnb.com.sg/">Airbnb</a>, <a href="https://www.9flats.com/singapore">9flats</a> for more options.</p>
-      <a href="https://wikitravel.org/en/Singapore#Sleep" class="type-link">More Information</a>
-    </li>
-  </ul>
-</section>

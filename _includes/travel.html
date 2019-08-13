@@ -1,0 +1,16 @@
+<section id="travel">
+  <h2>Travel</h2>
+  <img class="landscape" src="{{ site.data.travel.image_city }}" alt="{{ site.data.travel.city }}">
+
+  <ul class="info-list">
+    {% for info in site.data.travel.info %}
+    <li>
+      <p class="info-title">{{ info.title }}</p>
+      <p class="info-content">{{ info.description }}</p>
+      {% if info.link_to_more %}
+      <a href="{{ info.link_to_more }}" class="type-link">More Information</a>
+      {% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+</section>
