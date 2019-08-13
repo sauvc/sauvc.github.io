@@ -4,6 +4,10 @@
 <body>
   {{ content }}
 
+  {% if site.data.sections.schedule == true %}
+  {%- include schedule.html -%}
+  {% endif %}
+
   {% if site.data.sections.speakers == true %}
   {%- include speakers.html -%}
   {% endif %}

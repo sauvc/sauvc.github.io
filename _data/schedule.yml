@@ -1,0 +1,108 @@
+days:
+  - sequence: 1
+    date: 8 March 2019
+    day_of_week: Friday
+    slots:
+      - time: 10:00 - 11:30
+        description: Team Registration &amp; Vehicle Setup
+        venue: The Hall
+      - time: 11:30 - 12:00
+        description: <p>Welcome Address</p> <p>Safety & Administrative Briefing</p> <p>Competition Rules and Regulations Briefing</p> <p>Technical Walkabout</p>
+        venue: The Hall
+      - time: 12:00 - 14:00
+        description: Team Practice and Testing Rounds #1
+        venue: Small Pool
+      - time: 14:00 – 15:30
+        description: Inauguration & Walk-About - Chief Guest
+        venue: The Hall
+      - time: 15:30 – 18:00
+        description: Team Practice and Testing Rounds #2
+        venue: Small Pool
+      - time: 18:00 – 18:3
+        description: Team Pack-up
+        note: Teams may carry their AUVs or choose to leave them in the hall on their allotted tables.
+        venue: The Hall
+
+  - sequence: 2
+    date: 9 March 2019
+    day_of_week: Saturday
+    slots:
+      - time: 9:00 - 18:00
+        description: <p>Team Qualification Rounds</p> <p>Team Interviews and Photographs</p>
+        note: Each team give one slot based on the ballot system.
+        venue: Qualification Arena
+      - time: 9:20 - 18:00
+        description: Team Practice Rounds
+        note: Time slots for dummy props post qualification run, as allocated by slot manager.
+        venue: Main Arena
+      - time: 12:00 – 13:30
+        description: Lunch
+        venue: Pool Side
+      - time: 13:00 - 14:00
+        description: Introductory Workshop on Underwater Robotics
+        venue: LT12B
+      - time: 14:00 – 15:00
+        description: Guided Tours
+        venue: Main Arena
+      - time: 15:00 – 16:00
+        description: ROS Meetup
+        venue: LT12B
+      - time: 18:00 – 18:30
+        description: Team Pack-up
+        note: Teams may carry their AUVs or choose to leave them in the hall on their allotted tables.
+        venue: Pool Side
+      - time: 18:30
+        description: Finalists Announced
+        venue: Pool Side
+
+  - sequence: 3
+    date: 10 March 2019
+    day_of_week: Sunday
+    slots:
+      - time: 08:30 – 17:30
+        description: <p>Competition Rounds</p> <p>Team Interviews and Photographs</p>
+        venue: Main Arena
+      - time: 12:00 - 13:30
+        description: Lunch
+        venue: Pool Side
+      - time: 17:30 – 18:00
+        description: Team Pack-Up
+        venue: Pool Side
+
+  - sequence: 4
+    date: 11 March 2019
+    day_of_week: Monday
+    slots:
+      - time: 09:00 - 09:30
+        description: Talk - Growing a student-run Robotics Team – Bumblebee Autonomous Systems by Liu Ren Ji
+        venue: The Hall
+      - time: 09:30 - 10:00
+        description: Talk - Autonomous robotics networks for underwater surveillance by Gabriele Ferri
+        venue: The Hall
+      - time: 10:00 - 10:30
+        description: Networking Session & Tea Break
+        venue: The Hall
+      - time: 10:30 - 12:00
+        description: Panel Discussion
+        venue: The Hall
+      - time: 12:00 - 13:30
+        description: <p>Buffet Lunch</p> <p>Group Photo Session</p>
+        venue: The Hall
+      - time: 13:30 - 14:00
+        description: Talk - Robotics in Our Daily Lives - Marcelo H. Ang, Jr.
+        venue: The Hall
+      - time: 14:00 - 14:30
+        description: Talk - Using a simulation environment (virtual competition) to enhance the performance of autonomous vehicles - Kelly Cooper
+        venue: The Hall
+      - time: 14:30 - 15:00
+        description: Talk - Improving Productivity in Deep Water AUV Surveys - Richard Mills
+        venue: The Hall
+      - time: 15:00 - 15:30
+        description: Talk - Plastics in the Food Web. A problem for future technology solutions - William J. Kirkwood
+        venue: The Hall
+      - time: 15:30 - 16:00
+        description: Presentation of Participation Certificates
+        venue: The Hall
+      - time: 18:30 - 21:00
+        description:  Gala Dinner <ul> <li>Final Results Announcement</li> <li>Prize Presentation Ceremony - Chief Guest</li> <li>Closing Speech</li> </ul>
+        venue: UTown, NUS

@@ -2,3 +2,4 @@
 
 about: false # About section with list of organizers
 speakers: false # Speakers section with talks and bio
+schedule: false # Schedule section with time slots, event and venue

@@ -1,0 +1,25 @@
+<section id="schedule">
+  <h2>Schedule</h2>
+
+  {% for day in site.data.schedule.days %}
+  <div class="schedule-day">
+    <h3>Day {{ day.sequence }}: {{ day.date }} ({{ day.day_of_week }})</h3>
+    {% if day.slots %}
+    <table class="table-schedule">
+      {% for slot in day.slots %}
+      <tr>
+        <td>{{ slot.time }}</td>
+        <td>
+          <p>{{ slot.description }}</p>
+          {% if slot.note %}
+            <p><small class="schedule-note">{{ slot.note }}</small></p>
+          {% endif %}
+        </td>
+        <td>{{ slot.venue }}</td>
+      </tr>
+      {% endfor %}
+    </table>
+    {% endif %}
+  </div>
+  {% endfor %}
+</section>
