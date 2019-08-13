@@ -5,41 +5,29 @@
   <img src="img/mascot.svg" class="mascot" alt="SAUVC mascot">
 
   <ul class="stats">
+    {% for stat in site.data.hero.stats %}
     <li>
-      <div class="num">7 <span>Years</span></div>
-      <div class="caption">Competitions for years</div>
+      <div class="num">{{ stat.number }} <span>{{ stat.type }}</span></div>
+      <div class="caption">{{ stat.caption }}</div>
     </li>
-    <li>
-      <div class="num">19 <span>Countries</span></div>
-      <div class="caption">Participants and mentors from everywhere</div>
-    </li>
-    <li>
-      <div class="num">93 <span>AUVs</span></div>
-      <div class="caption">Teams with various AUV designs</div>
-    </li>
-    <li>
-      <div class="num">0 <span>Controls</span></div>
-      <div class="caption">Completely autonomous</div>
-    </li>
+    {% endfor %}
   </ul>
   <h3 class="welcome">
     Welcome to<br>
-    <span class="welcome-name">SAUVC 2020</span>
-    <span class="welcome-info">Singapore, April 3-7</span>
+    <span class="welcome-name">SAUVC {{ site.data.hero.year }}</span>
+    <span class="welcome-info">{{ site.data.hero.city }}, {{ site.data.hero.dates }}</span>
   </h3>
 
   <div id="action" class="action">
-    <!-- INFO: Classes to use -->
-    <!-- a.action-button: for an action button with hyperlink-->
-    <!-- p.action-emphasis: for an short announcement -->
-    <!-- p.action-info: for deadline or more information -->
+    {% if site.data.hero.action_link %}
+    <a href="{{ site.data.hero.action_link }}" id="register" class="action-button">{{ site.data.hero.action }}</a>
+    {% else %}
+    <p class="action-emphasis">{{ site.data.hero.action }}</p>
+    {% endif %}
 
-    <a href="https://forms.gle/YTG8CT9trfDKHgAk9" id="register" class="action-button">Register Here</a>
-    <!-- <a id="register" class="action-button">Register Here</a> -->
-    <!-- <p class="action-info action-info-large">IEEE OES is presenting an award for <strong>Most Innovative Engineering</strong> at SAUVC 2019</p> -->
-    <!-- <p class="action-info">Submit video by : 8 February 2019</p> -->
-    <!-- <p class="action-info">Register by : 15 November 2018</p> -->
-    <!-- <p class="action-info">Submit video by : 31 Dec 2018</p> -->
+    {% if site.data.hero.action_info %}
+    <p class="action-info">{{ site.data.hero.action_info }}</p>
+    {% endif %}
   </div>
 
   <audio id="bubbles-audio" loop="loop" src="assets/bubbles.mp3"></audio>
