@@ -5,15 +5,8 @@
 Singapore AUV Challenge Website
 
 ## Development
-
-- Watch [SASS](http://sass-lang.com/) to CSS to generate file `css/style.css` continuously in the background
-    ```
-    make style
-    ```
-- Run HTML linter with [html5validator](https://github.com/svenkreiss/html5validator)
-    ```
-    make lint
-    ```
+- Install [github-pages gem](https://github.com/github/pages-gem) using `bundle install` or `gem install github-pages`.
+- Run `make` or `jekyll serve` to run jekyll and serve the website locally.
 
 ## Image sizes and format
 
