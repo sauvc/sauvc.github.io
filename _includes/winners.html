@@ -3,7 +3,7 @@
 <ul class="winners">
   {% for team in site.data.winners.list %}
   <li data-caption="{{ team.position }}">
-    <img src="{{ team.image_path }}" alt="{{ team.position }}">
+    <img src="{{ team.image_path }}" alt="{{ team.position }}" loading="lazy">
     <p>{{ team.name }} ({{ team.id }}) <br> <a href="{{ team.url }}">{{ team.institute }}</a> <br> {{ team.location }}</p>
   </li>
   {% endfor %}

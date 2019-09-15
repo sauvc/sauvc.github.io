@@ -5,7 +5,7 @@
     {% for speaker in site.data.speakers.list %}
     <li>
       <div class="speaker-photo">
-        <img src="{{ speaker.profile_image }}" alt="Speaker: {{ speaker.name }}">
+        <img src="{{ speaker.profile_image }}" alt="Speaker: {{ speaker.name }}" loading="lazy">
         <p class="speaker-name">{{ speaker.name }}</p>
         <p class="speaker-title"><small>{{ speaker.title }}</small></p>
       </div>

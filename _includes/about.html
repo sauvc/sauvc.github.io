@@ -3,7 +3,7 @@
   <ul class="team" id="org-list">
     {% for org in site.data.organizers.list %}
     <li>
-       <img class="team-pic" src="{{ org.image_path }}" alt="{{ org.name }}">
+       <img class="team-pic" src="{{ org.image_path }}" alt="{{ org.name }}" loading="lazy">
        <p class=team-name>{{ org.name }}</p>
        <p class=team-role>{{ org.role }}</p>
      </li>

@@ -3,7 +3,7 @@
   <ul class="social">
     {% for contact in site.data.contacts.list %}
     <li>
-      <img src="{{ contact.image_path }}" alt="{{ contact.name }}">
+      <img src="{{ contact.image_path }}" alt="{{ contact.name }}" loading="lazy">
       <a href="{{ contact.url }}" target="_blank">{{ contact.action }}</a>
     </li>
     {% endfor %}

@@ -3,7 +3,7 @@
 
   {% for day in site.data.photolinks.days %}
   <li>
-    <img src="{{ site.data.photolinks.link_image }}" alt="Day {{ day.sequence }} from {{  site.data.photolinks.link_name }} album">
+    <img src="{{ site.data.photolinks.link_image }}" alt="Day {{ day.sequence }} from {{  site.data.photolinks.link_name }} album" loading="lazy">
     <a href="{{ day.link }}">Day {{ day.sequence }}</a>
   </li>
   {% endfor %}

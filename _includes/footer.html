@@ -1,7 +1,7 @@
 <footer class="footer">
   <div class="sponsor-logos">
     {% for supporter in site.data.supporters.list %}
-    <a href="{{ supporter.url }}"><img src="{{ supporter.image_path }}" alt="{{ supporter.name }}"></a>
+    <a href="{{ supporter.url }}"><img src="{{ supporter.image_path }}" alt="{{ supporter.name }}" loading="lazy"></a>
     {% endfor %}
   </div>
   <p>{{ site.data.supporters.description }}</p>
