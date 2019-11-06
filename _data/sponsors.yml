@@ -2,5 +2,14 @@ description: <p>We are very grateful and would like to say a big <span class="hi
 sponsor_list_visibility: true
 list:
   - name: Mathworks
-    url: https://www.mathworks.com//
+    url: https://www.mathworks.com/
     image_path: img/sponsors/mathworks.png
+  - name: Kongsberg
+    url: https://www.kongsberg.com/
+    image_path: img/sponsors/kongsberg.png
+  - name: EvoLogics
+    url: https://evologics.de/
+    image_path: img/sponsors/evologics.png
+  - name: Blue Robotics
+    url: https://www.bluerobotics.com/
+    image_path: img/sponsors/bluerobotics.png
