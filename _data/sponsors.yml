@@ -13,3 +13,6 @@ list:
   - name: Blue Robotics
     url: https://www.bluerobotics.com/
     image_path: img/sponsors/bluerobotics.png
+  - name: SubC
+    url: https://subctech.com/
+    image_path: img/sponsors/subctech.png
