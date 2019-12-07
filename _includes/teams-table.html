@@ -1,0 +1,10 @@
+<div class="wrap-collabsible">
+  <input id="collapsible-{{ include.id }}" class="toggle" type="checkbox" {% if include.open %}checked=""{% endif %}>
+  <label for="collapsible-{{ include.id }}" class="lbl-toggle">{{ include.title}}</label>
+  <div class="collapsible-content">
+    <table class="{{ include.class }}">
+    	{{ include.header }}
+      {{ include.content }}
+    </table>
+  </div>
+</div>

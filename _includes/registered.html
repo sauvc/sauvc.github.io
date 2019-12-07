@@ -1,0 +1,13 @@
+{% capture teams %}
+  {% for team in site.data.registered.teams %}
+  <tr>
+    <td class="team-id">{{ team.id }}</td>
+    <td>{% if team.url %}<a href="{{ team.url }}">{% endif%}{{ team.name }}</a></td>
+    <td>{% if team.institute-url %}<a href="{{ team.institute-url }}">{% endif%}{{ team.institute }}</a></td>
+    <td><span class="flag">{{ team.flag}}</span>{{ team.location }}</td>
+  </tr>
+  {% endfor %}
+{% endcapture %}
+
+{% include teams-table.html title="SAUVC 2020 Registered Teams" id="registered" class="table-teams" header="<tr><th>Team ID</th> <th>Team Name</th> <th>Institute</th> <th>Location</th></tr>" content=teams open=true%}
+

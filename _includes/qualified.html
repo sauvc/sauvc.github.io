@@ -1,0 +1,23 @@
+{% capture teams %}
+	{% assign team_by_rank = site.data.qualified.teams | sort: "rank" %}
+  {% for team in team_by_rank %}
+  	{% assign team_info = '' %}
+  	{% for info in site.data.registered.teams %}
+				{% if team.id == info.id %}
+				  		{% assign team_info = info %}
+				{% endif %}
+  	{% endfor %}
+  	{% if team_info %}
+  	<tr>
+	  	<td>{% if team.rank %}{{ team.rank }}{% else %}-{% endif %}</td>
+	    <td class="team-id">{{ team.id }}</td>
+	    <td>{% if team_info.url %}<a href="{{ team_info.url }}">{% endif %}{{ team_info.name }}</a></td>
+	    <td>{% if team_info.institute-url %}<a href="{{ team_info.institute-url }}">{% endif%}{{ team_info.institute }}</a></td>
+	    <td><span class="flag">{{ team_info.flag}}</span>{{ team_info.location }}</td>
+	    <td>{% if team.qualrank %}{{ team.qualrank }}{% else %}-{% endif %}</td>
+	  </tr>
+	  {% endif %}
+  {% endfor %}
+{% endcapture %}
+
+{% include teams-table.html title="SAUVC 2020 Qualified Teams" id="qualified" class="table-finalists" header='<tr><th>Final Rank</th> <th>Team ID</th> <th>Team Name</th> <th>Institute</th> <th>Location</th> <th class="team-rank">Qualifiers Rank</th> </tr>' content=teams %}

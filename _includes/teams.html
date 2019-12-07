@@ -23,33 +23,15 @@
   {%- include winners.html -%}
   {% endif %}
 
-  <div class="wrap-collabsible">
-    <input id="collapsible-final" class="toggle" type="checkbox" checked="">
-    <label for="collapsible-final" class="lbl-toggle">SAUVC 2019 Qualified Teams</label>
-    <div class="collapsible-content">
-      <table class="table-finalists" id="final-teams">
-        <tr><th>Final Rank</th> <th>Team ID</th> <th>Team Name</th> <th>Institute</th> <th>Location</th> <th class="team-rank">Qualifiers Rank</th> </tr>
-      </table>
-    </div>
-  </div>
+  {% if site.data.qualified.visibility == true %}
+  {%- include qualified.html -%}
+  {% endif %}
 
-  <div class="wrap-collabsible">
-    <input id="collapsible-short" class="toggle" type="checkbox">
-    <label for="collapsible-short" class="lbl-toggle">SAUVC 2019 Short-listed Teams</label>
-    <div class="collapsible-content">
-      <table class="table-teams" id="short-teams">
-        <tr><th>Team ID</th> <th>Team Name</th> <th>Institute</th> <th>Location</th></tr>
-      </table>
-    </div>
-  </div>
+  {% if site.data.shortlisted.visibility == true %}
+  {%- include shortlisted.html -%}
+  {% endif %}
 
-  <div class="wrap-collabsible">
-    <input id="collapsible-reg" class="toggle" type="checkbox">
-    <label for="collapsible-reg" class="lbl-toggle">SAUVC 2019 Registered Teams</label>
-    <div class="collapsible-content">
-      <table class="table-teams" id="reg-teams">
-        <tr><th>Team ID</th> <th>Team Name</th> <th>Institute</th> <th>Location</th></tr>
-      </table>
-    </div>
-  </div>
+  {% if site.data.registered.visibility == true %}
+  {%- include registered.html -%}
+  {% endif %}
 </section>
