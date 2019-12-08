@@ -1,6 +1,6 @@
 visibility: false
 teams:
-  - sequence: 1
+  - seq: 1
     id: SAUVC
     rank: 1
     qualrank: 1

@@ -1,5 +1,5 @@
 {% capture teams %}
-	{% assign team_by_seq = site.data.shortlisted.teams | sort: "sequence" %}
+	{% assign team_by_seq = site.data.shortlisted.teams | sort: "seq" %}
   {% for team in team_by_seq %}
     {% assign team_info = '' %}
   	{% for info in site.data.registered.teams %}
