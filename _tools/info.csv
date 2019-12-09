@@ -1,0 +1,89 @@
+seq,id,name,url,inst1,inst2,institute,institute-url,location,flag
+1,SAUVC-BD-01,SUST_U_FORTUNATE,,Shahjalal University of Science & Technology,Shahjalal University of Science & Technology,Shahjalal University Of Science & Technology,https://www.sust.edu/,"Sylhet, Bangladesh",____
+2,SAUVC-BD-02,BRACU DUBURI,,BRAC University,BRAC University,Brac University,https://www.bracu.ac.bd/,"Dhaka, Bangladesh",____
+3,SAUVC-BD-03,Amphibians,,daffodil international university,Daffodil International University,Daffodil International University,https://daffodilvarsity.edu.bd/,"Dhaka, Bangladesh",____
+4,SAUVC-CN-01,Intelligence Marine Vehicle Team,,Northwestern Polytechnical University(university),Northwestern Polytechnical University,Northwestern Polytechnical University,https://en.nwpu.edu.cn/,"Xi'an, China",____
+5,SAUVC-CN-02,HITWH,,Harbin Institute of Technology at Weihai,Harbin Institute of Technology,Harbin Institute Of Technology,http://en.hit.edu.cn/,"Weihai, China",____
+6,SAUVC-CO-01,UPB Medellin Colombia,,UPB Colombia,UPB Colombia,Upb Colombia,https://www.upb.edu.co/es/home,"Antioquia, Colombia",____
+7,SAUVC-HK-01,Epoxsea,,Hong Kong University of Science and Technology,Hong Kong University of Science and Technology,Hong Kong University Of Science And Technology,https://www.ust.hk/,"Hong Kong, Hong Kong",____
+8,SAUVC-HK-02,Potential,,PolyU Hong Kong Community College,PolyU Hong Kong Community College,Polyu Hong Kong Community College,https://www.hkcc-polyu.edu.hk/,"Hong Kong, Hong Kong",____
+9,SAUVC-HK-03,CityU Underwater Robotics - Pioneer,http://www.ee.cityu.edu.hk/~rovteam/,City University of Hong Kong,City University of Hong Kong,City University Of Hong Kong,https://www.cityu.edu.hk/,"Hong Kong, Hong Kong",____
+10,SAUVC-HK-04,PolyU Engineering Club,,The Hong Kong Polytechnic University,The Hong Kong Polytechnic University,The Hong Kong Polytechnic University,https://www.polyu.edu.hk/web/en/home/index.html,"Hong Kong, Hong Kong",____
+11,SAUVC-HK-05,CityU Underwater Robotic - Juneer,,City University of Hong Kong,City University of Hong Kong,City University Of Hong Kong,https://www.cityu.edu.hk/,"Hong Kong, Hong Kong",____
+12,SAUVC-HK-06,Engineering Club Team 2,,The Hong Kong Polytechnic University,The Hong Kong Polytechnic University,The Hong Kong Polytechnic University,https://www.polyu.edu.hk/web/en/home/index.html,"Hong Kong, Hong Kong",____
+13,SAUVC-IN-01,Team Orca,https://www.facebook.com/auv.iiitdm/,"IIITDM Kancheepuram, Chennai. (University)","IIITDM Kancheepuram, Chennai","Iiitdm Kancheepuram, Chennai",https://www.iiitdm.ac.in/,"Kancheepuram, India",____
+14,SAUVC-IN-02,,,R.V.College of Engineering,R.V.College of Engineering,R.V.College Of Engineering,https://rvce.edu.in/,"Ahmedabad, India",____
+15,SAUVC-IN-03,Team TRITON,,"Institute Of Technology, NIRMA University","Institute Of Technology, NIRMA University","Institute Of Technology, Nirma University",http://nirmauni.ac.in/,"Chennai, India",____
+16,SAUVC-IN-04,TEAM GRAVITY,,Bharath Institute of Higher Education and Research,Bharath Institute of Higher Education and Research,Bharath Institute Of Higher Education And Research,https://www.bharathuniv.ac.in/,"Kanpur, India",____
+17,SAUVC-IN-05,AUV-IITK,,Indian Institute of Technology Kanpur,Indian Institute of Technology Kanpur,Indian Institute Of Technology Kanpur,http://www.iitk.ac.in/,"Bengaluru, India",____
+18,SAUVC-IN-06,Aquila,,Dr Ambedkar institute of technology,Dr Ambedkar institute of technology,Dr Ambedkar Institute Of Technology,https://www.dr-ait.org/,"Chennai, India",____
+19,SAUVC-IN-07,Team Gravity,,Bharath University,Bharath University,Bharath University,https://www.bharathuniv.ac.in/,"Calicut, India",____
+20,SAUVC-IN-08,Team AUV RIGNITC,,"NATIONAL INSTITUTE OF TECHNOLOGY CALICUT ,KERALA ,INDIA",NATIONAL INSTITUTE OF TECHNOLOGY CALICUT,National Institute Of Technology Calicut,http://www.nitc.ac.in/,"Chennai, India",____
+21,SAUVC-IN-09,Triton,,Sri Sairam Engineering College,Sri Sairam Engineering College,Sri Sairam Engineering College,https://sairam.edu.in/,"Vellore, India",____
+22,SAUVC-IN-10,VAUV,,"Vellore Institute of Technology, Vellore",Vellore Institute of Technology,Vellore Institute Of Technology,https://vit.ac.in/,"Hyderabad, India",____
+23,SAUVC-IN-11,AUV MEC,,"Mahindra Ecole Centrale, Engineering College",Mahindra Ecole Centrale,Mahindra Ecole Centrale,https://www.mahindraecolecentrale.edu.in/,"Mumbai, India",____
+24,SAUVC-IN-12,AUV-IITB,,Indian Institute of Technology Bombay / University,Indian Institute of Technology Bombay,Indian Institute Of Technology Bombay,http://www.iitb.ac.in/,"Rourkela, India",____
+25,SAUVC-IN-13,Tiburon,https://auvnitrkl.github.io/,"National Institute of Technology, Rourkela, India","National Institute of Technology, Rourkela","National Institute Of Technology, Rourkela",https://www.nitrkl.ac.in/,"Mehsana, India ",____
+26,SAUVC-IN-14,Team GNU-AquaTime,,Ganpat University - U.V.Patel College Of Engineering,Ganpat University - U.V.Patel College Of Engineering,Ganpat University - U.V.Patel College Of Engineering,https://www.uvpce.ac.in/,"Manipal, India ",____
+27,SAUVC-IN-15,Project AUV Manipal,,"Manipal Institute of Technology, Manipal",Manipal Institute of Technology,Manipal Institute Of Technology,https://manipal.edu/mit.html,"Mumbai, India",____
+28,SAUVC-IN-16,The Marine Robotics Team (TMRT),,K. J. Somaiya College of Engineering,K. J. Somaiya College of Engineering,K. J. Somaiya College Of Engineering,https://kjsce.somaiya.edu/,"Delhi, India",____
+29,SAUVC-IN-17,DTU AUV,,Delhi Technological University,Delhi Technological University,Delhi Technological University,http://dtu.ac.in/,"Hyderabad, India",____
+30,SAUVC-IN-18,Man O' War,,BITS Pilani Hyderabad Campus,BITS Pilani Hyderabad Campus,Bits Pilani Hyderabad Campus,https://www.bits-pilani.ac.in/Hyderabad/,"Coimbatore, India",____
+31,SAUVC-IN-19,Team INTERCEPTOR,,BANNARI AMMAN INSTITUTE OF TECHNOLOGY,BANNARI AMMAN INSTITUTE OF TECHNOLOGY,Bannari Amman Institute Of Technology,https://bitsathy.ac.in/,"Aligarh, India",____
+32,SAUVC-IN-20,AUV ZHCET,,Aligarh Muslim University,Aligarh Muslim University,Aligarh Muslim University,https://www.amu.ac.in/,"Chennai, India ",____
+33,SAUVC-IN-21,Team SRMAUV,,"SRM Institute of Science and Technology, Kattankulathur",SRM Institute of Science and Technology,Srm Institute Of Science And Technology,https://www.srmist.edu.in/,"Pune, India",____
+34,SAUVC-IN-22,Trident Labs,,"Vishwakarma Institute of Technology, Pune",Vishwakarma Institute of Technology,Vishwakarma Institute Of Technology,http://www.vit.edu/,"Bengaluru, India ",____
+35,SAUVC-IN-23,VARUNA,,SRI SAIRAM COLLEGE OF ENGINEERING,SRI SAIRAM COLLEGE OF ENGINEERING,Sri Sairam College Of Engineering,http://sairamce.edu.in/,"Chennai, India",____
+36,SAUVC-IN-24,Starboard SSN,,Sri Sivasubramaniya Nadar College of Engineering,Sri Sivasubramaniya Nadar College of Engineering,Sri Sivasubramaniya Nadar College Of Engineering,http://www.ssn.edu.in/,"Mumbai, India",____
+37,SAUVC-IN-25,DJS VAGSHEER,,DWARKADAS J.SANGHVI COLLEGE OF ENGINEERING,DWARKADAS J.SANGHVI COLLEGE OF ENGINEERING,Dwarkadas J.Sanghvi College Of Engineering,http://www.djsce.ac.in/,"Aligarh, India",____
+38,SAUVC-IN-26,SEA 4.0,,"Zakir Husain College of Engineering & Technology, Aligarh Muslim Universty","Zakir Husain College of Engineering & Technology, Aligarh Muslim Universty","Zakir Husain College Of Engineering & Technology, Aligarh Muslim Universty",https://www.amu.ac.in/principal.jsp?did=10147,"Chennai, India ",____
+39,SAUVC-IN-27,POSEIDON,,Sri Sairam Engineering College,Sri Sairam Engineering College,Sri Sairam Engineering College,https://sairam.edu.in/,"Sathyamangalam, India",____
+40,SAUVC-IN-28,BITAUV 2.0,,BANNARI AMMAN INSTITUTE OF TECHNOLOGY- ANNA UNIVERSITY,BANNARI AMMAN INSTITUTE OF TECHNOLOGY- ANNA UNIVERSITY,Bannari Amman Institute Of Technology- Anna University,https://bitsathy.ac.in/,"Burla, India",____
+41,SAUVC-IN-29,VSSUT ROBOTICS,,"Veer Surendra Sai University of Technology, Burla",Veer Surendra Sai University of Technology,Veer Surendra Sai University Of Technology,http://www.vssut.ac.in/,"Bengaluru, India",____
+42,SAUVC-ID-01,N4B-AUV,,Bogor Agricultural University,Bogor Agricultural University,Bogor Agricultural University,https://ipb.ac.id/,"Bogor, Indonesia",____
+43,SAUVC-ID-02,ARITMA_TEAM,,State University of Makassar,State University of Makassar,State University Of Makassar,https://www.unm.ac.id/,"Makassar, Indonesia",____
+44,SAUVC-ID-03,N3-AUV,,IPB University,IPB University,Ipb University,https://ipb.ac.id/,"Bogor, Indonesia",____
+45,SAUVC-ID-04,Autonomous Marine Vehicles (AMV) UI,,Universitas Indonesia,Universitas Indonesia,Universitas Indonesia,https://www.ui.ac.id/,"Depok, Indonesia",____
+46,SAUVC-ID-05,Tech_SAS 1,,Telkom University,Telkom University,Telkom University,https://telkomuniversity.ac.id/?lang=en,"Bandung, Indonesia ",____
+47,SAUVC-ID-06,Tech_SAS 2,,Telkom University,Telkom University,Telkom University,https://telkomuniversity.ac.id/?lang=en,"Bandung, Indonesia ",____
+48,SAUVC-ID-07,N4-AUV,,IPB University,IPB University,Ipb University,https://ipb.ac.id/,"Bogor, Indonesia",____
+49,SAUVC-ID-08,DIRK-ORKA,,Universitas Komputer Indonesia,Universitas Komputer Indonesia,Universitas Komputer Indonesia,https://www.unikom.ac.id/,"Bandung, Indonesia",____
+50,SAUVC-ID-09,Banyubramanta ITS,,Institut Teknologi Sepuluh Nopember,Institut Teknologi Sepuluh Nopember,Institut Teknologi Sepuluh Nopember,https://www.its.ac.id/,"Surabaya, Indonesia ",____
+51,SAUVC-JP-01,HIT-Robotics,,Hiroshima Institute of Technology,Hiroshima Institute of Technology,Hiroshima Institute Of Technology,http://www.it-hiroshima.ac.jp/english/,"Hiroshima, Japan",____
+52,SAUVC-MO-01,Deep Sea Redback,,Macau Pui Ching Middle School,Macau Pui Ching Middle School,Macau Pui Ching Middle School,http://m.puiching.edu.mo/,"Macau, Macao",____
+53,SAUVC-MY-01,ROBOTEAM,,INTERNATIONAL ISLAMIC UNIVERSITY MALAYSIA,INTERNATIONAL ISLAMIC UNIVERSITY MALAYSIA,International Islamic University Malaysia,http://www.iium.edu.my/,"Selangor, Malaysia",____
+54,SAUVC-MY-02,TUAH 4.0,,Universiti Teknikal Malaysia Melaka (UTeM),Universiti Teknikal Malaysia Melaka (UTeM),Universiti Teknikal Malaysia Melaka (Utem),https://www.utem.edu.my/,"Melaka, Malaysia",____
+55,SAUVC-MY-03,TUAH 4.0,,UTeM,UTeM,Utem,https://www.utem.edu.my/,"Melaka, Malaysia",____
+56,SAUVC-PK-01,NUST,,national university of sciences and technology (university),national university of sciences and technology,National University Of Sciences And Technology,http://www.nust.edu.pk/,"Islamabad, Pakistan",____
+57,SAUVC-PE-01,Kayra PUCP,,Pontificia Universidad Católica del Perú,Pontificia Universidad Católica del Perú,Pontificia Universidad Católica Del Perú,https://www.pucp.edu.pe/,"San Miguel, Peru",____
+58,SAUVC-PL-01,PWr Diving Crew,,Wroclaw University of Science and Technology,Wroclaw University of Science and Technology,Wroclaw University Of Science And Technology,http://pwr.edu.pl/en/,"Wroclaw, Poland",____
+59,SAUVC-PL-02,KNR Okon Team,,Warsaw University of Technology,Warsaw University of Technology,Warsaw University Of Technology,https://www.pw.edu.pl/engpw,"Warsaw, Poland",____
+60,SAUVC-PT-01,Yellow Submarine,,University of Porto,University of Porto,University Of Porto,https://www.up.pt/,"Porto, Portugal",____
+61,SAUVC-RU-01,FEFU AUV,,Far Eastern Federal University,Far Eastern Federal University,Far Eastern Federal University,https://www.dvfu.ru/en/,"Vladivostok, Russia",____
+62,SAUVC-RU-02,Oren_rov,https://sites.google.com/site/fefuunderwaterrobotics/auv,Orenburg Presidential Cadet School,Orenburg Presidential Cadet School,Orenburg Presidential Cadet School,http://eng.mil.ru/en/education/secondary/more.htm?id=8695@morfOrgEduc,"Orenburg, Russia",____
+63,SAUVC-RU-03,Hydronautics,,"Bauman Moscow State Technical University, university","Bauman Moscow State Technical University, university","Bauman Moscow State Technical University, University",http://www.bmstu.ru/en/,"Moscow, Russia ",____
+64,SAUVC-RU-04,,,Saint-Petersburg State Marine Technical University,Saint-Petersburg State Marine Technical University,Saint-Petersburg State Marine Technical University,https://www.smtu.ru/en/,"St Petersburg, Russia",____
+65,SAUVC-SG-01,Tsunami Surfers,,Singapore Polytechnic,Singapore Polytechnic,Singapore Polytechnic,https://www.sp.edu.sg/,"Singapore, Singapore",____
+66,SAUVC-SG-02,MECATRON,,"nanyang Technological University Singapore, (NTU Singapore)",nanyang Technological University Singapore,Nanyang Technological University Singapore,http://www.ntu.edu.sg/,"Singapore, Singapore",____
+67,SAUVC-SG-03,Hornet,,National University of Singapore (university),National University of Singapore,National University Of Singapore,http://www.nus.edu.sg/,"Singapore, Singapore",____
+68,SAUVC-SG-04,DORY,https://bumblebee.sg/category/blog/team-hornet/,Ngee Ann Polytechnic,Ngee Ann Polytechnic,Ngee Ann Polytechnic,https://www.np.edu.sg/,"Singapore, Singapore",____
+69,SAUVC-SG-05,SOAR Kosame,,Singapore University of Technology and Design,Singapore University of Technology and Design,Singapore University Of Technology And Design,https://sutd.edu.sg/,"Singapore, Singapore",____
+70,SAUVC-SG-06,Bumblebee,,National University of Singapore,National University of Singapore,National University Of Singapore,http://www.nus.edu.sg/,"Singapore, Singapore",____
+71,SAUVC-ZA-01,STAR COLLEGE DURBAN SCIENCE TEAM,,STAR COLLEGE DURBAN SOUTH AFRICA,STAR COLLEGE DURBAN SOUTH AFRICA,Star College Durban South Africa,http://www.starcollege.co.za/,"Durban, South Africa",____
+72,SAUVC-LK-01,Phoenix,,University of peradeniya,University of peradeniya,University Of Peradeniya,https://www.pdn.ac.lk/academics/academics.php,"Peradeniya, Sri Lanka",____
+73,SAUVC-LK-02,NOAH,,University Of Peradeniya,University Of Peradeniya,University Of Peradeniya,https://www.pdn.ac.lk/academics/academics.php,"Peradeniya, Sri Lanka",____
+74,SAUVC-LK-03,SCORPION,,University of peradeniya,University of peradeniya,University Of Peradeniya,https://www.pdn.ac.lk/academics/academics.php,"Peradeniya, Sri Lanka",____
+75,SAUVC-LK-04,AQUADROBOT,,University of Peradeniya,University of Peradeniya,University Of Peradeniya,https://www.pdn.ac.lk/academics/academics.php,"Peradeniya, Sri Lanka",____
+76,SAUVC-LK-05,Pera_AUV,,University of Peradeniya,University of Peradeniya,University Of Peradeniya,https://www.pdn.ac.lk/academics/academics.php,"Peradeniya, Sri Lanka",____
+77,SAUVC-LK-06,Shark IET,,Institute of engineering technology,Institute of engineering technology,Institute Of Engineering Technology,https://www.iet.edu.lk/,"Katunayake, Sri Lanka",____
+78,SAUVC-TW-01,PENGUIN _ PO2,,National Chiao Tung University,National Chiao Tung University,National Chiao Tung University,https://www.nctu.edu.tw/en,"Hsinchu City, Taiwan",____
+79,SAUVC-TH-01,Gang Bear,,Princess Chulabhorn Science High School Nakhon Si Thammarat,Princess Chulabhorn Science High School Nakhon Si Thammarat,Princess Chulabhorn Science High School Nakhon Si Thammarat,http://www.pccnst.ac.th/pcshsnst/,"Nakhon Si Thammarat, Thailand ",____
+80,SAUVC-TH-02,Parallel,,Princess Chulaborn Science High School,Princess Chulaborn Science High School,Princess Chulaborn Science High School,https://en.wikipedia.org/wiki/Princess_Chulabhorn_Science_High_Schools,Thailand,____
+81,SAUVC-TH-03,ZEABUS,,KASETSART UNIVERSITY,KASETSART UNIVERSITY,Kasetsart University,https://www.ku.ac.th/english/aboutku.php,"Bangkok, Thailand",____
+82,SAUVC-TK-01,Gedik Robotics,,_stanbul Gedik University,_stanbul Gedik University,Istanbul Gedik University,https://international.gedik.edu.tr/about/istanbul-gedik-university,"_stanbul, Turkey",____
+83,SAUVC-TK-02,Gravity Robotics,,Bahçe_ehir Koleji Nakka_tepe 50. Yıl Kampüsü Fen ve Teknoloji Lisesi,Bahçe_ehir Koleji Nakka_tepe,Bahçe_ehir Koleji Nakka_tepe,https://bahcesehir.k12.tr/tr/,"_stanbul, Turkey",____
+84,SAUVC-TK-03,ITU AUV Team,,Istanbul Technical University,Istanbul Technical University,Istanbul Technical University,http://www.global.itu.edu.tr/,"_stanbul, Turkey",____
+85,SAUVC-TK-04,EMU Aquabotics,https://emuaquabotics.com/,Eastern Mediterranean University,Eastern Mediterranean University,Eastern Mediterranean University,https://www.emu.edu.tr/,"Famagusta, Northern Cyprus",____
+87,SAUVC-US-01,GTMR,,Georgia Tech University,Georgia Tech University,Georgia Tech University,https://www.gatech.edu/,"Atlanta, USA",____
+88,SAUVC-US-02,The EdgeBotters,,University of Minnesota Twin Cities,University of Minnesota Twin Cities,University Of Minnesota Twin Cities,https://twin-cities.umn.edu/,"Minneapolis, USA",____
+,,,,,,,,,
