@@ -138,7 +138,7 @@ teams:
     inst1: 'R.V.College of Engineering'
     institute: 'R.V. College Of Engineering'
     institute-url: 'https://rvce.edu.in/'
-    location: 'Ahmedabad, India'
+    location: 'Bengaluru, India'
     flag: 🇮🇳
 -
     seq: 15
@@ -148,7 +148,7 @@ teams:
     inst1: 'Institute Of Technology, NIRMA University'
     institute: 'Institute Of Technology, Nirma University'
     institute-url: 'http://nirmauni.ac.in/'
-    location: 'Chennai, India'
+    location: 'Ahmedabad, India'
     flag: 🇮🇳
 -
     seq: 16
@@ -158,7 +158,7 @@ teams:
     inst1: 'Bharath Institute of Higher Education and Research'
     institute: 'Bharath Institute Of Higher Education And Research'
     institute-url: 'https://www.bharathuniv.ac.in/'
-    location: 'Kanpur, India'
+    location: 'Chennai, India'
     flag: 🇮🇳
 -
     seq: 17
@@ -168,7 +168,7 @@ teams:
     inst1: 'Indian Institute of Technology Kanpur'
     institute: 'Indian Institute Of Technology Kanpur'
     institute-url: 'http://www.iitk.ac.in/'
-    location: 'Bengaluru, India'
+    location: 'Kanpur, India'
     flag: 🇮🇳
 -
     seq: 18
@@ -178,7 +178,7 @@ teams:
     inst1: 'Dr Ambedkar institute of technology'
     institute: 'Dr. Ambedkar Institute Of Technology'
     institute-url: 'https://www.dr-ait.org/'
-    location: 'Chennai, India'
+    location: 'Bengaluru, India'
     flag: 🇮🇳
 -
     seq: 19
@@ -188,7 +188,7 @@ teams:
     inst1: 'Bharath University'
     institute: 'Bharath University'
     institute-url: 'https://www.bharathuniv.ac.in/'
-    location: 'Calicut, India'
+    location: 'Chennai, India'
     flag: 🇮🇳
 -
     seq: 20
@@ -198,7 +198,7 @@ teams:
     inst1: 'NATIONAL INSTITUTE OF TECHNOLOGY CALICUT ,KERALA ,INDIA'
     institute: 'National Institute Of Technology Calicut'
     institute-url: 'http://www.nitc.ac.in/'
-    location: 'Chennai, India'
+    location: 'Calicut, India'
     flag: 🇮🇳
 -
     seq: 21
@@ -208,7 +208,7 @@ teams:
     inst1: 'Sri Sairam Engineering College'
     institute: 'Sri Sairam Engineering College'
     institute-url: 'https://sairam.edu.in/'
-    location: 'Vellore, India'
+    location: 'Chennai, India'
     flag: 🇮🇳
 -
     seq: 22
@@ -218,7 +218,7 @@ teams:
     inst1: 'Vellore Institute of Technology, Vellore'
     institute: 'Vellore Institute Of Technology'
     institute-url: 'https://vit.ac.in/'
-    location: 'Hyderabad, India'
+    location: 'Vellore, India'
     flag: 🇮🇳
 -
     seq: 23
@@ -238,7 +238,7 @@ teams:
     inst1: 'Indian Institute of Technology Bombay / University'
     institute: 'Indian Institute Of Technology Bombay'
     institute-url: 'http://www.iitb.ac.in/'
-    location: 'Rourkela, India'
+    location: 'Mumbai, India'
     flag: 🇮🇳
 -
     seq: 25
@@ -248,7 +248,7 @@ teams:
     inst1: 'National Institute of Technology, Rourkela, India'
     institute: 'National Institute Of Technology, Rourkela'
     institute-url: 'https://www.nitrkl.ac.in/'
-    location: 'Mehsana, India'
+    location: 'Rourkela, India'
     flag: 🇮🇳
 -
     seq: 26
@@ -258,7 +258,7 @@ teams:
     inst1: 'Ganpat University - U.V.Patel College Of Engineering'
     institute: 'Ganpat University - U.V. Patel College Of Engineering'
     institute-url: 'https://www.uvpce.ac.in/'
-    location: 'Manipal, India'
+    location: 'Mehsana, India'
     flag: 🇮🇳
 -
     seq: 27
@@ -268,7 +268,7 @@ teams:
     inst1: 'Manipal Institute of Technology, Manipal'
     institute: 'Manipal Institute Of Technology'
     institute-url: 'https://manipal.edu/mit.html'
-    location: 'Mumbai, India'
+    location: 'Manipal, India'
     flag: 🇮🇳
 -
     seq: 28
@@ -278,7 +278,7 @@ teams:
     inst1: 'K. J. Somaiya College of Engineering'
     institute: 'K. J. Somaiya College Of Engineering'
     institute-url: 'https://kjsce.somaiya.edu/'
-    location: 'Delhi, India'
+    location: 'Mumbai, India'
     flag: 🇮🇳
 -
     seq: 29
@@ -288,7 +288,7 @@ teams:
     inst1: 'Delhi Technological University'
     institute: 'Delhi Technological University'
     institute-url: 'http://dtu.ac.in/'
-    location: 'Hyderabad, India'
+    location: 'Delhi, India'
     flag: 🇮🇳
 -
     seq: 30
@@ -298,7 +298,7 @@ teams:
     inst1: 'BITS Pilani Hyderabad Campus'
     institute: 'BITS Pilani Hyderabad Campus'
     institute-url: 'https://www.bits-pilani.ac.in/Hyderabad/'
-    location: 'Coimbatore, India'
+    location: 'Hyderabad, India'
     flag: 🇮🇳
 -
     seq: 31
@@ -308,7 +308,7 @@ teams:
     inst1: 'BANNARI AMMAN INSTITUTE OF TECHNOLOGY'
     institute: 'Bannari Amman Institute Of Technology'
     institute-url: 'https://bitsathy.ac.in/'
-    location: 'Aligarh, India'
+    location: 'Coimbatore, India'
     flag: 🇮🇳
 -
     seq: 32
@@ -318,7 +318,7 @@ teams:
     inst1: 'Aligarh Muslim University'
     institute: 'Aligarh Muslim University'
     institute-url: 'https://www.amu.ac.in/'
-    location: 'Chennai, India'
+    location: 'Aligarh, India'
     flag: 🇮🇳
 -
     seq: 33
@@ -328,7 +328,7 @@ teams:
     inst1: 'SRM Institute of Science and Technology, Kattankulathur'
     institute: 'SRM Institute Of Science And Technology'
     institute-url: 'https://www.srmist.edu.in/'
-    location: 'Pune, India'
+    location: 'Chennai, India'
     flag: 🇮🇳
 -
     seq: 34
@@ -338,7 +338,7 @@ teams:
     inst1: 'Vishwakarma Institute of Technology, Pune'
     institute: 'Vishwakarma Institute Of Technology'
     institute-url: 'http://www.vit.edu/'
-    location: 'Bengaluru, India'
+    location: 'Pune, India'
     flag: 🇮🇳
 -
     seq: 35
@@ -348,7 +348,7 @@ teams:
     inst1: 'SRI SAIRAM COLLEGE OF ENGINEERING'
     institute: 'Sri Sairam College Of Engineering'
     institute-url: 'http://sairamce.edu.in/'
-    location: 'Chennai, India'
+    location: 'Bengaluru, India'
     flag: 🇮🇳
 -
     seq: 36
@@ -358,7 +358,7 @@ teams:
     inst1: 'Sri Sivasubramaniya Nadar College of Engineering'
     institute: 'Sri Sivasubramaniya Nadar College Of Engineering'
     institute-url: 'http://www.ssn.edu.in/'
-    location: 'Mumbai, India'
+    location: 'Chennai, India'
     flag: 🇮🇳
 -
     seq: 37
@@ -368,7 +368,7 @@ teams:
     inst1: 'DWARKADAS J.SANGHVI COLLEGE OF ENGINEERING'
     institute: 'Dwarkadas J. Sanghvi College Of Engineering'
     institute-url: 'http://www.djsce.ac.in/'
-    location: 'Aligarh, India'
+    location: 'Mumbai, India'
     flag: 🇮🇳
 -
     seq: 38
@@ -378,7 +378,7 @@ teams:
     inst1: 'Zakir Husain College of Engineering & Technology, Aligarh Muslim Universty'
     institute: 'Zakir Husain College Of Engineering & Technology, Aligarh Muslim Universty'
     institute-url: 'https://www.amu.ac.in/principal.jsp?did=10147'
-    location: 'Chennai, India'
+    location: 'Aligarh, India'
     flag: 🇮🇳
 -
     seq: 39
@@ -388,7 +388,7 @@ teams:
     inst1: 'Sri Sairam Engineering College'
     institute: 'Sri Sairam Engineering College'
     institute-url: 'https://sairam.edu.in/'
-    location: 'Sathyamangalam, India'
+    location: 'Chennai, India'
     flag: 🇮🇳
 -
     seq: 40
@@ -398,7 +398,7 @@ teams:
     inst1: 'BANNARI AMMAN INSTITUTE OF TECHNOLOGY- ANNA UNIVERSITY'
     institute: 'Bannari Amman Institute Of Technology- Anna University'
     institute-url: 'https://bitsathy.ac.in/'
-    location: 'Burla, India'
+    location: 'Sathyamangalam, India'
     flag: 🇮🇳
 -
     seq: 41
@@ -408,7 +408,7 @@ teams:
     inst1: 'Veer Surendra Sai University of Technology, Burla'
     institute: 'Veer Surendra Sai University Of Technology'
     institute-url: 'http://www.vssut.ac.in/'
-    location: 'Bengaluru, India'
+    location: 'Burla, India'
     flag: 🇮🇳
 -
     seq: 42

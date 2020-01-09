@@ -1,7 +1,7 @@
 const csv=require('csvtojson');
 const YAML = require('yamljs');
 var args = process.argv.slice(2);
-const csvFilePath=args[0]
+const csvFilePath=args[0];
 
 csv()
 .fromFile(csvFilePath)
