@@ -835,7 +835,7 @@ teams:
     seq: 84
     id: SAUVC-TR-03
     name: 'ITU AUV Team'
-    url: ""
+    url: "http://auv.itu.edu.tr/index-eng.html"
     inst1: 'Istanbul Technical University'
     institute: 'Istanbul Technical University'
     institute-url: 'http://www.global.itu.edu.tr/'
