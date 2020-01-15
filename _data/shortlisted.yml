@@ -1,5 +1,86 @@
-visibility: false
+visibility: true
+open: true
 teams:
   - seq: 1
-    id: SAUVC
+    id: SAUVC-BD-01
+  - seq: 2
+    id: SAUVC-BD-02
+  - seq: 3
+    id: SAUVC-CN-01
+  - seq: 4
+    id: SAUVC-CN-02
+  - seq: 5
+    id: SAUVC-HK-03
+  - seq: 6
+    id: SAUVC-HK-05
+  - seq: 7
+    id: SAUVC-IN-01
+  - seq: 8
+    id: SAUVC-IN-09
+  - seq: 9
+    id: SAUVC-IN-10
+  - seq: 10
+    id: SAUVC-IN-11
+  - seq: 11
+    id: SAUVC-IN-13
+  - seq: 12
+    id: SAUVC-IN-20
+  - seq: 13
+    id: SAUVC-IN-22
+  - seq: 14
+    id: SAUVC-IN-23
+  - seq: 15
+    id: SAUVC-IN-28
+  - seq: 16
+    id: SAUVC-ID-03
+  - seq: 17
+    id: SAUVC-ID-04
+  - seq: 18
+    id: SAUVC-ID-05
+  - seq: 19
+    id: SAUVC-ID-07
+  - seq: 20
+    id: SAUVC-ID-09
+  - seq: 21
+    id: SAUVC-JP-01
+  - seq: 22
+    id: SAUVC-MO-01
+  - seq: 23
+    id: SAUVC-MY-01
+  - seq: 24
+    id: SAUVC-MY-03
+  - seq: 25
+    id: SAUVC-PE-01
+  - seq: 26
+    id: SAUVC-PL-01
+  - seq: 27
+    id: SAUVC-PL-02
+  - seq: 28
+    id: SAUVC-PT-01
+  - seq: 29
+    id: SAUVC-RU-01
+  - seq: 30
+    id: SAUVC-RU-03
+  - seq: 31
+    id: SAUVC-RU-04
+  - seq: 32
+    id: SAUVC-SG-01
+  - seq: 33
+    id: SAUVC-SG-02
+  - seq: 34
+    id: SAUVC-SG-03
+  - seq: 35
+    id: SAUVC-SG-05
+  - seq: 36
+    id: SAUVC-LK-03
+  - seq: 37
+    id: SAUVC-LK-05
+  - seq: 38
+    id: SAUVC-TW-01
+  - seq: 39
+    id: SAUVC-TH-03
+  - seq: 40
+    id: SAUVC-TR-03
+  - seq: 41
+    id: SAUVC-TR-04
 

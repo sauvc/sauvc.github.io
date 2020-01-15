@@ -1,4 +1,5 @@
 visibility: false
+open: true
 teams:
   - seq: 1
     id: SAUVC

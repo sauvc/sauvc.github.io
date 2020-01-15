@@ -1,4 +1,5 @@
 visibility: true
+open: false
 teams:
 -
     seq: 1

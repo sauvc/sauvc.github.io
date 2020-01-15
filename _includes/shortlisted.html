@@ -18,4 +18,4 @@
   {% endfor %}
 {% endcapture %}
 
-{% include teams-table.html title="SAUVC 2020 Short-listed Teams" id="shortlisted" class="table-teams" header="<tr><th>Team ID</th> <th>Team Name</th> <th>Institute</th> <th>Location</th></tr>" content=teams%}
+{% include teams-table.html title="SAUVC 2020 Short-listed Teams" id="shortlisted" class="table-teams" header="<tr><th>Team ID</th> <th>Team Name</th> <th>Institute</th> <th>Location</th></tr>" content=teams open=site.data.shortlisted.open%}

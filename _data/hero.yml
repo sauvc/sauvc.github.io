@@ -14,8 +14,8 @@ stats:
   - number: 0
     type: Controls
     caption: Completely autonomous
-action: Registration Closed!
-# action_link: https://forms.gle/YTG8CT9trfDKHgAk9 # optional
+action: Short-listed Announced!
+action_link: http://127.0.0.1:4000/#teams # optional
 action_info: <a href="https://www.facebook.com/SingaporeAUVChallenge/posts/1146495142209836">🔊  SAUVC 2020 Winner will get free tickets to Breaking The Surface workshop in Croatia!</a><br><a href="https://www.mathworks.com/academia/student-competitions/singapore-auv-challenge.html">🔊  MathWorks is providing software, training, and engineering mentors to SAUVC teams!</a>
 
     # EXAMPLES:
