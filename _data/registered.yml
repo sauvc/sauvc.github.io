@@ -564,7 +564,7 @@ teams:
 -
     seq: 57
     id: SAUVC-PE-01
-    name: 'Kayra PUCP'
+    name: 'TUMI-PUCP'
     url: ""
     inst1: 'Pontificia Universidad Cat�lica del Per�'
     institute: 'Pontificia Universidad Católica del Perú'
@@ -871,4 +871,3 @@ teams:
     institute-url: 'https://twin-cities.umn.edu/'
     location: 'Minneapolis, USA'
     flag: 🇺🇸
-
