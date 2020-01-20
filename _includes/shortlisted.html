@@ -10,7 +10,7 @@
   	{% if team_info %}
   	<tr>
 	    <td class="team-id">{{ team.id }}</td>
-	    <td>{% if team_info.url %}<a href="{{ team.url }}">{% endif%}{{ team_info.name }}</a></td>
+	    <td>{% if team_info.url != "" %}<a href="{{ team_info.url }}">{% endif%}{{ team_info.name }}</a></td>
 	    <td>{% if team_info.institute-url %}<a href="{{ team_info.institute-url }}">{% endif%}{{ team_info.institute }}</a></td>
 	    <td><span class="flag">{{ team_info.flag}}</span>{{ team_info.location }}</td>
 	  </tr>
