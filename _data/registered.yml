@@ -845,7 +845,7 @@ teams:
     seq: 85
     id: SAUVC-TR-04
     name: 'EMU Aquabotics'
-    url: 'https://emuaquabotics.com/'
+    url: 'http://aquabotics.emu.edu.tr/'
     inst1: 'Eastern Mediterranean University'
     institute: 'Eastern Mediterranean University'
     institute-url: 'https://www.emu.edu.tr/'
