@@ -16,3 +16,6 @@ list:
   - name: SubC
     url: https://subctech.com/
     image_path: img/sponsors/subctech.png
+  - name: Nortek
+    url: http://www.nortek.no/
+    image_path: img/sponsors/nortek.png
