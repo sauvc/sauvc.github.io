@@ -19,3 +19,6 @@ list:
   - name: Nortek
     url: http://www.nortek.no/
     image_path: img/sponsors/nortek.png
+  - name: SUT
+    url: https://www.sut.org/branch/singapore/
+    image_path: img/sponsors/sut.jpg
