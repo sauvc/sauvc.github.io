@@ -83,4 +83,8 @@ teams:
     id: SAUVC-TR-03
   - seq: 41
     id: SAUVC-TR-04
+  - seq: 42
+    id: SAUVC-HK-02
+  - seq: 43
+    id: SAUVC-HK-04
 
