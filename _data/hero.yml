@@ -14,9 +14,9 @@ stats:
   - number: 0
     type: Controls
     caption: Completely autonomous
-action: Short-listed Teams Announced!
-action_link: https://sauvc.org/#teams # optional
-action_info: <a href="https://www.facebook.com/SingaporeAUVChallenge/posts/1274632856062730">🔊 SAUVC 2020 Postponed to August 14th-17th.</a><br><a href="https://www.mathworks.com/academia/student-competitions/singapore-auv-challenge.html">🔊  MathWorks is providing software, training, and engineering mentors to SAUVC teams!</a>
+action: SAUVC 2020 Postponed
+action_link: https://www.facebook.com/SingaporeAUVChallenge/posts/1346451728880842 # optional
+action_info: <a href="https://www.mathworks.com/videos/modeling-and-simulation-of-an-autonomous-underwater-vehicle-1586937688878.html">🔊  MathWorks Free Webinar on Modeling and Simulation of an AUV</a> <br> <a href="https://www.mathworks.com/company/events/seminars/na-robotics-series-2020.html">🔊  MathWorks Robotics Arena Video on Modeling and Simulation of AUV’s using Simulink</a>
 
     # EXAMPLES:
     # Submit video by 8 February 2019
