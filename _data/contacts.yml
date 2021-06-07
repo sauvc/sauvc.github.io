@@ -1,8 +1,8 @@
 list:
-  - name: Email
-    url: mailto:auvc.singapore@gmail.com
-    image_path: img/social/email.png
-    action: Email us
+  # - name: Email
+  #   url: mailto:auvc.singapore@gmail.com
+  #   image_path: img/social/email.png
+  #   action: Email us
   - name: Messenger
     url: https://m.me/SingaporeAUVChallenge
     image_path: img/social/messenger.png
