@@ -1,5 +1,5 @@
 ---
 layout: default
-title: SAUVC 2020
+title: SAUVC 2022
 permalink: /
 ---

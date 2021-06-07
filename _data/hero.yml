@@ -1,5 +1,5 @@
-year: 2020
-dates: August 14-17
+year: 2022
+dates: September 23-26
 city: Singapore
 stats:
   - number: 7
@@ -14,9 +14,9 @@ stats:
   - number: 0
     type: Controls
     caption: Completely autonomous
-action: SAUVC 2020 Postponed
-action_link: https://www.facebook.com/SingaporeAUVChallenge/posts/1346451728880842 # optional
-action_info: <a href="https://www.mathworks.com/videos/modeling-and-simulation-of-an-autonomous-underwater-vehicle-1586937688878.html">🔊  MathWorks Free Webinar on Modeling and Simulation of an AUV</a> <br> <a href="https://www.mathworks.com/company/events/seminars/na-robotics-series-2020.html">🔊  MathWorks Robotics Arena Video on Modeling and Simulation of AUV’s using Simulink</a>
+action: SAUVC 2022 Announced
+action_link: https://www.facebook.com/SingaporeAUVChallenge/photos/a.224121624447197/1643037205888958/ # optional
+# action_info: <a href="https://www.mathworks.com/videos/modeling-and-simulation-of-an-autonomous-underwater-vehicle-1586937688878.html">🔊  MathWorks Free Webinar on Modeling and Simulation of an AUV</a> <br> <a href="https://www.mathworks.com/company/events/seminars/na-robotics-series-2020.html">🔊  MathWorks Robotics Arena Video on Modeling and Simulation of AUV’s using Simulink</a>
 
     # EXAMPLES:
     # Submit video by 8 February 2019

@@ -1,24 +1,3 @@
-description: <p>We are very grateful and would like to say a big <span class="highlight">Thank You</span> to all the sponsors of SAUVC over the years.</p><p>We are currently looking for sponsors for SAUVC 2020. Interested in encouraging underwater robotics? Contact us at auvc.singapore@gmail.com</p>
-sponsor_list_visibility: true
+description: <p>We are very grateful and would like to say a big <span class="highlight">Thank You</span> to all the sponsors of SAUVC over the years.</p><p>We are currently looking for sponsors for SAUVC 2022. Interested in encouraging underwater robotics? Contact us at auvc.singapore@gmail.com</p>
+sponsor_list_visibility: false
 list:
-  - name: Mathworks
-    url: https://www.mathworks.com/
-    image_path: img/sponsors/mathworks.png
-  - name: Kongsberg
-    url: https://www.kongsberg.com/
-    image_path: img/sponsors/kongsberg.png
-  - name: EvoLogics
-    url: https://evologics.de/
-    image_path: img/sponsors/evologics.png
-  - name: Blue Robotics
-    url: https://www.bluerobotics.com/
-    image_path: img/sponsors/bluerobotics.png
-  - name: SubC
-    url: https://subctech.com/
-    image_path: img/sponsors/subctech.png
-  - name: Nortek
-    url: http://www.nortek.no/
-    image_path: img/sponsors/nortek.png
-  - name: SUT
-    url: https://www.sut.org/branch/singapore/
-    image_path: img/sponsors/sut.jpg
