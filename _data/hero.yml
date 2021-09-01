@@ -16,7 +16,7 @@ stats:
     caption: Completely autonomous
 action: SAUVC 2022 Announced
 action_link: https://www.facebook.com/SingaporeAUVChallenge/photos/a.224121624447197/1643037205888958/ # optional
-# action_info: <a href="https://www.mathworks.com/videos/modeling-and-simulation-of-an-autonomous-underwater-vehicle-1586937688878.html">🔊  MathWorks Free Webinar on Modeling and Simulation of an AUV</a> <br> <a href="https://www.mathworks.com/company/events/seminars/na-robotics-series-2020.html">🔊  MathWorks Robotics Arena Video on Modeling and Simulation of AUV’s using Simulink</a>
+action_info: SAUVC will be held after the [AUV2020](http://auv2022.org/) symposium!
 
     # EXAMPLES:
     # Submit video by 8 February 2019
