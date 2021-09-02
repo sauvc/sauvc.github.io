@@ -14,9 +14,9 @@ stats:
   - number: 0
     type: Controls
     caption: Completely autonomous
-action: SAUVC 2022 Announced
+action: Registration will be opened soon!!
 action_link: https://www.facebook.com/SingaporeAUVChallenge/photos/a.224121624447197/1643037205888958/ # optional
-action_info: SAUVC will be held after the [AUV2022](http://auv2022.org/) symposium!
+action_info: SAUVC will be held after the <a href="http://auv2022.org/"><strong>AUV2022</strong></a> symposium!
 
     # EXAMPLES:
     # Submit video by 8 February 2019
