@@ -14,9 +14,9 @@ stats:
   - number: 0
     type: Controls
     caption: Completely autonomous
-action: Rulebook for SAUVC 2022 Published!
-action_link: https://sauvc.org/rulebook/ # optional
-action_info: SAUVC will be held after the <a href="http://auv2022.org/"><strong>AUV2022</strong></a> symposium!
+action: SAUVC 2022 Registration is now open!
+action_link: https://docs.google.com/forms/d/e/1FAIpQLSfDJ1oP7U8Z5OKiDI3phgWcIpPOIqwbp76_Ii_HvdUKQlybVg/viewform?usp=send_form # optional
+action_info: <a href="https://sauvc.org/rulebook/">Rulebook</a> for SAUVC 2022 Published!
 
     # EXAMPLES:
     # Submit video by 8 February 2019
