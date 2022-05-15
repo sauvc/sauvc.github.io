@@ -17,12 +17,16 @@
 
     var fadingIn = false;
     var fadingOut = false;
+    var playing = false;
 
     gain.gain.value = 0.0;
 
     source.connect(gain);
     gain.connect(ac.destination);
-    bubblesaudio.play();
+    unlockAudioContext(ac, () => {
+      bubblesaudio.play();
+      playing = true;
+    })
 
     if (isElementInViewport(action)){
       fadeIn();
@@ -44,8 +48,20 @@
       }
     });
 
+    function unlockAudioContext(context, cb) {
+      if (context.state !== "suspended") return;
+      const b = document.body;
+      const events = ["touchstart", "touchend", "mousedown", "keydown"];
+      events.forEach(e => b.addEventListener(e, unlock, false));
+      function unlock() {context.resume().then(() => {
+        clean();
+        cb();
+      });}
+      function clean() {events.forEach(e => b.removeEventListener(e, unlock));}
+  }
 
     function fadeIn(){
+      if (!playing) return;
       if (!fadingIn){
         // console.log("fading in")
         gain.gain.linearRampToValueAtTime(MAX_GAIN,ac.currentTime+FADE_TIME);
@@ -55,7 +71,7 @@
     }
 
     function fadeOut(){
-
+      if (!playing) return;
       if (!fadingOut){
         // console.log("fading out")
         gain.gain.linearRampToValueAtTime(0,ac.currentTime+FADE_TIME);
