@@ -5,3 +5,7 @@ css/*.css
 
 # jekyll
 _site
+
+
+# node
+node_modules

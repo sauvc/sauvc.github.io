@@ -3,6 +3,9 @@ const puppeteer = require('puppeteer');
 var args = process.argv.slice(2);
 var sterm = args[0];
 
+// console.log('Searching for ' + sterm);
+
+let browser;
 (async () => {
   browser = await puppeteer.launch();
   const [page] = await browser.pages();
@@ -13,9 +16,9 @@ var sterm = args[0];
     page.waitForNavigation(),
     page.keyboard.press("Enter"),
   ]);
-  await page.waitForSelector(".LrzXr", {visible: true});
-  const searchResults = await page.$$eval(".LrzXr", els =>
-    els.map(e => e.innerHTML)[0]
+  await page.waitForSelector(".LC20lb", {visible: true});
+  const searchResults = await page.$$eval(".LC20lb", els =>
+    els.map(e => e.parentNode.href)[0]
   );
   console.log(searchResults);
 })()
