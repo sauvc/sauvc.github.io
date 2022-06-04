@@ -14,10 +14,13 @@ var sterm = args[0];
     page.keyboard.press("Enter"),
   ]);
   await page.waitForSelector(".LrzXr", {visible: true});
-  const searchResults = await page.$$eval(".LrzXr", els =>
+  const locResults = await page.$$eval(".LrzXr", els =>
     els.map(e => e.innerHTML)[0]
   );
-  console.log(searchResults);
+  const urlResults = await page.$$eval(".LC20lb", els =>
+    els.map(e => e.parentNode.href)[0]
+  );
+  console.log(`${sterm}:\t${urlResults}\t${locResults}`);
 })()
   .catch(err => console.error(err))
   .finally(() => browser?.close())
