@@ -1,610 +1,300 @@
-visibility: true
 open: false
+visibility: false
 teams:
 -
     seq: 1
     id: SAUVC-BD-01
-    name: SUST_U_FORTUNATE
-    url: ""
-    inst1: 'Shahjalal University of Science & Technology'
-    institute: 'Shahjalal University Of Science & Technology'
-    institute-url: 'https://www.sust.edu/'
-    location: 'Sylhet, Bangladesh'
-    flag: 🇧🇩
--
-    seq: 2
-    id: SAUVC-BD-02
     name: 'BRACU DUBURI'
-    url: ""
-    inst1: 'BRAC University'
+    url: 'https://www.bracu-duburi.com/'
+    inst1: 'Brac University - University'
     institute: 'BRAC University'
     institute-url: 'https://www.bracu.ac.bd/'
     location: 'Dhaka, Bangladesh'
     flag: 🇧🇩
 -
+    seq: 2
+    id: SAUVC-BD-02
+    name: Aqualung
+    url: ""
+    inst1: 'Ahsanullah University Of Science And Technology & Ist - University'
+    institute: 'Ahsanullah University of Science and Technology'
+    institute-url: 'https://www.aust.edu/'
+    location: 'Dhaka, Bangladesh'
+    flag: 🇧🇩
+-
     seq: 3
     id: SAUVC-BD-03
-    name: Amphibians
+    name: SUST_U_FORTUNATE
     url: ""
-    inst1: 'daffodil international university'
-    institute: 'Daffodil International University'
-    institute-url: 'https://daffodilvarsity.edu.bd/'
-    location: 'Dhaka, Bangladesh'
+    inst1: 'Shahjalal University Of Science & Technology'
+    institute: 'Shahjalal University Of Science & Technology'
+    institute-url: 'https://www.sust.edu/'
+    location: 'Sylhet, Bangladesh'
     flag: 🇧🇩
 -
     seq: 4
     id: SAUVC-CN-01
-    name: 'Intelligence Marine Vehicle Team'
+    name: HEUEV
     url: ""
-    inst1: 'Northwestern Polytechnical University(university)'
-    institute: 'Northwestern Polytechnical University'
-    institute-url: 'https://en.nwpu.edu.cn/'
-    location: 'Xi''an, China'
+    inst1: 'Harbin Engineering University'
+    institute: 'Harbin Engineering University'
+    institute-url: 'https://english.hrbeu.edu.cn/'
+    location: 'Harbin, China'
     flag: 🇨🇳
 -
     seq: 5
-    id: SAUVC-CN-02
-    name: HITWH
-    url: ""
-    inst1: 'Harbin Institute of Technology at Weihai'
-    institute: 'Harbin Institute Of Technology'
-    institute-url: 'http://en.hit.edu.cn/'
-    location: 'Weihai, China'
-    flag: 🇨🇳
+    id: SAUVC-HK-01
+    name: 'CityU Underwater Robotics - PIONEER'
+    url: 'http://www.ee.cityu.edu.hk/~rovteam/'
+    inst1: 'City University Of Hong Kong'
+    institute: 'City University Of Hong Kong'
+    institute-url: 'https://www.cityu.edu.hk/'
+    location: 'Hong Kong'
+    flag: 🇭🇰
 -
     seq: 6
-    id: SAUVC-CO-01
-    name: 'UPB Medellin Colombia'
-    url: ""
-    inst1: 'UPB Colombia'
-    institute: 'UPB Colombia'
-    institute-url: 'https://www.upb.edu.co/es/home'
-    location: 'Antioquia, Colombia'
-    flag: 🇨🇴
+    id: SAUVC-HK-02
+    name: 'CityU Underwater Robotics - JUNEER'
+    url: 'http://www.ee.cityu.edu.hk/~rovteam/'
+    inst1: 'City University Of Hong Kong'
+    institute: 'City University Of Hong Kong'
+    institute-url: 'https://www.cityu.edu.hk/'
+    location: 'Hong Kong'
+    flag: 🇭🇰
 -
     seq: 7
-    id: SAUVC-HK-01
-    name: Epoxsea
+    id: SAUVC-HK-03
+    name: Potential
     url: ""
-    inst1: 'Hong Kong University of Science and Technology'
-    institute: 'Hong Kong University Of Science And Technology'
-    institute-url: 'https://www.ust.hk/'
-    location: 'Hong Kong, Hong Kong'
+    inst1: 'Hong Kong Community College - The Hong Kong Polytechnic University'
+    institute: 'PolyU - Hong Kong Community College'
+    institute-url: 'https://www.hkcc-polyu.edu.hk/'
+    location: 'Hong Kong'
     flag: 🇭🇰
 -
     seq: 8
-    id: SAUVC-HK-02
-    name: Potential
-    url: ""
-    inst1: 'PolyU Hong Kong Community College'
-    institute: 'PolyU Hong Kong Community College'
-    institute-url: 'https://www.hkcc-polyu.edu.hk/'
-    location: 'Hong Kong, Hong Kong'
-    flag: 🇭🇰
--
-    seq: 9
-    id: SAUVC-HK-03
-    name: 'CityU Underwater Robotics - Pioneer'
-    url: 'http://www.ee.cityu.edu.hk/~rovteam/'
-    inst1: 'City University of Hong Kong'
-    institute: 'City University Of Hong Kong'
-    institute-url: 'https://www.cityu.edu.hk/'
-    location: 'Hong Kong, Hong Kong'
-    flag: 🇭🇰
--
-    seq: 10
-    id: SAUVC-HK-04
-    name: 'PolyU Engineering Club'
-    url: ""
-    inst1: 'The Hong Kong Polytechnic University'
-    institute: 'The Hong Kong Polytechnic University'
-    institute-url: 'https://www.polyu.edu.hk/web/en/home/index.html'
-    location: 'Hong Kong, Hong Kong'
-    flag: 🇭🇰
--
-    seq: 11
-    id: SAUVC-HK-05
-    name: 'CityU Underwater Robotic - Juneer'
-    url: ""
-    inst1: 'City University of Hong Kong'
-    institute: 'City University Of Hong Kong'
-    institute-url: 'https://www.cityu.edu.hk/'
-    location: 'Hong Kong, Hong Kong'
-    flag: 🇭🇰
--
-    seq: 12
-    id: SAUVC-HK-06
-    name: 'Engineering Club Team 2'
-    url: ""
-    inst1: 'The Hong Kong Polytechnic University'
-    institute: 'The Hong Kong Polytechnic University'
-    institute-url: 'https://www.polyu.edu.hk/web/en/home/index.html'
-    location: 'Hong Kong, Hong Kong'
-    flag: 🇭🇰
--
-    seq: 13
-    id: SAUVC-IN-01
-    name: 'Team Orca'
-    url: 'https://www.facebook.com/auv.iiitdm/'
-    inst1: 'IIITDM Kancheepuram, Chennai. (University)'
-    institute: 'IIITDM Kancheepuram, Chennai'
-    institute-url: 'https://www.iiitdm.ac.in/'
-    location: 'Kancheepuram, India'
-    flag: 🇮🇳
--
-    seq: 14
-    id: SAUVC-IN-02
-    name: ""
-    url: ""
-    inst1: 'R.V.College of Engineering'
-    institute: 'R.V. College Of Engineering'
-    institute-url: 'https://rvce.edu.in/'
-    location: 'Bengaluru, India'
-    flag: 🇮🇳
--
-    seq: 15
-    id: SAUVC-IN-03
-    name: 'Team TRITON'
-    url: ""
-    inst1: 'Institute Of Technology, NIRMA University'
-    institute: 'Institute Of Technology, Nirma University'
-    institute-url: 'http://nirmauni.ac.in/'
-    location: 'Ahmedabad, India'
-    flag: 🇮🇳
--
-    seq: 16
-    id: SAUVC-IN-04
-    name: 'TEAM GRAVITY'
-    url: ""
-    inst1: 'Bharath Institute of Higher Education and Research'
-    institute: 'Bharath Institute Of Higher Education And Research'
-    institute-url: 'https://www.bharathuniv.ac.in/'
-    location: 'Chennai, India'
-    flag: 🇮🇳
--
-    seq: 17
-    id: SAUVC-IN-05
-    name: AUV-IITK
-    url: ""
-    inst1: 'Indian Institute of Technology Kanpur'
-    institute: 'Indian Institute Of Technology Kanpur'
-    institute-url: 'http://www.iitk.ac.in/'
-    location: 'Kanpur, India'
-    flag: 🇮🇳
--
-    seq: 18
-    id: SAUVC-IN-06
-    name: Aquila
-    url: ""
-    inst1: 'Dr Ambedkar institute of technology'
-    institute: 'Dr. Ambedkar Institute Of Technology'
-    institute-url: 'https://www.dr-ait.org/'
-    location: 'Bengaluru, India'
-    flag: 🇮🇳
--
-    seq: 19
-    id: SAUVC-IN-07
-    name: 'Team Gravity'
-    url: ""
-    inst1: 'Bharath University'
-    institute: 'Bharath University'
-    institute-url: 'https://www.bharathuniv.ac.in/'
-    location: 'Chennai, India'
-    flag: 🇮🇳
--
-    seq: 20
-    id: SAUVC-IN-08
-    name: 'Team AUV RIGNITC'
-    url: ""
-    inst1: 'NATIONAL INSTITUTE OF TECHNOLOGY CALICUT ,KERALA ,INDIA'
-    institute: 'National Institute Of Technology Calicut'
-    institute-url: 'http://www.nitc.ac.in/'
-    location: 'Calicut, India'
-    flag: 🇮🇳
--
-    seq: 21
-    id: SAUVC-IN-09
-    name: Triton
-    url: ""
-    inst1: 'Sri Sairam Engineering College'
-    institute: 'Sri Sairam Engineering College'
-    institute-url: 'https://sairam.edu.in/'
-    location: 'Chennai, India'
-    flag: 🇮🇳
--
-    seq: 22
-    id: SAUVC-IN-10
-    name: VAUV
-    url: ""
-    inst1: 'Vellore Institute of Technology, Vellore'
-    institute: 'Vellore Institute Of Technology'
-    institute-url: 'https://vit.ac.in/'
-    location: 'Vellore, India'
-    flag: 🇮🇳
--
-    seq: 23
-    id: SAUVC-IN-11
-    name: 'AUV MEC'
-    url: ""
-    inst1: 'Mahindra Ecole Centrale, Engineering College'
-    institute: 'Mahindra Ecole Centrale'
-    institute-url: 'https://www.mahindraecolecentrale.edu.in/'
-    location: 'Hyderabad, India'
-    flag: 🇮🇳
--
-    seq: 24
-    id: SAUVC-IN-12
-    name: AUV-IITB
-    url: ""
-    inst1: 'Indian Institute of Technology Bombay / University'
-    institute: 'Indian Institute Of Technology Bombay'
-    institute-url: 'http://www.iitb.ac.in/'
-    location: 'Mumbai, India'
-    flag: 🇮🇳
--
-    seq: 25
-    id: SAUVC-IN-13
-    name: Tiburon
-    url: 'https://auvnitrkl.github.io/'
-    inst1: 'National Institute of Technology, Rourkela, India'
-    institute: 'National Institute Of Technology, Rourkela'
-    institute-url: 'https://www.nitrkl.ac.in/'
-    location: 'Rourkela, India'
-    flag: 🇮🇳
--
-    seq: 26
-    id: SAUVC-IN-14
-    name: 'Team GNU-AquaTime'
-    url: ""
-    inst1: 'Ganpat University - U.V.Patel College Of Engineering'
-    institute: 'Ganpat University - U.V. Patel College Of Engineering'
-    institute-url: 'https://www.uvpce.ac.in/'
-    location: 'Mehsana, India'
-    flag: 🇮🇳
--
-    seq: 27
-    id: SAUVC-IN-15
-    name: 'Project AUV Manipal'
-    url: ""
-    inst1: 'Manipal Institute of Technology, Manipal'
-    institute: 'Manipal Institute Of Technology'
-    institute-url: 'https://manipal.edu/mit.html'
-    location: 'Manipal, India'
-    flag: 🇮🇳
--
-    seq: 28
-    id: SAUVC-IN-16
-    name: 'The Marine Robotics Team (TMRT)'
-    url: ""
-    inst1: 'K. J. Somaiya College of Engineering'
-    institute: 'K. J. Somaiya College Of Engineering'
-    institute-url: 'https://kjsce.somaiya.edu/'
-    location: 'Mumbai, India'
-    flag: 🇮🇳
--
-    seq: 29
-    id: SAUVC-IN-17
-    name: 'DTU AUV'
-    url: ""
-    inst1: 'Delhi Technological University'
-    institute: 'Delhi Technological University'
-    institute-url: 'http://dtu.ac.in/'
-    location: 'Delhi, India'
-    flag: 🇮🇳
--
-    seq: 30
-    id: SAUVC-IN-18
-    name: 'Man O'' War'
-    url: ""
-    inst1: 'BITS Pilani Hyderabad Campus'
-    institute: 'BITS Pilani Hyderabad Campus'
-    institute-url: 'https://www.bits-pilani.ac.in/Hyderabad/'
-    location: 'Hyderabad, India'
-    flag: 🇮🇳
--
-    seq: 31
-    id: SAUVC-IN-19
-    name: 'Team INTERCEPTOR'
-    url: ""
-    inst1: 'BANNARI AMMAN INSTITUTE OF TECHNOLOGY'
-    institute: 'Bannari Amman Institute Of Technology'
-    institute-url: 'https://bitsathy.ac.in/'
-    location: 'Coimbatore, India'
-    flag: 🇮🇳
--
-    seq: 32
-    id: SAUVC-IN-20
-    name: 'AUV ZHCET'
-    url: ""
-    inst1: 'Aligarh Muslim University'
-    institute: 'Aligarh Muslim University'
-    institute-url: 'https://www.amu.ac.in/'
-    location: 'Aligarh, India'
-    flag: 🇮🇳
--
-    seq: 33
-    id: SAUVC-IN-21
-    name: 'Team SRMAUV'
-    url: ""
-    inst1: 'SRM Institute of Science and Technology, Kattankulathur'
-    institute: 'SRM Institute Of Science And Technology'
-    institute-url: 'https://www.srmist.edu.in/'
-    location: 'Chennai, India'
-    flag: 🇮🇳
--
-    seq: 34
-    id: SAUVC-IN-22
-    name: 'Trident Labs'
-    url: ""
-    inst1: 'Vishwakarma Institute of Technology, Pune'
-    institute: 'Vishwakarma Institute Of Technology'
-    institute-url: 'http://www.vit.edu/'
-    location: 'Pune, India'
-    flag: 🇮🇳
--
-    seq: 35
-    id: SAUVC-IN-23
-    name: VARUNA
-    url: ""
-    inst1: 'SRI SAIRAM COLLEGE OF ENGINEERING'
-    institute: 'Sri Sairam College Of Engineering'
-    institute-url: 'http://sairamce.edu.in/'
-    location: 'Bengaluru, India'
-    flag: 🇮🇳
--
-    seq: 36
-    id: SAUVC-IN-24
-    name: 'Starboard SSN'
-    url: ""
-    inst1: 'Sri Sivasubramaniya Nadar College of Engineering'
-    institute: 'Sri Sivasubramaniya Nadar College Of Engineering'
-    institute-url: 'http://www.ssn.edu.in/'
-    location: 'Chennai, India'
-    flag: 🇮🇳
--
-    seq: 37
-    id: SAUVC-IN-25
-    name: 'DJS VAGSHEER'
-    url: ""
-    inst1: 'DWARKADAS J.SANGHVI COLLEGE OF ENGINEERING'
-    institute: 'Dwarkadas J. Sanghvi College Of Engineering'
-    institute-url: 'http://www.djsce.ac.in/'
-    location: 'Mumbai, India'
-    flag: 🇮🇳
--
-    seq: 38
-    id: SAUVC-IN-26
-    name: 'SEA 4.0'
-    url: ""
-    inst1: 'Zakir Husain College of Engineering & Technology, Aligarh Muslim Universty'
-    institute: 'Zakir Husain College Of Engineering & Technology, Aligarh Muslim Universty'
-    institute-url: 'https://www.amu.ac.in/principal.jsp?did=10147'
-    location: 'Aligarh, India'
-    flag: 🇮🇳
--
-    seq: 39
-    id: SAUVC-IN-27
-    name: POSEIDON
-    url: ""
-    inst1: 'Sri Sairam Engineering College'
-    institute: 'Sri Sairam Engineering College'
-    institute-url: 'https://sairam.edu.in/'
-    location: 'Chennai, India'
-    flag: 🇮🇳
--
-    seq: 40
-    id: SAUVC-IN-28
-    name: 'BITAUV 2.0'
-    url: ""
-    inst1: 'BANNARI AMMAN INSTITUTE OF TECHNOLOGY- ANNA UNIVERSITY'
-    institute: 'Bannari Amman Institute Of Technology- Anna University'
-    institute-url: 'https://bitsathy.ac.in/'
-    location: 'Sathyamangalam, India'
-    flag: 🇮🇳
--
-    seq: 41
-    id: SAUVC-IN-29
-    name: 'VSSUT ROBOTICS'
-    url: ""
-    inst1: 'Veer Surendra Sai University of Technology, Burla'
-    institute: 'Veer Surendra Sai University Of Technology'
-    institute-url: 'http://www.vssut.ac.in/'
-    location: 'Burla, India'
-    flag: 🇮🇳
--
-    seq: 42
     id: SAUVC-ID-01
-    name: N4B-AUV
+    name: N4-AUV
     url: ""
-    inst1: 'Bogor Agricultural University'
-    institute: 'Bogor Agricultural University'
-    institute-url: 'https://ipb.ac.id/'
-    location: 'Bogor, Indonesia'
-    flag: 🇮🇩
--
-    seq: 43
-    id: SAUVC-ID-02
-    name: ARITMA_TEAM
-    url: ""
-    inst1: 'State University of Makassar'
-    institute: 'State University Of Makassar'
-    institute-url: 'https://www.unm.ac.id/'
-    location: 'Makassar, Indonesia'
-    flag: 🇮🇩
--
-    seq: 44
-    id: SAUVC-ID-03
-    name: N3-AUV
-    url: ""
-    inst1: 'IPB University'
+    inst1: 'Ipb University'
     institute: 'IPB University'
     institute-url: 'https://ipb.ac.id/'
     location: 'Bogor, Indonesia'
     flag: 🇮🇩
 -
-    seq: 45
-    id: SAUVC-ID-04
-    name: 'Autonomous Marine Vehicles (AMV) UI'
+    seq: 9
+    id: SAUVC-ID-02
+    name: N5-AUV
     url: ""
+    inst1: 'Ipb University'
+    institute: 'IPB University'
+    institute-url: 'https://ipb.ac.id/'
+    location: 'Bogor, Indonesia'
+    flag: 🇮🇩
+-
+    seq: 10
+    id: SAUVC-ID-03
+    name: FIToplankton
+    url: ""
+    inst1: 'Telkom University'
+    institute: 'Telkom University'
+    institute-url: 'https://telkomuniversity.ac.id/'
+    location: 'Bogor, Indonesia'
+    flag: 🇮🇩
+-
+    seq: 11
+    id: SAUVC-ID-04
+    name: TECH_SAS
+    url: ""
+    inst1: 'Telkom University'
+    institute: 'Telkom University'
+    institute-url: 'https://telkomuniversity.ac.id/'
+    location: 'Bogor, Indonesia'
+    flag: 🇮🇩
+-
+    seq: 12
+    id: SAUVC-ID-05
+    name: 'Autonomous Marine Vehicle UI (AMV UI)'
+    url: 'https://amv.ui.ac.id/autonomous-surface-vehicle/'
     inst1: 'Universitas Indonesia'
     institute: 'Universitas Indonesia'
     institute-url: 'https://www.ui.ac.id/'
     location: 'Depok, Indonesia'
     flag: 🇮🇩
 -
-    seq: 46
-    id: SAUVC-ID-05
-    name: 'Tech_SAS 1'
-    url: ""
-    inst1: 'Telkom University'
-    institute: 'Telkom University'
-    institute-url: 'https://telkomuniversity.ac.id/?lang=en'
-    location: 'Bandung, Indonesia'
-    flag: 🇮🇩
--
-    seq: 47
+    seq: 13
     id: SAUVC-ID-06
-    name: 'Tech_SAS 2'
-    url: ""
-    inst1: 'Telkom University'
-    institute: 'Telkom University'
-    institute-url: 'https://telkomuniversity.ac.id/?lang=en'
-    location: 'Bandung, Indonesia'
-    flag: 🇮🇩
--
-    seq: 48
-    id: SAUVC-ID-07
-    name: N4-AUV
-    url: ""
-    inst1: 'IPB University'
-    institute: 'IPB University'
-    institute-url: 'https://ipb.ac.id/'
-    location: 'Bogor, Indonesia'
-    flag: 🇮🇩
--
-    seq: 49
-    id: SAUVC-ID-08
-    name: DIRK-ORKA
-    url: ""
-    inst1: 'Universitas Komputer Indonesia'
-    institute: 'Universitas Komputer Indonesia'
-    institute-url: 'https://www.unikom.ac.id/'
-    location: 'Bandung, Indonesia'
-    flag: 🇮🇩
--
-    seq: 50
-    id: SAUVC-ID-09
     name: 'Banyubramanta ITS'
-    url: ""
+    url: 'https://id.linkedin.com/company/banyubramanta-its'
     inst1: 'Institut Teknologi Sepuluh Nopember'
     institute: 'Institut Teknologi Sepuluh Nopember'
     institute-url: 'https://www.its.ac.id/'
     location: 'Surabaya, Indonesia'
     flag: 🇮🇩
 -
-    seq: 51
+    seq: 14
+    id: SAUVC-IN-01
+    name: BITAUV
+    url: ""
+    inst1: 'Bannari Amman Institute Of Technology & Institution'
+    institute: 'Bannari Amman Institute Of Technology & Institution'
+    institute-url: 'https://www.bitsathy.ac.in/'
+    location: 'Sathyamangalam, India'
+    flag: 🇮🇳
+-
+    seq: 15
+    id: SAUVC-IN-02
+    name: 'Team Shaurya'
+    url: ""
+    inst1: 'Iiitdm Kancheepuram - Chennai.'
+    institute: 'IIITDM Kancheepuram'
+    institute-url: 'https://www.iiitdm.ac.in/'
+    location: 'Chennai, India'
+    flag: 🇮🇳
+-
+    seq: 16
+    id: SAUVC-IN-03
+    name: 'Team Kurma'
+    url: ""
+    inst1: 'Indian Institute Of Technology Roorkee'
+    institute: 'Indian Institute Of Technology Roorkee'
+    institute-url: 'https://www.iitr.ac.in/'
+    location: 'Roorkee, India'
+    flag: 🇮🇳
+-
+    seq: 17
+    id: SAUVC-IN-04
+    name: 'Team Nirma AUV'
+    url: 'https://in.linkedin.com/company/auv-nirma-university'
+    inst1: 'Institute Of Technology - Nirma University'
+    institute: 'Institute Of Technology - Nirma University'
+    institute-url: 'https://technology.nirmauni.ac.in/'
+    location: 'Ahmedabad, India'
+    flag: 🇮🇳
+-
+    seq: 18
+    id: SAUVC-IN-05
+    name: AUVMEC
+    url: 'https://www.auvmec.com/'
+    inst1: 'Mahindra University'
+    institute: 'Mahindra University'
+    institute-url: 'https://www.mahindrauniversity.edu.in/'
+    location: 'Hyderabad, India'
+    flag: 🇮🇳
+-
+    seq: 19
+    id: SAUVC-IN-06
+    name: Oceanus
+    url: ""
+    inst1: 'Christ College Of Engineering (Engineering College Affiliated To Kerala Technological University - India'
+    institute: 'Christ College Of Engineering'
+    institute-url: 'https://cce.edu.in/'
+    location: 'Irinjalakuda, India'
+    flag: 🇮🇳
+-
+    seq: 20
+    id: SAUVC-IN-07
+    name: 'MGR ARI AUV'
+    url: ""
+    inst1: 'Dr.M.G.R. Educational And Research Institute'
+    institute: 'Dr. M.G.R. Educational And Research Institute'
+    institute-url: 'https://www.drmgrdu.ac.in/'
+    location: 'Chennai, India'
+    flag: 🇮🇳
+-
+    seq: 21
+    id: SAUVC-IN-08
+    name: Varuna
+    url: ""
+    inst1: 'Sri Sairam College Of Engineering'
+    institute: 'Sri Sairam College Of Engineering'
+    institute-url: 'http://sairamce.edu.in/'
+    location: 'Bengaluru, India'
+    flag: 🇮🇳
+-
+    seq: 22
+    id: SAUVC-IN-09
+    name: HUSTLERS
+    url: 'https://www.mtsauvzhcet.com/'
+    inst1: 'Zakir Husain College Of Engineering & Technology - Aligarh Muslim University'
+    institute: 'Zakir Husain College Of Engineering & Technology - Aligarh Muslim University'
+    institute-url: 'https://amu.ac.in/colleges/zakir-husain-college-of-engineering-and-technology'
+    location: 'Aligarh, India'
+    flag: 🇮🇳
+-
+    seq: 23
+    id: SAUVC-IN-10
+    name: AUV-IITB
+    url: 'https://www.auv-iitb.org/'
+    inst1: 'Indian Institute Of Technology Bombay'
+    institute: 'Indian Institute Of Technology Bombay'
+    institute-url: 'https://www.iitb.ac.in/'
+    location: 'Mumbai, India'
+    flag: 🇮🇳
+-
+    seq: 24
     id: SAUVC-JP-01
     name: HIT-Robotics
     url: ""
-    inst1: 'Hiroshima Institute of Technology'
+    inst1: 'Hiroshima Institute Of Technology'
     institute: 'Hiroshima Institute Of Technology'
-    institute-url: 'http://www.it-hiroshima.ac.jp/english/'
+    institute-url: 'https://www.it-hiroshima.ac.jp/english/'
     location: 'Hiroshima, Japan'
     flag: 🇯🇵
 -
-    seq: 52
-    id: SAUVC-MO-01
-    name: 'Deep Sea Redback'
-    url: ""
-    inst1: 'Macau Pui Ching Middle School'
-    institute: 'Macau Pui Ching Middle School'
-    institute-url: 'http://m.puiching.edu.mo/'
-    location: 'Macau, Macao'
-    flag: 🇲🇴
--
-    seq: 53
+    seq: 25
     id: SAUVC-MY-01
-    name: ROBOTEAM
+    name: 'SOTON HORNBILLS'
     url: ""
-    inst1: 'INTERNATIONAL ISLAMIC UNIVERSITY MALAYSIA'
-    institute: 'International Islamic University Malaysia'
-    institute-url: 'http://www.iium.edu.my/'
-    location: 'Selangor, Malaysia'
+    inst1: 'University Of Southampton Malaysia'
+    institute: 'University Of Southampton Malaysia'
+    institute-url: 'https://www.southampton.ac.uk/my/index.page'
+    location: 'Johor, Malaysia'
     flag: 🇲🇾
 -
-    seq: 54
-    id: SAUVC-MY-02
-    name: 'Chelonia Mydas'
-    url: ""
-    inst1: 'Universiti Teknikal Malaysia Melaka (UTeM)'
-    institute: 'Universiti Teknikal Malaysia Melaka (UTeM)'
-    institute-url: 'https://www.utem.edu.my/'
-    location: 'Melaka, Malaysia'
-    flag: 🇲🇾
--
-    seq: 55
-    id: SAUVC-MY-03
-    name: 'TUAH 4.0'
-    url: ""
-    inst1: UTeM
-    institute: UTeM
-    institute-url: 'https://www.utem.edu.my/'
-    location: 'Melaka, Malaysia'
-    flag: 🇲🇾
--
-    seq: 56
-    id: SAUVC-PK-01
-    name: NUST
-    url: ""
-    inst1: 'national university of sciences and technology (university)'
-    institute: 'National University Of Sciences And Technology'
-    institute-url: 'http://www.nust.edu.pk/'
-    location: 'Islamabad, Pakistan'
-    flag: 🇵🇰
--
-    seq: 57
-    id: SAUVC-PE-01
-    name: 'TUMI-PUCP'
-    url: ""
-    inst1: 'Pontificia Universidad Cat�lica del Per�'
-    institute: 'Pontificia Universidad Católica del Perú'
-    institute-url: 'https://www.pucp.edu.pe/'
-    location: 'San Miguel, Peru'
-    flag: 🇵🇪
--
-    seq: 58
+    seq: 26
     id: SAUVC-PL-01
     name: 'PWr Diving Crew'
-    url: ""
-    inst1: 'Wroclaw University of Science and Technology'
-    institute: 'Wroclaw University Of Science And Technology'
-    institute-url: 'http://pwr.edu.pl/en/'
-    location: 'Wroclaw, Poland'
+    url: 'https://pk.linkedin.com/company/pwr-diving-crew'
+    inst1: 'Wrocław University Of Science And Technology'
+    institute: 'Wrocław University Of Science And Technology'
+    institute-url: 'https://pwr.edu.pl/en/'
+    location: 'Wrocław, Poland'
     flag: 🇵🇱
 -
-    seq: 59
+    seq: 27
     id: SAUVC-PL-02
-    name: 'KNR Okon Team'
+    name: 'OKON KNR'
     url: ""
-    inst1: 'Warsaw University of Technology'
-    institute: 'Warsaw University Of Technology'
+    inst1: 'Warsaw Institute Of Technology'
+    institute: 'Warsaw Institute Of Technology'
     institute-url: 'https://www.pw.edu.pl/engpw'
-    location: 'Warsaw, Poland'
+    location: 'Warszawa, Poland'
     flag: 🇵🇱
 -
-    seq: 60
-    id: SAUVC-PT-01
-    name: 'Yellow Submarine'
-    url: ""
-    inst1: 'University of Porto'
-    institute: 'University Of Porto'
-    institute-url: 'https://www.up.pt/'
-    location: 'Porto, Portugal'
-    flag: 🇵🇹
--
-    seq: 61
+    seq: 28
     id: SAUVC-RU-01
-    name: 'FEFU AUV'
+    name: Hydronautics
+    url: 'https://twitter.com/hydronautics?lang=en'
+    inst1: 'Bauman Moscow State Technical University'
+    institute: 'Bauman Moscow State Technical University'
+    institute-url: 'https://en.wikipedia.org/wiki/Bauman_Moscow_State_Technical_University'
+    location: 'Moscow, Russia'
+    flag: 🇷🇺
+-
+    seq: 29
+    id: SAUVC-RU-02
+    name: Hydronautics_2
+    url: 'https://twitter.com/hydronautics?lang=en'
+    inst1: 'Bauman Moscow State Technical University'
+    institute: 'Bauman Moscow State Technical University'
+    institute-url: 'https://en.wikipedia.org/wiki/Bauman_Moscow_State_Technical_University'
+    location: 'Moscow, Russia'
+    flag: 🇷🇺
+-
+    seq: 30
+    id: SAUVC-RU-03
+    name: 'FEFU&IMTP'
     url: ""
     inst1: 'Far Eastern Federal University'
     institute: 'Far Eastern Federal University'
@@ -612,262 +302,122 @@ teams:
     location: 'Vladivostok, Russia'
     flag: 🇷🇺
 -
-    seq: 62
-    id: SAUVC-RU-02
-    name: Oren_rov
-    url: 'https://sites.google.com/site/fefuunderwaterrobotics/auv'
-    inst1: 'Orenburg Presidential Cadet School'
-    institute: 'Orenburg Presidential Cadet School'
-    institute-url: 'http://eng.mil.ru/en/education/secondary/more.htm?id=8695@morfOrgEduc'
-    location: 'Orenburg, Russia'
-    flag: 🇷🇺
--
-    seq: 63
-    id: SAUVC-RU-03
-    name: Hydronautics
-    url: ""
-    inst1: 'Bauman Moscow State Technical University, university'
-    institute: 'Bauman Moscow State Technical University'
-    institute-url: 'http://www.bmstu.ru/en/'
-    location: 'Moscow, Russia'
-    flag: 🇷🇺
--
-    seq: 64
+    seq: 31
     id: SAUVC-RU-04
-    name: ""
-    url: ""
-    inst1: 'Saint-Petersburg State Marine Technical University'
-    institute: 'Saint-Petersburg State Marine Technical University'
-    institute-url: 'https://www.smtu.ru/en/'
-    location: 'St Petersburg, Russia'
+    name: 'msu robotics team'
+    url: 'http://msu-robotics.tilda.ws/'
+    inst1: 'Maritime State Universitv Named After Admiral G.I. Nevelskoy'
+    institute: 'Maritime State University'
+    institute-url: 'https://www.msun.ru/en'
+    location: 'Vladivostok, Russia'
     flag: 🇷🇺
 -
-    seq: 65
+    seq: 32
     id: SAUVC-SG-01
-    name: 'Tsunami Surfers'
+    name: 'Hornet 7.0'
+    url: 'https://bumblebee.sg/'
+    inst1: 'National University Of Singapore - College Of Design And Engineering'
+    institute: 'National University Of Singapore'
+    institute-url: 'https://cde.nus.edu.sg/'
+    location: Singapore
+    flag: 🇸🇬
+-
+    seq: 33
+    id: SAUVC-SG-02
+    name: 'Deep Sea 9'
     url: ""
     inst1: 'Singapore Polytechnic'
     institute: 'Singapore Polytechnic'
     institute-url: 'https://www.sp.edu.sg/'
-    location: 'Singapore, Singapore'
+    location: Singapore
     flag: 🇸🇬
 -
-    seq: 66
-    id: SAUVC-SG-02
-    name: MECATRON
-    url: ""
-    inst1: 'nanyang Technological University Singapore, (NTU Singapore)'
-    institute: 'Nanyang Technological University Singapore'
-    institute-url: 'http://www.ntu.edu.sg/'
-    location: 'Singapore, Singapore'
-    flag: 🇸🇬
--
-    seq: 67
+    seq: 34
     id: SAUVC-SG-03
-    name: Hornet
+    name: UwU
     url: ""
-    inst1: 'National University of Singapore (university)'
-    institute: 'National University Of Singapore'
-    institute-url: 'http://www.nus.edu.sg/'
-    location: 'Singapore, Singapore'
-    flag: 🇸🇬
--
-    seq: 68
-    id: SAUVC-SG-04
-    name: DORY
-    url: 'https://bumblebee.sg/category/blog/team-hornet/'
-    inst1: 'Ngee Ann Polytechnic'
-    institute: 'Ngee Ann Polytechnic'
-    institute-url: 'https://www.np.edu.sg/'
-    location: 'Singapore, Singapore'
-    flag: 🇸🇬
--
-    seq: 69
-    id: SAUVC-SG-05
-    name: 'SOAR Kosame'
-    url: ""
-    inst1: 'Singapore University of Technology and Design'
+    inst1: 'Singapore University Of Technology And Design'
     institute: 'Singapore University Of Technology And Design'
     institute-url: 'https://sutd.edu.sg/'
-    location: 'Singapore, Singapore'
+    location: Singapore
     flag: 🇸🇬
 -
-    seq: 70
-    id: SAUVC-SG-06
-    name: Bumblebee
-    url: ""
-    inst1: 'National University of Singapore'
-    institute: 'National University Of Singapore'
-    institute-url: 'http://www.nus.edu.sg/'
-    location: 'Singapore, Singapore'
+    seq: 35
+    id: SAUVC-SG-04
+    name: Mecatron
+    url: 'https://www.ntu.edu.sg/engineering/admissions/ug/allprogrammes/makerslabs/dyson/projects/mae-robotics-club-team-mecatron---sauvc-(singapore-autonomous-underwater-vehicle-challenge)'
+    inst1: 'Nanyang Technological University'
+    institute: 'Nanyang Technological University'
+    institute-url: 'https://www.ntu.edu.sg/'
+    location: Singapore
     flag: 🇸🇬
 -
-    seq: 71
-    id: SAUVC-ZA-01
-    name: 'STAR COLLEGE DURBAN SCIENCE TEAM'
-    url: ""
-    inst1: 'STAR COLLEGE DURBAN SOUTH AFRICA'
-    institute: 'Star College Durban South Africa'
-    institute-url: 'http://www.starcollege.co.za/'
-    location: 'Durban, South Africa'
-    flag: 🇿🇦
--
-    seq: 72
-    id: SAUVC-LK-01
-    name: Phoenix
-    url: ""
-    inst1: 'University of peradeniya'
-    institute: 'University Of Peradeniya'
-    institute-url: 'https://www.pdn.ac.lk/academics/academics.php'
-    location: 'Peradeniya, Sri Lanka'
-    flag: 🇱🇰
--
-    seq: 73
-    id: SAUVC-LK-02
-    name: NOAH
-    url: ""
-    inst1: 'University Of Peradeniya'
-    institute: 'University Of Peradeniya'
-    institute-url: 'https://www.pdn.ac.lk/academics/academics.php'
-    location: 'Peradeniya, Sri Lanka'
-    flag: 🇱🇰
--
-    seq: 74
-    id: SAUVC-LK-03
-    name: SCORPION
-    url: ""
-    inst1: 'University of peradeniya'
-    institute: 'University Of Peradeniya'
-    institute-url: 'https://www.pdn.ac.lk/academics/academics.php'
-    location: 'Peradeniya, Sri Lanka'
-    flag: 🇱🇰
--
-    seq: 75
-    id: SAUVC-LK-04
-    name: AQUADROBOT
-    url: ""
-    inst1: 'University of Peradeniya'
-    institute: 'University Of Peradeniya'
-    institute-url: 'https://www.pdn.ac.lk/academics/academics.php'
-    location: 'Peradeniya, Sri Lanka'
-    flag: 🇱🇰
--
-    seq: 76
-    id: SAUVC-LK-05
-    name: Pera_AUV
-    url: ""
-    inst1: 'University of Peradeniya'
-    institute: 'University Of Peradeniya'
-    institute-url: 'https://www.pdn.ac.lk/academics/academics.php'
-    location: 'Peradeniya, Sri Lanka'
-    flag: 🇱🇰
--
-    seq: 77
-    id: SAUVC-LK-06
-    name: 'Shark IET'
-    url: ""
-    inst1: 'Institute of engineering technology'
-    institute: 'Institute Of Engineering Technology'
-    institute-url: 'https://www.iet.edu.lk/'
-    location: 'Katunayake, Sri Lanka'
-    flag: 🇱🇰
--
-    seq: 78
-    id: SAUVC-TW-01
-    name: 'PENGUIN _ PO2'
-    url: ""
-    inst1: 'National Chiao Tung University'
-    institute: 'National Chiao Tung University'
-    institute-url: 'https://www.nctu.edu.tw/en'
-    location: 'Hsinchu City, Taiwan'
-    flag: 🇹🇼
--
-    seq: 79
+    seq: 36
     id: SAUVC-TH-01
-    name: 'Gang Bear'
-    url: ""
-    inst1: 'Princess Chulabhorn Science High School Nakhon Si Thammarat'
-    institute: 'Princess Chulabhorn Science High School Nakhon Si Thammarat'
-    institute-url: 'http://www.pccnst.ac.th/pcshsnst/'
-    location: 'Nakhon Si Thammarat, Thailand'
-    flag: 🇹🇭
--
-    seq: 80
-    id: SAUVC-TH-02
-    name: Parallel
-    url: ""
-    inst1: 'Princess Chulaborn Science High School'
-    institute: 'Princess Chulaborn Science High School'
-    institute-url: 'https://en.wikipedia.org/wiki/Princess_Chulabhorn_Science_High_Schools'
-    location: Thailand
-    flag: 🇹🇭
--
-    seq: 81
-    id: SAUVC-TH-03
-    name: ZEABUS
-    url: ""
-    inst1: 'KASETSART UNIVERSITY'
+    name: SEAPUP
+    url: 'https://www.amarrlab.org/'
+    inst1: 'Kasetsart University'
     institute: 'Kasetsart University'
-    institute-url: 'https://www.ku.ac.th/english/aboutku.php'
+    institute-url: 'https://www.ku.ac.th/en/community-home'
     location: 'Bangkok, Thailand'
     flag: 🇹🇭
 -
-    seq: 82
+    seq: 37
     id: SAUVC-TR-01
-    name: 'Gedik Robotics'
-    url: ""
-    inst1: '_stanbul Gedik University'
-    institute: 'Istanbul Gedik University'
-    institute-url: 'https://international.gedik.edu.tr/about/istanbul-gedik-university'
-    location: 'Istanbul, Turkey'
+    name: BAUROV
+    url: 'https://rov.bau.edu.tr/index.html'
+    inst1: University
+    institute: 'Bahçeşehir Üniversitesi'
+    institute-url: 'https://bau.edu.tr/'
+    location: 'İstanbul, Turkey'
     flag: 🇹🇷
 -
-    seq: 83
+    seq: 38
     id: SAUVC-TR-02
-    name: 'Gravity Robotics'
-    url: ""
-    inst1: 'Bah�e_ehir Koleji Nakka_tepe 50. Y�l Kamp�s� Fen ve Teknoloji Lisesi'
-    institute: 'Bahçeşehir Koleji Nakkaştepe'
-    institute-url: 'https://bahcesehir.k12.tr/tr/'
-    location: 'Istanbul, Turkey'
+    name: 'ITU AUV TEAM'
+    url: 'https://auv.itu.edu.tr/about_us_eng.html'
+    inst1: 'University Project Team'
+    institute: 'Gazi University'
+    institute-url: 'https://gazi.edu.tr/'
+    location: 'Ankara, Turkey'
     flag: 🇹🇷
 -
-    seq: 84
+    seq: 39
     id: SAUVC-TR-03
-    name: 'ITU AUV Team'
-    url: "http://auv.itu.edu.tr/index-eng.html"
-    inst1: 'Istanbul Technical University'
-    institute: 'Istanbul Technical University'
-    institute-url: 'http://www.global.itu.edu.tr/'
-    location: 'Istanbul, Turkey'
+    name: 'Istanbulensis Robotic Team'
+    url: 'https://www.instagram.com/uskudar_issteam'
+    inst1: 'Uskudar University'
+    institute: 'Uskudar University'
+    institute-url: 'https://uskudar.edu.tr/en'
+    location: 'İstanbul, Turkey'
     flag: 🇹🇷
 -
-    seq: 85
+    seq: 40
     id: SAUVC-TR-04
-    name: 'EMU Aquabotics'
-    url: 'http://aquabotics.emu.edu.tr/'
-    inst1: 'Eastern Mediterranean University'
-    institute: 'Eastern Mediterranean University'
-    institute-url: 'https://www.emu.edu.tr/'
-    location: 'Famagusta, Northern Cyprus'
+    name: 'BTU AUV'
+    url: ""
+    inst1: 'Bursa Technical University'
+    institute: 'Bursa Technical University'
+    institute-url: 'https://international.btu.edu.tr/'
+    location: 'Bursa, Turkey'
     flag: 🇹🇷
 -
-    seq: 87
-    id: SAUVC-US-01
-    name: GTMR
+    seq: 41
+    id: SAUVC-TR-05
+    name: CALROV
     url: ""
-    inst1: 'Georgia Tech University'
-    institute: 'Georgia Tech University'
-    institute-url: 'https://www.gatech.edu/'
-    location: 'Atlanta, USA'
-    flag: 🇺🇸
+    inst1: 'Cağaloğlu Anatolian High School'
+    institute: 'Cağaloğlu Anatolian High School'
+    institute-url: 'https://cagalogluanadolulisesi.meb.k12.tr/'
+    location: 'İstanbul, Turkey'
+    flag: 🇹🇷
 -
-    seq: 88
-    id: SAUVC-US-02
-    name: 'The EdgeBotters'
+    seq: 42
+    id: SAUVC-TW-01
+    name: 'ORCA AUV'
     url: ""
-    inst1: 'University of Minnesota Twin Cities'
-    institute: 'University Of Minnesota Twin Cities'
-    institute-url: 'https://twin-cities.umn.edu/'
-    location: 'Minneapolis, USA'
-    flag: 🇺🇸
+    inst1: 'National Yang Ming Chiao Tung University'
+    institute: 'National Yang Ming Chiao Tung University'
+    institute-url: 'https://en.nycu.edu.tw/'
+    location: 'Taipei, Taiwan'
+    flag: 🇹🇼

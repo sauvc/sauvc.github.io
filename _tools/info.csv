@@ -1,88 +1,43 @@
-﻿seq,id,name,url,inst1,institute,institute-url,location,flag
-1,SAUVC-BD-01,SUST_U_FORTUNATE,,Shahjalal University of Science & Technology,Shahjalal University of Science & Technology,https://www.sust.edu/,"Sylhet, Bangladesh",🇧🇩
-2,SAUVC-BD-02,BRACU DUBURI,,BRAC University,BRAC University,https://www.bracu.ac.bd/,"Dhaka, Bangladesh",🇧🇩
-3,SAUVC-BD-03,Amphibians,,daffodil international university,Daffodil International University,https://daffodilvarsity.edu.bd/,"Dhaka, Bangladesh",🇧🇩
-4,SAUVC-CN-01,Intelligence Marine Vehicle Team,,Northwestern Polytechnical University(university),Northwestern Polytechnical University,https://en.nwpu.edu.cn/,"Xi'an, China",🇨🇳
-5,SAUVC-CN-02,HITWH,,Harbin Institute of Technology at Weihai,Harbin Institute of Technology,http://en.hit.edu.cn/,"Weihai, China",🇨🇳
-6,SAUVC-CO-01,UPB Medellin Colombia,,UPB Colombia,UPB Colombia,https://www.upb.edu.co/es/home,"Antioquia, Colombia",🇨🇴
-7,SAUVC-HK-01,Epoxsea,,Hong Kong University of Science and Technology,Hong Kong University of Science and Technology,https://www.ust.hk/,"Hong Kong, Hong Kong",🇭🇰
-8,SAUVC-HK-02,Potential,,PolyU Hong Kong Community College,PolyU Hong Kong Community College,https://www.hkcc-polyu.edu.hk/,"Hong Kong, Hong Kong",🇭🇰
-9,SAUVC-HK-03,CityU Underwater Robotics - Pioneer,http://www.ee.cityu.edu.hk/~rovteam/,City University of Hong Kong,City University of Hong Kong,https://www.cityu.edu.hk/,"Hong Kong, Hong Kong",🇭🇰
-10,SAUVC-HK-04,PolyU Engineering Club,,The Hong Kong Polytechnic University,The Hong Kong Polytechnic University,https://www.polyu.edu.hk/web/en/home/index.html,"Hong Kong, Hong Kong",🇭🇰
-11,SAUVC-HK-05,CityU Underwater Robotic - Juneer,,City University of Hong Kong,City University of Hong Kong,https://www.cityu.edu.hk/,"Hong Kong, Hong Kong",🇭🇰
-12,SAUVC-HK-06,Engineering Club Team 2,,The Hong Kong Polytechnic University,The Hong Kong Polytechnic University,https://www.polyu.edu.hk/web/en/home/index.html,"Hong Kong, Hong Kong",🇭🇰
-13,SAUVC-IN-01,Team Orca,https://www.facebook.com/auv.iiitdm/,"IIITDM Kancheepuram, Chennai. (University)","IIITDM Kancheepuram, Chennai",https://www.iiitdm.ac.in/,"Kancheepuram, India",🇮🇳
-14,SAUVC-IN-02,,,R.V.College of Engineering,R.V.College of Engineering,https://rvce.edu.in/,"Bengaluru, India",🇮🇳
-15,SAUVC-IN-03,Team TRITON,,"Institute Of Technology, NIRMA University","Institute Of Technology, NIRMA University",http://nirmauni.ac.in/,"Ahmedabad, India",🇮🇳
-16,SAUVC-IN-04,TEAM GRAVITY,,Bharath Institute of Higher Education and Research,Bharath Institute of Higher Education and Research,https://www.bharathuniv.ac.in/,"Chennai, India ",🇮🇳
-17,SAUVC-IN-05,AUV-IITK,,Indian Institute of Technology Kanpur,Indian Institute of Technology Kanpur,http://www.iitk.ac.in/,"Kanpur, India",🇮🇳
-18,SAUVC-IN-06,Aquila,,Dr Ambedkar institute of technology,Dr Ambedkar institute of technology,https://www.dr-ait.org/,"Bengaluru, India",🇮🇳
-19,SAUVC-IN-07,Team Gravity,,Bharath University,Bharath University,https://www.bharathuniv.ac.in/,"Chennai, India",🇮🇳
-20,SAUVC-IN-08,Team AUV RIGNITC,,"NATIONAL INSTITUTE OF TECHNOLOGY CALICUT ,KERALA ,INDIA",NATIONAL INSTITUTE OF TECHNOLOGY CALICUT,http://www.nitc.ac.in/,"Calicut, India",🇮🇳
-21,SAUVC-IN-09,Triton,,Sri Sairam Engineering College,Sri Sairam Engineering College,https://sairam.edu.in/,"Chennai, India",🇮🇳
-22,SAUVC-IN-10,VAUV,,"Vellore Institute of Technology, Vellore",Vellore Institute of Technology,https://vit.ac.in/,"Vellore, India",🇮🇳
-23,SAUVC-IN-11,AUV MEC,,"Mahindra Ecole Centrale, Engineering College",Mahindra Ecole Centrale,https://www.mahindraecolecentrale.edu.in/,"Hyderabad, India",🇮🇳
-24,SAUVC-IN-12,AUV-IITB,,Indian Institute of Technology Bombay / University,Indian Institute of Technology Bombay,http://www.iitb.ac.in/,"Mumbai, India",🇮🇳
-25,SAUVC-IN-13,Tiburon,https://auvnitrkl.github.io/,"National Institute of Technology, Rourkela, India","National Institute of Technology, Rourkela",https://www.nitrkl.ac.in/,"Rourkela, India",🇮🇳
-26,SAUVC-IN-14,Team GNU-AquaTime,,Ganpat University - U.V.Patel College Of Engineering,Ganpat University - U.V.Patel College Of Engineering,https://www.uvpce.ac.in/,"Mehsana, India ",🇮🇳
-27,SAUVC-IN-15,Project AUV Manipal,,"Manipal Institute of Technology, Manipal",Manipal Institute of Technology,https://manipal.edu/mit.html,"Manipal, India ",🇮🇳
-28,SAUVC-IN-16,The Marine Robotics Team (TMRT),,K. J. Somaiya College of Engineering,K. J. Somaiya College of Engineering,https://kjsce.somaiya.edu/,"Mumbai, India",🇮🇳
-29,SAUVC-IN-17,DTU AUV,,Delhi Technological University,Delhi Technological University,http://dtu.ac.in/,"Delhi, India",🇮🇳
-30,SAUVC-IN-18,Man O' War,,BITS Pilani Hyderabad Campus,BITS Pilani Hyderabad Campus,https://www.bits-pilani.ac.in/Hyderabad/,"Hyderabad, India",🇮🇳
-31,SAUVC-IN-19,Team INTERCEPTOR,,BANNARI AMMAN INSTITUTE OF TECHNOLOGY,BANNARI AMMAN INSTITUTE OF TECHNOLOGY,https://bitsathy.ac.in/,"Coimbatore, India",🇮🇳
-32,SAUVC-IN-20,AUV ZHCET,,Aligarh Muslim University,Aligarh Muslim University,https://www.amu.ac.in/,"Aligarh, India",🇮🇳
-33,SAUVC-IN-21,Team SRMAUV,,"SRM Institute of Science and Technology, Kattankulathur",SRM Institute of Science and Technology,https://www.srmist.edu.in/,"Chennai, India ",🇮🇳
-34,SAUVC-IN-22,Trident Labs,,"Vishwakarma Institute of Technology, Pune",Vishwakarma Institute of Technology,http://www.vit.edu/,"Pune, India",🇮🇳
-35,SAUVC-IN-23,VARUNA,,SRI SAIRAM COLLEGE OF ENGINEERING,SRI SAIRAM COLLEGE OF ENGINEERING,http://sairamce.edu.in/,"Bengaluru, India ",🇮🇳
-36,SAUVC-IN-24,Starboard SSN,,Sri Sivasubramaniya Nadar College of Engineering,Sri Sivasubramaniya Nadar College of Engineering,http://www.ssn.edu.in/,"Chennai, India",🇮🇳
-37,SAUVC-IN-25,DJS VAGSHEER,,DWARKADAS J.SANGHVI COLLEGE OF ENGINEERING,DWARKADAS J.SANGHVI COLLEGE OF ENGINEERING,http://www.djsce.ac.in/,"Mumbai, India",🇮🇳
-38,SAUVC-IN-26,SEA 4.0,,"Zakir Husain College of Engineering & Technology, Aligarh Muslim Universty","Zakir Husain College of Engineering & Technology, Aligarh Muslim Universty",https://www.amu.ac.in/principal.jsp?did=10147,"Aligarh, India",🇮🇳
-39,SAUVC-IN-27,POSEIDON,,Sri Sairam Engineering College,Sri Sairam Engineering College,https://sairam.edu.in/,"Chennai, India ",🇮🇳
-40,SAUVC-IN-28,BITAUV 2.0,,BANNARI AMMAN INSTITUTE OF TECHNOLOGY- ANNA UNIVERSITY,BANNARI AMMAN INSTITUTE OF TECHNOLOGY- ANNA UNIVERSITY,https://bitsathy.ac.in/,"Sathyamangalam, India",🇮🇳
-41,SAUVC-IN-29,VSSUT ROBOTICS,,"Veer Surendra Sai University of Technology, Burla",Veer Surendra Sai University of Technology,http://www.vssut.ac.in/,"Burla, India",🇮🇳
-42,SAUVC-ID-01,N4B-AUV,,Bogor Agricultural University,Bogor Agricultural University,https://ipb.ac.id/,"Bogor, Indonesia",🇮🇩
-43,SAUVC-ID-02,ARITMA_TEAM,,State University of Makassar,State University of Makassar,https://www.unm.ac.id/,"Makassar, Indonesia",🇮🇩
-44,SAUVC-ID-03,N3-AUV,,IPB University,IPB University,https://ipb.ac.id/,"Bogor, Indonesia",🇮🇩
-45,SAUVC-ID-04,Autonomous Marine Vehicles (AMV) UI,,Universitas Indonesia,Universitas Indonesia,https://www.ui.ac.id/,"Depok, Indonesia",🇮🇩
-46,SAUVC-ID-05,Tech_SAS 1,,Telkom University,Telkom University,https://telkomuniversity.ac.id/?lang=en,"Bandung, Indonesia ",🇮🇩
-47,SAUVC-ID-06,Tech_SAS 2,,Telkom University,Telkom University,https://telkomuniversity.ac.id/?lang=en,"Bandung, Indonesia ",🇮🇩
-48,SAUVC-ID-07,N4-AUV,,IPB University,IPB University,https://ipb.ac.id/,"Bogor, Indonesia",🇮🇩
-49,SAUVC-ID-08,DIRK-ORKA,,Universitas Komputer Indonesia,Universitas Komputer Indonesia,https://www.unikom.ac.id/,"Bandung, Indonesia",🇮🇩
-50,SAUVC-ID-09,Banyubramanta ITS,,Institut Teknologi Sepuluh Nopember,Institut Teknologi Sepuluh Nopember,https://www.its.ac.id/,"Surabaya, Indonesia ",🇮🇩
-51,SAUVC-JP-01,HIT-Robotics,,Hiroshima Institute of Technology,Hiroshima Institute of Technology,http://www.it-hiroshima.ac.jp/english/,"Hiroshima, Japan",🇯🇵
-52,SAUVC-MO-01,Deep Sea Redback,,Macau Pui Ching Middle School,Macau Pui Ching Middle School,http://m.puiching.edu.mo/,"Macau, Macao",🇲🇴
-53,SAUVC-MY-01,ROBOTEAM,,INTERNATIONAL ISLAMIC UNIVERSITY MALAYSIA,INTERNATIONAL ISLAMIC UNIVERSITY MALAYSIA,http://www.iium.edu.my/,"Selangor, Malaysia",🇲🇾
-54,SAUVC-MY-02,TUAH 4.0,,Universiti Teknikal Malaysia Melaka (UTeM),Universiti Teknikal Malaysia Melaka (UTeM),https://www.utem.edu.my/,"Melaka, Malaysia",🇲🇾
-55,SAUVC-MY-03,TUAH 4.0,,UTeM,UTeM,https://www.utem.edu.my/,"Melaka, Malaysia",🇲🇾
-56,SAUVC-PK-01,NUST,,national university of sciences and technology (university),national university of sciences and technology,http://www.nust.edu.pk/,"Islamabad, Pakistan",🇵🇰
-57,SAUVC-PE-01,Kayra PUCP,,Pontificia Universidad Católica del Perú,Pontificia Universidad Católica del Perú,https://www.pucp.edu.pe/,"San Miguel, Peru",🇵🇪
-58,SAUVC-PL-01,PWr Diving Crew,,Wroclaw University of Science and Technology,Wroclaw University of Science and Technology,http://pwr.edu.pl/en/,"Wroclaw, Poland",🇵🇱
-59,SAUVC-PL-02,KNR Okon Team,,Warsaw University of Technology,Warsaw University of Technology,https://www.pw.edu.pl/engpw,"Warsaw, Poland",🇵🇱
-60,SAUVC-PT-01,Yellow Submarine,,University of Porto,University of Porto,https://www.up.pt/,"Porto, Portugal",🇵🇹
-61,SAUVC-RU-01,FEFU AUV,,Far Eastern Federal University,Far Eastern Federal University,https://www.dvfu.ru/en/,"Vladivostok, Russia",🇷🇺
-62,SAUVC-RU-02,Oren_rov,https://sites.google.com/site/fefuunderwaterrobotics/auv,Orenburg Presidential Cadet School,Orenburg Presidential Cadet School,http://eng.mil.ru/en/education/secondary/more.htm?id=8695@morfOrgEduc,"Orenburg, Russia",🇷🇺
-63,SAUVC-RU-03,Hydronautics,,"Bauman Moscow State Technical University, university","Bauman Moscow State Technical University, university",http://www.bmstu.ru/en/,"Moscow, Russia ",🇷🇺
-64,SAUVC-RU-04,,,Saint-Petersburg State Marine Technical University,Saint-Petersburg State Marine Technical University,https://www.smtu.ru/en/,"St Petersburg, Russia",🇷🇺
-65,SAUVC-SG-01,Tsunami Surfers,,Singapore Polytechnic,Singapore Polytechnic,https://www.sp.edu.sg/,"Singapore, Singapore",🇸🇬
-66,SAUVC-SG-02,MECATRON,,"nanyang Technological University Singapore, (NTU Singapore)",nanyang Technological University Singapore,http://www.ntu.edu.sg/,"Singapore, Singapore",🇸🇬
-67,SAUVC-SG-03,Hornet,,National University of Singapore (university),National University of Singapore,http://www.nus.edu.sg/,"Singapore, Singapore",🇸🇬
-68,SAUVC-SG-04,DORY,https://bumblebee.sg/category/blog/team-hornet/,Ngee Ann Polytechnic,Ngee Ann Polytechnic,https://www.np.edu.sg/,"Singapore, Singapore",🇸🇬
-69,SAUVC-SG-05,SOAR Kosame,,Singapore University of Technology and Design,Singapore University of Technology and Design,https://sutd.edu.sg/,"Singapore, Singapore",🇸🇬
-70,SAUVC-SG-06,Bumblebee,,National University of Singapore,National University of Singapore,http://www.nus.edu.sg/,"Singapore, Singapore",🇸🇬
-71,SAUVC-ZA-01,STAR COLLEGE DURBAN SCIENCE TEAM,,STAR COLLEGE DURBAN SOUTH AFRICA,STAR COLLEGE DURBAN SOUTH AFRICA,http://www.starcollege.co.za/,"Durban, South Africa",🇿🇦
-72,SAUVC-LK-01,Phoenix,,University of peradeniya,University of peradeniya,https://www.pdn.ac.lk/academics/academics.php,"Peradeniya, Sri Lanka",🇱🇰
-73,SAUVC-LK-02,NOAH,,University Of Peradeniya,University Of Peradeniya,https://www.pdn.ac.lk/academics/academics.php,"Peradeniya, Sri Lanka",🇱🇰
-74,SAUVC-LK-03,SCORPION,,University of peradeniya,University of peradeniya,https://www.pdn.ac.lk/academics/academics.php,"Peradeniya, Sri Lanka",🇱🇰
-75,SAUVC-LK-04,AQUADROBOT,,University of Peradeniya,University of Peradeniya,https://www.pdn.ac.lk/academics/academics.php,"Peradeniya, Sri Lanka",🇱🇰
-76,SAUVC-LK-05,Pera_AUV,,University of Peradeniya,University of Peradeniya,https://www.pdn.ac.lk/academics/academics.php,"Peradeniya, Sri Lanka",🇱🇰
-77,SAUVC-LK-06,Shark IET,,Institute of engineering technology,Institute of engineering technology,https://www.iet.edu.lk/,"Katunayake, Sri Lanka",🇱🇰
-78,SAUVC-TW-01,PENGUIN _ PO2,,National Chiao Tung University,National Chiao Tung University,https://www.nctu.edu.tw/en,"Hsinchu City, Taiwan",🇹🇼
-79,SAUVC-TH-01,Gang Bear,,Princess Chulabhorn Science High School Nakhon Si Thammarat,Princess Chulabhorn Science High School Nakhon Si Thammarat,http://www.pccnst.ac.th/pcshsnst/,"Nakhon Si Thammarat, Thailand ",🇹🇭
-80,SAUVC-TH-02,Parallel,,Princess Chulaborn Science High School,Princess Chulaborn Science High School,https://en.wikipedia.org/wiki/Princess_Chulabhorn_Science_High_Schools,Thailand,🇹🇭
-81,SAUVC-TH-03,ZEABUS,,KASETSART UNIVERSITY,KASETSART UNIVERSITY,https://www.ku.ac.th/english/aboutku.php,"Bangkok, Thailand",🇹🇭
-82,SAUVC-TR-01,Gedik Robotics,,İstanbul Gedik University,Istanbul Gedik University,https://international.gedik.edu.tr/about/istanbul-gedik-university,"Istanbul, Turkey",🇹🇰
-83,SAUVC-TR-02,Gravity Robotics,,Bahçeşehir Koleji Nakkaştepe 50. Yıl Kampüsü Fen ve Teknoloji Lisesi,Bahçeşehir Koleji Nakkaştepe,https://bahcesehir.k12.tr/tr/,"Istanbul, Turkey",🇹🇰
-84,SAUVC-TR-03,ITU AUV Team,,Istanbul Technical University,Istanbul Technical University,http://www.global.itu.edu.tr/,"Istanbul, Turkey",🇹🇰
-85,SAUVC-TR-04,EMU Aquabotics,https://emuaquabotics.com/,Eastern Mediterranean University,Eastern Mediterranean University,https://www.emu.edu.tr/,"Famagusta, Northern Cyprus",🇹🇰
-87,SAUVC-US-01,GTMR,,Georgia Tech University,Georgia Tech University,https://www.gatech.edu/,"Atlanta, USA",🇺🇸
-88,SAUVC-US-02,The EdgeBotters,,University of Minnesota Twin Cities,University of Minnesota Twin Cities,https://twin-cities.umn.edu/,"Minneapolis, USA",🇺🇸
+seq,id,name,url,inst1,institute,institute-url,location,flag
+1,SAUVC-BD-01,BRACU DUBURI,https://www.bracu-duburi.com/,Brac University - University,BRAC University,https://www.bracu.ac.bd/,"Dhaka, Bangladesh",🇧🇩
+2,SAUVC-BD-02,Aqualung,,Ahsanullah University Of Science And Technology & Ist - University,Ahsanullah University of Science and Technology,https://www.aust.edu/,"Dhaka, Bangladesh",🇧🇩
+3,SAUVC-BD-03,SUST_U_FORTUNATE,,Shahjalal University Of Science & Technology,Shahjalal University Of Science & Technology,https://www.sust.edu/,"Sylhet, Bangladesh",🇧🇩
+4,SAUVC-CN-01,HEUEV,,Harbin Engineering University,Harbin Engineering University,https://english.hrbeu.edu.cn/,"Harbin, China",🇨🇳
+5,SAUVC-HK-01,CityU Underwater Robotics - PIONEER,http://www.ee.cityu.edu.hk/~rovteam/,City University Of Hong Kong,City University Of Hong Kong,https://www.cityu.edu.hk/,Hong Kong,🇭🇰
+6,SAUVC-HK-02,CityU Underwater Robotics - JUNEER,http://www.ee.cityu.edu.hk/~rovteam/,City University Of Hong Kong,City University Of Hong Kong,https://www.cityu.edu.hk/,Hong Kong,🇭🇰
+7,SAUVC-HK-03,Potential,,Hong Kong Community College - The Hong Kong Polytechnic University,PolyU - Hong Kong Community College,https://www.hkcc-polyu.edu.hk/,Hong Kong,🇭🇰
+8,SAUVC-ID-01,N4-AUV,,Ipb University,IPB University,https://ipb.ac.id/,"Bogor, Indonesia",🇮🇩
+9,SAUVC-ID-02,N5-AUV,,Ipb University,IPB University,https://ipb.ac.id/,"Bogor, Indonesia",🇮🇩
+10,SAUVC-ID-03,FIToplankton,,Telkom University,Telkom University,https://telkomuniversity.ac.id/,"Bogor, Indonesia",🇮🇩
+11,SAUVC-ID-04,TECH_SAS,,Telkom University,Telkom University,https://telkomuniversity.ac.id/,"Bogor, Indonesia",🇮🇩
+12,SAUVC-ID-05,Autonomous Marine Vehicle UI (AMV UI),https://amv.ui.ac.id/autonomous-surface-vehicle/,Universitas Indonesia,Universitas Indonesia,https://www.ui.ac.id/,"Depok, Indonesia",🇮🇩
+13,SAUVC-ID-06,Banyubramanta ITS,https://id.linkedin.com/company/banyubramanta-its,Institut Teknologi Sepuluh Nopember ,Institut Teknologi Sepuluh Nopember ,https://www.its.ac.id/,"Surabaya, Indonesia",🇮🇩
+14,SAUVC-IN-01,BITAUV,,Bannari Amman Institute Of Technology & Institution,Bannari Amman Institute Of Technology & Institution,https://www.bitsathy.ac.in/,"Sathyamangalam, India",🇮🇳
+15,SAUVC-IN-02,Team Shaurya,,Iiitdm Kancheepuram - Chennai. ,IIITDM Kancheepuram ,https://www.iiitdm.ac.in/,"Chennai, India",🇮🇳
+16,SAUVC-IN-03,Team Kurma,,Indian Institute Of Technology Roorkee ,Indian Institute Of Technology Roorkee ,https://www.iitr.ac.in/,"Roorkee, India",🇮🇳
+17,SAUVC-IN-04,Team Nirma AUV,https://in.linkedin.com/company/auv-nirma-university,Institute Of Technology - Nirma University,Institute Of Technology - Nirma University,https://technology.nirmauni.ac.in/,"Ahmedabad, India",🇮🇳
+18,SAUVC-IN-05,AUVMEC,https://www.auvmec.com/,Mahindra University,Mahindra University,https://www.mahindrauniversity.edu.in/,"Hyderabad, India",🇮🇳
+19,SAUVC-IN-06,Oceanus,,Christ College Of Engineering (Engineering College Affiliated To Kerala Technological University - India,Christ College Of Engineering,https://cce.edu.in/,"Irinjalakuda, India",🇮🇳
+20,SAUVC-IN-07,MGR ARI AUV,,Dr.M.G.R. Educational And Research Institute,Dr. M.G.R. Educational And Research Institute,https://www.drmgrdu.ac.in/,"Chennai, India",🇮🇳
+21,SAUVC-IN-08,Varuna,,Sri Sairam College Of Engineering,Sri Sairam College Of Engineering,http://sairamce.edu.in/,"Bengaluru, India",🇮🇳
+22,SAUVC-IN-09,HUSTLERS,https://www.mtsauvzhcet.com/,Zakir Husain College Of Engineering & Technology - Aligarh Muslim University,Zakir Husain College Of Engineering & Technology - Aligarh Muslim University,https://amu.ac.in/colleges/zakir-husain-college-of-engineering-and-technology,"Aligarh, India",🇮🇳
+23,SAUVC-IN-10,AUV-IITB,https://www.auv-iitb.org/,Indian Institute Of Technology Bombay,Indian Institute Of Technology Bombay,https://www.iitb.ac.in/,"Mumbai, India",🇮🇳
+24,SAUVC-JP-01,HIT-Robotics,,Hiroshima Institute Of Technology,Hiroshima Institute Of Technology,https://www.it-hiroshima.ac.jp/english/,"Hiroshima, Japan",🇯🇵
+25,SAUVC-MY-01,SOTON HORNBILLS,,University Of Southampton Malaysia ,University Of Southampton Malaysia ,https://www.southampton.ac.uk/my/index.page,"Johor, Malaysia",🇲🇾
+26,SAUVC-PL-01,PWr Diving Crew,https://pk.linkedin.com/company/pwr-diving-crew,Wrocław University Of Science And Technology,Wrocław University Of Science And Technology,https://pwr.edu.pl/en/,"Wrocław, Poland",🇵🇱
+27,SAUVC-PL-02,OKON KNR,,Warsaw Institute Of Technology,Warsaw Institute Of Technology,https://www.pw.edu.pl/engpw,"Warszawa, Poland",🇵🇱
+28,SAUVC-RU-01,Hydronautics,https://twitter.com/hydronautics?lang=en,Bauman Moscow State Technical University,Bauman Moscow State Technical University,https://en.wikipedia.org/wiki/Bauman_Moscow_State_Technical_University,"Moscow, Russia",🇷🇺
+29,SAUVC-RU-02,Hydronautics_2,https://twitter.com/hydronautics?lang=en,Bauman Moscow State Technical University,Bauman Moscow State Technical University,https://en.wikipedia.org/wiki/Bauman_Moscow_State_Technical_University,"Moscow, Russia",🇷🇺
+30,SAUVC-RU-03,FEFU&IMTP,,Far Eastern Federal University,Far Eastern Federal University,https://www.dvfu.ru/en/,"Vladivostok, Russia",🇷🇺
+31,SAUVC-RU-04,msu robotics team,http://msu-robotics.tilda.ws/,Maritime State Universitv Named After Admiral G.I. Nevelskoy,Maritime State University,https://www.msun.ru/en,"Vladivostok, Russia",🇷🇺
+32,SAUVC-SG-01,Hornet 7.0,https://bumblebee.sg/,National University Of Singapore - College Of Design And Engineering,National University Of Singapore,https://cde.nus.edu.sg/,Singapore,🇸🇬
+33,SAUVC-SG-02,Deep Sea 9,,Singapore Polytechnic,Singapore Polytechnic,https://www.sp.edu.sg/,Singapore,🇸🇬
+34,SAUVC-SG-03,UwU,,Singapore University Of Technology And Design,Singapore University Of Technology And Design,https://sutd.edu.sg/,Singapore,🇸🇬
+35,SAUVC-SG-04,Mecatron,https://www.ntu.edu.sg/engineering/admissions/ug/allprogrammes/makerslabs/dyson/projects/mae-robotics-club-team-mecatron---sauvc-(singapore-autonomous-underwater-vehicle-challenge),Nanyang Technological University,Nanyang Technological University,https://www.ntu.edu.sg/,Singapore,🇸🇬
+36,SAUVC-TH-01,SEAPUP,https://www.amarrlab.org/,Kasetsart University,Kasetsart University,https://www.ku.ac.th/en/community-home,"Bangkok, Thailand",🇹🇭
+37,SAUVC-TR-01,BAUROV,https://rov.bau.edu.tr/index.html,University,Bahçeşehir Üniversitesi,https://bau.edu.tr/,"İstanbul, Turkey",🇹🇷
+38,SAUVC-TR-02,ITU AUV TEAM,https://auv.itu.edu.tr/about_us_eng.html,University Project Team,Gazi University,https://gazi.edu.tr/,"Ankara, Turkey",🇹🇷
+39,SAUVC-TR-03,Istanbulensis Robotic Team,https://www.instagram.com/uskudar_issteam,Uskudar University,Uskudar University,https://uskudar.edu.tr/en,"İstanbul, Turkey",🇹🇷
+40,SAUVC-TR-04,BTU AUV,,Bursa Technical University,Bursa Technical University,https://international.btu.edu.tr/,"Bursa, Turkey",🇹🇷
+41,SAUVC-TR-05,CALROV,,Cağaloğlu Anatolian High School,Cağaloğlu Anatolian High School,https://cagalogluanadolulisesi.meb.k12.tr/,"İstanbul, Turkey",🇹🇷
+42,SAUVC-TW-01,ORCA AUV,,National Yang Ming Chiao Tung University,National Yang Ming Chiao Tung University,https://en.nycu.edu.tw/,"Taipei, Taiwan",🇹🇼

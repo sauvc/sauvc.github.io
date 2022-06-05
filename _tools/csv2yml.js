@@ -8,7 +8,7 @@ csv()
 .then((jsonObj)=>{
 		jsonObj = jsonObj.map(t => {
 			t.seq = parseInt(t.seq);
-			t.institute = t.institute.toLowerCase().replace(/(?:^|\s|-)\S/g, x => x.toUpperCase());
+			t.institute = t.institute;
 			t.flag = t.id.slice(6,8).toUpperCase().replace(/./g, char => String.fromCodePoint(char.charCodeAt(0)+127397) );
 			return t;
 		});

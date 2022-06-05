@@ -13,4 +13,4 @@ sass:
   sourcemap: false
 github:
   repository_url: https://github.com/sauvc/sauvc.github.io
-exclude: ["Gemfile", "Gemfile.lock", "contributing.md", "Makefile",]
+exclude: ["Gemfile", "Gemfile.lock", "contributing.md", "Makefile", node_modules]
