@@ -14,9 +14,9 @@ stats:
   - number: 0
     type: Controls
     caption: Completely autonomous
-action: SAUVC 2022 Registration closed! Updates Soon!
-# action_link: https://docs.google.com/forms/d/e/1FAIpQLSfDJ1oP7U8Z5OKiDI3phgWcIpPOIqwbp76_Ii_HvdUKQlybVg/viewform?usp=send_form # optional
-action_info: <a href="https://sauvc.org/rulebook/">Rulebook</a> for SAUVC 2022 Published!
+action: Shortlisted Teams Announced!
+action_link: /#teams # optional
+# action_info: <a href="https://sauvc.org/rulebook/">Rulebook</a> for SAUVC 2022 Published!
 
     # EXAMPLES:
     # Submit video by 8 February 2019
