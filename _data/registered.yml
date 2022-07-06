@@ -377,9 +377,9 @@ teams:
     name: 'ITU AUV TEAM'
     url: 'https://auv.itu.edu.tr/about_us_eng.html'
     inst1: 'University Project Team'
-    institute: 'Gazi University'
-    institute-url: 'https://gazi.edu.tr/'
-    location: 'Ankara, Turkey'
+    institute: 'Istanbul Technical University'
+    institute-url: 'https://www.itu.edu.tr/en'
+    location: 'Istanbul, Turkey'
     flag: 🇹🇷
 -
     seq: 39
