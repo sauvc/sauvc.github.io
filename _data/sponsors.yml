@@ -19,3 +19,6 @@ list:
   - name: Nortek
     url: http://www.nortek.no/
     image_path: img/sponsors/nortek.png
+  - name: ONR Global
+    url: https://www.nre.navy.mil/organization/onr-global
+    image_path : img/sponsors/onrg.jpg
