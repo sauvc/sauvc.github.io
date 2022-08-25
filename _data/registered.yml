@@ -275,20 +275,20 @@ teams:
     seq: 28
     id: SAUVC-RU-01
     name: Hydronautics
-    url: 'https://twitter.com/hydronautics?lang=en'
+    url: 'https://www.instagram.com/hydronautics'
     inst1: 'Bauman Moscow State Technical University'
     institute: 'Bauman Moscow State Technical University'
-    institute-url: 'https://en.wikipedia.org/wiki/Bauman_Moscow_State_Technical_University'
+    institute-url: 'https://bmstu.ru/'
     location: 'Moscow, Russia'
     flag: 🇷🇺
 -
     seq: 29
     id: SAUVC-RU-02
     name: Hydronautics_2
-    url: 'https://twitter.com/hydronautics?lang=en'
+    url: 'https://www.instagram.com/hydronautics'
     inst1: 'Bauman Moscow State Technical University'
     institute: 'Bauman Moscow State Technical University'
-    institute-url: 'https://en.wikipedia.org/wiki/Bauman_Moscow_State_Technical_University'
+    institute-url: 'https://bmstu.ru/'
     location: 'Moscow, Russia'
     flag: 🇷🇺
 -
