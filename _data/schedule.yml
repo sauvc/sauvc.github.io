@@ -1,6 +1,6 @@
 days:
   - sequence: 1
-    date: 8 March 2019
+    date: 23 September 2022
     day_of_week: Friday
     slots:
       - time: 10:00 - 11:30
@@ -12,19 +12,16 @@ days:
       - time: 12:00 - 14:00
         description: Team Practice and Testing Rounds #1
         venue: Small Pool
-      - time: 14:00 – 15:30
-        description: Inauguration & Walk-About - Chief Guest
-        venue: The Hall
-      - time: 15:30 – 18:00
+      - time: 14:30 - 18:00
         description: Team Practice and Testing Rounds #2
         venue: Small Pool
-      - time: 18:00 – 18:3
+      - time: 18:00 - 18:30
         description: Team Pack-up
         note: Teams may carry their AUVs or choose to leave them in the hall on their allotted tables.
-        venue: The Hall
+        venue: Small Pool/The Hall
 
   - sequence: 2
-    date: 9 March 2019
+    date: 24 September 2022
     day_of_week: Saturday
     slots:
       - time: 9:00 - 18:00
@@ -35,74 +32,56 @@ days:
         description: Team Practice Rounds
         note: Time slots for dummy props post qualification run, as allocated by slot manager.
         venue: Main Arena
-      - time: 12:00 – 13:30
+      - time: 12:00 - 13:30
         description: Lunch
+        notes: Team captains collect lunch boxes for team
         venue: Pool Side
-      - time: 13:00 - 14:00
-        description: Introductory Workshop on Underwater Robotics
-        venue: LT12B
-      - time: 14:00 – 15:00
-        description: Guided Tours
-        venue: Main Arena
-      - time: 15:00 – 16:00
-        description: ROS Meetup
-        venue: LT12B
-      - time: 18:00 – 18:30
+      - time: 18:00 - 18:30
         description: Team Pack-up
         note: Teams may carry their AUVs or choose to leave them in the hall on their allotted tables.
-        venue: Pool Side
-      - time: 18:30
-        description: Finalists Announced
-        venue: Pool Side
+        venue: Pool Side/The Hall
 
   - sequence: 3
-    date: 10 March 2019
+    date: 25 September 2022
     day_of_week: Sunday
     slots:
-      - time: 08:30 – 17:30
+      - time: 09:00 - 17:30
         description: <p>Competition Rounds</p> <p>Team Interviews and Photographs</p>
         venue: Main Arena
       - time: 12:00 - 13:30
         description: Lunch
+        notes: Team captains collect lunch boxes for team
         venue: Pool Side
-      - time: 17:30 – 18:00
+      - time: 17:30 - 18:00
         description: Team Pack-Up
         venue: Pool Side
+        note: Teams to carry their vehicles back from the venue
 
   - sequence: 4
-    date: 11 March 2019
+    date: 26 September 2022
     day_of_week: Monday
     slots:
-      - time: 09:00 - 09:30
-        description: Talk - Growing a student-run Robotics Team – Bumblebee Autonomous Systems by Liu Ren Ji
+      - time: 09:00 - 09:15
+        description: Welcome
         venue: The Hall
-      - time: 09:30 - 10:00
-        description: Talk - Autonomous robotics networks for underwater surveillance by Gabriele Ferri
+      - time: 09:15 - 10:00
+        description: Talk - Between traditional research ships and autonomous platforms, there is little-known but emerging niche; Going back to sail. - Dr. John Potter
         venue: The Hall
       - time: 10:00 - 10:30
         description: Networking Session & Tea Break
         venue: The Hall
       - time: 10:30 - 12:00
-        description: Panel Discussion
+        description: Workshop - Building a Low-Cost DIY Underwater Wireless System - Manu Ignatius
         venue: The Hall
       - time: 12:00 - 13:30
-        description: <p>Buffet Lunch</p> <p>Group Photo Session</p>
+        description: <p>Lunch</p> <p>Group Photo Session</p>
         venue: The Hall
-      - time: 13:30 - 14:00
-        description: Talk - Robotics in Our Daily Lives - Marcelo H. Ang, Jr.
-        venue: The Hall
-      - time: 14:00 - 14:30
-        description: Talk - Using a simulation environment (virtual competition) to enhance the performance of autonomous vehicles - Kelly Cooper
-        venue: The Hall
-      - time: 14:30 - 15:00
-        description: Talk - Improving Productivity in Deep Water AUV Surveys - Richard Mills
+      - time: 13:30 - 15:00
+        description: Workshop - TBA - MATLAB
         venue: The Hall
       - time: 15:00 - 15:30
-        description: Talk - Plastics in the Food Web. A problem for future technology solutions - William J. Kirkwood
+        description: Talk - TBA - Bumblebee Autonomous Systems (NUS)
         venue: The Hall
-      - time: 15:30 - 16:00
-        description: Presentation of Participation Certificates
-        venue: The Hall
-      - time: 18:30 - 21:00
-        description:  Gala Dinner <ul> <li>Final Results Announcement</li> <li>Prize Presentation Ceremony - Chief Guest</li> <li>Closing Speech</li> </ul>
-        venue: UTown, NUS
+      - time: 18:00 - 21:00
+        description:  Gala Dinner <ul> <li>Final Results Announcement</li> <li>Prize Presentation Ceremony</li> <li>Closing Speech</li> </ul>
+        venue:  Open Plaza, School of Design and Engineering 4, 8 Architecture Drive, Singapore 117356
