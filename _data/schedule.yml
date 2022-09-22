@@ -63,25 +63,25 @@ days:
     slots:
       - time: 09:00 - 09:15
         description: Welcome
-        venue: TBA
+        venue: The Auditorium
       - time: 09:15 - 10:00
         description: Talk - Between traditional research ships and autonomous platforms, there is little-known but emerging niche; Going back to sail. - Dr. John Potter
-        venue: TBA
+        venue: The Auditorium
       - time: 10:00 - 10:30
         description: Networking Session & Tea Break
-        venue: TBA
+        venue: The Auditorium
       - time: 10:30 - 12:00
         description: Workshop - Building a Low-Cost DIY Underwater Wireless System - Manu Ignatius
-        venue: TBA
+        venue: The Auditorium
       - time: 12:00 - 13:30
         description: <p>Lunch</p> <p>Group Photo Session</p>
-        venue: TBA
+        venue: The Auditorium
       - time: 13:30 - 15:00
         description: Workshop - TBA - MATLAB
-        venue: TBA
+        venue: The Auditorium
       - time: 15:00 - 15:30
         description: Talk - TBA - Bumblebee Autonomous Systems (NUS)
-        venue: TBA
+        venue: The Auditorium
       - time: 18:00 - 21:00
         description:  Gala Dinner <ul> <li>Final Results Announcement</li> <li>Prize Presentation Ceremony</li> <li>Closing Speech</li> </ul>
         venue:  Open Plaza, School of Design and Engineering 4, 8 Architecture Drive, Singapore 117356

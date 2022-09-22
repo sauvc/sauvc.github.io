@@ -1,6 +1,5 @@
-<section id="calculator">
-  <h3 id="calculator">Calculate your score! <span id="total-points">Total = 0 pts</span></h3>
-
+<section>
+  <h3 id="calculator"> Calculate your score! <span id="total-points">Total = 0 pts</span></h3>
   <table class="table-points">
     <tr>
       <td>AUV Bonus</td>
@@ -13,15 +12,15 @@
         <p><span class="points">+10</span></p>
       </td>
       <td>
-        <p><input type="checkbox" name="dimension-bonus" data-points=10></p>
-        <p><input type="checkbox" name="weight-bonus" data-points=10></p>
+        <p><input type="checkbox" name="dimension-bonus" data-points="10"></p>
+        <p><input type="checkbox" name="weight-bonus" data-points="10"></p>
       </td>
     </tr>
     <tr>
       <td>Task 1 - Navigation</td>
       <td><p>Pass through the gate</p></td>
-      <td><p><span class="points">+10</span></p></td>
-      <td><p><input id="task1-input" type="checkbox" name="task1" data-points=10></p></td>
+      <td><p><span class="points">+15</span></p></td>
+      <td><p><input id="task1-input" type="checkbox" name="task1" data-points="15"></p></td>
     </tr>
     <tr>
       <td>Task 2 - Target Acquisition</td>
@@ -38,23 +37,35 @@
         <p><span class="points">0</span></p>
       </td>
       <td id="task2-inputs">
-        <p><input type="radio" name="task2" data-points=30 ></p>
-        <p><input type="radio" name="task2" data-points=50></p>
-        <p><input type="radio" name="task2" data-points=10></p>
-        <p><input id="task2-none" type="radio" name="task2" data-points=0 checked="checked"></p>
+        <p><input type="radio" name="task2" data-points="30" ></p>
+        <p><input type="radio" name="task2" data-points="50"></p>
+        <p><input type="radio" name="task2" data-points="10"></p>
+        <p><input id="task2-none" type="radio" name="task2" data-points="0" checked="checked"></p>
       </td>
     </tr>
     <tr>
       <td>Task 3 - Target Reacquisition</td>
       <td><p>Pick up the ball and hold on to it</p></td>
       <td><p><span class="points">+60</span></p></td>
-      <td><p><input id="task3-input" type="checkbox" name="task3" data-points=60></p></td>
+      <td><p><input id="task3-input" type="checkbox" name="task3" data-points="60"></p></td>
     </tr>
     <tr>
       <td>Task 4 - Localisation</td>
-      <td><p>Knock the ball off the flare</p></td>
-      <td><p><span class="points">+40</span></p></td>
-      <td><p><input id="task4-input" type="checkbox" name="task4" data-points=40></p></td>
+      <td>
+        <p>Knock the ball off the flare with pinger</p>
+        <p>Knock the ball off the flare without pinger</p>
+        <p>None</p>
+      </td>
+      <td>
+        <p><span class="points">+40</span></p>
+        <p><span class="points">+20</span></p>
+        <p><span class="points">0</span></p>
+      </td>
+      <td id="task4-inputs">
+        <p><input type="radio" name="task4" data-points="40" ></p>
+        <p><input type="radio" name="task4" data-points="20"></p>
+        <p><input id="task4-none" type="radio" name="task4" data-points="0" checked="checked"></p>
+      </td>
     </tr>
     <tr>
       <td>Timing bonus</td>
@@ -67,8 +78,8 @@
         <p class="runtime-calc greyedout" ><span class="points"> <span style="font-size: 0.8em">(900 - <label id="run-time-mirror">0</label>) * 0.03 = </span> +<label id="run-time-bonus">0 </label></span></p>
       </td>
       <td>
-        <p><input id="end-of-attempt" type="checkbox" name="end-of-attempt" data-points=5></p>
-        <p><input id="run-time" type="number" name="run-time" class="input-points runtime-calc greyedout" min=0 value=0 disabled> <span class="runtime-calc greyedout">s</span></p>
+        <p><input id="end-of-attempt" type="checkbox" name="end-of-attempt" data-points="5"></p>
+        <p><input id="run-time" type="number" name="run-time" class="input-points runtime-calc greyedout" min="0" value="0" disabled> <span class="runtime-calc greyedout">s</span></p>
       </td>
     </tr>
     <tr>
@@ -82,9 +93,9 @@
         <p><span class="points">-5</span></p>
       </td>
       <td>
-        <p><input type="checkbox" name="gate-penalty" data-points=-2></p>
-        <p><input type="checkbox" name="wall-penalty" data-points=-5></p>
+        <p><input type="checkbox" name="gate-penalty" data-points="-2"></p>
+        <p><input type="checkbox" name="wall-penalty" data-points="-5"></p>
       </td>
     </tr>
   </table>
-</section>
+</section

@@ -1,5 +1,6 @@
 var taskPoints = 0;
-var task3Points = 0;
+var task2Points = 0;
+var task4Points = 0;
 var runTimePoints = 0;
 var runTimeBonusLabel;
 var totalEl;
@@ -10,8 +11,9 @@ var runtimeCalc;
 var task1Input;
 var task2None;
 var task3Input;
-var task4Input;
-window.addEventListener('load', function(){
+var task4None;
+
+function main(){
   totalEl = document.getElementById('total-points');
   var allCheckInputs = document.querySelectorAll('input[type=checkbox]');
   for (var index = 0; index < allCheckInputs.length; index++){
@@ -20,6 +22,11 @@ window.addEventListener('load', function(){
   var task2Inputs = document.querySelectorAll('#task2-inputs input[type=radio]');
   for (index = 0; index < task2Inputs.length; index++){
     task2Inputs[index].addEventListener('change', recalculateTask2Points);
+  }
+
+  var task4Inputs = document.querySelectorAll('#task4-inputs input[type=radio]');
+  for (index = 0; index < task4Inputs.length; index++){
+    task4Inputs[index].addEventListener('change', recalculateTask4Points);
   }
 
   runTimeBonusLabel = document.getElementById('run-time-bonus');
@@ -31,10 +38,10 @@ window.addEventListener('load', function(){
   task1Input = document.getElementById('task1-input');
   task2None =  document.getElementById('task2-none');
   task3Input = document.getElementById('task3-input');
-  task4Input = document.getElementById('task4-input');
+  task4None = document.getElementById('task4-none');
 
   runtimeInput.addEventListener('input', recalculateRunTimeBonus);
-});
+}
 
 function recalculateRunTimeBonus(){
     var bonus = (900 - parseFloat(runtimeInput.value)) * 0.03;
@@ -75,15 +82,24 @@ function updateRunTimeBonus(){
 }
 
 function runTimeBonusUnlocked(){
-  return endOfAttemptInput.checked && task1Input.checked && (!task2None.checked || task3Input.checked || task4Input.checked);
+  return endOfAttemptInput.checked && task1Input.checked && (!task2None.checked || task3Input.checked || !task4None.checked);
+}
+
+function recalculateTask4Points(ev){
+  task4Points = parseInt(ev.target.dataset.points);
+  updateRunTimeBonus();
+  updateTotal();
 }
 
 function recalculateTask2Points(ev){
-  task3Points = parseInt(ev.target.dataset.points);
+  task2Points = parseInt(ev.target.dataset.points);
   updateRunTimeBonus();
   updateTotal();
 }
 
 function updateTotal(){
-  totalEl.innerHTML = 'Total = ' + (taskPoints+task3Points+runTimePoints).toFixed(2) + ' pts';
+  totalEl.innerHTML = 'Total = ' + (taskPoints+task2Points+task4Points+runTimePoints).toFixed(2) + ' pts';
 }
+
+
+main();
