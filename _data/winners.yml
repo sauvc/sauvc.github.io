@@ -1,46 +1,46 @@
-visibility: false
+visibility: true
 list:
   - sequence: 1
     position: Champion
-    image_path: img/competitors/fefu.jpg
-    name: FEFU/IMTP
-    id: SAUVC-RU-01
-    url: https://www.dvfu.ru/en
-    institute: Far Eastern Federal University
-    location: Vladivostok, Russia
+    image_path: img/competitors/itu.jpg
+    name: ITU AUV TEAM
+    id: SAUVC-TR-02
+    url: https://auv.itu.edu.tr/about_us_eng.html
+    institute: Istanbul Technical University
+    location: Istanbul, Turkey
 
   - sequence: 2
     position: 1st Runner-up
-    image_path: img/competitors/n2auv.jpg
-    name: N2-AUV
-    id: SAUVC-ID-03
-    url: https://ipb.ac.id
-    institute: Bogor Agricultural University
-    location: Bogor, Indonesia
+    image_path: img/competitors/bmstu.jpg
+    name: Hydronautics
+    id: SAUVC-RU-01
+    url: https://www.instagram.com/hydronautics
+    institute: Bauman Moscow State Technical University
+    location: Moscow, Russia
 
   - sequence: 3
-    position: 2nd Runner-up
-    image_path: img/competitors/imvt.jpg
-    name: Intelligent Marine Vehicle Team
-    id: SAUVC-CN-02
-    url: http://en.nwpu.edu.cn
-    institute: Northwestern Polytechnical University
-    location: Xi'an, China
+    position: 2nd Runner-up (tied)
+    image_path: img/competitors/bit.jpg
+    name: BITAUV
+    id: SAUVC-IN-01
+    url: ""
+    institute: Bannari Amman Institute Of Technology & Institution
+    location: Sathyamangalam, India
 
   - sequence: 4
-    position: Innovative Engineering Prize
-    image_path: img/competitors/cityupioneer.jpg
-    name: CityU Underwater Robotics - Pioneer
-    id: SAUVC-HK-02
+    position: 2nd Runner-up (tied)
+    image_path: img/competitors/techsas.jpg
+    name: TECH_SAS
+    id: SAUVC-ID-04
     url: https://www.cityu.edu.hk
-    institute: City University of Hong Kong
-    location: Hong Kong
+    institute: Telkom University
+    location: Bandung, Indonesia
 
   - sequence: 5
-    position: Social Media Prize
-    image_path: img/competitors/mpstme.jpg
-    name: Team AUV MPSTME
-    id: SAUVC-IN-05
-    url: http://engineering.nmims.edu
-    institute: Mukesh Patel School of Technology Management & Engineering
-    location: Mumbai, India
+    position: Innovative Design and Engineering Award
+    image_path: img/competitors/bmstu.jpg
+    name: Hydronautics
+    id: SAUVC-RU-01
+    url: https://www.instagram.com/hydronautics
+    institute: Bauman Moscow State Technical University
+    location: Moscow, Russia
