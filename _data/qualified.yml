@@ -1,9 +1,98 @@
-visibility: false
+visibility: true
 open: true
 teams:
-  - seq: 1
-    id: SAUVC
+-
+    seq: 1
+    id: SAUVC-TR-02
     rank: 1
+    qualrank: 10
+
+-
+    seq: 2
+    id: SAUVC-RU-01
+    rank: 2
+    qualrank: 11
+
+-
+    seq: 3
+    id: SAUVC-IN-01
+    rank: 3
+    qualrank: 12
+
+-
+    seq: 4
+    id: SAUVC-ID-04
+    rank: 4
+    qualrank: 15
+
+-
+    seq: 5
+    id: SAUVC-SG-02
+    rank: 5
+    qualrank: 3
+
+-
+    seq: 6
+    id: SAUVC-IN-08
+    rank: 6
+    qualrank: 14
+
+-
+    seq: 7
+    id: SAUVC-IN-04
+    rank: 7
+    qualrank: 4
+
+-
+    seq: 8
+    id: SAUVC-ID-03
+    rank: 8
+    qualrank: 7
+
+-
+    seq: 9
+    id: SAUVC-HK-01
+    rank: 9
+    qualrank: 2
+
+-
+    seq: 10
+    id: SAUVC-IN-07
+    rank: 10
+    qualrank: 5
+
+-
+    seq: 11
+    id: SAUVC-ID-06
+    rank: 11
+    qualrank: 16
+
+-
+    seq: 12
+    id: SAUVC-TH-01
+    rank: 12
     qualrank: 1
 
+-
+    seq: 13
+    id: SAUVC-ID-05
+    rank: 13
+    qualrank: 6
 
+-
+    seq: 14
+    id: SAUVC-JP-01
+    rank: 14
+    qualrank: 8
+
+-
+    seq: 15
+    id: SAUVC-SG-04
+    rank: 15
+    qualrank: 9
+
+-
+    seq: 16
+    id: SAUVC-ID-02
+    rank: 16
+    qualrank: 13
