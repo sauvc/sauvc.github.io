@@ -18,6 +18,10 @@
   {%- include teams.html -%}
   {% endif %}
 
+  {% if site.data.sections.competition_videos == true %}
+  {%- include competition-videos.html -%}
+  {% endif %}
+
   {{ content }}
 
   {%- include competition.html -%}

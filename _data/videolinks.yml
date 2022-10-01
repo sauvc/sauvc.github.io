@@ -1,0 +1,4 @@
+year: 2022
+videos:
+  - title: Daily Highlights
+    embed: '<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?controls=0&amp;list=PLIdhGHLNlpMGrYkJV9Gf-B17eVINnz7_X" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'

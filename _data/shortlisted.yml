@@ -1,5 +1,5 @@
 visibility: true
-open: true
+open: false
 teams:
   - seq: 1
     id: SAUVC-BD-01

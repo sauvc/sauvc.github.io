@@ -1,6 +1,7 @@
 # Indicate true or false to turn on the section display
 
 competition_photos: false # Social links to photos after competition
+competition_videos: true # Social links to photos after competition
 teams: true # Winners, finalists, shortlisted and registered teams
 calculator: true # Calculator section to dynamically calculate score
 schedule: true # Schedule section with time slots, event and venue

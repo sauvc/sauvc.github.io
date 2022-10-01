@@ -1,0 +1,12 @@
+<section id="videos">
+  <h3>Videos from SAUVC 2022</h3>
+
+  <ul class="videos">
+    {% for v in site.data.videolinks.videos %}
+    <li>
+      <div>{{v.embed}}</div>
+      <p>{{v.title}}</p>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
