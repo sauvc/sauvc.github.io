@@ -15,3 +15,6 @@ list:
   - name: DSO
     url: https://www.dso.org.sg
     image_path: img/sponsors/dso.jpg
+  - name: ARL
+    url: https://arl.nus.edu.sg
+    image_path: img/sponsors/arl.png
