@@ -1,21 +1,21 @@
-year: 2022
-dates: September 23-26
+year: 2024
+dates: April 5-8
 city: Singapore
 stats:
-  - number: 7
+  - number: 8
     type: Years
     caption: Competitions for years
-  - number: 19
+  - number: 20
     type: Countries
     caption: Participants and mentors from everywhere
-  - number: 93
+  - number: 103
     type: AUVs
     caption: Teams with various AUV designs
   - number: 0
     type: Controls
     caption: Completely autonomous
-action: Winners Announced!
-action_link: /#teams # optional
+action: Get ready!
+# action_link: /#teams # optional
 # action_info: <a href="https://sauvc.org/rulebook/">Rulebook</a> for SAUVC 2022 Published!
 
     # EXAMPLES:
