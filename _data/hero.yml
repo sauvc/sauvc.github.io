@@ -14,9 +14,8 @@ stats:
   - number: 0
     type: Controls
     caption: Completely autonomous
-action: Registration for SAUVC 2024 is OPEN!
-action_link: https://forms.gle/1F133jUy2SeUXMuJ6 # optional
-# action_link: /#teams # optional
+action: Registration for SAUVC 2024 is closed. Shortlisted teams will soon be announced.
+# action_link: https://forms.gle/1F133jUy2SeUXMuJ6 # optional
 action_info: <a href="https://sauvc.org/rulebook/">Rulebook</a> for SAUVC 2024 Updated!
 
     # EXAMPLES:
