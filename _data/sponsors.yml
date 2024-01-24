@@ -13,3 +13,6 @@ list:
   - name: Schmidt Ocean Institute
     url: https://schmidtocean.org/
     image_path: img/sponsors/soi.png
+  - name: Sonardyne
+    url: https://www.sonardyne.com/
+    image_path: img/sponsors/sonardyne.jpeg
