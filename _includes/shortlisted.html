@@ -18,4 +18,8 @@
   {% endfor %}
 {% endcapture %}
 
-{% include teams-table.html title="SAUVC 2022 Short-listed Teams" id="shortlisted" class="table-teams" header="<tr><th>Team ID</th> <th>Team Name</th> <th>Institute</th> <th>Location</th></tr>" content=teams open=site.data.shortlisted.open%}
+{% capture table_title %}
+SAUVC {{site.data.hero.year}} Short-listed Teams
+{% endcapture %}
+
+{% include teams-table.html title=table_title id="shortlisted" class="table-teams" header="<tr><th>Team ID</th> <th>Team Name</th> <th>Institute</th> <th>Location</th></tr>" content=teams open=site.data.shortlisted.open%}

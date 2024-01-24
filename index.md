@@ -1,5 +1,5 @@
 ---
 layout: default
-title: SAUVC 2022
+title: SAUVC 2024
 permalink: /
 ---

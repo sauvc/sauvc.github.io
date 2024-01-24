@@ -20,4 +20,8 @@
   {% endfor %}
 {% endcapture %}
 
-{% include teams-table.html title="SAUVC 2022 Qualified Teams" id="qualified" class="table-finalists" header='<tr><th>Final Rank</th> <th>Team ID</th> <th>Team Name</th> <th>Institute</th> <th>Location</th> <th class="team-rank">Qualifiers Rank</th> </tr>' content=teams open=site.data.qualified.open%}
+{% capture table_title %}
+SAUVC {{site.data.hero.year}} Qualified Teams
+{% endcapture %}
+
+{% include teams-table.html title=table_title id="qualified" class="table-finalists" header='<tr><th>Final Rank</th> <th>Team ID</th> <th>Team Name</th> <th>Institute</th> <th>Location</th> <th class="team-rank">Qualifiers Rank</th> </tr>' content=teams open=site.data.qualified.open%}

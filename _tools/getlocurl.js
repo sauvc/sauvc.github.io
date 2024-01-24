@@ -4,11 +4,11 @@ var args = process.argv.slice(2);
 var sterm = args[0];
 
 (async () => {
-  browser = await puppeteer.launch();
+  browser = await puppeteer.launch({headless: false});
   const [page] = await browser.pages();
   await page.goto("https://www.google.com/", {waitUntil: "domcontentloaded"});
-  await page.waitForSelector('input[aria-label="Search"]', {visible: true});
-  await page.type('input[aria-label="Search"]', sterm);
+  await page.waitForSelector('textarea[aria-label="Search"]', {visible: true});
+  await page.type('textarea[aria-label="Search"]', sterm);
   await Promise.all([
     page.waitForNavigation(),
     page.keyboard.press("Enter"),

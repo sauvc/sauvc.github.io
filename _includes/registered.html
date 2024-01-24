@@ -9,5 +9,9 @@
   {% endfor %}
 {% endcapture %}
 
-{% include teams-table.html title="SAUVC 2022 Registered Teams" id="registered" class="table-teams" header="<tr><th>Team ID</th> <th>Team Name</th> <th>Institute</th> <th>Location</th></tr>" content=teams open=site.data.registered.open%}
+{% capture table_title %}
+SAUVC {{site.data.hero.year}} Registered Teams
+{% endcapture %}
+
+{% include teams-table.html title=table_title id="registered" class="table-teams" header="<tr><th>Team ID</th> <th>Team Name</th> <th>Institute</th> <th>Location</th></tr>" content=teams open=site.data.registered.open%}
 
