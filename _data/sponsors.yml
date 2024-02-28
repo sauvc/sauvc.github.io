@@ -13,3 +13,6 @@ list:
   - name: Sonardyne
     url: https://www.sonardyne.com/
     image_path: img/sponsors/sonardyne.jpeg
+  - name: SUT
+    url: https://www.sut.org/
+    image_path: img/sponsors/sut.png
