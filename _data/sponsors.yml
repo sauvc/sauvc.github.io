@@ -16,3 +16,9 @@ list:
   - name: SUT
     url: https://www.sut.org/
     image_path: img/sponsors/sut.png
+  - name: Breaking the Surface
+    url: https://www.bts.fer.hr/
+    image_path: img/sponsors/bts24.png
+  - name: ONR Global
+    url: https://www.onr.navy.mil/
+    image_path: img/sponsors/onr.png
