@@ -1,19 +1,16 @@
 days:
   - sequence: 1
-    date: 23 September 2022
+    date: 5 April 2024
     day_of_week: Friday
     slots:
       - time: 10:00 - 11:30
         description: Team Registration &amp; Vehicle Setup
         venue: The Hall
-      - time: 11:30 - 12:00
+      - time: 11:30 - 13:00
         description: <p>Welcome Address</p> <p>Safety & Administrative Briefing</p> <p>Competition Rules and Regulations Briefing</p> <p>Technical Walkabout</p>
         venue: The Hall
-      - time: 12:00 - 14:00
-        description: Team Practice and Testing Rounds #1
-        venue: Small Pool
-      - time: 14:30 - 18:00
-        description: Team Practice and Testing Rounds #2
+      - time: 13:00 - 18:00
+        description: Team Practice and Testing Rounds
         venue: Small Pool
       - time: 18:00 - 18:30
         description: Team Pack-up
@@ -21,12 +18,14 @@ days:
         venue: Small Pool/The Hall
 
   - sequence: 2
-    date: 24 September 2022
+    date: 6 April 2024
     day_of_week: Saturday
     slots:
+      - time: 08:45 - 09:00
+        description: Team arrival and preparations
       - time: 9:00 - 18:00
-        description: <p>Team Qualification Rounds</p> <p>Team Interviews and Photographs</p>
-        note: Each team give one slot based on the ballot system.
+        description: <p>Team Qualification Rounds</p> <p>Team Photographs</p>
+        note: Each team given a slot based on the ballot system.
         venue: Qualification Arena
       - time: 9:20 - 18:00
         description: Team Practice Rounds
@@ -42,11 +41,13 @@ days:
         venue: Pool Side/The Hall
 
   - sequence: 3
-    date: 25 September 2022
+    date: 7 April 2024
     day_of_week: Sunday
     slots:
+      - time: 08:00 - 08:15
+        description: Team arrival and preparations
       - time: 09:00 - 17:30
-        description: <p>Competition Rounds</p> <p>Team Interviews and Photographs</p>
+        description: <p>Competition Rounds</p> <p>Team Photographs</p>
         venue: Main Arena
       - time: 12:00 - 13:30
         description: Lunch
@@ -58,27 +59,39 @@ days:
         note: Teams to carry their vehicles back from the venue
 
   - sequence: 4
-    date: 26 September 2022
+    date: 8 April 2024
     day_of_week: Monday
     slots:
-      - time: 09:00 - 09:15
-        description: Welcome
-        venue: The Auditorium
-      - time: 09:15 - 10:00
-        description: Talk - Between traditional research ships and autonomous platforms, there is little-known but emerging niche; Going back to sail. - Dr. John Potter
-        venue: The Auditorium
-      - time: 10:00 - 10:30
-        description: Networking Session & Tea Break
-        venue: The Auditorium
-      - time: 10:30 - 12:00
-        description: Workshop - Building a Low-Cost DIY Underwater Wireless System - Manu Ignatius
-        venue: The Auditorium
-      - time: 12:00 - 12:15
-        description: Talk - TBA - Bumblebee Autonomous Systems (NUS)
-        venue: The Auditorium
-      - time: 12:15 - 13:30
-        description: <p>Lunch</p> <p>Group Photo Session</p>
-        venue: The Auditorium
-      - time: 18:00 - 21:00
-        description:  Gala Dinner <ul> <li>Final Results Announcement</li> <li>Prize Presentation Ceremony</li> <li>Closing Speech</li> </ul>
-        venue:  Open Plaza, School of Design and Engineering 4, 8 Architecture Drive, Singapore 117356
+      - time: 09:00 - 09:30
+        description: Team arrival and preparations
+        venue: TCOMS
+      - time: 09:30 - 10:00
+        description: Opening Address, safety briefing and game briefing
+        venue: TCOMS
+      - time: 10:00 - 10.45
+        description: Bonus Round - Team 1
+        venue: TCOMS
+      - time: 10:45 - 11:30
+        description: Bonus Round - Team 2
+        venue: TCOMS
+      - time: 11:00 - 13:00
+        description: Lunch
+        notes: Team captains collect lunch boxes for team
+        venue: TCOMS
+      - time: 11:30 - 12:15
+        description: Bonus Round - Team 3
+        venue: TCOMS
+      - time: 12:15 - 13:00
+        description: Bonus Round - Team 4
+        venue: TCOMS
+      - time: 13:00 - 13:45
+        description: Bonus Round - Team 5
+        venue: TCOMS
+      - time: 13:45 - 14:30
+        description: Team Pack-Up
+        venue: TCOMS
+        note: Teams to carry their vehicles back from the venue
+      - time: 18:00 - 22:00
+        description: Prize Giving Ceremony & Gala Dinner
+        venue: Musicbox at Ngee Ann Polytechnic
+
