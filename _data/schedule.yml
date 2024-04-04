@@ -3,16 +3,19 @@ days:
     date: 5 April 2024
     day_of_week: Friday
     slots:
-      - time: 10:00 - 11:30
+      - time: 09:00 - 11:00
         description: Team Registration &amp; Vehicle Setup
         venue: The Hall
-      - time: 11:00 - 13:00
-        description: <p>Welcome Address</p> <p>Safety & Administrative Briefing</p> <p>Competition Rules and Regulations Briefing</p> <p>Technical Walkabout</p>
+      - time: 11:00 - 12:00
+        description: <p>Welcome Address</p> <p>Safety & Administrative Briefing</p> <p>Competition Rules and Regulations Briefing</p>
         venue: The Hall
-      - time: 13:00 - 18:00
+      - time: 12:00 - 12:00
+        description: <p>Technical Walkabout and Innovation award judging</p>
+        venue: The Hall
+      - time: 13:00 - 17:30
         description: Team Practice and Testing Rounds
         venue: Small Pool
-      - time: 18:00 - 18:30
+      - time: 17:30 - 18:30
         description: Team Pack-up
         note: Teams may carry their AUVs or choose to leave them in the hall on their allotted tables.
         venue: Small Pool/The Hall
@@ -62,10 +65,10 @@ days:
     date: 8 April 2024
     day_of_week: Monday
     slots:
-      - time: 09:00 - 09:30
+      - time: 08:45 - 09:00
         description: Team arrival and preparations
         venue: TCOMS
-      - time: 09:30 - 10:00
+      - time: 09:00 - 10:00
         description: Opening Address, safety briefing and game briefing
         venue: TCOMS
       - time: 10:00 - 10.45
@@ -75,7 +78,7 @@ days:
         description: Bonus Round - Team 2
         venue: TCOMS
       - time: 11:00 - 13:00
-        description: Lunch
+        description: Lunch boxes distributed to teams
         notes: Team captains collect lunch boxes for team
         venue: TCOMS
       - time: 11:30 - 12:15
@@ -91,7 +94,31 @@ days:
         description: Team Pack-Up
         venue: TCOMS
         note: Teams to carry their vehicles back from the venue
-      - time: 16:45 - 22:00
-        description: Prize Giving Ceremony & Gala Dinner
+      - time: 16:00 - 17:00
+        description: Teams arrive at Musicbox, Ngee Ann polytechnic
+        venue: Musicbox at Ngee Ann Polytechnic
+      - time: 16:00 - 17:00
+        description: Teams arrive at Musicbox, Ngee Ann polytechnic
+        venue: Musicbox at Ngee Ann Polytechnic
+      - time: 16:00 - 17:00
+        description: Teams arrive at Musicbox, Ngee Ann polytechnic
+        venue: Musicbox at Ngee Ann Polytechnic
+      - time: 16:00 - 17:00
+        description: Teams arrive at Musicbox, Ngee Ann polytechnic
+        venue: Musicbox at Ngee Ann Polytechnic
+      - time: 17:00 - 17:50
+        description: Team participation certifications presented
+        venue: Musicbox at Ngee Ann Polytechnic
+      - time: 17:50 - 18:00
+        description: Video from Schmidt Ocean Institute and introducing Berths of opportunity
+        venue: Musicbox at Ngee Ann Polytechnic
+      - time: 18:00 - 18:50
+        description: Panel discussion - Marine robotics and sciences for the next generation during the UN Decade of Ocean Sciences
+        venue: Musicbox at Ngee Ann Polytechnic
+      - time: 18:50 - 19:20
+        description: Closing comments, Prize announcements, overall photo
+        venue: Musicbox at Ngee Ann Polytechnic
+      - time: 19:20 - 21:30
+        description: Dinner
         venue: Musicbox at Ngee Ann Polytechnic
 
