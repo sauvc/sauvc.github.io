@@ -22,3 +22,6 @@ list:
   - name: ONR Global
     url: https://www.onr.navy.mil/
     image_path: img/sponsors/onr.png
+  - name: TCOMS
+    url: https://www.tcoms.sg/
+    image_path: img/sponsors/tcoms.jpg
