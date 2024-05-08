@@ -1,46 +1,32 @@
-visibility: false
+visibility: true
 list:
-  - sequence: 1
-    position: Champion
-    image_path: img/competitors/itu.jpg
-    name: ITU AUV TEAM
-    id: SAUVC-TR-02
-    url: https://auv.itu.edu.tr/about_us_eng.html
-    institute: Istanbul Technical University
-    location: Istanbul, Turkey
+-
+  sequence: 1
+  position: Champion
+  image_path: img/competitors/nus.jpg
+  name: Bumblebee Autonomous Systems
+  id: SG37
+  url: https://bumblebee.sg/
+  institute: National University of Singapore
+  location: Singapore
 
-  - sequence: 2
-    position: 1st Runner-up
-    image_path: img/competitors/bmstu.jpg
-    name: Hydronautics
-    id: SAUVC-RU-01
-    url: https://www.instagram.com/hydronautics
-    institute: Bauman Moscow State Technical University
-    location: Moscow, Russia
+-
+  sequence: 2
+  position: 1st Runner-up
+  image_path: img/competitors/abyss.jpg
+  name: Team ABYSS
+  id: IN64
+  url: ""
+  institute: Bannari Amman Institute Of Technology & Institution
+  location: Sathyamangalam, India
 
-  - sequence: 3
-    position: 2nd Runner-up (tied)
-    image_path: img/competitors/bit.jpg
-    name: BITAUV
-    id: SAUVC-IN-01
-    url: ""
-    institute: Bannari Amman Institute Of Technology & Institution
-    location: Sathyamangalam, India
+-
+  sequence: 3
+  position: 2nd Runner-up
+  image_path: img/competitors/mechatron.jpg
+  name: Mecatron
+  id: SG45
+  url: https://www.instagram.com/hydronautics
+  institute: Nanyang Technological University
+  location: Singapore
 
-  - sequence: 4
-    position: 2nd Runner-up (tied)
-    image_path: img/competitors/techsas.jpg
-    name: TECH_SAS
-    id: SAUVC-ID-04
-    url: https://www.cityu.edu.hk
-    institute: Telkom University
-    location: Bandung, Indonesia
-
-  - sequence: 5
-    position: Innovative Design and Engineering Award
-    image_path: img/competitors/bmstu.jpg
-    name: Hydronautics
-    id: SAUVC-RU-01
-    url: https://www.instagram.com/hydronautics
-    institute: Bauman Moscow State Technical University
-    location: Moscow, Russia
