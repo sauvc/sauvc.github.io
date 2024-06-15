@@ -35,6 +35,10 @@ list:
     role: Logistics
     image_path: img/team/gabriel.jpg
 
+  - name: Ercan
+    role: Facility management
+    image_path: img/team/ercan.jpg
+
   - name: Simen
     role: Logistics / Dive Team
     image_path: img/team/simen.jpg
