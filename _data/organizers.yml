@@ -63,9 +63,9 @@ list:
     role: Slot Master
     image_path: img/team/sree.jpg
 
-  - name: (TBC) Hari's wife
+  - name: Sharadha
     role: Social Media & Publicity
-    image_path: img/team/tbc.jpg
+    image_path: img/team/sharadha.jpg
 
   - name: Ariel
     role: Registration table
