@@ -47,6 +47,10 @@ list:
     role: Dive Team
     image_path: img/team/luyuan.jpg
 
+  - name: Anshu
+    role: Dive Team
+    image_path: img/team/anshu.jpg
+
   - name: Ken
     role: Slot Master / Publicity
     image_path: img/team/ken.jpg
