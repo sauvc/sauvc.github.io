@@ -1,10 +1,10 @@
 list:
   - name: Hari
-    role: Co-chair / Technical Committee / Communications
+    role: Co-chair / Technical Committee
     image_path: img/team/hari.jpg
     
   - name: Too Yuen Min
-    role: Co-chair / Logistics
+    role: Co-chair
     image_path: img/team/too.jpg
 
   - name: Mandar
@@ -24,24 +24,24 @@ list:
     image_path: img/team/bharath.jpg
 
   - name: Rajat
-    role: Technical Committee / Emcee
+    role: Technical Committee
     image_path: img/team/rajat.jpg
     
   - name: Kexin
-    role: Treasurer / Registration table
+    role: Treasurer
     image_path: img/team/kexin.jpg
 
   - name: Gabriel
     role: Logistics
     image_path: img/team/gabriel.jpg
 
-  - name: Ercan
-    role: Facility management
-    image_path: img/team/ercan.jpg
-
   - name: Simen
-    role: Logistics / Dive Team
+    role: Logistics / Dive Coordinator
     image_path: img/team/simen.jpg
+
+  - name: Ercan
+    role: Facility Management / Dive Team
+    image_path: img/team/ercan.jpg
 
   - name: Luyuan
     role: Dive Team
@@ -63,23 +63,23 @@ list:
     role: Slot Master
     image_path: img/team/simon.jpg
 
-  - name: Sree
-    role: Slot Master
-    image_path: img/team/sree.jpg
-
   - name: Sharadha
     role: Social Media & Publicity
     image_path: img/team/sharadha.jpg
 
-  - name: Ariel
-    role: Registration table
-    image_path: img/team/ariel.jpg
-
   - name: Shuang Shuang
-    role: Registration table / Slot master
+    role: Slot master
     image_path: img/team/shuangshuang.jpg
 
   - name: Esther
-    role: Registration table / Email communications
+    role: Communications (E-mail)
     image_path: img/team/esther.jpg
+
+  - name: Ariel
+    role: Administration
+    image_path: img/team/ariel.jpg
+
+  - name: Sree
+    role: Volunteer
+    image_path: img/team/sree.jpg
 
