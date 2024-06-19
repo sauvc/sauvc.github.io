@@ -28,7 +28,7 @@ list:
     image_path: img/team/rajat.jpg
     
   - name: Kexin
-    role: Treasurer
+    role: Treasurer / Administration
     image_path: img/team/kexin.jpg
 
   - name: Gabriel
@@ -39,14 +39,6 @@ list:
     role: Logistics / Dive Team
     image_path: img/team/simen.jpg
 
-  - name: Abel
-    role: Dive Team
-    image_path: img/team/abel.jpg
-
-  - name: Anshu
-    role: Dive Team
-    image_path: img/team/anshu.jpg
-
   - name: Ercan
     role: Dive Team
     image_path: img/team/ercan.jpg
@@ -55,14 +47,6 @@ list:
     role: Dive Team
     image_path: img/team/luyuan.jpg
 
-  - name: Marcus
-    role: Dive Team
-    image_path: img/team/marcus.jpg
-
-  - name: Shaun
-    role: Dive Team
-    image_path: img/team/shaun.jpg
-
   - name: Ken
     role: Slot Master / Publicity
     image_path: img/team/ken.jpg
@@ -70,10 +54,6 @@ list:
   - name: Ryan
     role: Slot Master
     image_path: img/team/ryan.jpg
-
-  - name: Simon
-    role: Slot Master
-    image_path: img/team/simon.jpg
 
   - name: Shuang Shuang
     role: Slot master
@@ -88,10 +68,30 @@ list:
     image_path: img/team/esther.jpg
 
   - name: Ariel
-    role: Administration
+    role: Volunteer (Administration)
     image_path: img/team/ariel.jpg
 
+  - name: Abel
+    role: Volunteer (Dive Team)
+    image_path: img/team/abel.jpg
+
+  - name: Anshu
+    role: Volunteer (Dive Team)
+    image_path: img/team/anshu.jpg
+
+  - name: Marcus
+    role: Volunteer (Dive Team)
+    image_path: img/team/marcus.jpg
+
+  - name: Shaun
+    role: Volunteer (Dive Team)
+    image_path: img/team/shaun.jpg
+
+  - name: Simon
+    role: Volunteer (Slots Coordination)
+    image_path: img/team/simon.jpg
+
   - name: Sree
-    role: Volunteer
+    role: Volunteer (Slots Coordination)
     image_path: img/team/sree.jpg
 
