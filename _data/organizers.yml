@@ -36,20 +36,32 @@ list:
     image_path: img/team/gabriel.jpg
 
   - name: Simen
-    role: Logistics / Dive Coordinator
+    role: Logistics / Dive Team
     image_path: img/team/simen.jpg
 
+  - name: Abel
+    role: Dive Team
+    image_path: img/team/abel.jpg
+
+  - name: Anshu
+    role: Dive Team
+    image_path: img/team/anshu.jpg
+
   - name: Ercan
-    role: Facility Management / Dive Team
+    role: Dive Team
     image_path: img/team/ercan.jpg
 
   - name: Luyuan
     role: Dive Team
     image_path: img/team/luyuan.jpg
 
-  - name: Anshu
+  - name: Marcus
     role: Dive Team
-    image_path: img/team/anshu.jpg
+    image_path: img/team/marcus.jpg
+
+  - name: Shaun
+    role: Dive Team
+    image_path: img/team/shaun.jpg
 
   - name: Ken
     role: Slot Master / Publicity
@@ -63,13 +75,13 @@ list:
     role: Slot Master
     image_path: img/team/simon.jpg
 
-  - name: Sharadha
-    role: Social Media & Publicity
-    image_path: img/team/sharadha.jpg
-
   - name: Shuang Shuang
     role: Slot master
     image_path: img/team/shuangshuang.jpg
+
+  - name: Sharadha
+    role: Social Media & Publicity
+    image_path: img/team/sharadha.jpg
 
   - name: Esther
     role: Communications (E-mail)
