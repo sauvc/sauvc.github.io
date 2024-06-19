@@ -1,10 +1,10 @@
 list:
   - name: Hari
-    role: Co-chair / Technical Committee
+    role: Co-chair / Technical Committee / Judge
     image_path: img/team/hari.jpg
     
   - name: Too Yuen Min
-    role: Co-chair
+    role: Co-chair / Logistics / Administration
     image_path: img/team/too.jpg
 
   - name: Mandar
@@ -16,15 +16,15 @@ list:
     image_path: img/team/venu.jpg
     
   - name: Chinmay
-    role: Technical Committee / Webmaster
+    role: Technical Committee / Webmaster / Judge
     image_path: img/team/chinmay.jpg
 
   - name: Bharath
-    role: Technical Committee
+    role: Technical Committee / Logistics / Judge
     image_path: img/team/bharath.jpg
 
   - name: Rajat
-    role: Technical Committee
+    role: Technical Committee / Emcee
     image_path: img/team/rajat.jpg
     
   - name: Kexin
@@ -40,11 +40,11 @@ list:
     image_path: img/team/simen.jpg
 
   - name: Ercan
-    role: Dive Team
+    role: Dive Team / Venue
     image_path: img/team/ercan.jpg
 
   - name: Luyuan
-    role: Dive Team
+    role: Dive Team / Technical committee
     image_path: img/team/luyuan.jpg
 
   - name: Ken
@@ -56,7 +56,7 @@ list:
     image_path: img/team/ryan.jpg
 
   - name: Shuang Shuang
-    role: Slot master
+    role: Slot master / Administration
     image_path: img/team/shuangshuang.jpg
 
   - name: Sharadha
@@ -64,7 +64,7 @@ list:
     image_path: img/team/sharadha.jpg
 
   - name: Esther
-    role: Communications (E-mail)
+    role: Communications (E-mail) / Administration
     image_path: img/team/esther.jpg
 
   - name: Ariel
@@ -91,7 +91,8 @@ list:
     role: Volunteer (Slots Coordination)
     image_path: img/team/simon.jpg
 
-  - name: Sree
+  - name: Sreedhar
     role: Volunteer (Slots Coordination)
     image_path: img/team/sree.jpg
+
 
