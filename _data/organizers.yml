@@ -1,4 +1,98 @@
 list:
+  - name: Hari
+    role: Co-chair / Technical Committee / Judge
+    image_path: img/team/hari.jpg
+    
+  - name: Too Yuen Min
+    role: Co-chair / Logistics / Administration
+    image_path: img/team/too.jpg
+
+  - name: Mandar
+    role: Technical Committee / Dive team
+    image_path: img/team/mandar.jpg
+
+  - name: Venugopalan
+    role: Sponsorship / Technical Committee
+    image_path: img/team/venu.jpg
+    
   - name: Chinmay
-    role: Technical Committee / Webmaster
+    role: Technical Committee / Webmaster / Judge
     image_path: img/team/chinmay.jpg
+
+  - name: Bharath
+    role: Technical Committee / Logistics / Judge
+    image_path: img/team/bharath.jpg
+
+  - name: Rajat
+    role: Technical Committee / Emcee
+    image_path: img/team/rajat.jpg
+    
+  - name: Kexin
+    role: Treasurer / Administration
+    image_path: img/team/kexin.jpg
+
+  - name: Gabriel
+    role: Logistics
+    image_path: img/team/gabriel.jpg
+
+  - name: Simen
+    role: Logistics / Dive Team
+    image_path: img/team/simen.jpg
+
+  - name: Ercan
+    role: Dive Team / Venue
+    image_path: img/team/ercan.jpg
+
+  - name: Luyuan
+    role: Dive Team / Technical committee
+    image_path: img/team/luyuan.jpg
+
+  - name: Ken
+    role: Slot Master / Publicity
+    image_path: img/team/ken.jpg
+
+  - name: Ryan
+    role: Slot Master
+    image_path: img/team/ryan.jpg
+
+  - name: Shuang Shuang
+    role: Slot master / Administration
+    image_path: img/team/shuangshuang.jpg
+
+  - name: Sharadha
+    role: Social Media & Publicity
+    image_path: img/team/sharadha.jpg
+
+  - name: Esther
+    role: Communications (E-mail) / Administration
+    image_path: img/team/esther.jpg
+
+  - name: Ariel
+    role: Volunteer (Administration)
+    image_path: img/team/ariel.jpg
+
+  - name: Abel
+    role: Volunteer (Dive Team)
+    image_path: img/team/abel.jpg
+
+  - name: Anshu
+    role: Volunteer (Dive Team)
+    image_path: img/team/anshu.jpg
+
+  - name: Marcus
+    role: Volunteer (Dive Team)
+    image_path: img/team/marcus.jpg
+
+  - name: Shaun
+    role: Volunteer (Dive Team)
+    image_path: img/team/shaun.jpg
+
+  - name: Simon
+    role: Volunteer (Slots Coordination)
+    image_path: img/team/simon.jpg
+
+  - name: Sreedhar
+    role: Volunteer (Slots Coordination)
+    image_path: img/team/sree.jpg
+
+
