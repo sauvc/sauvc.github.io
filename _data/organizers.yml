@@ -2,7 +2,7 @@ list:
   - name: Hari
     role: Co-chair / Technical Committee / Judge
     image_path: img/team/hari.jpg
-    
+
   - name: Too Yuen Min
     role: Co-chair / Logistics / Administration
     image_path: img/team/too.jpg
@@ -14,7 +14,7 @@ list:
   - name: Venugopalan
     role: Sponsorship / Technical Committee
     image_path: img/team/venu.jpg
-    
+
   - name: Chinmay
     role: Technical Committee / Webmaster / Judge
     image_path: img/team/chinmay.jpg
@@ -26,7 +26,7 @@ list:
   - name: Rajat
     role: Technical Committee / Emcee
     image_path: img/team/rajat.jpg
-    
+
   - name: Kexin
     role: Treasurer / Administration
     image_path: img/team/kexin.jpg
