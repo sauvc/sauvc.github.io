@@ -11,7 +11,7 @@ list:
     image_path: img/sponsors/nus.png
   - name: SP
     url: https://www.sp.edu.sg
-    image_path: img/sponsors/sp.png
+    image_path: img/sponsors/sp.jpg
   - name: DSO
     url: https://www.dso.org.sg
     image_path: img/sponsors/dso.jpg
