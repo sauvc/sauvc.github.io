@@ -2,8 +2,8 @@
 
 competition_photos: false # Social links to photos after competition
 competition_videos: false # Social links to videos after competition
-teams: true # Winners, finalists, shortlisted and registered teams
+teams: false # Winners, finalists, shortlisted and registered teams
 calculator: false # Calculator section to dynamically calculate score
-schedule: true # Schedule section with time slots, event and venue
+schedule: false # Schedule section with time slots, event and venue
 speakers: false # Speakers section with talks and bio
 about: true # About section with list of organizers
