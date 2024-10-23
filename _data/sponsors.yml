@@ -4,7 +4,7 @@ list:
   - name: UN Ocean Decade
     url: https://oceandecade.org/
     image_path : img/sponsors/un-doo.png
-   - name: Schmidt Ocean Institute
+  - name: Schmidt Ocean Institute
     url: https://schmidtocean.org/
     image_path: img/sponsors/soi.png
   - name: Sonardyne
