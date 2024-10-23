@@ -1,11 +1,19 @@
 list:
   - name: Hari
-    role: Co-chair / Technical Committee / Judge
+    role: Co-chair / Technical Committee / Judge / Outreach and Education
     image_path: img/team/hari.jpg
 
+  - name: Bharath
+    role: Co-chair / Technical Committee / Logistics / Judge
+    image_path: img/team/bharath.jpg
+
   - name: Too Yuen Min
-    role: Co-chair / Logistics / Administration
+    role: Logistics / Administration / Outreach and Education
     image_path: img/team/too.jpg
+
+  - name: Esther
+    role: Secretary / Communications (E-mail) / Administration
+    image_path: img/team/esther.jpg
 
   - name: Mandar
     role: Technical Committee / Dive team
@@ -19,13 +27,13 @@ list:
     role: Technical Committee / Webmaster / Judge
     image_path: img/team/chinmay.jpg
 
-  - name: Bharath
-    role: Technical Committee / Logistics / Judge
-    image_path: img/team/bharath.jpg
-
   - name: Rajat
     role: Technical Committee / Emcee
     image_path: img/team/rajat.jpg
+
+  - name: Luyuan
+    role: Dive Team / Technical / Logistics committee
+    image_path: img/team/luyuan.jpg
 
   - name: Kexin
     role: Treasurer / Administration
@@ -40,15 +48,11 @@ list:
     image_path: img/team/simen.jpg
 
   - name: Ercan
-    role: Dive Team / Venue
+    role: Dive Team / Venue / Outreach and Education
     image_path: img/team/ercan.jpg
 
-  - name: Luyuan
-    role: Dive Team / Technical committee
-    image_path: img/team/luyuan.jpg
-
   - name: Ken
-    role: Slot Master / Publicity
+    role: Slot Master / Sponsorship
     image_path: img/team/ken.jpg
 
   - name: Ryan
@@ -56,16 +60,12 @@ list:
     image_path: img/team/ryan.jpg
 
   - name: Shuang Shuang
-    role: Slot master / Administration
+    role: Slot master / Administration / Logistics
     image_path: img/team/shuangshuang.jpg
 
   - name: Sharadha
-    role: Social Media & Publicity
+    role: Social Media & Publicity / Outreach and Education
     image_path: img/team/sharadha.jpg
-
-  - name: Esther
-    role: Communications (E-mail) / Administration
-    image_path: img/team/esther.jpg
 
   - name: Ariel
     role: Volunteer (Administration)
