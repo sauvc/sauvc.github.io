@@ -6,13 +6,18 @@ var sterm = args[0];
 (async () => {
   browser = await puppeteer.launch({headless: false});
   const [page] = await browser.pages();
-  await page.goto("https://www.google.com/", {waitUntil: "domcontentloaded"});
-  await page.waitForSelector('textarea[aria-label="Search"]', {visible: true});
-  await page.type('textarea[aria-label="Search"]', sterm);
-  await Promise.all([
-    page.waitForNavigation(),
-    page.keyboard.press("Enter"),
-  ]);
+  await page.setRequestInterception(true);
+  await page.setJavaScriptEnabled(false);
+  page.on("request", request => {
+    request.resourceType() === "document"
+      ? request.continue()
+      : request.abort();
+  });
+  await page.goto("https://www.google.com/", {
+    waitUntil: "domcontentloaded",
+  });
+  await page.type("textarea", sterm);
+  await page.$eval('[aria-label="Google Search"]', el => el.click());
   try {
     await page.waitForSelector(".LrzXr", {visible: true});
   }catch(e){//ignored

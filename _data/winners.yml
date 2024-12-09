@@ -1,32 +1,3 @@
-visibility: true
+visibility: false
 list:
--
-  sequence: 1
-  position: Champion
-  image_path: img/competitors/nus.jpg
-  name: Bumblebee Autonomous Systems
-  id: SG37
-  url: https://bumblebee.sg/
-  institute: National University of Singapore
-  location: Singapore
-
--
-  sequence: 2
-  position: 1st Runner-up
-  image_path: img/competitors/abyss.jpg
-  name: Team ABYSS
-  id: IN64
-  url: ""
-  institute: Bannari Amman Institute Of Technology & Institution
-  location: Sathyamangalam, India
-
--
-  sequence: 3
-  position: 2nd Runner-up
-  image_path: img/competitors/mechatron.jpg
-  name: Mecatron
-  id: SG45
-  url: https://www.instagram.com/hydronautics
-  institute: Nanyang Technological University
-  location: Singapore
 
