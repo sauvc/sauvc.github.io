@@ -5,7 +5,7 @@ teams:
     seq: 1
     id: AU01
     name: sUNSWim
-    url: ""
+    url: ''
     inst1: 'University of New South Wales'
     institute: 'University of New South Wales'
     institute-url: 'https://www.unsw.edu.au/'
@@ -14,7 +14,7 @@ teams:
     seq: 2
     id: AZ01
     name: DeepDivers
-    url: ""
+    url: ''
     inst1: 'STEAM Azerbaijan'
     institute: 'STEAM Azerbaijan'
     institute-url: 'https://steam.edu.az/'
@@ -32,7 +32,7 @@ teams:
     seq: 4
     id: BD02
     name: 'SUST Onushondhan'
-    url: ""
+    url: ''
     inst1: 'Shahjalal University of Science & Technology'
     institute: 'Shahjalal University of Science and Technology'
     institute-url: 'https://www.sust.edu/'
@@ -41,7 +41,7 @@ teams:
     seq: 5
     id: HK01
     name: 'HKUST AUV'
-    url: ""
+    url: ''
     inst1: 'The Hong Kong University of Science and Technology'
     institute: 'The Hong Kong University of Science and Technology'
     institute-url: 'https://www.ust.hk/'
@@ -59,7 +59,7 @@ teams:
     seq: 7
     id: HK03
     name: 'Manta Ray'
-    url: ""
+    url: ''
     inst1: 'The Hong Kong Polytechnic University'
     institute: 'The Hong Kong Polytechnic University'
     institute-url: 'https://www.polyu.edu.hk/'
@@ -68,7 +68,7 @@ teams:
     seq: 8
     id: HK04
     name: 'Searious Business'
-    url: ""
+    url: ''
     inst1: 'The Hong Kong Polytechnic University'
     institute: 'The Hong Kong Polytechnic University'
     institute-url: 'https://www.polyu.edu.hk/'
@@ -77,7 +77,7 @@ teams:
     seq: 9
     id: ID01
     name: FIToplankton
-    url: ""
+    url: ''
     inst1: 'Telkom University'
     institute: 'Telkom University'
     institute-url: 'https://telkomuniversity.ac.id/'
@@ -86,7 +86,7 @@ teams:
     seq: 10
     id: ID02
     name: 'Tech SAS'
-    url: ""
+    url: ''
     inst1: 'Telkom University'
     institute: 'Telkom University'
     institute-url: 'https://telkomuniversity.ac.id/'
@@ -95,7 +95,7 @@ teams:
     seq: 11
     id: ID03
     name: 'MARE VICTOR'
-    url: ""
+    url: ''
     inst1: 'Airlangga University'
     institute: 'Airlangga University'
     institute-url: 'https://www.unair.ac.id/'
@@ -113,7 +113,7 @@ teams:
     seq: 13
     id: ID05
     name: 'Barelang Marine Robotics Team'
-    url: ""
+    url: ''
     inst1: 'Politeknik Negeri Batam'
     institute: 'Politeknik Negeri Batam'
     institute-url: 'https://www.polibatam.ac.id/en/home/'
@@ -122,7 +122,7 @@ teams:
     seq: 14
     id: ID06
     name: N7-AUV
-    url: ""
+    url: ''
     inst1: 'Institut Pertanian Bogor / IPB University - University'
     institute: 'Institut Pertanian Bogor (IPB University)'
     institute-url: 'https://www.ipb.ac.id/'
@@ -131,7 +131,7 @@ teams:
     seq: 15
     id: ID07
     name: 'Skullers Boro HMFT-ITB'
-    url: ""
+    url: ''
     inst1: 'Institut Teknologi Bandung'
     institute: 'Institut Teknologi Bandung'
     institute-url: 'https://www.itb.ac.id/'
@@ -140,7 +140,7 @@ teams:
     seq: 16
     id: ID08
     name: 'Subnautic Rimau'
-    url: ""
+    url: ''
     inst1: 'Universitas Sriwijaya'
     institute: 'Universitas Sriwijaya'
     institute-url: 'https://www.unsri.ac.id/'
@@ -149,7 +149,7 @@ teams:
     seq: 17
     id: ID09
     name: Banyubramanta
-    url: ""
+    url: ''
     inst1: 'Sepuluh Nopember Institute of Technology'
     institute: 'Sepuluh Nopember Institute of Technology'
     institute-url: 'https://www.its.ac.id/'
@@ -158,7 +158,7 @@ teams:
     seq: 18
     id: ID10
     name: 'Marine Belido'
-    url: ""
+    url: ''
     inst1: 'Universitas Multi Data Palembang'
     institute: 'Universitas Multi Data Palembang'
     institute-url: 'https://mdp.ac.id/'
@@ -167,7 +167,7 @@ teams:
     seq: 19
     id: ID11
     name: N3.2-AUV
-    url: ""
+    url: ''
     inst1: 'IPB University'
     institute: 'IPB University'
     institute-url: 'https://www.ipb.ac.id/'
@@ -176,8 +176,8 @@ teams:
     seq: 20
     id: IN01
     name: 'HydroBots HAVOC'
-    url: ""
-    inst1: 'KMEA ENGINEERING COLLEGE , UNIVERSITY "'
+    url: ''
+    inst1: 'KMEA ENGINEERING COLLEGE , UNIVERSITY'
     institute: 'KMEA Engineering College'
     institute-url: 'https://www.kmeacollege.ac.in/'
     flag: 🇮🇳
@@ -185,7 +185,7 @@ teams:
     seq: 21
     id: IN02
     name: 'Team Black Pearl'
-    url: ""
+    url: ''
     inst1: 'Mahindra University'
     institute: 'Mahindra University'
     institute-url: 'https://www.mahindrauniversity.edu.in/'
@@ -195,15 +195,15 @@ teams:
     id: IN03
     name: 'Team Nirma AUV'
     url: 'https://cra.nirmauni.ac.in/activities/auv/'
-    inst1: 'Institute of Technology, Nirma University"'
-    institute: 'Institute of Technology, Nirma University"'
+    inst1: 'Institute of Technology, Nirma University'
+    institute: 'Institute of Technology, Nirma University'
     institute-url: 'https://www.nirmauni.ac.in/'
     flag: 🇮🇳
 -
     seq: 23
     id: IN04
     name: 'MTS AUV-ZHCET'
-    url: ""
+    url: ''
     inst1: 'Aligarh Muslim University'
     institute: 'Aligarh Muslim University'
     institute-url: 'https://www.amu.ac.in/'
@@ -212,16 +212,16 @@ teams:
     seq: 24
     id: IN05
     name: 'Team Tiburon'
-    url: ""
-    inst1: 'National Institute of Technology, Rourkela"'
-    institute: 'National Institute of Technology, Rourkela"'
+    url: ''
+    inst1: 'National Institute of Technology, Rourkela'
+    institute: 'National Institute of Technology, Rourkela'
     institute-url: 'https://www.nitrkl.ac.in/'
     flag: 🇮🇳
 -
     seq: 25
     id: IN06
     name: Offset
-    url: ""
+    url: ''
     inst1: 'Plaksha University'
     institute: 'Plaksha University'
     institute-url: 'https://www.plaksha.org/'
@@ -231,7 +231,7 @@ teams:
     id: IN07
     name: 'AUV Society IIITDM'
     url: 'https://auviiitdm.github.io/'
-    inst1: 'IIITDM Kancheepuram, university"'
+    inst1: 'IIITDM Kancheepuram, university'
     institute: 'IIITDM Kancheepuram'
     institute-url: 'https://www.iiitdm.ac.in/'
     flag: 🇮🇳
@@ -239,7 +239,7 @@ teams:
     seq: 27
     id: IN08
     name: 'Team Varuna'
-    url: ""
+    url: ''
     inst1: 'Sairam Instructions'
     institute: 'Sairam Institutions'
     institute-url: 'https://www.sairam.edu.in/'
@@ -248,16 +248,16 @@ teams:
     seq: 28
     id: IN09
     name: Dreadnoughtrobotics
-    url: ""
-    inst1: 'VIT Chennai,University "'
-    institute: 'VIT Chennai, University"'
+    url: ''
+    inst1: 'VIT Chennai,University'
+    institute: 'VIT Chennai, University'
     institute-url: 'https://chennai.vit.ac.in/'
     flag: 🇮🇳
 -
     seq: 29
     id: IN10
     name: VAUV
-    url: ""
+    url: ''
     inst1: 'Vellore Institute of Technology. University'
     institute: 'Vellore Institute of Technology'
     institute-url: 'https://www.vit.ac.in/'
@@ -266,25 +266,25 @@ teams:
     seq: 30
     id: IN11
     name: 'Nautical Navigators'
-    url: ""
+    url: ''
     inst1: 'Chinmaya Vishwa Vidyapeeth Kerala'
-    institute: 'Chinmaya Vishwa Vidyapeeth, Kerala"'
+    institute: 'Chinmaya Vishwa Vidyapeeth, Kerala'
     institute-url: 'https://www.cvv.ac.in/'
     flag: 🇮🇳
 -
     seq: 31
     id: IN12
     name: 'blue revolution'
-    url: ""
-    inst1: 'CSIR NIO (Institute), BITS Goa (Instititute), Manipal University Jaipur (University)"'
-    institute: 'Manipal University Jaipur (University), BITS Goa (Institute), CSIR-NIO (Institute)"'
+    url: ''
+    inst1: 'CSIR NIO (Institute), BITS Goa (Instititute), Manipal University Jaipur (University)'
+    institute: 'Manipal University Jaipur (University), BITS Goa (Institute), CSIR-NIO (Institute)'
     institute-url: 'https://jaipur.manipal.edu/'
     flag: 🇮🇳
 -
     seq: 32
     id: IN13
     name: 'Team BITAUV'
-    url: ""
+    url: ''
     inst1: 'Bannari Amman Institute of Technology'
     institute: 'Bannari Amman Institute of Technology'
     institute-url: 'https://www.bitsathy.ac.in/'
@@ -293,7 +293,7 @@ teams:
     seq: 33
     id: IN14
     name: Brahmaputra
-    url: ""
+    url: ''
     inst1: 'Birla Vishvakarma Mahavidyalaya Eng. College'
     institute: 'Birla Vishvakarma Mahavidyalaya Engineering College'
     institute-url: 'https://www.bvcoend.ac.in/'
@@ -302,25 +302,25 @@ teams:
     seq: 34
     id: IN15
     name: AUV-IITK
-    url: ""
-    inst1: 'Indian Institute of Technology Kanpur , University"'
-    institute: 'Indian Institute of Technology Kanpur, University"'
+    url: ''
+    inst1: 'Indian Institute of Technology Kanpur , University'
+    institute: 'Indian Institute of Technology Kanpur, University'
     institute-url: 'https://www.iitk.ac.in/'
     flag: 🇮🇳
 -
     seq: 35
     id: IN16
     name: 'Team VAUV'
-    url: ""
-    inst1: 'Vellore Institute Of Technology, Vellore"'
-    institute: 'Vellore Institute of Technology, Vellore"'
+    url: ''
+    inst1: 'Vellore Institute Of Technology, Vellore'
+    institute: 'Vellore Institute of Technology, Vellore'
     institute-url: 'https://www.vit.ac.in/'
     flag: 🇮🇳
 -
     seq: 36
     id: LK01
     name: 'Team Yathra'
-    url: ""
+    url: ''
     inst1: 'University of Peradeniya'
     institute: 'University of Peradeniya'
     institute-url: 'https://www.pdn.ac.lk/'
@@ -329,7 +329,7 @@ teams:
     seq: 37
     id: LK02
     name: 'Team Diyakawa'
-    url: ""
+    url: ''
     inst1: 'University of Moratuwa'
     institute: 'University of Moratuwa'
     institute-url: 'https://www.mrt.ac.lk/'
@@ -338,25 +338,25 @@ teams:
     seq: 38
     id: MO01
     name: 'Immortal Bird'
-    url: ""
+    url: ''
     inst1: 'PUI CHING MIDDLE SCHOOL MACAU'
-    institute: 'Pui Ching Middle School, Macau"'
+    institute: 'Pui Ching Middle School, Macau'
     institute-url: 'https://www.puiching.edu.mo/'
     flag: 🇲🇴
 -
     seq: 39
     id: MY01
     name: 'UTM AUV ELITE (UAE)'
-    url: ""
-    inst1: 'University of Technology, Malaysia"'
-    institute: 'University of Technology, Malaysia"'
+    url: ''
+    inst1: 'University of Technology, Malaysia'
+    institute: 'University of Technology, Malaysia'
     institute-url: 'https://www.utm.my/'
     flag: 🇲🇾
 -
     seq: 40
     id: RU01
     name: geek.py
-    url: ""
+    url: ''
     inst1: FEFU/IMTP
     institute: 'Far Eastern Federal University (FEFU/IMTP)'
     institute-url: 'https://www.dvfu.ru/'
@@ -374,8 +374,8 @@ teams:
     seq: 42
     id: SG01
     name: HornetX
-    url: ""
-    inst1: 'National University of Singapore, University"'
+    url: ''
+    inst1: 'National University of Singapore'
     institute: 'National University of Singapore'
     institute-url: 'https://www.nus.edu.sg/'
     flag: 🇸🇬
@@ -383,7 +383,7 @@ teams:
     seq: 43
     id: SG02
     name: 'Team Torpedo'
-    url: ""
+    url: ''
     inst1: 'PSB Academy'
     institute: 'PSB Academy'
     institute-url: 'https://www.psb-academy.edu.sg/'
@@ -392,7 +392,7 @@ teams:
     seq: 44
     id: SG03
     name: SUTD_UWU
-    url: ""
+    url: ''
     inst1: 'Singapore University of Technology and Design'
     institute: 'Singapore University of Technology and Design'
     institute-url: 'https://www.sutd.edu.sg/'
@@ -401,7 +401,7 @@ teams:
     seq: 45
     id: SG04
     name: 'Venturer SP'
-    url: ""
+    url: ''
     inst1: 'Sinagpore Polytechnic'
     institute: 'Singapore Polytechnic'
     institute-url: 'https://www.sp.edu.sg/'
@@ -410,7 +410,7 @@ teams:
     seq: 46
     id: SG05
     name: 'Mecatron (Kevin AUV)'
-    url: ""
+    url: ''
     inst1: 'Nanyang Technological University'
     institute: 'Nanyang Technological University'
     institute-url: 'https://www.ntu.edu.sg/'
@@ -419,7 +419,7 @@ teams:
     seq: 47
     id: TR01
     name: ABYSS
-    url: ""
+    url: ''
     inst1: 'Marmara Univesity'
     institute: 'Marmara University'
     institute-url: 'https://www.marmara.edu.tr/'
@@ -428,7 +428,7 @@ teams:
     seq: 48
     id: TR02
     name: 'MYS Abdülhamid'
-    url: ""
+    url: ''
     inst1: 'Selcuk University'
     institute: 'Selcuk University'
     institute-url: 'https://www.selcuk.edu.tr/'
@@ -437,7 +437,7 @@ teams:
     seq: 49
     id: TR03
     name: 'SOBAT AUV TEAM'
-    url: ""
+    url: ''
     inst1: 'Gazi University'
     institute: 'Gazi University'
     institute-url: 'https://www.gazi.edu.tr/'
@@ -446,7 +446,7 @@ teams:
     seq: 50
     id: TR04
     name: ALESTA
-    url: ""
+    url: ''
     inst1: 'Adana Science High School'
     institute: 'Adana Science High School'
     institute-url: 'https://adanafenlisesi.meb.k12.tr/'
@@ -455,7 +455,7 @@ teams:
     seq: 51
     id: TR05
     name: FangTooth
-    url: ""
+    url: ''
     inst1: 'Çapa Science High School'
     institute: 'Çapa Science High School'
     institute-url: 'https://capa.meb.k12.tr/'
