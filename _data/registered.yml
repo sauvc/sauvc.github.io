@@ -297,9 +297,9 @@ teams:
     name: 'Nautical Navigators'
     url: ''
     inst1: 'Chinmaya Vishwa Vidyapeeth Kerala'
-    institute: 'Chinmaya Vishwa Vidyapeeth, Kerala'
-    institute-url: 'https://www.cvv.ac.in/'
-    location : 'Kochi, India'
+    institute: 'Christ College of Engineering, Chinmaya Vishwa Vidyapeeth, Muthoot Institute of Technology and science, KMEA Engineerig college, Vellore Institute of Technology'
+    institute-url: ''
+    location : 'Kerala, India'
     flag: 🇮🇳
 -
     seq: 31
