@@ -36,7 +36,7 @@ days:
         venue: Main Arena
       - time: 12:00 - 13:30
         description: Lunch
-        notes: Team captains collect lunch boxes for team
+        notes: Team captains collect lunch boxes for team <a href="https://gabrielchuayuhan.com/">From Gabriel</a>
         venue: Pool Side
       - time: 18:00 - 18:30
         description: Team Pack-up
@@ -59,7 +59,7 @@ days:
       - time: 17:30 - 18:00
         description: Team Pack-Up
         venue: Pool Side
-        note: Teams to carry their vehicles back from the venue
+        note: Teams to carry their vehicles back from the venue. Excess Food to be repurpose by <a href="https://ahchyepets.com/">From Gabriel</a>
 
   - sequence: 4
     date: 8 April 2024
