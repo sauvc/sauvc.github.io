@@ -1,4 +1,4 @@
-description: <p>We are very grateful and would like to say a big <span class="highlight">Thank You</span> to all the sponsors of SAUVC over the years.</p><p>We are currently looking for sponsors for SAUVC 2025. Interested in encouraging underwater robotics? Contact us through <a href="https://sauvc.org/#contact">our website</p>
+description: <p>We are very grateful and would like to say a big <span class="highlight">Thank You</span> to all the sponsors of SAUVC over the years.</p><p>The sponsors for SAUVC 2025 are below. Interested in encouraging underwater robotics? Contact us through <a href="https://sauvc.org/#contact">our website</p>
 sponsor_list_visibility: true
 list:
   - name: UN Ocean Decade
@@ -19,9 +19,6 @@ list:
   - name: Breaking the Surface
     url: https://www.bts.fer.hr/
     image_path: img/sponsors/bts24.png
-  - name: ONR Global
-    url: https://www.onr.navy.mil/
-    image_path: img/sponsors/onr.png
-  - name: TCOMS
-    url: https://www.tcoms.sg/
-    image_path: img/sponsors/tcoms.jpg
+  - name: Kongsberg
+    url: https://www.kongsberg.com/maritime/
+    image_path: img/sponsors/kongsberg.png
