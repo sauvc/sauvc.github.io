@@ -20,3 +20,6 @@ list:
   - name: Instagram
     url: https://www.instagram.com/sauvcsg
     image_path: img/social/instagram.png
+  - name: Linkedin
+    url: https://www.linkedin.com/company/sauvc/posts
+    image_path: img/social/linkedin.png
