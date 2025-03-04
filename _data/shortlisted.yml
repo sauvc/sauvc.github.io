@@ -70,38 +70,36 @@ teams:
     - seq: 34
       id: IN15
     - seq: 35
-      id: IN16
-    - seq: 36
       id: LK01
-    - seq: 37
+    - seq: 36
       id: LK02
-    - seq: 38
+    - seq: 37
       id: MO01
-    - seq: 39
+    - seq: 38
       id: MY01
-    - seq: 40
+    - seq: 39
       id: RU01
-    - seq: 41
+    - seq: 40
       id: RU02
-    - seq: 42
+    - seq: 41
       id: SG01
-    - seq: 43
+    - seq: 42
       id: SG02
-    - seq: 44
+    - seq: 43
       id: SG03
-    - seq: 45
+    - seq: 44
       id: SG04
-    - seq: 46
+    - seq: 45
       id: SG05
-    - seq: 47
+    - seq: 46
       id: TR01
-    - seq: 48
+    - seq: 47
       id: TR02
-    - seq: 49
+    - seq: 48
       id: TR03
-    - seq: 50
+    - seq: 49
       id: TR04
-    - seq: 51
+    - seq: 50
       id: TR05
-    - seq: 52
+    - seq: 51
       id: SA01
