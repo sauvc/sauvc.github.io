@@ -15,7 +15,13 @@
             <p><small class="schedule-note">{{ slot.note }}</small></p>
           {% endif %}
         </td>
-        <td>{{ slot.venue }}</td>
+        <td>
+          {% if slot.venue_link %}
+            <a href="{{ slot.venue_link }}">{{ slot.venue }}</a>
+          {% else %}
+            {{ slot.venue }}
+          {% endif %}
+        </td>
       </tr>
       {% endfor %}
     </table>

@@ -1,115 +1,100 @@
 days:
-  - sequence: 1
-    date: 5 April 2024
-    day_of_week: Friday
-    slots:
-      - time: 09:00 - 11:00
-        description: Team Registration &amp; Vehicle Setup
-        venue: The Hall
-      - time: 11:00 - 12:00
-        description: <p>Welcome Address</p> <p>Safety & Administrative Briefing</p> <p>Competition Rules and Regulations Briefing</p>
-        venue: The Hall
-      - time: 12:00 - 12:00
-        description: <p>Technical Walkabout and Innovation award judging</p>
-        venue: The Hall
-      - time: 13:00 - 17:30
-        description: Team Practice and Testing Rounds
-        venue: Small Pool
-      - time: 17:30 - 18:30
-        description: Team Pack-up
-        note: Teams may carry their AUVs or choose to leave them in the hall on their allotted tables.
-        venue: Small Pool/The Hall
+- sequence: 1
+  date: 14 March 2025
+  day_of_week: Friday
+  slots:
+    - time: 09:30 - 11:30
+      description: Team registration &amp; vehicle setup
+      venue: Hall
+    - time: 11:30 - 12:30
+      description: |
+        <p>Welcome address</p>
+        <p>Safety & logistics briefings</p>
+        <p>Competition rules briefing</p>
+      venue: Hall
+    - time: 12:30 - 17:30
+      description: Team Practice and Testing Rounds
+      venue: Small Pool
+    - time: 17:30 - 18:00
+      description: Team pack-up</p>
+      note: Teams may carry their AUVs back with them at the end of the day's activities or choose to leave them in Hall on their allotted tables
+      venue: Small Pool / Hall
 
-  - sequence: 2
-    date: 6 April 2024
-    day_of_week: Saturday
-    slots:
-      - time: 08:45 - 09:00
-        description: Team arrival and preparations
-      - time: 9:00 - 18:00
-        description: <p>Team Qualification Rounds</p> <p>Team Photographs</p>
-        note: Each team given a slot based on the ballot system.
-        venue: Qualification Arena
-      - time: 9:20 - 18:00
-        description: Team Practice Rounds
-        note: Time slots for dummy props post qualification run, as allocated by slot manager.
-        venue: Main Arena
-      - time: 12:00 - 13:30
-        description: Lunch
-        notes: Team captains collect lunch boxes for team
-        venue: Pool Side
-      - time: 18:00 - 18:30
-        description: Team Pack-up
-        note: Teams may carry their AUVs or choose to leave them in the hall on their allotted tables.
-        venue: Pool Side/The Hall
+- sequence: 2
+  date: 15 March 2025
+  day_of_week: Saturday
+  slots:
+    - time: 08:00 - 08:45
+      description: Team arrival &amp; preparations
+    - time: 09:00 - 17:00
+      description: Team Qualification Rounds
+      note: Each team given a slot based on the ballot system.
+      venue: Qualification Arena
+    - time: 9:20 - 18:00
+      description: Team Practice Rounds
+      note: Time slots for dummy props post qualification run, as allocated by slot manager
+      venue: Main Arena / Small Pool
+    - time: 12:00 - 13:30
+      description: Lunch
+      note: Team captains collect lunch boxes for team
+      venue: Pool Side
+    - time: 17:30 - 18:00
+      description: Team pack-up</p>
+      note: Teams may carry their AUVs back with them at the end of the day's activities or choose to leave them in Hall on their allotted tables
+      venue: Pool Complex / Hall
 
-  - sequence: 3
-    date: 7 April 2024
-    day_of_week: Sunday
-    slots:
-      - time: 08:00 - 08:15
-        description: Team arrival and preparations
-      - time: 09:00 - 17:30
-        description: <p>Competition Rounds</p> <p>Team Photographs</p>
-        venue: Main Arena
-      - time: 12:00 - 13:30
-        description: Lunch
-        notes: Team captains collect lunch boxes for team
-        venue: Pool Side
-      - time: 17:30 - 18:00
-        description: Team Pack-Up
-        venue: Pool Side
-        note: Teams to carry their vehicles back from the venue
+- sequence: 3
+  date: 16 March 2025
+  day_of_week: Sunday
+  slots:
+    - time: 08:00 - 08:15
+      description: Team arrival and preparations
+      venue: Hall
+    - time: 08:15 - 09:00
+      description: Teams to carry their AUVs to the pool area
+      venue: Pool Complex / Hall
+    - time: 09:00 - 17:30
+      description: Competition rounds
+      venue: Main Arena
+    - time: 12:00 - 13:30
+      description: Bento box counters open, team captains collect boxes
+      venue: Pool Side
+    - time: 17:30 - 18:00
+      description: Team pack-up</p>
+      note: Teams MUST carry their AUVs back with them at the end of the day's activities
+      venue: Pool Complex / Hall
 
-  - sequence: 4
-    date: 8 April 2024
-    day_of_week: Monday
-    slots:
-      - time: 08:45 - 09:00
-        description: Team arrival and preparations
-        venue: TCOMS
-      - time: 09:00 - 10:00
-        description: Opening Address, safety briefing and game briefing
-        venue: TCOMS
-      - time: 10:00 - 10.45
-        description: Bonus Round - Team 1
-        venue: TCOMS
-      - time: 10:45 - 11:30
-        description: Bonus Round - Team 2
-        venue: TCOMS
-      - time: 11:00 - 13:00
-        description: Lunch boxes distributed to teams
-        notes: Team captains collect lunch boxes for team
-        venue: TCOMS
-      - time: 11:30 - 12:15
-        description: Bonus Round - Team 3
-        venue: TCOMS
-      - time: 12:15 - 13:00
-        description: Bonus Round - Team 4
-        venue: TCOMS
-      - time: 13:00 - 13:45
-        description: Bonus Round - Team 5
-        venue: TCOMS
-      - time: 13:45 - 14:30
-        description: Team Pack-Up
-        venue: TCOMS
-        note: Teams to carry their vehicles back from the venue
-      - time: 16:00 - 17:00
-        description: Teams arrive at Musicbox, Ngee Ann polytechnic
-        venue: Musicbox at Ngee Ann Polytechnic
-      - time: 17:00 - 17:50
-        description: Team participation certifications presented
-        venue: Musicbox at Ngee Ann Polytechnic
-      - time: 17:50 - 18:00
-        description: Video from Schmidt Ocean Institute and introducing Berths of opportunity
-        venue: Musicbox at Ngee Ann Polytechnic
-      - time: 18:00 - 18:50
-        description: Panel discussion - Marine robotics and sciences for the next generation during the UN Decade of Ocean Sciences
-        venue: Musicbox at Ngee Ann Polytechnic
-      - time: 18:50 - 19:20
-        description: Closing comments, Prize announcements, overall photo
-        venue: Musicbox at Ngee Ann Polytechnic
-      - time: 19:20 - 21:30
-        description: Dinner
-        venue: Musicbox at Ngee Ann Polytechnic
+
+- sequence: 4
+  date: 17 March 2025
+  day_of_week: Monday
+  slots:
+    - time: 17:15 - 17:30
+      description: Team arrival at gala dinner
+      venue: Shaw Foundation Alumni House
+      venue_link: https://www.google.com/maps/place/Shaw+Foundation+Alumni+House/data=!4m2!3m1!1s0x0:0x7ae21f4141402cfd?sa=X&ved=1t:2428&ictx=111
+    - time: 17:30 - 17:50
+      description: Team participation certificates given
+      venue: Shaw Foundation Alumni House
+      venue_link: https://www.google.com/maps/place/Shaw+Foundation+Alumni+House/data=!4m2!3m1!1s0x0:0x7ae21f4141402cfd?sa=X&ved=1t:2428&ictx=111
+    - time: 17:50 - 18:20
+      description: Prize announcement and distribution
+      venue: Shaw Foundation Alumni House
+      venue_link: https://www.google.com/maps/place/Shaw+Foundation+Alumni+House/data=!4m2!3m1!1s0x0:0x7ae21f4141402cfd?sa=X&ved=1t:2428&ictx=111
+    - time: 18:40 - 19:00
+      description: Talk by SUT – Raj Nagalingam
+      venue: Shaw Foundation Alumni House
+      venue_link: https://www.google.com/maps/place/Shaw+Foundation+Alumni+House/data=!4m2!3m1!1s0x0:0x7ae21f4141402cfd?sa=X&ved=1t:2428&ictx=111
+    - time: 19:00 - 19:20
+      description: Talk by ONRG
+      venue: Shaw Foundation Alumni House
+      venue_link: https://www.google.com/maps/place/Shaw+Foundation+Alumni+House/data=!4m2!3m1!1s0x0:0x7ae21f4141402cfd?sa=X&ved=1t:2428&ictx=111
+    - time: 19:20 - 19:30
+      description: Group photo
+      venue: Shaw Foundation Alumni House
+      venue_link: https://www.google.com/maps/place/Shaw+Foundation+Alumni+House/data=!4m2!3m1!1s0x0:0x7ae21f4141402cfd?sa=X&ved=1t:2428&ictx=111
+    - time: 19:30 - 21:00
+      description: Gala dinner
+      venue: Shaw Foundation Alumni House
+      venue_link: https://www.google.com/maps/place/Shaw+Foundation+Alumni+House/data=!4m2!3m1!1s0x0:0x7ae21f4141402cfd?sa=X&ved=1t:2428&ictx=111
 
