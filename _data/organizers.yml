@@ -15,6 +15,10 @@ list:
     role: Secretary / Communications (E-mail) / Administration
     image_path: img/team/esther.jpg
 
+  - name: Kexin
+    role: Treasurer / Administration
+    image_path: img/team/kexin.jpg
+
   - name: Mandar
     role: Technical Committee / Dive team
     image_path: img/team/mandar.jpg
@@ -23,25 +27,29 @@ list:
     role: Sponsorship / Technical Committee
     image_path: img/team/venu.jpg
 
+  - name: Rajat
+    role: Technical Committee / Logistics / Judge
+    image_path: img/team/rajat.jpg
+
   - name: Chinmay
     role: Technical Committee / Webmaster / Judge
     image_path: img/team/chinmay.jpg
-
-  - name: Rajat
-    role: Technical Committee / Emcee
-    image_path: img/team/rajat.jpg
 
   - name: Luyuan
     role: Dive Team / Technical / Logistics committee
     image_path: img/team/luyuan.jpg
 
-  - name: Kexin
-    role: Treasurer / Administration
-    image_path: img/team/kexin.jpg
+  - name: Sharadha
+    role: Social Media & Publicity / Outreach and Education
+    image_path: img/team/sharadha.jpg
 
-  - name: Gabriel
-    role: Logistics
-    image_path: img/team/gabriel.jpg
+  - name: Xukang
+    role: Social Media & Publicity
+    image_path: img/team/blank.jpg
+
+  - name: Shuang Shuang
+    role: Slot master / Administration / Logistics
+    image_path: img/team/shuangshuang.jpg
 
   - name: Simen
     role: Logistics / Dive Team
@@ -51,6 +59,10 @@ list:
     role: Dive Team / Venue / Outreach and Education
     image_path: img/team/ercan.jpg
 
+  - name: Gabriel
+    role: Logistics
+    image_path: img/team/gabriel.jpg
+
   - name: Ken
     role: Slot Master / Sponsorship
     image_path: img/team/ken.jpg
@@ -59,33 +71,25 @@ list:
     role: Slot Master
     image_path: img/team/ryan.jpg
 
-  - name: Shuang Shuang
-    role: Slot master / Administration / Logistics
-    image_path: img/team/shuangshuang.jpg
-
-  - name: Sharadha
-    role: Social Media & Publicity / Outreach and Education
-    image_path: img/team/sharadha.jpg
-
   - name: Ariel
     role: Volunteer (Administration)
     image_path: img/team/ariel.jpg
 
-  - name: Abel
+  - name: Amy
     role: Volunteer (Dive Team)
-    image_path: img/team/abel.jpg
+    image_path: img/team/amy.jpg
 
   - name: Anshu
     role: Volunteer (Dive Team)
     image_path: img/team/anshu.jpg
 
-  - name: Marcus
+  - name: Steve
     role: Volunteer (Dive Team)
-    image_path: img/team/marcus.jpg
+    image_path: img/team/blank.jpg
 
-  - name: Shaun
+  - name: Jay
     role: Volunteer (Dive Team)
-    image_path: img/team/shaun.jpg
+    image_path: img/team/blank.jpg
 
   - name: Simon
     role: Volunteer (Slots Coordination)
