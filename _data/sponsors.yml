@@ -10,6 +10,9 @@ list:
   - name: SUT
     url: https://www.sut.org/
     image_path: img/sponsors/sut.png
+  - name: IEEE STEM Grant
+    url: https://www.ieee.org/about/diversity-index/articles/tryengineering-stem-grant-helps-build-equity-for-communities.html
+    image_path: img/sponsors/IEEETryEngg.png
   - name: Kongsberg
     url: https://www.kongsberg.com/maritime/
     image_path: img/sponsors/kongsberg.png
