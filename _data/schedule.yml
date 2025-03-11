@@ -1,4 +1,12 @@
 days:
+- sequence: 0
+  date: 13 March 2025 (for selected Singapore school student participants only)
+  day_of_week: Thursday
+  slots:
+    - time: 08:30 - 15:00
+      description: Team registration &amp; talks &amp; hands on workshop &amp; pool sessions
+      venue: Fab Lab and Singapore Polytechnic pool
+
 - sequence: 1
   date: 14 March 2025
   day_of_week: Friday
