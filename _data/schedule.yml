@@ -66,7 +66,7 @@ days:
 
 
 - sequence: 4
-  date: 17 March 2025
+  date: 17 March 2025 - participation by invitation only
   day_of_week: Monday
   slots:
     - time: 17:15 - 17:30
@@ -81,12 +81,16 @@ days:
       description: Prize announcement and distribution
       venue: Shaw Foundation Alumni House
       venue_link: https://www.google.com/maps/place/Shaw+Foundation+Alumni+House/data=!4m2!3m1!1s0x0:0x7ae21f4141402cfd?sa=X&ved=1t:2428&ictx=111
+    - time: 18:20 - 18:40
+      description: Talk by MPA – Daniel Tan
+      venue: Shaw Foundation Alumni House
+      venue_link: https://www.google.com/maps/place/Shaw+Foundation+Alumni+House/data=!4m2!3m1!1s0x0:0x7ae21f4141402cfd?sa=X&ved=1t:2428&ictx=111
     - time: 18:40 - 19:00
       description: Talk by SUT – Raj Nagalingam
       venue: Shaw Foundation Alumni House
       venue_link: https://www.google.com/maps/place/Shaw+Foundation+Alumni+House/data=!4m2!3m1!1s0x0:0x7ae21f4141402cfd?sa=X&ved=1t:2428&ictx=111
     - time: 19:00 - 19:20
-      description: Talk by ONRG
+      description: Introduction to Schmidt Ocean Institute
       venue: Shaw Foundation Alumni House
       venue_link: https://www.google.com/maps/place/Shaw+Foundation+Alumni+House/data=!4m2!3m1!1s0x0:0x7ae21f4141402cfd?sa=X&ved=1t:2428&ictx=111
     - time: 19:20 - 19:30
