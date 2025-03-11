@@ -22,6 +22,9 @@ list:
   - name: Breaking the Surface
     url: https://www.bts.fer.hr/
     image_path: img/sponsors/bts24.png
+  - name: Sea and Land Technologies
+    url: https://sea-landtech.com/
+    image_path: img/sponsors/salt.png
   - name: UN Ocean Decade
     url: https://oceandecade.org/
     image_path : img/sponsors/un-doo.png
