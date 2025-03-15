@@ -14,8 +14,8 @@ stats:
   - number: 0
     type: Controls
     caption: Completely autonomous
-action: Schedule announced!
-action_link: /#schedule # optional
+action: Finalists announced!
+action_link: /slots/qualified.html # optional
 # action_info: <a href="https://sauvc.org/rulebook/">Rulebook</a> for SAUVC 2025 Updated!
 
     # EXAMPLES:
