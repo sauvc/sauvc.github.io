@@ -97,7 +97,11 @@ days:
       description: Talk by SUT – Raj Nagalingam
       venue: Shaw Foundation Alumni House
       venue_link: https://www.google.com/maps/place/Shaw+Foundation+Alumni+House/data=!4m2!3m1!1s0x0:0x7ae21f4141402cfd?sa=X&ved=1t:2428&ictx=111
-    - time: 19:00 - 19:20
+    - time: 19:00 - 19:10
+      description: Get to know ONRG - Weilin Will Hou
+      venue: Shaw Foundation Alumni House
+      venue_link: https://www.google.com/maps/place/Shaw+Foundation+Alumni+House/data=!4m2!3m1!1s0x0:0x7ae21f4141402cfd?sa=X&ved=1t:2428&ictx=111
+    - time: 19:10 - 19:20
       description: Introduction to Schmidt Ocean Institute
       venue: Shaw Foundation Alumni House
       venue_link: https://www.google.com/maps/place/Shaw+Foundation+Alumni+House/data=!4m2!3m1!1s0x0:0x7ae21f4141402cfd?sa=X&ved=1t:2428&ictx=111
