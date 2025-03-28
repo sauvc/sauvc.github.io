@@ -4,7 +4,7 @@ list:
   sequence: 1
   position: Champion
   image_path: img/competitors/SG05.jpeg
-  name: 'Mecatron (Kevin AUV)'
+  name: 'Mecatron'
   id: SG05
   url: ""
   institute: 'Nanyang Technological University'
@@ -33,6 +33,16 @@ list:
 -
   sequence: 4
   position: 2nd Runner-up
+  image_path: img/competitors/ID10.jpeg
+  name: Marine Belido
+  id: ID10
+  url: ""
+  institute: 'Universitas Multi Data Palembang'
+  location: 'Palembang, Indonesia'
+
+-
+  sequence: 5
+  position: Innovative Engineering Award
   image_path: img/competitors/HK03.jpeg
   name: Manta Ray
   id: IN03

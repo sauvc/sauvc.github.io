@@ -19,9 +19,12 @@
       left: -5px
   li:nth-child(1),
     width: 100%
-  li:nth-child(2), li:nth-child(3)
+  li:nth-child(2), li:nth-child(3), li:nth-child(4)
     width: 42%
     padding: 0 2vw
+  li:nth-child(5)
+    width: 40%
+    padding: 0 10vw
 
   p
     margin: .5em
@@ -29,5 +32,6 @@
 
 @media only screen and (max-width: 800px)
   .winners li
-    &:nth-child(1), &:nth-child(2), &:nth-child(3), :nth-child(4), :nth-child(5)
+    &:nth-child(1), &:nth-child(2), &:nth-child(3), &:nth-child(4), &:nth-child(5)
       width: 90%
+      padding: 0 2vw
