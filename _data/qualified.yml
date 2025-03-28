@@ -1,3 +1,103 @@
-visibility: false
-open: false
+visibility: true
+open: true
 teams:
+-
+    seq: 1
+    rank: 1
+    qualrank: 13
+    id : SG05
+-
+    seq: 2
+    rank: 2
+    qualrank: 9
+    id : ID04
+-
+    seq: 3
+    rank: 3
+    qualrank: 10
+    id : IN03
+-
+    seq: 4
+    rank: 4
+    qualrank: 8
+    id : ID10
+-
+    seq: 5
+    rank: 5
+    qualrank: 18
+    id : HK04
+-
+    seq: 6
+    rank: 6
+    qualrank: 1
+    id : LK02
+-
+    seq: 7
+    rank: 7
+    qualrank: 4
+    id : ID09
+-
+    seq: 8
+    rank: 8
+    qualrank: 5
+    id : IN07
+-
+    seq: 9
+    rank: 9
+    qualrank: 14
+    id : HK03
+-
+    seq: 10
+    rank: 10
+    qualrank: 20
+    id : LK01
+-
+    seq: 11
+    rank: 11
+    qualrank: 2
+    id : ID05
+-
+    seq: 12
+    rank: 12
+    qualrank: 3
+    id : IN11
+-
+    seq: 13
+    rank: 13
+    qualrank: 6
+    id : RU02
+-
+    seq: 14
+    rank: 14
+    qualrank: 7
+    id : SG03
+-
+    seq: 15
+    rank: 15
+    qualrank: 11
+    id : IN02
+-
+    seq: 16
+    rank: 16
+    qualrank: 12
+    id : ID11
+-
+    seq: 17
+    rank: 17
+    qualrank: 15
+    id : ID08
+-
+    seq: 18
+    rank: 18
+    qualrank: 16
+    id : ID02
+-
+    seq: 19
+    rank: 19
+    qualrank: 17
+    id : AU01
+-
+    seq: 20
+    rank: 20
+    qualrank: 19
+    id : IN14

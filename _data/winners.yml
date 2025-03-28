@@ -1,3 +1,41 @@
-visibility: false
+visibility: true
 list:
+-
+  sequence: 1
+  position: Champion
+  image_path: img/competitors/SG05.jpeg
+  name: 'Mecatron (Kevin AUV)'
+  id: SG05
+  url: ""
+  institute: 'Nanyang Technological University'
+  location: Singapore
 
+-
+  sequence: 2
+  position: Joint Runner-up
+  image_path: img/competitors/ID04.jpeg
+  name: HYDROships
+  id: ID04
+  url: "https://www.instagram.com/hydroships.ppns/"
+  institute: Shipbuilding Institute of Polytechnic Surabaya
+  location: 'Surabaya, Indonesia'
+
+-
+  sequence: 3
+  position: Joint Runner-up
+  image_path: img/competitors/IN03.jpeg
+  name: Team Nirma AUV
+  id: IN03
+  url: https://cra.nirmauni.ac.in/activities/auv/
+  institute: 'Institute of Technology, Nirma University'
+  location: 'Ahmedabad, India'
+
+-
+  sequence: 4
+  position: 2nd Runner-up
+  image_path: img/competitors/HK03.jpeg
+  name: Manta Ray
+  id: IN03
+  url: ""
+  institute: 'The Hong Kong Polytechnic University'
+  location: 'Hong Kong'
