@@ -1,21 +1,21 @@
-year: 2025
-dates: March 14-17
-city: Singapore
+year: 2026
+dates: May 28-31
+city: Sanya, China
 stats:
-  - number: 9
+  - number: 10
     type: Years
     caption: Competitions for years
-  - number: 20
+  - number: 25
     type: Countries
     caption: Participants and mentors from everywhere
-  - number: 111
+  - number: 126
     type: AUVs
     caption: Teams with various AUV designs
   - number: 0
     type: Controls
     caption: Completely autonomous
-action: Winners announced!
-action_link: /#teams # optional
+action: Competition Dates Announced!
+# action_link: /#teams # optional
 # action_info: <a href="https://sauvc.org/rulebook/">Rulebook</a> for SAUVC 2025 Updated!
 
     # EXAMPLES:

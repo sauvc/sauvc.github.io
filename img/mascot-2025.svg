@@ -20,7 +20,7 @@
                     <path d="M194,112 L244.34676,112 L244.34676,112 C251.23812,112 257.91937,114.37256 263.26732,118.71884 L279.60938,132 L263.26732,145.28116 L263.26732,145.28116 C257.91937,149.62743 251.23812,152 244.34676,152 L194,152 L194,152 C182.95431,152 174,143.04569 174,132 L174,132 L174,132 C174,120.95431 182.95431,112 194,112 L194,112 Z" id="Rectangle-3" fill="#1C455D"></path>
                 </g>
                 <g id="year-text" transform="translate(194.533330, 123.200000)" fill="#FFFFFF">
-                    <text font-family="Source Sans Pro, sans-serif" font-weight="bold" font-size="1.8em" y="18" x="-4">2026</text>
+                    <text font-family="Source Sans Pro, sans-serif" font-weight="bold" font-size="1.8em" y="18" x="-4">2025</text>
                 </g>
             </g>
         </g>

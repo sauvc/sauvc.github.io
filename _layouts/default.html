@@ -38,9 +38,11 @@
   {%- include speakers.html -%}
   {% endif %}
 
+  {% if site.data.sections.travel == true %}
   {%- include travel.html -%}
 
   {%- include venue.html -%}
+  {% endif %}
 
   {%- include sponsors.html -%}
 
