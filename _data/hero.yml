@@ -14,8 +14,8 @@ stats:
   - number: 0
     type: Controls
     caption: Completely autonomous
-action: Competition Dates Announced!
-# action_link: /#teams # optional
+action: Registration Open!
+action_link: https://forms.cloud.microsoft/pages/responsepage.aspx?id=Xu-lWwkxd06Fvc_rDTR-gtDqvcum_nVKh5VUfNb7TdBUMFRYT1lPSDdQUFhQVkxRMUVQVUlZSzhPNC4u&route=shorturl # optional
 # action_info: <a href="https://sauvc.org/rulebook/">Rulebook</a> for SAUVC 2025 Updated!
 
     # EXAMPLES:
