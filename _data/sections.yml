@@ -6,5 +6,5 @@ teams: false # Winners, finalists, shortlisted and registered teams
 calculator: false # Calculator section to dynamically calculate score
 schedule: false # Schedule section with time slots, event and venue
 speakers: false # Speakers section with talks and bio
-travel : false # Travel and Venue section with map and directions
+travel : true # Travel and Venue section with map and directions
 about: true # About section with list of organizers
