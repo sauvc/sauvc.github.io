@@ -1,14 +1,419 @@
 open: false
 visibility: false
 teams:
-# -
-#     seq: 1
-#     id: AU01
-#     name: sUNSWim
-#     url: ''
-#     inst1: 'University of New South Wales'
-#     institute: 'University of New South Wales'
-#     institute-url: 'https://www.unsw.edu.au/'
-#     location : 'Sydney, Australia'
-#     flag: 🇦🇺
-
+-
+    seq: 1
+    id: AU-05
+    name: Manta Claus
+    url: ''
+    inst1: University of New South Wales
+    institute: University of New South Wales
+    location: 'Australia'
+-
+    seq: 2
+    id: AU-08
+    name: sUNSWim
+    url: ''
+    inst1: University of New South Wales
+    institute: University of New South Wales
+    location: 'Australia'
+-
+    seq: 3
+    id: CN-113
+    name: 边际领域 EXNOTSMART
+    url: ''
+    inst1: Dalian University of Technology
+    institute: Dalian University of Technology
+    location: 'China'
+-
+    seq: 4
+    id: CN-116
+    name: CangMing (沧溟)
+    url: ''
+    inst1: Harbin Engineering University
+    institute: Harbin Engineering University
+    location: 'China'
+-
+    seq: 5
+    id: CN-50
+    name: ELectronic Vision AUV
+    url: ''
+    inst1: Harbin Engineering University
+    institute: Harbin Engineering University
+    location: 'China'
+-
+    seq: 6
+    id: CN-55
+    name: AquaSeekers
+    url: ''
+    inst1: Naval University of Engineering
+    institute: Naval University of Engineering
+    location: 'China'
+-
+    seq: 7
+    id: CN-77
+    name: WaterDrifter
+    url: ''
+    inst1: Harbin Engineering University
+    institute: Harbin Engineering University
+    location: 'China'
+-
+    seq: 8
+    id: CN-81
+    name: Three Water
+    url: ''
+    inst1: South China University of Technology
+    institute: South China University of Technology
+    location: 'China'
+-
+    seq: 9
+    id: CN-85
+    name: Deep-Dive Intelligence
+    url: ''
+    inst1: South China University of Technology
+    institute: South China University of Technology
+    location: 'China'
+-
+    seq: 10
+    id: CN-88
+    name: GuangJiao Brigade
+    url: ''
+    inst1: Guangzhou Maritime University
+    institute: Guangzhou Maritime University
+    location: 'China'
+-
+    seq: 11
+    id: CN-91
+    name: T-Group
+    url: ''
+    inst1: Northwestern Polytechnical University
+    institute: Northwestern Polytechnical University
+    location: 'China'
+-
+    seq: 12
+    id: CN-94
+    name: SmartNav Deep Dive Team
+    url: ''
+    inst1: Nanhai Institute of Harbin Engineering University
+    institute: Nanhai Institute of Harbin Engineering University
+    location: 'China'
+-
+    seq: 13
+    id: HK-23
+    name: BakingBread
+    url: ''
+    inst1: The Hong Kong Polytechnic University
+    institute: The Hong Kong Polytechnic University
+    location: 'Hong Kong'
+-
+    seq: 14
+    id: ID-107
+    name: Subnautic Rimau
+    url: ''
+    inst1: Universitas Sriwijaya
+    institute: Universitas Sriwijaya
+    location: 'Indonesia'
+-
+    seq: 15
+    id: ID-24
+    name: TECH_SAS
+    url: ''
+    inst1: Telkom University
+    institute: Telkom University
+    location: 'Indonesia'
+-
+    seq: 16
+    id: ID-25
+    name: FIToplankton
+    url: ''
+    inst1: Telkom University
+    institute: Telkom University
+    location: 'Indonesia'
+-
+    seq: 17
+    id: ID-35
+    name: BARELANG MARINE ROBOTICS TEAM-BUTTERBOT
+    url: ''
+    inst1: Batam State Polytechnic
+    institute: Batam State Polytechnic
+    location: 'Indonesia'
+-
+    seq: 18
+    id: ID-36
+    name: BARELANG MARINE ROBOTICS TEAM-OCTOBOT
+    url: ''
+    inst1: Batam State Polytechnic
+    institute: Batam State Polytechnic
+    location: 'Indonesia'
+-
+    seq: 19
+    id: ID-37
+    name: Narwhal AUV
+    url: ''
+    inst1: Universitas Gadjah Mada
+    institute: Universitas Gadjah Mada
+    location: 'Indonesia'
+-
+    seq: 20
+    id: ID-64
+    name: CURVe
+    url: ''
+    inst1: Politeknik Negeri Bandung
+    institute: Politeknik Negeri Bandung
+    location: 'Indonesia'
+-
+    seq: 21
+    id: ID-82
+    name: N-AUV 3.2 (N7-AUV)
+    url: ''
+    inst1: Bogor Agricultural University
+    institute: Bogor Agricultural University
+    location: 'Indonesia'
+-
+    seq: 22
+    id: ID-83
+    name: N-AUV 4 (N8-AUV)
+    url: ''
+    inst1: Bogor Agricultural University
+    institute: Bogor Agricultural University
+    location: 'Indonesia'
+-
+    seq: 23
+    id: ID-87
+    name: Amarine
+    url: ''
+    inst1: Universitas Brawijaya
+    institute: Universitas Brawijaya
+    location: 'Indonesia'
+-
+    seq: 24
+    id: ID-92
+    name: SeaDiver
+    url: ''
+    inst1: Universitas Negeri Surabaya
+    institute: Universitas Negeri Surabaya
+    location: 'Indonesia'
+-
+    seq: 25
+    id: ID-93
+    name: Orca
+    url: ''
+    inst1: Gadjah Mada University
+    institute: Gadjah Mada University
+    location: 'Indonesia'
+-
+    seq: 26
+    id: IN-38
+    name: Team Chinmaya
+    url: ''
+    inst1: Chinmaya Vishwa Vidyapeeth
+    institute: Chinmaya Vishwa Vidyapeeth
+    location: 'India'
+-
+    seq: 27
+    id: IN-01
+    name: AUVMEC
+    url: ''
+    inst1: Mahindra University
+    institute: Mahindra University
+    location: 'India'
+-
+    seq: 28
+    id: IN-02
+    name: TEAM NIRMA AUV
+    url: ''
+    inst1: NIRMA UNIVERSITY
+    institute: NIRMA UNIVERSITY
+    location: 'India'
+-
+    seq: 29
+    id: IN-04
+    name: HydroHeroes
+    url: ''
+    inst1: Muthoot Institute of Technology and Science
+    institute: Muthoot Institute of Technology and Science
+    location: 'India'
+-
+    seq: 30
+    id: IN-111
+    name: Poseidon
+    url: ''
+    inst1: Zakir Husain College of Engineering and Technology (ZHCET), Aligarh Muslim University(AMU)
+    institute: Zakir Husain College of Engineering and Technology (ZHCET), Aligarh Muslim University(AMU)
+    location: 'India'
+-
+    seq: 31
+    id: IN-112
+    name: Team VAUV
+    url: ''
+    inst1: Vellore Institute of Technology, Vellore
+    institute: Vellore Institute of Technology, Vellore
+    location: 'India'
+-
+    seq: 32
+    id: IN-20
+    name: Team Tiburon
+    url: ''
+    inst1: National Institute of Technology, Rourkela
+    institute: National Institute of Technology, Rourkela
+    location: 'India'
+-
+    seq: 33
+    id: IN-32
+    name: KURMA
+    url: ''
+    inst1: Indian Institute of Technology - Roorkee
+    institute: Indian Institute of Technology - Roorkee
+    location: 'India'
+-
+    seq: 34
+    id: IN-34
+    name: Aritra
+    url: ''
+    inst1: Indian Institute of Technology Madras
+    institute: Indian Institute of Technology Madras
+    location: 'India'
+-
+    seq: 35
+    id: IN-41
+    name: Brahmputra
+    url: ''
+    inst1: Birla Vishvakarma Mahavidyalaya
+    institute: Birla Vishvakarma Mahavidyalaya
+    location: 'India'
+-
+    seq: 36
+    id: IN-61
+    name: Dreadnought Robotics
+    url: ''
+    inst1: Vellore Institute of Technology Chennai
+    institute: Vellore Institute of Technology Chennai
+    location: 'India'
+-
+    seq: 37
+    id: IN-73
+    name: Team Nira
+    url: ''
+    inst1: Indian Institute of Information Technology, Design and Manufacturing, Kancheepuram
+    institute: Indian Institute of Information Technology, Design and Manufacturing, Kancheepuram
+    location: 'India'
+-
+    seq: 38
+    id: IN-90
+    name: Team Utkarsh
+    url: ''
+    inst1: Ganpat University - U.V. Patel College Of Engineering
+    institute: Ganpat University - U.V. Patel College Of Engineering
+    location: 'India'
+-
+    seq: 39
+    id: LK-31
+    name: Team DIYAKAWA
+    url: ''
+    inst1: University of Moratuwa, Sri Lanka
+    institute: University of Moratuwa, Sri Lanka
+    location: 'Sri Lanka'
+-
+    seq: 40
+    id: LK-48
+    name: Diyathra
+    url: ''
+    inst1: University of Moratuwa, Sri Lanka
+    institute: University of Moratuwa, Sri Lanka
+    location: 'Sri Lanka'
+-
+    seq: 41
+    id: MY-26
+    name: UTM OCEANVISION
+    url: ''
+    inst1: Universiti Teknologi Malaysia
+    institute: Universiti Teknologi Malaysia
+    location: 'Malaysia'
+-
+    seq: 42
+    id: MY-30
+    name: MoyKay
+    url: ''
+    inst1: Universiti Teknologi Malaysia Skudai
+    institute: Universiti Teknologi Malaysia Skudai
+    location: 'Malaysia'
+-
+    seq: 43
+    id: RU-14
+    name: Hydronautics
+    url: ''
+    inst1: Bauman Moscow State Technical University
+    institute: Bauman Moscow State Technical University
+    location: 'Russia'
+-
+    seq: 44
+    id: SG-07
+    name: Mecatron
+    url: ''
+    inst1: Nanyang Technological University
+    institute: Nanyang Technological University
+    location: 'Singapore'
+-
+    seq: 45
+    id: SG-27
+    name: Aquanox
+    url: ''
+    inst1: Singapore polytechnic
+    institute: Singapore polytechnic
+    location: 'Singapore'
+-
+    seq: 46
+    id: TR-09
+    name: CALROV
+    url: ''
+    inst1: Cagaloglu Anatolian High School
+    institute: Cagaloglu Anatolian High School
+    location: 'Turkiye'
+-
+    seq: 47
+    id: TR-110
+    name: 1.5 ADANA SGM AITO
+    url: ''
+    inst1: Cukurova University
+    institute: Cukurova University
+    location: 'Turkiye'
+-
+    seq: 48
+    id: TR-17
+    name: Alesta
+    url: ''
+    inst1: Adana Science High School
+    institute: Adana Science High School
+    location: 'Turkiye'
+-
+    seq: 49
+    id: TR-68
+    name: ATK ROV
+    url: ''
+    inst1: ÖZEL TEKNOLOJİ AFYONKARAHİSAR ORGANİZE SANAYİ BÖLGESİ MESLEKİ VE TEKNİK ANADOLU LİSESİ
+    institute: ÖZEL TEKNOLOJİ AFYONKARAHİSAR ORGANİZE SANAYİ BÖLGESİ MESLEKİ VE TEKNİK ANADOLU LİSESİ
+    location: 'Turkiye'
+-
+    seq: 50
+    id: TR-98
+    name: MYS YILDIRIM
+    url: ''
+    inst1: Selcuk University
+    institute: Selcuk University
+    location: 'Turkiye'
+-
+    seq: 51
+    id: TR-99
+    name: MYS ABDÜLHAMİD
+    url: ''
+    inst1: Selcuk University
+    institute: Selcuk University
+    location: 'Turkiye'
+-
+    seq: 52
+    id: TW-16
+    name: ORCA AUV
+    url: ''
+    inst1: National Yang Ming Chiao Tung University
+    institute: National Yang Ming Chiao Tung University
+    location: 'Taiwan'

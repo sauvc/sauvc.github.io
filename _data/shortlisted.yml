@@ -1,5 +1,107 @@
 visibility: true
 open: false
 teams:
-    # - seq: 1
-    #   id: AU01
+  - seq: 1
+    id: AU-05
+  - seq: 2
+    id: AU-08
+  - seq: 3
+    id: CN-113
+  - seq: 4
+    id: CN-116
+  - seq: 5
+    id: CN-50
+  - seq: 6
+    id: CN-55
+  - seq: 7
+    id: CN-77
+  - seq: 8
+    id: CN-81
+  - seq: 9
+    id: CN-85
+  - seq: 10
+    id: CN-88
+  - seq: 11
+    id: CN-91
+  - seq: 12
+    id: CN-94
+  - seq: 13
+    id: HK-23
+  - seq: 14
+    id: ID-107
+  - seq: 15
+    id: ID-24
+  - seq: 16
+    id: ID-25
+  - seq: 17
+    id: ID-35
+  - seq: 18
+    id: ID-36
+  - seq: 19
+    id: ID-37
+  - seq: 20
+    id: ID-64
+  - seq: 21
+    id: ID-82
+  - seq: 22
+    id: ID-83
+  - seq: 23
+    id: ID-87
+  - seq: 24
+    id: ID-92
+  - seq: 25
+    id: ID-93
+  - seq: 26
+    id: IN-38
+  - seq: 27
+    id: IN-01
+  - seq: 28
+    id: IN-02
+  - seq: 29
+    id: IN-04
+  - seq: 30
+    id: IN-111
+  - seq: 31
+    id: IN-112
+  - seq: 32
+    id: IN-20
+  - seq: 33
+    id: IN-32
+  - seq: 34
+    id: IN-34
+  - seq: 35
+    id: IN-41
+  - seq: 36
+    id: IN-61
+  - seq: 37
+    id: IN-73
+  - seq: 38
+    id: IN-90
+  - seq: 39
+    id: LK-31
+  - seq: 40
+    id: LK-48
+  - seq: 41
+    id: MY-26
+  - seq: 42
+    id: MY-30
+  - seq: 43
+    id: RU-14
+  - seq: 44
+    id: SG-07
+  - seq: 45
+    id: SG-27
+  - seq: 46
+    id: TR-09
+  - seq: 47
+    id: TR-110
+  - seq: 48
+    id: TR-17
+  - seq: 49
+    id: TR-68
+  - seq: 50
+    id: TR-98
+  - seq: 51
+    id: TR-99
+  - seq: 52
+    id: TW-16
