@@ -222,6 +222,8 @@ GEM
       jekyll-seo-tag (~> 2.1)
     minitest (5.20.0)
     mutex_m (0.2.0)
+    nokogiri (1.16.0-aarch64-linux)
+      racc (~> 1.4)
     nokogiri (1.16.0-arm64-darwin)
       racc (~> 1.4)
     nokogiri (1.16.0-x86_64-linux)
@@ -264,6 +266,7 @@ GEM
     webrick (1.7.0)
 
 PLATFORMS
+  aarch64-linux
   arm64-darwin
   x86_64-linux-musl
 

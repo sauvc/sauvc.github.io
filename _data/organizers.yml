@@ -1,4 +1,80 @@
 list:
-  # - name: Hari
-  #   role: Co-chair / Technical Committee / Judge / Outreach and Education
-  #   image_path: img/team/hari.jpg
+  - name: Luyuan
+    role: Chair / Technical Committee / Administration / Publicity
+    image_path: img/team/luyuan2.jpg
+
+  - name: Ercan
+    role: Co-chair / Technical Committee
+    image_path: img/team/ercan.jpg
+
+  - name: Wu Lan
+    role: Chair
+    image_path: img/team/heu/wulan.jpg
+
+  - name: Esther
+    role: Secretary / Communications (E-mail) / Administration
+    image_path: img/team/esther.jpg
+  
+  - name: Wu Xiaonan
+    role: Secretary
+    image_path: img/team/heu/wuxiaonan.jpg
+
+  - name: Hari
+    role: Technical Committee / Judge / Communications (E-mail) / Administration / Publicity
+    image_path: img/team/hari.jpg
+
+  - name: Rajat
+    role: Technical Committee Chair / Judge
+    image_path: img/team/rajat.jpg
+
+  - name: Mandar
+    role: Technical Committee 
+    image_path: img/team/mandar.jpg
+
+  - name: Bharath
+    role: Technical Committee / Judge
+    image_path: img/team/bharath.jpg
+
+  - name: Chinmay
+    role: Technical Committee / Webmaster
+    image_path: img/team/chinmay.jpg
+
+  - name: Chen Hao
+    role: Technical Committee
+    image_path: img/team/heu/chenhao.jpg
+
+  - name: Venugopalan
+    role: Sponsorship 
+    image_path: img/team/venu.jpg
+
+  - name: Ken
+    role: Slot Master / Sponsorship
+    image_path: img/team/ken.jpg
+
+  - name: Sharadha
+    role: Social Media & Publicity 
+    image_path: img/team/sharadha.jpg
+
+  - name: Pengkun
+    role: Social Media & Publicity / Slot Master
+    image_path: img/team/pengkun.jpg
+
+  - name: Gao Lufan
+    role: Publicity
+    image_path: img/team/heu/gaolufan.jpg
+
+  - name: Kexin
+    role: Treasurer 
+    image_path: img/team/kexin.jpg
+
+  - name: Yin Xuefei
+    role: Treasurer
+    image_path: img/team/heu/yinxuefei.jpg
+
+  - name: Zhong Ziliang
+    role: Logistics
+    image_path: img/team/heu/zhongziliang.jpg
+  
+  - name: Su Taowu
+    role: Logistics
+    image_path: img/team/heu/sutaowu.jpg
