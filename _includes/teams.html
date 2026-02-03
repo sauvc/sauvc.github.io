@@ -23,6 +23,10 @@
   {%- include winners.html -%}
   {% endif %}
 
+  {% if site.data.innovation-award.visibility == true %}
+  {%- include innovation-award.html -%}
+  {% endif %}
+
   {% if site.data.qualified.visibility == true %}
   {%- include qualified.html -%}
   {% endif %}

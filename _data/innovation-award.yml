@@ -1,0 +1,11 @@
+visibility: true
+open: true
+teams:
+  - seq: 1
+    id: IN-61
+  - seq: 2
+    id: TR-98
+  - seq: 3
+    id: IN-32
+  - seq: 4
+    id: CN-91

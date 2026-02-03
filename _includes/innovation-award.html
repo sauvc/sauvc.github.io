@@ -1,0 +1,25 @@
+{% capture teams %}
+    {% assign team_by_seq = site.data.innovation-award.teams | sort: "seq" %}
+  {% for team in team_by_seq %}
+    {% assign team_info = '' %}
+      {% for info in site.data.registered.teams %}
+                {% if team.id == info.id %}
+                  		{% assign team_info = info %}
+                {% endif %}
+      {% endfor %}
+      {% if team_info %}
+      <tr>
+        <td class="team-id">{{ team.id }}</td>
+        <td>{% if team_info.url != "" %}<a href="{{ team_info.url }}">{% endif%}{{ team_info.name }}</a></td>
+        <td>{% if team_info.institute-url %}<a href="{{ team_info.institute-url }}">{% endif%}{{ team_info.institute }}</a></td>
+        <td><span class="flag">{{ team_info.flag}}</span>{{ team_info.location }}</td>
+      </tr>
+    {% endif %}
+  {% endfor %}
+{% endcapture %}
+
+{% capture table_title %}
+SAUVC {{site.data.hero.year}} Innovation Award Winners (in no particular order)
+{% endcapture %}
+
+{% include teams-table.html title=table_title id="innovation-award" class="table-teams" header="<tr><th>Team ID</th> <th>Team Name</th> <th>Institute</th> <th>Location</th></tr>" content=teams open=site.data.innovation-award.open%}

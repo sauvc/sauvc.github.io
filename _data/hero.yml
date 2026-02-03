@@ -14,8 +14,8 @@ stats:
   - number: 0
     type: Controls
     caption: Completely autonomous
-action: Shortlisted teams announced!
-action_link:  /#teams # optional
+action: Innovation award announced!
+action_link:  /#innovation-award # optional
 # action_info: <a href="https://sauvc.org/rulebook/">Rulebook</a> for SAUVC 2025 Updated!
 
     # EXAMPLES:
