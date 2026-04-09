@@ -10,7 +10,12 @@
       <tr>
         <td>{{ slot.time }}</td>
         <td>
-          <p>{{ slot.description }}</p>
+          <p>
+            {{ slot.description }}
+            {% if slot.footnote %}
+              <sup><a href="#schedule-fn-{{ day.sequence }}-{{ forloop.index }}">[{{ forloop.index }}]</a></sup>
+            {% endif %}
+          </p>
           {% if slot.note %}
             <p><small class="schedule-note">{{ slot.note }}</small></p>
           {% endif %}
@@ -25,6 +30,25 @@
       </tr>
       {% endfor %}
     </table>
+
+    {% assign has_footnotes = false %}
+    {% for slot in day.slots %}
+      {% if slot.footnote %}
+        {% assign has_footnotes = true %}
+      {% endif %}
+    {% endfor %}
+
+    {% if has_footnotes %}
+    <div class="schedule-footnotes">
+      <ol>
+        {% for slot in day.slots %}
+          {% if slot.footnote %}
+          <li id="schedule-fn-{{ day.sequence }}-{{ forloop.index }}">{{ slot.footnote }}</li>
+          {% endif %}
+        {% endfor %}
+      </ol>
+    </div>
+    {% endif %}
     {% endif %}
   </div>
   {% endfor %}
