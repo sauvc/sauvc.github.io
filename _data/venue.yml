@@ -2,8 +2,11 @@ address: >-
   <strong>Day 0–2:</strong> Aofei Culture & Sports Group Sanya Yazhou Sports Park and Citizen Fitness Centre, Yazhou Avenue No. 382, Yazhou. Here is an  <a href="https://maps.apple.com/place?address=Yazhou%20Avenue%20No.382,%20Yazhou,%20Sanya,%20[…]n%20Fitness%20Centre&place-id=H2710I3F97AAC7D4E03&map=explore">Apple Map</a><br>
   <strong>Final Day (Award Ceremony & Gala Dinner):</strong> No. 9 Xindao Street, Yazhou Town, Yazhou District.
 
-image_path: img/sanyavenue2.jpg
-image_name: Aofei Culture & Sports Group Park photo
+images:
+  - path: img/sanyavenue2.jpg
+    name: Aofei Culture & Sports Group Park photo
+  - path: img/sanyacanteen.png
+    name: Taste of Yazhou Bay · Canteen No.10
 travel_options:
   - name: By Local Transport
     description: By Ride-Hailing or Hotel Shuttle-  Popular apps such as Didi Chuxing (China's version of Uber) operate in Sanya and provide direct service from the airport to the venue.
