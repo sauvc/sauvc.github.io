@@ -6,6 +6,4 @@ teams:
   - seq: 2
     id: TR-98
   - seq: 3
-    id: IN-32
-  - seq: 4
     id: CN-91
