@@ -1,6 +1,15 @@
 .landscape
   max-width: 100%
 
+.venue-gallery
+  display: grid
+  grid-template-columns: repeat(2, minmax(0, 1fr))
+  gap: 1em
+  margin: 1em 0
+  .landscape
+    width: 100%
+    display: block
+
 .map
   display: flex
 
@@ -101,6 +110,8 @@
     margin: 4em 0
   .map, .address
     width: 100%
+  .venue-gallery
+    grid-template-columns: 1fr
   .footer
     margin-top: 2em
     p

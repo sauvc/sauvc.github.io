@@ -3,8 +3,18 @@
 
   <p class="address">{{ site.data.venue.address }} </p>
 
-  <img class="landscape" src="{{ site.data.venue.image_path }}" alt="{{ site.data.venue.image_path }}" loading="lazy">
+  {% if site.data.venue.images %}
+  <div class="venue-gallery">
+    {% for image in site.data.venue.images %}
+    <img class="landscape" src="{{ image.path }}" alt="{{ image.name | default: site.data.venue.image_name }}" loading="lazy">
+    {% endfor %}
+  </div>
+  {% else %}
+  <img class="landscape" src="{{ site.data.venue.image_path }}" alt="{{ site.data.venue.image_name }}" loading="lazy">
+  {% endif %}
+  {% if site.data.venue.google_map %}
   <div class="map"><iframe src="{{ site.data.venue.google_map }}" width="500" height="300" style="border:0" allowfullscreen></iframe></div>
+  {% endif %}
 
   <ul class="info-list">
     {% for opt in site.data.venue.travel_options %}
