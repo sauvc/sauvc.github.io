@@ -37,7 +37,7 @@ days:
   day_of_week: Sunday
   slots:
     - time: 09:00 - 17:00
-      description: 1st China-Singapore Ocean acoustic workshop
+      description: SAUVC workshop
       footnote: Optional, signup required, more details will be shared later
       venue: Building 8, Yonyou Industrial Park, No. 5 Xindao Street, Yazhou District
     - time: 17:00 - 18:00
