@@ -4,42 +4,53 @@ days:
   day_of_week: Thursday
   slots:
     - time: 11:00 - 14:00
-      description: Registration
-      venue: Aofei Culture & Sports Group Sanya Yazhou Sports Park and Citizen Fitness Centre
+      description: Team Registration & Setup
+      venue: L1 Registration · L2 Setup
     - time: 14:00 - 15:00
-      description: Opening Ceremony
-      venue: Aofei Culture & Sports Group Sanya Yazhou Sports Park and Citizen Fitness Centre
+      description: Opening Ceremony + Briefings + Group Photo
+      venue: L2, Badminton Court
     - time: 15:00 - 19:00
-      description: Practice
-      venue: Aofei Culture & Sports Group Sanya Yazhou Sports Park and Citizen Fitness Centre
+      description: Baby Pool Practice Sessions
+      venue: Outdoor, Baby Pool
 
 - sequence: 1
   date: 29 May 2026
   day_of_week: Friday
   slots:
-    - time: 09:00 - 19:30
-      description: Qualifying Round
-      venue: Aofei Culture & Sports Group Sanya Yazhou Sports Park and Citizen Fitness Centre
+    - time: 09:00 - 12:00
+      description: Qualifying Slots
+      venue: L1 Swimming Pool
+    - time: 12:00 - 12:40
+      description: Lunch Break
+      venue:
+    - time: 12:40 - 18:00
+      description: Qualifying Slots
+      venue: L1 Swimming Pool
+    - time: 09:00 - 18:00
+      description: Baby Pool Practice (open)
+      venue: Outdoor, Baby Pool
 
 - sequence: 2
   date: 30 May 2026
   day_of_week: Saturday
   slots:
     - time: 08:00 - 14:00
-      description: Practice
-      venue: Aofei Culture & Sports Group Sanya Yazhou Sports Park and Citizen Fitness Centre
+      description: Designated Practice (Finalists)
+      venue: L1 Swimming Pool
+    - time: 08:00 - 19:00
+      description: Open Practice
+      venue: Outdoor, Baby Pool
     - time: 14:00 - 19:00
       description: Finals
-      venue: Aofei Culture & Sports Group Sanya Yazhou Sports Park and Citizen Fitness Centre
+      venue: L1 Swimming Pool
 
 - sequence: 3
   date: 31 May 2026
   day_of_week: Sunday
   slots:
-    - time: 09:00 - 17:00
-      description: SAUVC workshop
-      footnote: Optional, signup required, more details will be shared later
-      venue: Building 8, Yonyou Industrial Park, No. 5 Xindao Street, Yazhou District
+    - time: Morning
+      description: Free Time / Optional Workshops (TBD)
+      venue:
     - time: 17:00 - 18:00
       description: Award Ceremony
       venue: Innovation Research Valley Auditorium 
