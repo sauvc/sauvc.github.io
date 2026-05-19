@@ -79,6 +79,6 @@ list:
     role: Logistics
     image_path: img/team/heu/zhongziliang.jpg
   
-  - name: Su Taowu
-    role: Logistics
-    image_path: img/team/heu/sutaowu.jpg
+  # - name: Su Taowu
+  #   role: Logistics
+  #   image_path: img/team/heu/sutaowu.jpg
