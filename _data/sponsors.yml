@@ -16,3 +16,10 @@ list:
   - name: Hainan Yuchi
     url: https://www.xaycfw.cn/
     image_path: img/sponsors/hainan-yuchi.jpg
+
+  - name: Hainan Aerial
+    url: https://www.hnaro.com/?lg=zh-cn
+    image_path: img/sponsors/hainan-aerial.png
+  - name: Pengpai Ocean
+    url: https://www.pengpaix.com/
+    image_path: img/sponsors/Pengpai.png
