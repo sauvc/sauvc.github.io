@@ -138,7 +138,10 @@ title: Participant Manual
     border-collapse: collapse;
     font-size: 0.9em;
     margin: 1em 0;
+    table-layout: fixed;
   }
+  table.schedule-table col.col-time  { width: 16%; }
+  table.schedule-table col.col-pool  { width: 42%; }
   table.schedule-table th {
     background: #1C455D;
     color: #fff;
@@ -179,6 +182,19 @@ title: Participant Manual
   table.contacts-table td:first-child {
     color: #1C455D;
     font-style: normal;
+    font-weight: bold;
+  }
+  .emergency-box {
+    margin-top: 1.2em;
+    padding: 0.9em 1.2em;
+    background: #fff3cd;
+    border-left: 5px solid #e6a817;
+    border-radius: 4px;
+    font-size: 1em;
+    color: #5a3e00;
+  }
+  .emergency-box a {
+    color: #1C455D;
     font-weight: bold;
   }
 
@@ -521,18 +537,22 @@ title: Participant Manual
   <!-- 10. CONTACTS -->
   <div class="manual-section" id="contacts">
     <h2>10. Key Roles &amp; Emergency Contacts</h2>
-    <p>If you have any questions or encounter issues during the event, please look for the designated committee members. (Note: Specific names and phone numbers will be populated closer to the event date).</p>
+    <p>If you have any questions or encounter issues during the event, please look for the designated committee members.</p>
     <table class="contacts-table">
       <thead>
-        <tr><th>Role / Responsibility</th><th>Name</th><th>Contact</th></tr>
+        <tr><th>Role</th><th>Name</th></tr>
       </thead>
       <tbody>
-        <tr><td>Designated Safety Staff (First aid, pool safety, Kill Switch checks)</td><td>TBD</td><td>TBD</td></tr>
-        <tr><td>Game Master</td><td>TBD</td><td>TBD</td></tr>
-        <tr><td>Logistics</td><td>TBD</td><td>TBD</td></tr>
-        <tr><td>Others</td><td>TBD</td><td>TBD</td></tr>
+        <tr><td>General</td><td>Luyuan</td></tr>
+        <tr><td>Logistics</td><td>Xiaonan</td></tr>
+        <tr><td>Game Master</td><td>Rajat</td></tr>
       </tbody>
     </table>
+
+    <div class="emergency-box">
+      <strong>&#9888; Emergency Contact</strong><br>
+      Xiaonan &mdash; <a href="tel:+8608983188250">0898-31882503</a>
+    </div>
   </div>
 
   <!-- 11. SPONSORS -->
@@ -579,25 +599,40 @@ title: Participant Manual
   <!-- APPENDIX A -->
   <div class="manual-section" id="appendix-a">
     <h2>Appendix A: Day 1 Qualification Slot Assignments</h2>
-    <div class="day-note">Note: Slot times are determined based on the preference forms submitted by the teams. Please review your scheduled time below. (A complete listing of all teams will be populated prior to the event).</div>
+    <div class="day-note">Note: Slot times are determined based on the preference forms submitted by the teams. Please review your scheduled time below.</div>
     <table class="schedule-table">
+      <colgroup>
+        <col class="col-time">
+        <col class="col-pool">
+        <col class="col-pool">
+      </colgroup>
       <thead>
-        <tr><th>Time Slot</th><th>Team 1</th><th>Team 2</th></tr>
+        <tr><th>Time Slot</th><th>Lane 1</th><th>Lane 2</th></tr>
       </thead>
       <tbody>
-        <tr><td>09:00 – 09:15</td><td><em>TBD</em></td><td><em>TBD</em></td></tr>
-        <tr><td>09:15 – 09:30</td><td><em>TBD</em></td><td><em>TBD</em></td></tr>
-        <tr><td>09:30 – 09:45</td><td><em>TBD</em></td><td><em>TBD</em></td></tr>
-        <tr><td>09:45 – 10:00</td><td><em>TBD</em></td><td><em>TBD</em></td></tr>
-        <tr><td>10:00 – 10:15</td><td><em>TBD</em></td><td><em>TBD</em></td></tr>
-        <tr><td>10:15 - 10:30</td><td><em>TBD</em></td><td><em>TBD</em></td></tr>
-        <tr><td>...</td><td>...</td><td>...</td></tr>
-        <tr><td>11:45 - 12:00</td><td><em>TBD</em></td><td><em>TBD</em></td></tr>
-        <tr><td>12:00 - 12:40</td><td class="lunch" colspan="2">LUNCH BREAK</td></tr>
-        <tr><td>12:40 - 12:55</td><td><em>TBD</em></td><td><em>TBD</em></td></tr>
-        <tr><td>12:55 - 13:10</td><td><em>TBD</em></td><td><em>TBD</em></td></tr>
-        <tr><td>...</td><td>...</td><td>...</td></tr>
-        <tr><td>17:05 - 17:20</td><td><em>TBD</em></td><td><em>TBD</em></td></tr>
+        <tr><td>09:40 – 10:00</td><td>SG-07 Mecatron, Nanyang Technological University</td><td></td></tr>
+        <tr><td>10:00 – 10:20</td><td>CN-88 GuangJiao Brigade, Guangzhou Maritime University</td><td>CN-77 WaterDrifter, Harbin Engineering University</td></tr>
+        <tr><td>10:20 – 10:40</td><td>IN-32 KURMA, Indian Institute of Technology - Roorkee</td><td>CN-113 EXNOTSMART, Dalian University of Technology</td></tr>
+        <tr><td>10:40 – 11:00</td><td>ID-35 BARELANG MARINE ROBOTICS TEAM-BUTTERBOT, Batam State Polytechnic</td><td>ID-82 N-AUV 3.2 (N7-AUV), Bogor Agricultural University</td></tr>
+        <tr><td>11:00 – 11:20</td><td>TW-16 ORCA AUV, National Yang Ming Chiao Tung University</td><td>CN-116 CangMing, Harbin Engineering University</td></tr>
+        <tr><td>11:20 – 11:40</td><td>IN-34 Aritra, Indian Institute of Technology Madras</td><td>TR-17 Alesta, Adana Science High School</td></tr>
+        <tr><td>11:40 – 12:00</td><td>CN-81 Three Water, South China University of Technology</td><td>IN-61 Dreadnought Robotics, Vellore Institute of Technology Chennai</td></tr>
+        <tr><td>12:00 – 12:40</td><td class="lunch" colspan="2">LUNCH BREAK</td></tr>
+        <tr><td>12:40 – 13:00</td><td>TR-68 ATK ROV, ÖZEL TEKNOLOJİ AFYONKARAHİSAR ORGANİZE SANAYİ BÖLGESİ MESLEKİ VE TEKNİK ANADOLU LİSESİ</td><td>ID-24 TECH_SAS, Telkom University</td></tr>
+        <tr><td>13:00 – 13:20</td><td>IN-02 TEAM NIRMA AUV, NIRMA UNIVERSITY</td><td>AU-05 Manta Claus, University of New South Wales</td></tr>
+        <tr><td>13:20 – 13:40</td><td>ID-36 BARELANG MARINE ROBOTICS TEAM-OCTOBOT, Batam State Polytechnic</td><td>ID-87 Amarine, Universitas Brawijaya</td></tr>
+        <tr><td>13:40 – 14:00</td><td>ID-83 N-AUV 4 (N8-AUV), Bogor Agricultural University</td><td>ID-37 Narwhal AUV, Universitas Gadjah Mada</td></tr>
+        <tr><td>14:00 – 14:20</td><td>TR-99 MYS ABDÜLHAMİD, Selcuk University</td><td>ID-93 Orca, Gadjah Mada University</td></tr>
+        <tr><td>14:20 – 14:40</td><td>CN-94 SmartNav Deep Dive Team</td><td>CN-50 Electronic Vision AUV</td></tr>
+        <tr><td>14:40 – 15:00</td><td>ID-92 SeaDiver, Universitas Negeri Surabaya</td><td>ID-25 FIToplankton, Telkom University</td></tr>
+        <tr><td>15:00 – 15:20</td><td>IN-41 Brahmputra, Birla Vishvakarma Mahavidyalaya</td><td>SG-27 Aquanox, Singapore Polytechnic</td></tr>
+        <tr><td>15:20 – 15:40</td><td>IN-90 Team Utkarsh, Ganpat University - U.V. Patel College Of Engineering</td><td>RU-14 Hydronautics, Bauman Moscow State Technical University</td></tr>
+        <tr><td>15:40 – 16:00</td><td>CN-85 Deep-Dive Intelligence</td><td>MY-26 UTM OCEANVISION, Universiti Teknologi Malaysia</td></tr>
+        <tr><td>16:00 – 16:20</td><td>IN-01 AUVMEC, Mahindra University</td><td>AU-08 sUNSWim, University of New South Wales</td></tr>
+        <tr><td>16:20 – 16:40</td><td>IN-73 Team Nira, Indian Institute of Information Technology, Design and Manufacturing, Kancheepuram</td><td>TR-98 MYS YILDIRIM, Selcuk University</td></tr>
+        <tr><td>16:40 – 17:00</td><td>IN-20 Team Tiburon, National Institute of Technology, Rourkela</td><td>TR-09 CALROV, Cagaloglu Anatolian High School</td></tr>
+        <tr><td>17:00 – 17:20</td><td>TR-110 1.5 ADANA SGM AITO, Cukurova University</td><td>CN-91 T-Group, Northwestern Polytechnical University</td></tr>
+        <tr><td>17:20 – 17:40</td><td>IN-04 HydroHeroes, Muthoot Institute of Technology and Science</td><td>IN-112 Team VAUV, Vellore Institute of Technology, Vellore</td></tr>
       </tbody>
     </table>
   </div>
