@@ -1,0 +1,691 @@
+---
+layout: page
+title: Participant Manual
+---
+
+<style>
+  .page-content {
+    padding-top: 5em;
+    padding-bottom: 3em;
+  }
+  .manual-wrap {
+    width: 70%;
+    margin: 0 auto;
+  }
+  @media only screen and (max-width: 1300px) { .manual-wrap { width: 80%; } }
+  @media only screen and (max-width: 800px)  { .manual-wrap { width: 95%; } }
+
+  .manual-hero {
+    background: #A0DCF1;
+    text-align: center;
+    padding: 2.5em 1em 2em;
+    margin-bottom: 2em;
+  }
+  .manual-hero h1 {
+    color: #1C455D;
+    font-size: 2.5em;
+    margin: 0 0 0.3em;
+  }
+  .manual-hero .tagline {
+    font-style: italic;
+    color: #467F9F;
+    font-size: 1.1em;
+    text-align: center;
+    margin: 0 auto 0.8em;
+  }
+  .manual-hero p {
+    max-width: 700px;
+    margin: 0 auto 1em;
+    font-size: 0.95em;
+  }
+
+  .manual-toc {
+    background: #E5F2F7;
+    border-left: 5px solid #35A6D3;
+    padding: 1.2em 2em;
+    margin-bottom: 2.5em;
+    border-radius: 4px;
+  }
+  .manual-toc h2 {
+    font-size: 1.2em;
+    color: #1C455D;
+    margin: 0 0 0.6em;
+  }
+  .manual-toc ol {
+    margin: 0;
+    padding-left: 1.4em;
+    columns: 2;
+    font-size: 0.9em;
+  }
+  @media only screen and (max-width: 600px) { .manual-toc ol { columns: 1; } }
+  .manual-toc a { color: #35A6D3; }
+
+  .manual-section {
+    margin-bottom: 3em;
+    padding-bottom: 2em;
+    border-bottom: 2px solid #E5F2F7;
+  }
+  .manual-section:last-child { border-bottom: none; }
+  .manual-section h2 {
+    color: #F15E50;
+    font-size: 2em;
+    margin: 0 0 0.6em;
+  }
+  .manual-section h3 {
+    color: #1C455D;
+    font-size: 1.3em;
+    margin: 1.5em 0 0.5em;
+  }
+
+  .venue-block {
+    background: #f9f9f9;
+    border-left: 4px solid #35A6D3;
+    padding: 1em 1.5em;
+    margin: 1em 0;
+    border-radius: 0 4px 4px 0;
+  }
+  .venue-block strong { color: #1C455D; }
+
+  .day-note {
+    background: #FFF8E7;
+    border-left: 4px solid #F8C86C;
+    padding: 0.8em 1.2em;
+    margin: 0.8em 0 1.2em;
+    font-size: 0.9em;
+    border-radius: 0 4px 4px 0;
+  }
+
+  .safety-list {
+    background: #FFF0F0;
+    border-left: 4px solid #F15E50;
+    padding: 1em 1.5em;
+    border-radius: 0 4px 4px 0;
+    margin: 1em 0;
+  }
+  .safety-list li { margin: 0.4em 0; }
+
+  .innovation-box {
+    background: #E5F2F7;
+    padding: 1em 1.5em;
+    border-radius: 4px;
+    margin: 1em 0;
+  }
+  .innovation-box ul { margin: 0.5em 0; }
+
+  .faq-item {
+    margin: 1.5em 0;
+    padding: 1.2em 1.5em;
+    background: #f9f9f9;
+    border-radius: 4px;
+    border-left: 4px solid #A0DCF1;
+  }
+  .faq-item .faq-q {
+    font-weight: bold;
+    color: #1C455D;
+    margin: 0 0 0.5em;
+  }
+  .faq-item .faq-a { margin: 0; }
+
+  .back-link {
+    display: inline-block;
+    margin-bottom: 1.5em;
+    font-size: 0.9em;
+  }
+  .back-link:before { content: "← "; }
+
+  table.schedule-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9em;
+    margin: 1em 0;
+  }
+  table.schedule-table th {
+    background: #1C455D;
+    color: #fff;
+    padding: 0.7em 1em;
+    text-align: left;
+  }
+  table.schedule-table td {
+    padding: 0.6em 1em;
+    border-top: 1px solid #E5F2F7;
+  }
+  table.schedule-table tr:nth-child(even) td { background: #f5fafd; }
+  table.schedule-table td.lunch {
+    text-align: center;
+    font-weight: bold;
+    color: #467F9F;
+    background: #E5F2F7 !important;
+    letter-spacing: 0.05em;
+  }
+
+  table.contacts-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9em;
+    margin: 1em 0;
+  }
+  table.contacts-table th {
+    background: #1C455D;
+    color: #fff;
+    padding: 0.7em 1em;
+    text-align: left;
+  }
+  table.contacts-table td {
+    padding: 0.6em 1em;
+    border-top: 1px solid #E5F2F7;
+    color: #888;
+    font-style: italic;
+  }
+  table.contacts-table td:first-child {
+    color: #1C455D;
+    font-style: normal;
+    font-weight: bold;
+  }
+
+  .meal-box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    margin: 1em 0;
+  }
+  .meal-card {
+    flex: 1 1 180px;
+    background: #E5F2F7;
+    border-radius: 6px;
+    padding: 1em;
+    text-align: center;
+  }
+  .meal-card .meal-label { font-weight: bold; color: #1C455D; }
+  .meal-card .meal-price { font-size: 1.3em; color: #F15E50; font-weight: 900; }
+
+  .app-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    margin: 1em 0;
+  }
+  .app-card {
+    flex: 1 1 200px;
+    border: 2px solid #A0DCF1;
+    border-radius: 6px;
+    padding: 0.8em 1.2em;
+  }
+  .app-card strong { color: #1C455D; display: block; margin-bottom: 0.2em; }
+
+  .photo-caption {
+    font-size: .8em;
+    text-align: center;
+    color: #467F9F;
+    margin: .3em 0 1.2em;
+  }
+  .photo-caption::before { content: "▲ "; }
+  .photo-full {
+    width: 100%;
+    border-radius: 4px;
+    margin-top: .6em;
+  }
+  .photo-pair {
+    display: flex;
+    gap: 1em;
+    margin-top: .6em;
+  }
+  .photo-pair img {
+    flex: 1 1 0;
+    width: 0;
+    border-radius: 4px;
+    object-fit: cover;
+  }
+  .sponsor-img-pair {
+    display: flex;
+    gap: 1em;
+    margin-top: .6em;
+    align-items: flex-start;
+  }
+  .sponsor-img-pair img {
+    width: calc(50% - .5em);
+    height: auto;
+    border-radius: 4px;
+    background: #f9f9f9;
+  }
+</style>
+
+<div class="manual-hero">
+  <h1>SAUVC 2026 Participant Manual</h1>
+  <p class="tagline">Design to Compete. Destined to Explore.</p>
+  <p>Welcome to the Singapore AUV Challenge 2026! This year marks an exciting milestone as SAUVC moves to <strong>Sanya, China</strong>. This document outlines the logistical details, event venues, program itineraries, and critical rules for all participating teams.</p>
+  <p>Please also check out the <a href="https://www.reddit.com/r/SAUVC" target="_blank">SAUVC Reddit</a> for FAQs from previous editions (many questions are still relevant for this year).</p>
+</div>
+
+<div class="manual-wrap">
+
+  <a class="back-link" href="/">Back to SAUVC 2026 Home</a>
+
+  <div class="manual-toc">
+    <h2>Contents</h2>
+    <ol>
+      <li><a href="#overview">Overview</a></li>
+      <li><a href="#venues">Venues</a></li>
+      <li><a href="#itinerary">Program Itinerary</a></li>
+      <li><a href="#technical">Technical &amp; Safety Reminders</a></li>
+      <li><a href="#innovation">Innovation Award</a></li>
+      <li><a href="#logistics">Logistics &amp; Mandatory Forms</a></li>
+      <li><a href="#catering">Catering &amp; Meals</a></li>
+      <li><a href="#apps">Essential Apps &amp; Getting Around</a></li>
+      <li><a href="#communication">Communication Channels</a></li>
+      <li><a href="#contacts">Key Roles &amp; Emergency Contacts</a></li>
+      <li><a href="#sponsors">Sponsors</a></li>
+      <li><a href="#appendix-a">Appendix A: Qualification Slot Assignments</a></li>
+      <li><a href="#faq">FAQs</a></li>
+    </ol>
+  </div>
+
+  <!-- 1. OVERVIEW -->
+  <div class="manual-section" id="overview">
+    <h2>1. Overview</h2>
+    <p><strong>Dates:</strong> May 28 – May 31, 2026</p>
+    <p><strong>Host City:</strong> Sanya, China</p>
+    <p>SAUVC 2026 will be a 4-day event bringing together teams from across the globe to test their Autonomous Underwater Vehicles in a challenging pool arena.</p>
+  </div>
+
+  <!-- 2. VENUES -->
+  <div class="manual-section" id="venues">
+    <h2>2. Venues</h2>
+    <p>Please note the multiple locations for this year's event in Sanya:</p>
+
+    <div class="venue-block">
+      <strong>A. Main Competition Venue (Days 0, 1 &amp; 2)</strong><br>
+      <strong>Location:</strong> Aofei Culture &amp; Sports Group Sanya Yazhou Sports Park and Citizen Fitness Centre<br>
+      <strong>Purpose:</strong> Registration, Opening Ceremony, Practice Runs, Qualifying Rounds, and Finals.
+    </div>
+    <img class="photo-full" src="img/manual/venue-layout.jpg" alt="Citizen Fitness Centre layout" loading="lazy">
+    <p class="photo-caption">Layout for the Citizen Fitness Centre</p>
+    <img class="photo-full" src="img/manual/venue-entrance.jpg" alt="Entrance to Citizen Fitness Centre" loading="lazy">
+    <p class="photo-caption">Entrance to Citizen Fitness Centre</p>
+    <img class="photo-full" src="img/manual/pool-entrance.jpeg" alt="Entrance to the swimming pool" loading="lazy">
+    <p class="photo-caption">Entrance to the swimming pool</p>
+    <div class="photo-pair">
+      <img src="img/manual/pool-1.jpg" alt="Main pool area" loading="lazy">
+      <img src="img/manual/pool-2.jpg" alt="Main pool area" loading="lazy">
+    </div>
+    <p class="photo-caption">Main pool area where competition and qualification rounds will be held</p>
+    <img class="photo-full" src="img/manual/opening-hall.jpg" alt="Opening Ceremony and holding area" loading="lazy">
+    <p class="photo-caption">Opening Ceremony and holding area (Level 2 Badminton Court)</p>
+    <img class="photo-full" src="img/manual/stairway.jpeg" alt="Stairway leading to the opening ceremony and holding area" loading="lazy">
+    <p class="photo-caption">Stairway leading to the opening ceremony and holding area</p>
+    <img class="photo-full" src="img/manual/lobby-view.jpeg" alt="Entrance to the opening ceremony and holding area" loading="lazy">
+    <p class="photo-caption">Entrance to the opening ceremony and holding area</p>
+
+    <div class="venue-block">
+      <strong>B. Award Ceremony Venue (Day 3)</strong><br>
+      <strong>Location:</strong> Innovation Research Valley Auditorium
+    </div>
+    <img class="photo-full" src="img/manual/award-venue.jpg" alt="Award Ceremony Venue" loading="lazy">
+    <p class="photo-caption">Award Ceremony Venue</p>
+
+    <div class="venue-block">
+      <strong>C. Gala Dinner Venue (Day 3)</strong><br>
+      <strong>Location:</strong> Taste of Yazhou Bay · Canteen No.10, Innovation Research Valley Canteen
+    </div>
+    <img class="photo-full" src="img/manual/gala-venue.jpg" alt="Gala Dinner Venue" loading="lazy">
+    <p class="photo-caption">Gala Dinner Venue</p>
+  </div>
+
+  <!-- 3. PROGRAM ITINERARY -->
+  <div class="manual-section" id="itinerary">
+    <h2>3. Program Itinerary</h2>
+    <div class="day-note">Note: Program times are subject to change based on weather conditions and at the discretion of the organizing committee.</div>
+
+    <h3>Day 0: 28 May 2026 (Thursday) — Registration Day</h3>
+    <table class="schedule-table">
+      <thead>
+        <tr><th>Time</th><th>Program</th><th>Venue</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>11:00 – 14:00</td><td>Team Registration &amp; Setup</td><td>Level 1 (Registration) &amp; Level 2 (Setup)</td></tr>
+        <tr><td>14:00 – 15:00</td><td>Opening Ceremony, Briefings &amp; Group Photo</td><td>Level 2, Badminton Court</td></tr>
+        <tr><td>15:00 – 19:00</td><td>Baby Pool Practice Sessions</td><td>Outdoor, Baby Pool</td></tr>
+      </tbody>
+    </table>
+    <p><strong>Important Notes for Day 0:</strong></p>
+    <ul>
+      <li><strong>Registration Split:</strong> Upon arrival at the hall (Level 1), the <strong>Team Lead</strong> must stay at the registration desk to confirm member details and make payments for any additional lunch or gala dinner tickets. The rest of the team will be directed to Level 2 to locate their assigned desks and begin setting up their AUV stations.</li>
+      <li><strong>Indemnity Forms &amp; Practice Slots:</strong> The Team Lead will receive an indemnity form at registration. <strong> Every team member must sign this form.</strong> Teams can only sign up for a baby pool practice slot with the Slot Masters <em>after</em> the fully completed and signed indemnity form has been returned to the volunteers.</li>
+      <li><strong>Briefings &amp; Group Photo:</strong> The 2:00 p.m. slot will cover crucial Game and Safety Briefings. A group photo will be taken immediately after these briefings, so please ensure your entire team is present.</li>
+    </ul>
+
+    <h3>Day 1: 29 May 2026 (Friday) — Qualification Day</h3>
+    <table class="schedule-table">
+      <thead>
+        <tr><th>Time</th><th>Program</th><th>Venue</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>09:00 – 12:00</td><td>Qualifying Slots</td><td>Level 1, Swimming Pool</td></tr>
+        <tr><td>12:00 – 12:40</td><td class="lunch">— LUNCH BREAK —</td><td></td></tr>
+        <tr><td>12:40 – 18:00</td><td>Qualifying Slots</td><td>Level 1, Swimming Pool</td></tr>
+        <tr><td>09:00 – 18:00</td><td>Baby Pool Practice Slots</td><td>Outdoor, Baby Pool</td></tr>
+      </tbody>
+    </table>
+    <p><strong>Qualification Day Rules &amp; Workflow:</strong></p>
+    <ul>
+      <li><strong>15-Minute Slots:</strong> Each qualification slot is strictly <strong>15 minutes long</strong>. Two teams will run their qualification attempts simultaneously in designated zones during each time block.</li>
+      <li><strong>Punctuality:</strong> Teams must be on time for their slots. If a team is late, the lost time is deducted from their 15-minute window. <strong>If a team misses their slot entirely, no replacement slot will be provided.</strong></li>
+      <li><strong>Swapping Slots:</strong> Teams may swap slots only if another team explicitly agrees to the swap. Any finalized changes must be communicated immediately to the Slot Master and the Judges.</li>
+      <li><strong>Baby Pool Practice:</strong> The baby pool is available for practice throughout the day. However, teams <strong>cannot</strong> enter the baby pool freely. You must locate a Slot Master and be assigned a specific practice time block before entering the water.</li>
+      <li><strong>Results &amp; Next Steps:</strong> Teams will be informed immediately after their 15-minute slot whether they have qualified for the finals. Once qualified, teams can proceed to the Slot Master to book a practice slot for the finals in the baby pool.</li>
+      <li><strong>Day 2 Preparations:</strong> At the end of Day 1, all finalists will be officially notified and will be randomly assigned a designated practice slot in the main pool for Day 2 (Finals Day).</li>
+    </ul>
+    <p><em>Please refer to <a href="#appendix-a">Appendix A</a>: Day 1 Qualification Slot Assignments at the end of this manual for the full schedule of team slots.</em></p>
+
+    <h3>Day 2: 30 May 2026 (Saturday) — Finals Day</h3>
+    <table class="schedule-table">
+      <thead>
+        <tr><th>Time</th><th>Program</th><th>Venue</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>08:00 – 14:00</td><td>Designated Practice Slots for Finalists</td><td>Level 1, Swimming Pool</td></tr>
+        <tr><td>08:00 – 19:00</td><td>Open Practice Slots</td><td>Outdoor, Baby Pool</td></tr>
+        <tr><td>14:00 – 19:00</td><td>SAUVC Finals</td><td>Level 1, Swimming Pool</td></tr>
+      </tbody>
+    </table>
+    <p><strong>Finals Day Overview:</strong></p>
+    <ul>
+      <li><strong>Designated Practice (Main Pool):</strong> Finalists will be assigned specific practice slots in the main pool ahead of the competition. Teams will be informed of their assigned time at the conclusion of Day 1.</li>
+      <li><strong>Open Practice (Baby Pool):</strong> The baby pool is open from 8:00 a.m. to 7:00 p.m. for practice. While it is an open period, teams must still coordinate with the Slot Master to secure their time in the water to avoid overcrowding.</li>
+      <li><strong>Non-Finalists:</strong> Even if your team is not competing in the finals, we strongly encourage you to come to the site! It's a great opportunity to watch the games, interact with the judges, and network with other teams.</li>
+    </ul>
+
+    <h3>Day 3: 31 May 2026 (Sunday) — Awards &amp; Gala</h3>
+    <table class="schedule-table">
+      <thead>
+        <tr><th>Time</th><th>Program</th><th>Venue</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Morning</td><td>Free Time / Optional Activities (TBD)</td><td>—</td></tr>
+        <tr><td>17:00 – 18:00</td><td>Award Ceremony</td><td>Innovation Research Valley Auditorium</td></tr>
+        <tr><td>18:00 – 21:00</td><td>Gala Dinner</td><td>Taste of Yazhou Bay Canteen</td></tr>
+      </tbody>
+    </table>
+    <p><strong>Closing Events:</strong></p>
+    <ul>
+      <li><strong>Free Time / Workshops:</strong> The morning is currently slated as free time for teams to rest or explore Sanya. Should any optional technical workshops be confirmed, announcements will be made via Microsoft Teams.</li>
+      <li><strong>Award Ceremony:</strong> Join us for the official closing ceremony summarizing the challenge. We will be giving out the main competition awards, the Innovation Award, and recognizing team achievements across the board.</li>
+      <li><strong>Gala Dinner:</strong> Celebrate the conclusion of SAUVC 2026 with a spectacular dinner and networking event alongside your fellow competitors and the organizing committee. <em>(Note: The Canteen closes promptly at 9:00 PM).</em></li>
+    </ul>
+  </div>
+
+  <!-- 4. TECHNICAL & SAFETY -->
+  <div class="manual-section" id="technical">
+    <h2>4. Technical &amp; Safety Reminders</h2>
+    <p>Before putting your AUV in the water, please ensure you meet the following SAUVC 2026 constraints:</p>
+    <div class="safety-list">
+      <ul>
+        <li><strong>Size Limits:</strong> The AUV must fit within a 140 × 100 × 100 cm box. <em>(Bonus 10 points for AUVs smaller than 70 × 50 × 50 cm).</em></li>
+        <li><strong>Weight Limits:</strong> The AUV must not weigh more than 52 kg in air.<em>(Bonus 10 points for AUVs weighing less than 42 kg).</em></li>
+        <li><strong>Tethering:</strong> The AUV must be completely untethered.</li>
+        <li><strong>Safety Requirements:</strong>
+          <ul>
+            <li>No leaks or pool pollution.</li>
+            <li>Thrusters and propeller blades MUST be shrouded.</li>
+            <li>A brightly colored, easily accessible physical <strong>Kill Switch</strong> must be present to cut all power immediately.</li>
+            <li>Compressed gas systems must not exceed 6 bars.</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- 5. INNOVATION AWARD -->
+  <div class="manual-section" id="innovation">
+    <h2>5. Innovation Award</h2>
+    <p>The IEEE OES Innovation Award evaluation was completed prior to the competition. We were incredibly impressed by the creative engineering solutions submitted by all teams.</p>
+    <p>Congratulations to the following teams for winning the SAUVC 2026 Innovation Award! As a reward for their outstanding designs, these teams have won sponsored participation to <strong>OCEANS Sanya</strong>:</p>
+    <div class="innovation-box">
+      <ul>
+        <li><strong>IN-61: Dreadnought Robotics</strong> (Vellore Institute of Technology Chennai, India)</li>
+        <li><strong>TR-98: MYS YILDIRIM</strong> (Selcuk University, Turkiye)</li>
+        <li><strong>CN-91: T-Group</strong> (Northwestern Polytechnical University, China)</li>
+      </ul>
+    </div>
+    <p>You can find detailed information regarding these innovations on the official SAUVC website.</p>
+  </div>
+
+  <!-- 6. LOGISTICS -->
+  <div class="manual-section" id="logistics">
+    <h2>6. Logistics &amp; Mandatory Forms</h2>
+    <ul>
+      <li><strong>Work Areas:</strong> Teams will be assigned tables near the pool deck for staging, soldering, and minor repairs.</li>
+      <li><strong>Transportation:</strong> Teams are responsible for their local transport between their accommodations and the Sanya Yazhou Sports Park.</li>
+    </ul>
+    <p><strong>Mandatory Forms:</strong></p>
+    <ol>
+      <li><strong>Team Member Details Form:</strong> Teams MUST ensure that all team members' names are entered fully and correctly in this form. We will use this exact data to prepare the official participation and winner certificates.</li>
+      <li><strong>Food Requirements Form:</strong> Teams must use the provided online link to indicate their dietary requirements and the initial estimate for additional meals. <strong>You will finalize this number and make your payment during the Team Registration window on Day 0.</strong></li>
+    </ol>
+  </div>
+
+  <!-- 7. CATERING -->
+  <div class="manual-section" id="catering">
+    <h2>7. Catering &amp; Meals</h2>
+    <ul>
+      <li><strong>Provided Meals:</strong> Lunch will be provided on <strong>Day 1</strong> and <strong>Day 2</strong>. The Gala Dinner will be provided on <strong>Day 3</strong>. <em>(Note: No meals are provided on Day 0).</em></li>
+      <li><strong>Free Quota:</strong> Each participating team is entitled to <strong>6 free portions (pax)</strong> for the lunches and <strong>6 free portions (pax)</strong> for the Gala Dinner.</li>
+    </ul>
+    <p><strong>Purchasing Additional Meals:</strong> Any extra meals needed beyond the 6 free portions per team must be purchased (and paid for at registration) at the following rates:</p>
+    <div class="meal-box">
+      <div class="meal-card">
+        <div class="meal-label">Extra Lunch</div>
+        <div class="meal-price">35 CNY</div>
+        <div>per pax</div>
+      </div>
+      <div class="meal-card">
+        <div class="meal-label">Extra Gala Dinner</div>
+        <div class="meal-price">80 CNY</div>
+        <div>per pax</div>
+      </div>
+    </div>
+    <p><strong>Water:</strong> Please bring reusable water bottles — water refill stations will be available at the venues.</p>
+    <p><strong>Important Timing:</strong> The Taste of Yazhou Bay Canteen closes promptly at 9:00 PM, so the Gala Dinner will conclude by this time.</p>
+    <p><strong>Resturants around the competition venue：</strong></p>
+    <p>There are 15 open canteens in Yazhou Bay Science and Technology City (<a href="https://mp.weixin.qq.com/s/9mjrngIYXDcL0gzDn5KWhA" target="_blank">click the link to view the canteen distribution map</a>) for nearby dining. It is recommended to plan meal times in advance to avoid the peak hours of <strong>11:30–13:00</strong>.</p>
+    <img class="photo-full" src="img/manual/restaurants-map.jpg" alt="Restaurants map around competition venue" loading="lazy">
+  </div>
+
+  <!-- 8. APPS -->
+  <div class="manual-section" id="apps">
+    <h2>8. Essential Apps &amp; Getting Around in China</h2>
+    <p>We highly recommend setting up the following tools before your arrival:</p>
+    <div class="app-grid">
+      <div class="app-card">
+        <strong>Digital Payments (Crucial)</strong>
+        Cash transactions can take a very long time to process, and many small stores/vendors do not accept credit cards or cash at all. You will likely need to use <strong>WeChat Pay</strong> or <strong>Alipay</strong>. Please download these apps and link an international card to them prior to traveling.
+      </div>
+      <div class="app-card">
+        <strong>Ride-Hailing</strong>
+        To travel between your accommodation and the venues, you can use <strong>Amap (Gaode Maps)</strong> or <strong>Didi</strong>. Please note that you will need to have a local payment method (WeChat Pay or Alipay) successfully set up to pay for these rides.
+      </div>
+      <div class="app-card">
+        <strong>Navigation</strong>
+        Amap, Baidu Maps, or Apple Maps are the most reliable for navigation within China.
+      </div>
+    </div>
+    <p><strong>Map of the area surrounding the competition venue：</strong></p>
+    <img class="photo-full" src="img/manual/area-map.jpg" alt="Map of the area surrounding the competition venue" loading="lazy">
+  </div>
+
+  <!-- 9. COMMUNICATION -->
+  <div class="manual-section" id="communication">
+    <h2>9. Communication Channels</h2>
+    <p><strong>Primary Communication:</strong> Official event announcements, schedule updates, and Q&amp;A will be conducted via <strong>Microsoft Teams</strong>. Please ensure all team members have the app downloaded and are added to the official SAUVC 2026 Teams channel.</p>
+  </div>
+
+  <!-- 10. CONTACTS -->
+  <div class="manual-section" id="contacts">
+    <h2>10. Key Roles &amp; Emergency Contacts</h2>
+    <p>If you have any questions or encounter issues during the event, please look for the designated committee members. (Note: Specific names and phone numbers will be populated closer to the event date).</p>
+    <table class="contacts-table">
+      <thead>
+        <tr><th>Role / Responsibility</th><th>Name</th><th>Contact</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Designated Safety Staff (First aid, pool safety, Kill Switch checks)</td><td>TBD</td><td>TBD</td></tr>
+        <tr><td>Game Master</td><td>TBD</td><td>TBD</td></tr>
+        <tr><td>Logistics</td><td>TBD</td><td>TBD</td></tr>
+        <tr><td>Others</td><td>TBD</td><td>TBD</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- 11. SPONSORS -->
+  <div class="manual-section" id="sponsors">
+    <h2>11. Sponsors</h2>
+    <p>We would like to extend our deepest gratitude to our sponsors and partners who made SAUVC 2026 possible.</p>
+
+    <h3>Introduction to Harbin Engineering University South China Sea Research Institute</h3>
+    <p>Harbin Engineering University originated from the PLA Military Engineering Institute (Harbin Military Engineering Institute) founded in 1953, with General Chen Geng as the first president. The university is one of the first institutions authorized to grant doctoral and master's degrees, a key university under the "211 Project", and a national "Double First-Class" construction university. It is now affiliated to the Ministry of Industry and Information Technology. Adhering to the school-running strategy of "Three Seas and One Nuclear" (shipbuilding industry, naval equipment, marine development, nuclear energy application), the university has made important contributions to China's shipbuilding industry, nuclear industry, national defense modernization, and economic and social development, and has become a high-level research university in China's ship, ocean, and nuclear fields.</p>
+    <p>The construction of Hainan Free Trade Port is a major national strategy personally planned, deployed, and promoted by General Secretary Xi Jinping. The establishment of the South China Sea Research Institute is an important measure for the university to actively serve national strategies, national defense needs, and local economic and social development, and to implement the instructions of the Ministry of Education and the Ministry of Industry and Information Technology. In accordance with the principles of "serving strategies, highlighting characteristics, opening up cooperation, and integrating development", the South China Sea Research Institute has in-depth cooperation with the Institute of Deep-sea Science and Engineering of the Chinese Academy of Sciences, China State Shipbuilding Corporation, Harbin Electric Group, and other units, joining the national deep-sea team to jointly accelerate the solution of "bottleneck" problems in national defense and industries, seize the commanding heights of scientific and technological innovation in the deep-sea field, and make contributions to the construction of Hainan Free Trade Port and the national defense construction of the South China Sea.</p>
+    <p>Harbin Engineering University South China Sea Research Institute (Harbin Engineering University Sanya South China Sea Innovation and Development Base) is co-founded by Harbin Engineering University, Hainan Provincial Department of Education, Sanya Municipal Government, and China Merchants Hainan. It is an important unit approved by the Ministry of Industry and Information Technology and supported by the Ministry of Education for Hainan's deepening of education reform and opening up. It is an important part of Harbin Engineering University's efforts to build a world-class university with distinctive characteristics.</p>
+    <p>Adhering to the principle of "meeting the needs of the country (Hainan) with the university's strengths", the South China Sea Research Institute is committed to promoting the innovation and application of deep-sea equipment technology, building a high-level industry-education integration talent training base, a high-level industrial incubation and innovation platform, and an international exchange and cooperation base.</p>
+
+    <h3>Introduction to Hainan Aerial Science and Technology Co., Ltd</h3>
+    <p>Hainan Aerial Science and Technology Co., Ltd. was established on May 31, 2020, in Sanya Yazhou Bay Science and Technology City, a high-tech innovation hub of Hainan Free Trade Port. The company is a technology-driven enterprise integrating the R&amp;D, production, and services of unmanned equipment. Leveraging its technological advantages in the cross-integration of "air-sea" domains and its geographic location at the gateway to the South China Sea, the company is committed to becoming a leading provider of low-altitude + marine products and services.</p>
+    <p>The company focuses on the niche area of tandem twin-rotor UAV technology and the marine application market for UAVs. It has formulated the first industry standard for UAVs in the marine sector, serving as a pioneer in the marine UAV niche and an innovator in the integrated development of "low-altitude + marine". In terms of scenario-based innovation, the company possesses a number of disruptive technologies, such as unmanned helicopter deployment and recovery of marine equipment, unmanned helicopter fish farm scouting, feeding, and express delivery, unmanned helicopter integrated marine survey and observation, and unmanned helicopter search, rescue, and transport of persons overboard.</p>
+    <p>The company has undertaken several major projects, including the Hainan Provincial Key R&amp;D Program, Hainan Provincial Advanced Equipment First Set Demonstration, National Key R&amp;D Program, National Major R&amp;D Program, Hainan Provincial Marine Disaster Comprehensive Prevention and Control Construction Project, and the surface/air mobile carrier simulation system for a certain "proving ground" project. The company holds 20 invention patents and 15 software copyrights, has led or participated in the development of 17 standards, and has established a development strategy of "patents first, standards leading, brand shaping, and disruptive applications". It has won the second prize of the Chuangqingchun Hainan Competition and the Hainan Provincial Patent Excellence Award, among others. The company has grown into a technology-oriented SME, an innovative SME, a high-tech enterprise, and a provincial-level "Specialized, Refined, Distinctive, and Innovative" enterprise, demonstrating first-class R&amp;D capabilities and niche market development strengths.</p>
+    <div class="sponsor-img-pair">
+      <img src="img/manual/sponsor-aerial-ahz650.png" alt="AHZ-650 Tandem Twin-Rotor UAV" loading="lazy">
+      <img src="img/manual/sponsor-aerial-ahz700.png" alt="AHZ-700 Tandem Twin-Rotor UAV" loading="lazy">
+    </div>
+    <div class="sponsor-img-pair">
+      <img src="img/manual/sponsor-aerial-ahz080.png" alt="AHZ-080 Tandem Twin-Rotor UAV" loading="lazy">
+      <img src="img/manual/sponsor-aerial-ahg020.png" alt="AHG-020 Coaxial Twin-Rotor UAV" loading="lazy">
+    </div>
+    <img class="photo-full" src="img/manual/sponsor-aerial-ahz1500.png" alt="AHZ-1500 1.5-ton Tandem Twin-Rotor UAV" loading="lazy">
+
+    <h3>Hainan Yuchi Special New Energy Co., Ltd</h3>
+    <p>Hainan Yuchi Special New Energy Co., Ltd. (hereinafter referred to as "Hainan Yuchi") is a wholly-owned subsidiary established in Hainan by Xi'an Yuchi. Founded in February 2023, the company is located in Phase II, Deep-sea Equipment Industrial Park, Yazhou Bay Science and Technology City, Sanya. It is a high-tech enterprise key-supported by Hainan Provincial Deep-sea Technology Innovation Center.</p>
+    <p>The company has obtained full certification qualifications of the three management systems including ISO 9001 (Quality Management System), ISO 14001 (Environmental Management System) and ISO 45001 (Occupational Health and Safety Management System), as well as the national military standard certification of GJB 9001C (Military Quality Management System). It has built a comprehensive, standardized management and support system in line with domestic and international high-standard norms.</p>
+    <p>Boasting an experienced core team, the company possesses solid technical reserves and rich engineering practical experience in the field of deep-sea energy systems.</p>
+    <p><strong>Business Scope</strong></p>
+    <p>The company is engaged in the production, sales and after-sales service of power supply units for deep-sea equipment, storage batteries, deep-sea pressure-resistant high energy density battery packs, solar panels, UPS power supplies, battery cabins, power supply systems, UAV energy modules, multi-functional unmanned surface vehicle systems, floating and submerged buoy battery packs, and other related products.</p>
+    <p>It provides one-stop, full-lifecycle professional energy support services covering fault diagnosis, reliability assessment, operation and maintenance. The company also conducts non-standard environmental tests such as deep-sea pressure simulation and charge-discharge cycle testing, so as to verify the performance of battery systems under extreme working conditions.</p>
+    <div class="sponsor-img-pair">
+      <img src="img/manual/sponsor-yuchi-battery1.png" alt="Yuchi deep-sea battery products" loading="lazy">
+      <img src="img/manual/sponsor-yuchi-battery2.png" alt="Yuchi submersible battery packs" loading="lazy">
+    </div>
+    <img class="photo-full" src="img/manual/sponsor-yuchi-uuv-table.png" alt="Typical Size UUV Energy Segment" loading="lazy">
+    <p><strong>Application Scenarios</strong></p>
+    <p>Full-ocean-depth AUV/ROV, abyssal landers, long-term deep-sea observation platforms, etc.; Deep-sea submerged buoys, underwater gliders, submarine observation network nodes, long-term fixed monitoring and detection equipment; Various unmanned underwater vehicles (UUVs), autonomous operation robots and other underwater equipment.</p>
+  </div>
+
+  <!-- APPENDIX A -->
+  <div class="manual-section" id="appendix-a">
+    <h2>Appendix A: Day 1 Qualification Slot Assignments</h2>
+    <div class="day-note">Note: Slot times are determined based on the preference forms submitted by the teams. Please review your scheduled time below. (A complete listing of all teams will be populated prior to the event).</div>
+    <table class="schedule-table">
+      <thead>
+        <tr><th>Time Slot</th><th>Team 1</th><th>Team 2</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>09:00 – 09:15</td><td><em>TBD</em></td><td><em>TBD</em></td></tr>
+        <tr><td>09:15 – 09:30</td><td><em>TBD</em></td><td><em>TBD</em></td></tr>
+        <tr><td>09:30 – 09:45</td><td><em>TBD</em></td><td><em>TBD</em></td></tr>
+        <tr><td>09:45 – 10:00</td><td><em>TBD</em></td><td><em>TBD</em></td></tr>
+        <tr><td>10:00 – 10:15</td><td><em>TBD</em></td><td><em>TBD</em></td></tr>
+        <tr><td>10:15 - 10:30</td><td><em>TBD</em></td><td><em>TBD</em></td></tr>
+        <tr><td>...</td><td>...</td><td>...</td></tr>
+        <tr><td>11:45 - 12:00</td><td><em>TBD</em></td><td><em>TBD</em></td></tr>
+        <tr><td>12:00 - 12:40</td><td class="lunch" colspan="2">LUNCH BREAK</td></tr>
+        <tr><td>12:40 - 12:55</td><td><em>TBD</em></td><td><em>TBD</em></td></tr>
+        <tr><td>12:55 - 13:10</td><td><em>TBD</em></td><td><em>TBD</em></td></tr>
+        <tr><td>...</td><td>...</td><td>...</td></tr>
+        <tr><td>17:05 - 17:20</td><td><em>TBD</em></td><td><em>TBD</em></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- 12. FAQ -->
+  <div class="manual-section" id="faq">
+    <h2>12. Frequently Asked Questions (FAQs)</h2>
+
+    <div class="faq-item">
+      <p class="faq-q">Q: Any recommendations on payment modes, apps and sims in China?</p>
+      <div class="faq-a">
+        <p>These are just our recommendations based on information received, and it would be best if you can do your own research on this too:</p>
+        <ul>
+          <li>For ride hailing, you can consider using DiDi as an option. You can check out this article for info: <a href="https://share.google/5DR4I7cyNprxakPaP" target="_blank">https://share.google/5DR4I7cyNprxakPaP</a></li>
+          <li>The most recommended app for Maps in China is AMaps, better than Google Maps. Apple Maps works, but may be missing some features — however, it allows you to sometimes book rides directly. A useful article: <a href="https://share.google/LYeF3OKsCaZ7nVi9F" target="_blank">https://share.google/LYeF3OKsCaZ7nVi9F</a></li>
+          <li>It is possible to buy an inexpensive e-SIM (specifically Airalo) for use in China, or sometimes even roaming services (like Simba from Singapore) which may allow access to Google services like Gmail and Google Maps, and even WhatsApp.</li>
+          <li>Here are some tips on how to pay cashless in China: <a href="https://share.google/3qpZsHJWzPVjIPMpt" target="_blank">https://share.google/3qpZsHJWzPVjIPMpt</a></li>
+          <li>Visa/Mastercard based payments usually work, but if you want to be safe on this, you can install Alipay (but its setup requires a whole bunch of permissions).</li>
+          <li>Withdrawing cash from an ATM in China is easiest if your card has a UnionPay, Cirrus or PLUS logo. Many ATMs may work with Mastercard or VISA cards also.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <p class="faq-q">Q: How do we get around Sanya and to the hotel?</p>
+      <p class="faq-a">We had provided a transportation guide which you may use as a guideline for directions from the airport to the competition venue. Try to see if you can download the application Didi, which allows you to book taxis to get around.</p>
+    </div>
+
+    <div class="faq-item">
+      <p class="faq-q">Q: For the payment procedure for the booked accommodation, is the payment to be made through the SAUVC organizers or directly to the hotel?</p>
+      <p class="faq-a">All hotel payments and communication are to be made directly with the hotel. We are only helping facilitate that to make your job easier, but please treat it as a regular hotel booking.</p>
+    </div>
+
+    <div class="faq-item">
+      <p class="faq-q">Q: Who is the contact at the hotel to talk to regarding additional arrangements?</p>
+      <p class="faq-a">To communicate with the hotel, please try calling the number provided on the booking given to you, and on the booking information form. At the moment, that is our only contact with the hotel too. We are not sure if the hotel's email is available online.</p>
+    </div>
+
+    <div class="faq-item">
+      <p class="faq-q">Q: Will transportation be arranged from the airport to the hotel and back?</p>
+      <p class="faq-a">We (SAUVC organizers) will not be arranging any transfer of this sort per se. If interested, you can reach out to the hotel to see if this option will be possible.</p>
+    </div>
+
+    <div class="faq-item">
+      <p class="faq-q">Q: Will transport be provided between the hotel and the competition venue during the event?</p>
+      <p class="faq-a">Not as far as we know.</p>
+    </div>
+
+    <div class="faq-item">
+      <p class="faq-q">Q: Will meals be provided for participants? If so, please specify which meals are included.</p>
+      <p class="faq-a">As communicated in an email, up to 6 people in each team will be provided meals for 2 days for free. If you need food for more than 6 pax, you can indicate this to us earlier via the form which will be sent to you, and there will be a provider at the venue who you can buy it from.</p>
+    </div>
+
+    <div class="faq-item">
+      <p class="faq-q">Q: Are there any issues if we bring lithium batteries with us when traveling to China for the competition? Are there any restrictions or required documents for bringing lithium batteries into China? Could you please advise on the recommended process and any constraints we should be aware of?</p>
+      <div class="faq-a">
+        <p>We recommend that you check with your airline early on regarding these restrictions, as usually they are the ones who will impose strict regulations regarding battery capacity and types that can be brought onboard the flight.</p>
+        <p>It would be good to have your material safety datasheets for the batteries with you, as they may ask for them.</p>
+        <p>If you are considering buying batteries from a vendor in China, one vendor option you can consider using is Witkey Ocean (<a href="mailto:witkeyma@163.com">witkeyma@163.com</a>). Please note that this vendor does not represent SAUVC, but he is familiar with the competition and may be able to help you. You can discuss possible options to acquire, dispose, or rent batteries from him. It is completely up to you whether you would like to use him.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <p class="faq-q">Q: Is there a possibility for teams to order batteries through the organizing team from any online platforms available in China?</p>
+      <p class="faq-a">Unfortunately, the organizing team is unable to handle the logistics and complications of ordering for teams, and would not be able to do this for you.</p>
+    </div>
+
+    <div class="faq-item">
+      <p class="faq-q">Q: Alternatively, can we place an order from our country and have the batteries delivered directly to the competition venue in Sanya?</p>
+      <div class="faq-a">
+        <p>It would not be straightforward for the organizer or venue to keep track of your deliveries at the venue. You may consider getting it delivered to your hotel room the day you arrive, at your own risk. You can try contacting the hotel to see if the reception can receive your package for you.</p>
+        <p>You may check out the Reddit thread here for some tips we had given during previous SAUVCs: <a href="https://www.reddit.com/r/SAUVC/comments/ca630g/how_do_we_manage_transporting_batteries_to/" target="_blank">https://www.reddit.com/r/SAUVC/comments/ca630g/how_do_we_manage_transporting_batteries_to/</a></p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <p class="faq-q">Q: Our AUV utilizes a mechanism for the dropping task that involves a chain coiled around a robotic arm. During the mission, this chain is deployed and dropped into the target drum. Does the deployed/hanging chain count toward the maximum allowable dimensions of the AUV during the run?</p>
+      <div class="faq-a">
+        <p>The dimensions are based on the measurements of the robot at the time of deployment. If the chain is inside the chassis at the time of deployment, it won't count towards the measurement, but remember that the measurement will include the full dimensions of the AUV including any hanging/protruding parts during deployment. It is okay if the chain is protruded during the run.</p>
+        <p>For the ball drop task: note that the ball has to be completely disconnected from the vehicle and only then will it be considered as ball drop task completed.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <p class="faq-q">Q: Ground Contact: The rulebook states that a penalty is incurred if the robot touches the pool floor. If the deployed chain inadvertently makes contact with the ground while being dropped into the drum, will this be considered a violation or result in a disqualification/penalty?</p>
+      <p class="faq-a">Yes, this will be considered as the robot touching the pool floor, and incur a penalty/disqualification in the same way. This is also partly covered in the rulebook.</p>
+    </div>
+
+  </div><!-- end FAQ -->
+
+</div><!-- end manual-wrap -->
