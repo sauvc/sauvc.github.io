@@ -4,7 +4,6 @@ title: Qualification Slots
 permalink: /slots/
 ---
 
-<meta http-equiv="refresh" content="0; url=/manual.html#appendix-a">
-<link rel="canonical" href="/manual.html#appendix-a">
-
+<h1>Qualification Slots</h1>
 <p>The qualification slot schedule has moved to <a href="/manual.html#appendix-a">Appendix A in the Participant Manual</a>.</p>
+<p>Please use the link above to view the updated schedule.</p>
