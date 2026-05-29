@@ -51,53 +51,53 @@ finals:
   note: "Day 2 (30 May 2026, Saturday). 20-minute finals slot per team in the main pool. Order based on qualifier results."
   slots:
     - time: "13:00 – 13:20"
-      rank: 1
+      rank: 17
       id: ID-93
     - time: "13:20 – 13:40"
-      rank: 2
+      rank: 16
       id: IN-04
     - time: "13:40 – 14:00"
-      rank: 3
+      rank: 15
       id: TW-16
     - time: "14:00 – 14:20"
-      rank: 4
+      rank: 14
       id: CN-50
     - time: "14:20 – 14:40"
-      rank: 5
+      rank: 13
       id: IN-90
     - time: "14:40 – 15:00"
-      rank: 6
+      rank: 12
       id: TR-68
     - time: "15:00 – 15:20"
-      rank: 7
+      rank: 11
       id: AU-05
     - time: "15:20 – 15:40"
-      rank: 8
+      rank: 10
       id: CN-94
     - time: "15:40 – 16:00"
       rank: 9
       id: SG-27
     - time: "16:00 – 16:20"
-      rank: 10
+      rank: 8
       id: TR-98
     - time: "16:20 – 16:40"
-      rank: 11
+      rank: 7
       id: TR-99
     - time: "16:40 – 17:00"
-      rank: 12
+      rank: 6
       id: ID-36
     - time: "17:00 – 17:20"
-      rank: 13
+      rank: 5
       id: ID-24
     - time: "17:20 – 17:40"
-      rank: 14
+      rank: 4
       id: TR-09
     - time: "17:40 – 18:00"
-      rank: 15
+      rank: 3
       id: ID-35
     - time: "18:00 – 18:20"
-      rank: 16
+      rank: 2
       id: CN-91
     - time: "18:20 – 18:40"
-      rank: 17
+      rank: 1
       id: IN-02
