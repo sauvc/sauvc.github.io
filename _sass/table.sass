@@ -120,6 +120,92 @@ table.table-finalists
       &:before
         content: "Qualifiers Rank: "
 
+// Day 2 Practice Schedule: 5 columns
+table.table-day2-practice, table.table-day2-finals
+  font-size: .8em
+  p
+    margin: .2em
+  th
+    text-align: left
+    padding-top: 1em
+    padding-bottom: 1em
+  tr
+    border-top-width: 2px
+    border-color: $grey-light
+  td
+    padding-top: 0.5em
+    padding-bottom: 0.5em
+    padding-right: 0.2em
+    text-align: left
+    &:before
+      display: none
+      font-weight: bold
+
+table.table-day2-practice
+  td
+    &:nth-child(1)
+      width: 18%
+      &:before
+        content: "Time: "
+    &:nth-child(2)
+      width: 12%
+      &:before
+        content: "Team ID: "
+    &:nth-child(3)
+      width: 22%
+      &:before
+        content: "Team Name: "
+    &:nth-child(4)
+      width: 30%
+      &:before
+        content: "Institute: "
+    &:nth-child(5)
+      width: 18%
+      &:before
+        content: "Location: "
+
+// Day 2 Finals Schedule: 6 columns (rank + 5)
+table.table-day2-finals
+  td
+    &:nth-child(1)
+      width: 6%
+      &:before
+        content: "Final Rank: "
+    &:nth-child(2)
+      width: 16%
+      &:before
+        content: "Time: "
+    &:nth-child(3)
+      width: 11%
+      &:before
+        content: "Team ID: "
+    &:nth-child(4)
+      width: 19%
+      &:before
+        content: "Team Name: "
+    &:nth-child(5)
+      width: 28%
+      &:before
+        content: "Institute: "
+    &:nth-child(6)
+      width: 18%
+      &:before
+        content: "Location: "
+
+@media only screen and (max-width: 600px)
+  table.table-day2-practice, table.table-day2-finals
+    font-size: 1em
+    th
+      display: none
+    td
+      &:before
+        display: inline-block
+        padding-right: .2em
+      &:nth-child(1), &:nth-child(2), &:nth-child(3), &:nth-child(4), &:nth-child(5), &:nth-child(6)
+        width: 100%
+        display: block
+        padding: .3em
+
 @media only screen and (max-width: 600px)
   table.table-teams, table.table-finalists
     font-size: 1em

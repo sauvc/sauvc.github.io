@@ -1,27 +1,57 @@
-{% capture teams %}
-	{% assign team_by_rank = site.data.qualified.teams | sort: "rank" %}
-  {% for team in team_by_rank %}
-  	{% assign team_info = '' %}
-  	{% for info in site.data.registered.teams %}
-				{% if team.id == info.id %}
-				  		{% assign team_info = info %}
-				{% endif %}
-  	{% endfor %}
-  	{% if team_info %}
-  	<tr>
-	  	<td>{% if team.rank %}{{ team.rank }}{% else %}-{% endif %}</td>
-	    <td class="team-id">{{ team.id }}</td>
-	    <td>{% if team_info.url != "" %}<a href="{{ team_info.url }}">{% endif %}{{ team_info.name }}</a></td>
-	    <td>{% if team_info.institute-url %}<a href="{{ team_info.institute-url }}">{% endif%}{{ team_info.institute }}</a></td>
-	    <td><span class="flag">{{ team_info.flag}}</span>{{ team_info.location }}</td>
-	    <td>{% if team.qualrank %}{{ team.qualrank }}{% else %}-{% endif %}</td>
-	  </tr>
-	  {% endif %}
+{% comment %}
+  Day 2 (Finals Day) schedule: Practice (morning) + Finals (afternoon).
+  Data source: _data/qualified.yml with `practice.slots` and `finals.slots`.
+  Each slot has `time` and `id`; team metadata is resolved from _data/registered.yml.
+{% endcomment %}
+
+{% capture practice_rows %}
+  {% for slot in site.data.qualified.practice.slots %}
+    {% assign team_info = '' %}
+    {% for info in site.data.registered.teams %}
+      {% if slot.id == info.id %}{% assign team_info = info %}{% endif %}
+    {% endfor %}
+    <tr>
+      <td>{{ slot.time }}</td>
+      <td class="team-id">{{ slot.id }}</td>
+      <td>{% if team_info %}{% if team_info.url != "" %}<a href="{{ team_info.url }}">{{ team_info.name }}</a>{% else %}{{ team_info.name }}{% endif %}{% endif %}</td>
+      <td>{% if team_info %}{% if team_info.institute-url %}<a href="{{ team_info.institute-url }}">{{ team_info.institute }}</a>{% else %}{{ team_info.institute }}{% endif %}{% endif %}</td>
+      <td>{% if team_info %}<span class="flag">{{ team_info.flag }}</span>{{ team_info.location }}{% endif %}</td>
+    </tr>
   {% endfor %}
 {% endcapture %}
 
-{% capture table_title %}
-SAUVC {{site.data.hero.year}} Qualified Teams
+{% capture finals_rows %}
+  {% for slot in site.data.qualified.finals.slots %}
+    {% assign team_info = '' %}
+    {% for info in site.data.registered.teams %}
+      {% if slot.id == info.id %}{% assign team_info = info %}{% endif %}
+    {% endfor %}
+    <tr>
+      <td>{% if slot.rank %}{{ slot.rank }}{% else %}-{% endif %}</td>
+      <td>{{ slot.time }}</td>
+      <td class="team-id">{{ slot.id }}</td>
+      <td>{% if team_info %}{% if team_info.url != "" %}<a href="{{ team_info.url }}">{{ team_info.name }}</a>{% else %}{{ team_info.name }}{% endif %}{% endif %}</td>
+      <td>{% if team_info %}{% if team_info.institute-url %}<a href="{{ team_info.institute-url }}">{{ team_info.institute }}</a>{% else %}{{ team_info.institute }}{% endif %}{% endif %}</td>
+      <td>{% if team_info %}<span class="flag">{{ team_info.flag }}</span>{{ team_info.location }}{% endif %}</td>
+    </tr>
+  {% endfor %}
 {% endcapture %}
 
-{% include teams-table.html title=table_title id="qualified" class="table-finalists" header='<tr><th>Final Rank</th> <th>Team ID</th> <th>Team Name</th> <th>Institute</th> <th>Location</th> <th class="team-rank">Qualifiers Rank</th> </tr>' content=teams open=site.data.qualified.open%}
+{% capture practice_title %}SAUVC {{ site.data.hero.year }} — {{ site.data.qualified.practice.title }}{% endcapture %}
+{% capture finals_title %}SAUVC {{ site.data.hero.year }} — {{ site.data.qualified.finals.title }}{% endcapture %}
+
+{% include teams-table.html
+   title=practice_title
+   id="qualified"
+   class="table-day2-practice"
+   header='<tr><th>Time</th><th>Team ID</th><th>Team Name</th><th>Institute</th><th>Location</th></tr>'
+   content=practice_rows
+   open=site.data.qualified.open %}
+
+{% include teams-table.html
+   title=finals_title
+   id="finals"
+   class="table-day2-finals"
+   header='<tr><th>Final Rank</th><th>Time</th><th>Team ID</th><th>Team Name</th><th>Institute</th><th>Location</th></tr>'
+   content=finals_rows
+   open=site.data.qualified.open %}

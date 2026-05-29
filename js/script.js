@@ -1,6 +1,13 @@
 window.addEventListener('load', function(){
-    // if URL has a hash of #qualified, then default open the "Qualified Teams" collapsible
-    if (window.location.hash === '#qualified') {
-        if (document.getElementById('qualified')) document.getElementById('qualified').click();
+    // If URL has a hash that matches a collapsible label, ensure that collapsible is open.
+    // Only click when the corresponding checkbox is currently unchecked, otherwise we would
+    // toggle an already-open section closed.
+    var hash = window.location.hash;
+    if (!hash) return;
+    var label = document.getElementById(hash.substring(1));
+    if (!label) return;
+    var checkbox = document.getElementById('collapsible-' + hash.substring(1));
+    if (checkbox && !checkbox.checked) {
+        label.click();
     }
 });
