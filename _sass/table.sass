@@ -120,22 +120,11 @@ table.table-finalists
       &:before
         content: "Qualifiers Rank: "
 
-// Day 2 Practice Schedule: 5 columns
+// Day 2 Practice & Finals Schedule tables.
+// Keep the base table coloured-border styling; only define column widths
+// and mobile-friendly per-cell labels (revealed via @media below).
 table.table-day2-practice, table.table-day2-finals
-  font-size: .8em
-  p
-    margin: .2em
-  th
-    text-align: left
-    padding-top: 1em
-    padding-bottom: 1em
-  tr
-    border-top-width: 2px
-    border-color: $grey-light
   td
-    padding-top: 0.5em
-    padding-bottom: 0.5em
-    padding-right: 0.2em
     text-align: left
     &:before
       display: none
@@ -170,7 +159,7 @@ table.table-day2-finals
     &:nth-child(1)
       width: 6%
       &:before
-        content: "Final Rank: "
+        content: "Qualifier Rank: "
     &:nth-child(2)
       width: 16%
       &:before
