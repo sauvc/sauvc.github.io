@@ -1,10 +1,10 @@
-<h3 id="winners">SAUVC {{site.data.hero.year}} Winners</h3>
+<h3 id="winners">SAUVC {{site.data.hero.year}} Winners (in no particular order)</h3>
 
 <ul class="winners">
   {% for team in site.data.winners.list %}
   <li data-caption="{{ team.position }}">
     <img src="{{ team.image_path }}" alt="{{ team.position }}" loading="lazy">
-    <p>{{ team.name }} ({{ team.id }}) <br> <a href="{{ team.url }}">{{ team.institute }}</a> <br> {{ team.location }}</p>
+    <p>{{ team.name }} ({{ team.id }}) <br> {% if team.url != "" %}<a href="{{ team.url }}">{{ team.institute }}</a>{% else %}{{ team.institute }}{% endif %} <br> {{ team.location }}</p>
   </li>
   {% endfor %}
 </ul>

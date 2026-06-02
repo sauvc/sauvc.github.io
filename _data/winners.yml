@@ -1,11 +1,77 @@
-visibility: false
+visibility: true
 list:
-# -
-#   sequence: 1
-#   position: Champion
-#   image_path: img/competitors/SG05.jpeg
-#   name: 'Mecatron'
-#   id: SG05
-#   url: ""
-#   institute: 'Nanyang Technological University'
-#   location: Singapore
+-
+  sequence: 1
+  position: Joint Champion
+  image_path: img/competitors/TR98.png
+  name: 'MYS YILDIRIM'
+  id: TR98
+  url: ""
+  institute: 'Selcuk University'
+  location: Turkiye
+-
+  sequence: 2
+  position: Joint Champion
+  image_path: img/competitors/ID24.png
+  name: 'TECH_SAS'
+  id: ID24
+  url: ""
+  institute: 'Telkom University'
+  location: Indonesia
+-
+  sequence: 3
+  position: Joint 1st Runner-up
+  image_path: img/competitors/CN94.png
+  name: 'SmartNav Deep Dive Team'
+  id: CN94
+  url: ""
+  institute: 'Nanhai Institute of Harbin Engineering University'
+  location: China
+-
+  sequence: 4
+  position: Joint 1st Runner-up
+  image_path: img/competitors/IN02.png
+  name: 'TEAM NIRMA AUV'
+  id: IN02
+  url: ""
+  institute: 'NIRMA UNIVERSITY'
+  location: India
+-
+  sequence: 5
+  position: Joint 1st Runner-up
+  image_path: img/competitors/AU05.png
+  name: 'Manta Claus'
+  id: AU05
+  url: ""
+  institute: 'University of New South Wales'
+  location: Australia
+-
+  sequence: 6
+  position: 2nd Runner-up
+  image_path: img/competitors/SG27.png
+  name: 'Aquanox'
+  id: SG27
+  url: ""
+  institute: 'Singapore Polytechnic'
+  location: Singapore
+
+-
+  sequence: 7
+  position: Innovation Award
+  image_path: img/competitors/TR98-2.png
+  name: 'MYS YILDIRIM'
+  id: TR98
+  url: ""
+  institute: 'Selcuk University'
+  location: Turkiye
+
+-
+  sequence: 8
+  position: Innovation Award
+  image_path: img/competitors/CN91.png
+  name: 'T-Group'
+  id: CN91
+  url: ""
+  institute: 'Northwestern Polytechnical University'
+  location: China
+

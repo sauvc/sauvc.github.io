@@ -1,9 +1,7 @@
 visibility: true
-open: false
+open: true
 teams:
   - seq: 1
-    id: IN-61
-  - seq: 2
     id: TR-98
-  - seq: 3
+  - seq: 2
     id: CN-91
