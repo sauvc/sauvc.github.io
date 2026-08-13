@@ -1,8 +1,8 @@
-year: 2026
-dates: May 28-31
-city: Sanya, China
+year: 2027
+dates: 24-27 Feb
+city: Singapore Polytechnic
 stats:
-  - number: 10
+  - number: 11
     type: Years
     caption: Competitions for years
   - number: 25
@@ -14,8 +14,8 @@ stats:
   - number: 0
     type: Controls
     caption: Completely autonomous
-action: Winners announced!
-action_link:  /#winners # optional
+action: Competition Dates Announced!
+# action_link: /#teams # optional
 # action_info: <a href="https://sauvc.org/rulebook/">Rulebook</a> for SAUVC 2025 Updated!
 
     # EXAMPLES:

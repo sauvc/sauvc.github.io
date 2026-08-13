@@ -1,30 +1,6 @@
-description: <p>We are very grateful and would like to say a big <span class="highlight">Thank You</span> to all the sponsors of SAUVC over the years.</p><p>The sponsors for SAUVC 2026 are below. Interested in encouraging underwater robotics? Contact us through <a href="https://sauvc.org/#contact">our website</p>
+description: <p>We are very grateful and would like to say a big <span class="highlight">Thank You</span> to all the sponsors of SAUVC over the years.</p><p>The sponsors for SAUVC 2027 are below. Interested in encouraging underwater robotics? Contact us through <a href="https://sauvc.org/#contact">our website</p>
 sponsor_list_visibility: true
 list:
-  - name: IEEE Oceanic Engineering Society
-    url: https://ieeeoes.org/
-    image_path: img/sponsors/oes.png
-
-  - name: Sanya Nanhai Innovation and Development Base of Harbin Engineering University
-    url: https://nanhai.hrbeu.edu.cn/
-    image_path: img/sponsors/heu-sanya2.jpg
-
-  - name: Breaking the surface 2026
-    url: https://bts.fer.hr/
-    image_path: img/sponsors/bts26.png
-    
-  - name: Hainan Yuchi
-    url: https://www.xaycfw.cn/
-    image_path: img/sponsors/hainan-yuchi.jpg
-
-  - name: Hainan Aerial
-    url: https://www.hnaro.com/?lg=zh-cn
-    image_path: img/sponsors/hainan-aerial.png
-
-  - name: Pengpai Ocean
-    url: https://www.pengpaix.com/
-    image_path: img/sponsors/Pengpai.png
-
-  - name: Agricultural Bank of China - Sanya Branch
-    url: 
-    image_path: img/sponsors/argicultural-bank-cn.png
+  # - name: IEEE Oceanic Engineering Society
+  #   url: https://ieeeoes.org/
+  #   image_path: img/sponsors/oes.png

@@ -1,5 +1,5 @@
-visibility: true
-open: true
+visibility: false
+open: false
 
 # Day 2 (Finals Day) results.
 # - Finals: 20 minutes per team, 13:00 - 18:40 (order based on qualifier results).
@@ -7,62 +7,9 @@ open: true
 
 finals:
   title: "Final standings"
-  note: "Day 2 (30 May 2026, Saturday). 20-minute finals slot per team in the main pool. Order based on qualifier results."
+  note: ""
   slots:
-    - rank: 8
-      id: TR-98
-      finals_rank: 1
-      prize: "1st"
-    - rank: 5
-      id: ID-24
-      finals_rank: 1
-      prize: "1st"
-    - rank: 10
-      id: CN-94
-      finals_rank: 3
-      prize: "2nd"
-    - rank: 1
-      id: IN-02
-      finals_rank: 3
-      prize: "2nd"
-    - rank: 11
-      id: AU-05
-      finals_rank: 3
-      prize: "2nd"
-    - rank: 9
-      id: SG-27
-      finals_rank: 6
-      prize: "3rd"
-    - rank: 3
-      id: ID-35
-      finals_rank: 7
-    - rank: 4
-      id: TR-09
-      finals_rank: 8
-    - rank: 6
-      id: ID-36
-      finals_rank: 8
-    - rank: 7
-      id: TR-99
-      finals_rank: 8
-    - rank: 12
-      id: TR-68
-      finals_rank: 8
-    - rank: 13
-      id: IN-90
-      finals_rank: 8
-    - rank: 14
-      id: CN-50
-      finals_rank: 8
-    - rank: 16
-      id: IN-04
-      finals_rank: 8
-    - rank: 17
-      id: ID-93
-      finals_rank: 8
-    - rank: 2
-      id: CN-91
-      finals_rank: 16
-    - rank: 15
-      id: TW-16
-      finals_rank: 16
+    # - rank: 8
+    #   id: TR-98
+    #   finals_rank: 1
+    #   prize: "1st"
