@@ -14,9 +14,9 @@ stats:
   - number: 0
     type: Controls
     caption: Completely autonomous
-action: Competition Dates Announced!
+action: Rules Released!
 # action_link: /#teams # optional
-# action_info: <a href="https://sauvc.org/rulebook/">Rulebook</a> for SAUVC 2025 Updated!
+action_info: <a href="https://sauvc.org/rulebook/">Rulebook</a> for SAUVC 2027 Released!
 
     # EXAMPLES:
     # Submit video by 8 February 2019
