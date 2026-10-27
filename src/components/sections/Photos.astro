@@ -5,7 +5,7 @@ const { photos } = await one('media');
 const { year } = await one('edition');
 ---
 
-<ul class="social">
+<ul id="photos" class="social">
   <li>{year} photos:</li>
   {photos.days.map((link, i) => (
     <li>

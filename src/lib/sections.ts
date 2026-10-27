@@ -3,10 +3,10 @@
  * Sections without a navbar entry are `null`.
  */
 export const sections = {
-  photos: null,
+  photos: { label: 'Photos', anchor: 'photos' },
   info: { label: 'Information', anchor: 'information' },
   teams: { label: 'Teams', anchor: 'teams' },
-  videos: null,
+  videos: { label: 'Videos', anchor: 'videos' },
   competition: { label: 'Competition', anchor: 'competition' },
   schedule: { label: 'Schedule', anchor: 'schedule' },
   speakers: { label: 'Speakers', anchor: 'speakers' },
