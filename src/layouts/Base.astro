@@ -32,7 +32,9 @@ const image = new URL(url(site.image), Astro.site).href;
   </head>
   <body>
     <Navbar title={title} sections={edition.sections} />
-    <slot />
+    <main>
+      <slot />
+    </main>
     <Footer />
   </body>
 </html>

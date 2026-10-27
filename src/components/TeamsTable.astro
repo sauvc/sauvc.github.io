@@ -12,22 +12,19 @@ interface Props {
 const { id, title, class: className, columns, open } = Astro.props;
 ---
 
-<div class="collapsible">
-  <input id={`collapsible-${id}`} type="checkbox" checked={open} />
-  <label for={`collapsible-${id}`} id={id}>{title}</label>
-  <div class="content">
-    <table class={className}>
-      <tr>{columns.map((c) => <th>{c}</th>)}</tr>
-      <slot />
-    </table>
-  </div>
-</div>
+<details class="collapsible" open={open}>
+  <summary id={id}>{title}</summary>
+  <table class={className}>
+    <tr>{columns.map((c) => <th>{c}</th>)}</tr>
+    <slot />
+  </table>
+</details>
 
 <script>
   // Expands the table named by the URL hash, e.g. /#finals.
   const expand = () => {
-    const toggle = document.getElementById(`collapsible-${location.hash.slice(1)}`);
-    if (toggle instanceof HTMLInputElement) toggle.checked = true;
+    const details = document.getElementById(location.hash.slice(1))?.parentElement;
+    if (details instanceof HTMLDetailsElement) details.open = true;
   };
   expand();
   window.addEventListener('hashchange', expand);

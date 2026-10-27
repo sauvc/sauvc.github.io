@@ -7,8 +7,7 @@ const social = await one('social');
 <ul class="social">
   {social.list.map((s) => (
     <li>
-      <img src={url(s.image_path)} alt={s.name} />
-      <a href={s.url}>{s.name}</a>
+      <a href={s.url}><img src={url(s.image_path)} alt="" />{s.name}</a>
     </li>
   ))}
 </ul>

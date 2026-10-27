@@ -12,6 +12,10 @@
   --primary-color: #35A6D3;
   --secondary-color: #467F9F;
 
+  /* Darker shades of the palette for text on light backgrounds. */
+  --primary-text: #1B6E96;
+  --highlight-text: #B8730F;
+
   --white: #fff;
   --grey: #ccc;
   --grey-light: #eee;
@@ -74,10 +78,10 @@ h3 {
 a {
   &:link, &:visited {
     text-decoration: none;
-    color: var(--primary-color);
+    color: var(--primary-text);
   }
   &:hover, &:active {
-    color: var(--background-color);
+    color: var(--dark-color);
     text-decoration: underline;
   }
 }
@@ -98,6 +102,16 @@ code {
   margin: 0 .5em 0 0;
 }
 
+/* Hidden on screen, read by screen readers. */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
 /* Icon and link rows: social media, contact, photo albums */
 
 .social {
@@ -109,16 +123,19 @@ code {
 
   li {
     display: inline-block;
-    margin: 1em;
+    margin: .5em;
   }
   img {
     max-width: 60px;
     max-height: 30px;
   }
   a {
+    display: inline-flex;
+    align-items: center;
+    gap: .4em;
+    min-height: 44px;
+    padding: 0 .3em;
     font-size: 1.2em;
-    vertical-align: middle;
-    margin: 0 .2em;
   }
 }
 
@@ -135,9 +152,9 @@ code {
     vertical-align: top;
     margin: 1em;
 
-    &:nth-child(4n) .info-title { color: var(--primary-color); }
+    &:nth-child(4n) .info-title { color: var(--primary-text); }
     &:nth-child(4n+1) .info-title { color: var(--secondary-color); }
-    &:nth-child(4n+2) .info-title { color: var(--highlight-color); }
+    &:nth-child(4n+2) .info-title { color: var(--highlight-text); }
     &:nth-child(4n+3) .info-title { color: var(--important-color); }
   }
 }
@@ -260,24 +277,18 @@ table.table-finals td {
 /* Collapsible team tables */
 
 .collapsible {
-  input[type='checkbox'] {
-    display: none;
-  }
-
-  label {
+  summary {
     display: block;
     cursor: pointer;
-    transition: all 0.25s ease-out;
     font-size: 1.5em;
     margin: 1em 0;
     color: var(--dark-color);
     font-weight: bold;
 
-    &:hover {
-      color: var(--primary-color);
-    }
+    &::-webkit-details-marker { display: none; }
+    &:hover { color: var(--primary-text); }
     &::after {
-      content: ' ';
+      content: '';
       display: inline-block;
       border-top: 10px solid transparent;
       border-bottom: 10px solid transparent;
@@ -289,16 +300,7 @@ table.table-finals td {
     }
   }
 
-  .content {
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height .25s ease-in-out;
-  }
-
-  input:checked + label::after {
+  &[open] > summary::after {
     transform: rotate(90deg) translateX(-3px);
-  }
-  input:checked + label + .content {
-    max-height: 100%;
   }
 }

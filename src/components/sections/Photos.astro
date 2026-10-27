@@ -9,8 +9,7 @@ const { year } = await one('edition');
   <li>{year} photos:</li>
   {photos.days.map((link, i) => (
     <li>
-      <img src={url(photos.icon)} alt={`Day ${i + 1} from ${photos.name} album`} loading="lazy" />
-      <a href={link}>Day {i + 1}</a>
+      <a href={link} aria-label={`Day ${i + 1} on ${photos.name}`}><img src={url(photos.icon)} alt="" loading="lazy" />Day {i + 1}</a>
     </li>
   ))}
 </ul>

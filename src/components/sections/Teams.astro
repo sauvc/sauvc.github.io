@@ -11,6 +11,7 @@ const columns = ['Team ID', 'Team Name', 'Institute', 'Location'];
 ---
 
 <section id="teams">
+  <h2 class="visually-hidden">Teams</h2>
   {shown(winners, winners.teams) && (
     <>
       <h3 id="winners">SAUVC {year} Winners (in no particular order)</h3>
@@ -99,7 +100,7 @@ const columns = ['Team ID', 'Team Name', 'Institute', 'Location'];
       &::before {
         content: attr(data-caption);
         padding: 3px 1em;
-        background-color: var(--primary-color);
+        background-color: var(--primary-text);
         color: var(--white);
         position: absolute;
         top: 15px;

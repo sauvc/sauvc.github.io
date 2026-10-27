@@ -21,16 +21,25 @@ const items = Astro.props.sections.flatMap((name) => sections[name] ?? []);
 </nav>
 
 <nav class="mobile-menu">
-  <label for="show-menu">
-    <span class="mobile-title">{Astro.props.title}</span>
-    <span class="lines"></span>
-  </label>
-  <input type="checkbox" id="show-menu" />
-  <ul>
-    {items.map(({ label, anchor }) => <li><a href={url(`#${anchor}`)}>{label}</a></li>)}
-    <li><PastEvents /></li>
-  </ul>
+  <details>
+    <summary>
+      <span class="mobile-title">{Astro.props.title}</span>
+      <span class="lines"><span class="visually-hidden">Menu</span></span>
+    </summary>
+    <ul>
+      {items.map(({ label, anchor }) => <li><a href={url(`#${anchor}`)}>{label}</a></li>)}
+      <li><PastEvents /></li>
+    </ul>
+  </details>
 </nav>
+
+<script>
+  // Close the mobile menu once a section is picked.
+  const menu = document.querySelector<HTMLDetailsElement>('.mobile-menu > details')!;
+  menu.querySelector('ul')!.addEventListener('click', (event) => {
+    if ((event.target as Element).closest('a')) menu.open = false;
+  });
+</script>
 
 <style>
   .nav, .mobile-menu {
@@ -69,36 +78,29 @@ const items = Astro.props.sections.flatMap((name) => sections[name] ?? []);
     line-height: 1.6em;
     text-align: center;
 
-    label {
+    > details > summary {
       display: block;
-      color: var(--primary-color);
+      list-style: none;
       padding: 10px 15px;
       cursor: pointer;
       text-transform: uppercase;
+
+      &::-webkit-details-marker { display: none; }
     }
 
-    input {
-      display: none;
-    }
-
-    > ul {
-      display: none;
+    > details > ul {
       list-style-type: none;
       margin: 0 auto;
       padding-left: 0;
     }
 
-    input:checked ~ ul {
-      display: block;
-    }
-
-    > ul > li {
+    > details > ul > li {
       margin-bottom: 1px;
     }
 
-    > ul > li > a {
+    > details > ul > li > a {
       display: block;
-      color: var(--primary-color);
+      color: var(--primary-text);
       padding: 10px 0;
       transition: all 0.4s ease 0s;
 
@@ -125,7 +127,8 @@ const items = Astro.props.sections.flatMap((name) => sections[name] ?? []);
     float: right;
   }
 
-  @media screen and (max-width: 800px) {
+  /* The full menu wraps below this width. */
+  @media screen and (max-width: 1200px) {
     .nav {
       display: none;
     }

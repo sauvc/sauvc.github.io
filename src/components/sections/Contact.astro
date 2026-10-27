@@ -9,8 +9,7 @@ const contacts = await one('contacts');
   <ul class="social">
     {contacts.list.map((c) => (
       <li>
-        <img src={url(c.image_path)} alt={c.name} loading="lazy" />
-        <a href={c.url} target="_blank">{c.action}</a>
+        <a href={c.url} target="_blank"><img src={url(c.image_path)} alt="" loading="lazy" />{c.action}</a>
       </li>
     ))}
   </ul>

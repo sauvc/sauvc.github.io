@@ -42,10 +42,10 @@ const { years } = await one('pastEvents');
   summary {
     list-style: none;
     cursor: pointer;
-    color: var(--primary-color);
+    color: var(--primary-text);
 
     &::-webkit-details-marker { display: none; }
-    &:hover { color: var(--secondary-color); }
+    &:hover { color: var(--dark-color); }
     &:focus-visible {
       outline: 2px solid var(--dark-color);
       outline-offset: 4px;
@@ -104,7 +104,7 @@ const { years } = await one('pastEvents');
       span {
         font-size: .55em;
         letter-spacing: .08em;
-        color: var(--secondary-color);
+        color: var(--primary-text);
       }
 
       &:hover, &:focus-visible {

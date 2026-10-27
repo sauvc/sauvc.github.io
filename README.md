@@ -35,7 +35,7 @@ Images go in [`public/img/`](public/img) and are referred to by their path from 
 - Landscape photos `1200` pixels wide, `JPG`
 - [Social icons](public/img/social) `120 x 120`, `PNG`
 - [Sponsor logos](public/img/sponsors) `300` pixels wide
-- [Organiser photos](public/img/team) `200 x 200` pixels, `JPG`
+- [Organiser photos](public/img/team) `400 x 400` pixels, `JPG`
 
 ## Publishing
 

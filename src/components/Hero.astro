@@ -5,10 +5,10 @@ const edition = await one('edition');
 ---
 
 <div class="hero">
-  <h3 class="synopsis">
+  <p class="synopsis">
     <span class="highlight">Design</span> to compete. <span class="highlight">Destined</span> to explore.<br /> at
     <strong>Singapore AUV Challenge</strong>
-  </h3>
+  </p>
 
   <img src={url('img/mascot.svg')} class="mascot" alt="SAUVC mascot" />
 
@@ -21,11 +21,11 @@ const edition = await one('edition');
     ))}
   </ul>
 
-  <h3 class="welcome">
+  <h1 class="welcome">
     Welcome to<br />
     <span class="welcome-name">SAUVC {edition.year}</span>
     <span class="welcome-info">{edition.city}, {edition.dates}</span>
-  </h3>
+  </h1>
 
   <div id="action" class="action">
     {edition.action_link
@@ -34,7 +34,15 @@ const edition = await one('edition');
     {edition.action_info && <p class="action-info" set:html={edition.action_info} />}
   </div>
 
-  <audio id="bubbles-audio" loop src={url('assets/bubbles.mp3')}></audio>
+  <audio id="bubbles-audio" loop preload="none" src={url('assets/bubbles.mp3')}></audio>
+  <button class="sound" type="button" aria-pressed="true" title="Bubble sounds">
+    <svg viewBox="0 0 24 24" aria-hidden="true">
+      <path class="speaker" d="M4 9h4l5-4v14l-5-4H4z" />
+      <path class="on" d="M16 9a4 4 0 0 1 0 6M18.5 6.5a7.5 7.5 0 0 1 0 11" />
+      <path class="off" d="M16.5 9.5l5 5m0-5l-5 5" />
+    </svg>
+    <span class="visually-hidden">Bubble sounds</span>
+  </button>
 </div>
 
 <script>
@@ -50,8 +58,9 @@ const edition = await one('edition');
   ac.createMediaElementSource(audio).connect(gain).connect(ac.destination);
 
   let inView = false;
+  let muted = localStorage.getItem('sound') === 'off';
   const fade = () => {
-    const target = inView && document.visibilityState === 'visible' ? MAX_GAIN : 0;
+    const target = !muted && inView && document.visibilityState === 'visible' ? MAX_GAIN : 0;
     gain.gain.setTargetAtTime(target, ac.currentTime, FADE_TIME / 3);
   };
   new IntersectionObserver(([entry]) => {
@@ -59,6 +68,17 @@ const edition = await one('edition');
     fade();
   }).observe(document.getElementById('action')!);
   document.addEventListener('visibilitychange', fade);
+
+  // The sound button switches the audio off and on; the choice is remembered.
+  const sound = document.querySelector('.sound')!;
+  const showSound = () => sound.setAttribute('aria-pressed', String(!muted));
+  showSound();
+  sound.addEventListener('click', () => {
+    muted = !muted;
+    localStorage.setItem('sound', muted ? 'off' : 'on');
+    showSound();
+    fade();
+  });
 
   // touchstart is not a gesture that allows audio, so keep listening until resume succeeds.
   const unlock = new AbortController();
@@ -106,7 +126,7 @@ const edition = await one('edition');
   .synopsis {
     margin: 0 auto;
     padding: 3em 0;
-    font-weight: normal;
+    font-size: 1.5em;
 
     strong {
       font-size: 1.2em;
@@ -136,7 +156,6 @@ const edition = await one('edition');
 
     span {
       font-size: .5em;
-      font-weight: normal;
     }
   }
 
@@ -196,6 +215,35 @@ const edition = await one('edition');
     :global(a) {
       color: var(--secondary-color);
     }
+  }
+
+  .sound {
+    position: absolute;
+    right: 1em;
+    bottom: 1em;
+    width: 44px;
+    height: 44px;
+    padding: 10px;
+    border: 0;
+    border-radius: 50%;
+    background: rgb(255 255 255 / .5);
+    color: var(--dark-color);
+    cursor: pointer;
+    transition: background-color .15s ease-out;
+
+    &:hover { background: var(--white); }
+    &:focus-visible { outline: 2px solid var(--dark-color); outline-offset: 2px; }
+
+    svg {
+      display: block;
+      fill: none;
+      stroke: currentColor;
+      stroke-width: 2;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+    .speaker { fill: currentColor; }
+    &[aria-pressed='true'] .off, &[aria-pressed='false'] .on { display: none; }
   }
 
   .mascot {
@@ -274,10 +322,28 @@ const edition = await one('edition');
       width: 90%;
     }
     .mascot { width: 30vw; }
+    .sound {
+      position: static;
+      display: block;
+      margin: 0 auto 1em;
+    }
 
     @keyframes move {
       0% { translate: 100vw 0; }
       100% { translate: -40vw 0; }
     }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .hero :global(.bubble-container) { display: none; }
+    .mascot {
+      animation: none;
+      left: auto;
+      right: 1em;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) and (max-width: 800px) {
+    .mascot { display: none; }
   }
 </style>
