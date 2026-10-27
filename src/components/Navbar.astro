@@ -1,4 +1,5 @@
 ---
+import PastEvents from './PastEvents.astro';
 import { url } from '../lib/content';
 import { sections, type Section } from '../lib/sections';
 
@@ -15,6 +16,7 @@ const items = Astro.props.sections.flatMap((name) => sections[name] ?? []);
   <ul class="menu">
     <li><a href={url('/')}><img src={url('img/logo_notext.png')} class="logo" alt="SAUVC" /></a></li>
     {items.map(({ label, anchor }) => <li><a href={url(`#${anchor}`)}>{label}</a></li>)}
+    <li><PastEvents /></li>
   </ul>
 </nav>
 
@@ -26,6 +28,7 @@ const items = Astro.props.sections.flatMap((name) => sections[name] ?? []);
   <input type="checkbox" id="show-menu" />
   <ul>
     {items.map(({ label, anchor }) => <li><a href={url(`#${anchor}`)}>{label}</a></li>)}
+    <li><PastEvents /></li>
   </ul>
 </nav>
 
@@ -49,7 +52,7 @@ const items = Astro.props.sections.flatMap((name) => sections[name] ?? []);
     margin: 0;
     padding: 0;
 
-    li {
+    > li {
       display: inline-block;
       margin: 0 0.75em;
     }
@@ -78,7 +81,7 @@ const items = Astro.props.sections.flatMap((name) => sections[name] ?? []);
       display: none;
     }
 
-    ul {
+    > ul {
       display: none;
       list-style-type: none;
       margin: 0 auto;
@@ -89,11 +92,11 @@ const items = Astro.props.sections.flatMap((name) => sections[name] ?? []);
       display: block;
     }
 
-    li {
+    > ul > li {
       margin-bottom: 1px;
     }
 
-    a {
+    > ul > li > a {
       display: block;
       color: var(--primary-color);
       padding: 10px 0;

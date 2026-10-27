@@ -14,7 +14,6 @@ import Venue from '../components/sections/Venue.astro';
 import Sponsors from '../components/sections/Sponsors.astro';
 import Contact from '../components/sections/Contact.astro';
 import About from '../components/sections/About.astro';
-import PastEvents from '../components/sections/PastEvents.astro';
 import { one, teams } from '../lib/content';
 import type { Section } from '../lib/sections';
 
@@ -31,7 +30,6 @@ const components = {
   sponsors: Sponsors,
   contact: Contact,
   about: About,
-  'past-events': PastEvents,
 } satisfies Record<Section, unknown>;
 
 const { sections } = await one('edition');

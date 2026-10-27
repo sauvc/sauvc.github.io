@@ -15,7 +15,6 @@ export const sections = {
   sponsors: { label: 'Sponsors', anchor: 'sponsors' },
   contact: { label: 'Contact', anchor: 'contact' },
   about: null,
-  'past-events': { label: 'Past Events', anchor: 'past-events' },
 } as const;
 
 export type Section = keyof typeof sections;

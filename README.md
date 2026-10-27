@@ -22,7 +22,7 @@ All content lives in [`src/content/`](src/content). Lists of things (teams, spon
 | `organizers.yml` | The "About us" committee |
 | `media.yml` | Photo albums and video playlists from the competition |
 | `social.yml`, `contacts.yml` | Social media and contact links |
-| `past-events.yml` | Years with an archived site |
+| `past-events.yml` | Years in the navbar's Past Events menu, each with an archived site |
 
 To show or hide a section, add or comment out its line under `sections:` in `edition.yml`. The navbar follows the same list.
 
