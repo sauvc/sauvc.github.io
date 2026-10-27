@@ -60,14 +60,16 @@ const edition = await one('edition');
   }).observe(document.getElementById('action')!);
   document.addEventListener('visibilitychange', fade);
 
+  // touchstart is not a gesture that allows audio, so keep listening until resume succeeds.
   const unlock = new AbortController();
   for (const type of ['touchstart', 'touchend', 'mousedown', 'keydown']) {
     document.addEventListener(
       type,
-      () => {
-        unlock.abort();
-        ac.resume().then(() => audio.play());
-      },
+      () =>
+        ac.resume().then(() => {
+          unlock.abort();
+          audio.play();
+        }),
       { signal: unlock.signal },
     );
   }

@@ -1,22 +1,10 @@
 ---
 import TeamsTable from '../TeamsTable.astro';
 import TeamCells from '../TeamCells.astro';
-import { one, url } from '../../lib/content';
+import { one, teams, url } from '../../lib/content';
 
 const { year } = await one('edition');
-const registered = await one('registered');
-const winners = await one('winners');
-const innovationAward = await one('innovationAward');
-const qualified = await one('qualified');
-const shortlisted = await one('shortlisted');
-
-// Looks up a team from registered.yml by id; an unknown id fails the build.
-const teams = new Map(registered.teams.map((team) => [team.id, team]));
-const team = (id: string, file: string) => {
-  const found = teams.get(id);
-  if (!found) throw new Error(`Team ${id} in teams/${file}.yml is not in teams/registered.yml`);
-  return found;
-};
+const { registered, winners, innovationAward, qualified, shortlisted } = await teams();
 
 const shown = (table: { hidden: boolean }, rows: unknown[]) => !table.hidden && rows.length > 0;
 const columns = ['Team ID', 'Team Name', 'Institute', 'Location'];
@@ -27,19 +15,16 @@ const columns = ['Team ID', 'Team Name', 'Institute', 'Location'];
     <>
       <h3 id="winners">SAUVC {year} Winners (in no particular order)</h3>
       <ul class="winners">
-        {winners.teams.map(({ id, position, image_path }) => {
-          const t = team(id, 'winners');
-          return (
-            <li data-caption={position}>
-              <img src={url(image_path)} alt={position} loading="lazy" />
-              <p>
-                {t.name} ({id})<br />
-                {t.url ? <a href={t.url}>{t.institute}</a> : t.institute}<br />
-                {t.location}
-              </p>
-            </li>
-          );
-        })}
+        {winners.teams.map(({ id, position, image_path, team: t }) => (
+          <li data-caption={position}>
+            <img src={url(image_path)} alt={position} loading="lazy" />
+            <p>
+              {t.url ? <a href={t.url}>{t.name}</a> : t.name} ({id})<br />
+              {t['institute-url'] ? <a href={t['institute-url']}>{t.institute}</a> : t.institute}<br />
+              {t.location}
+            </p>
+          </li>
+        ))}
       </ul>
     </>
   )}
@@ -51,7 +36,7 @@ const columns = ['Team ID', 'Team Name', 'Institute', 'Location'];
       class="table-teams"
       columns={columns}
       open={innovationAward.open}>
-      {innovationAward.teams.map((id) => <tr><td>{id}</td><TeamCells team={team(id, 'innovation-award')} /></tr>)}
+      {innovationAward.teams.map((t) => <tr><td>{t.id}</td><TeamCells team={t} /></tr>)}
     </TeamsTable>
   )}
 
@@ -68,7 +53,7 @@ const columns = ['Team ID', 'Team Name', 'Institute', 'Location'];
           <td>{slot.prize ?? '-'}</td>
           <td>{slot.rank ?? '-'}</td>
           <td>{slot.id}</td>
-          <TeamCells team={team(slot.id, 'qualified')} />
+          <TeamCells team={slot.team} />
         </tr>
       ))}
     </TeamsTable>
@@ -81,7 +66,7 @@ const columns = ['Team ID', 'Team Name', 'Institute', 'Location'];
       class="table-teams"
       columns={columns}
       open={shortlisted.open}>
-      {shortlisted.teams.map((id) => <tr><td>{id}</td><TeamCells team={team(id, 'shortlisted')} /></tr>)}
+      {shortlisted.teams.map((t) => <tr><td>{t.id}</td><TeamCells team={t} /></tr>)}
     </TeamsTable>
   )}
 

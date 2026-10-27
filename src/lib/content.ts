@@ -37,3 +37,29 @@ export function flag(id: string) {
   const letters = [...id.slice(0, 2).toUpperCase()];
   return String.fromCodePoint(...letters.map((c) => c.codePointAt(0)! + 0x1f1a5));
 }
+
+/**
+ * The team lists with each id resolved to its team in registered.yml.
+ * An unknown id fails the build, whether or not its table is shown.
+ */
+export async function teams() {
+  const registered = await one('registered');
+  const byId = new Map(registered.teams.map((team) => [team.id, team]));
+  const team = (id: string, file: string) => {
+    const found = byId.get(id);
+    if (!found) throw new Error(`Team ${id} in teams/${file}.yml is not in teams/registered.yml`);
+    return found;
+  };
+
+  const winners = await one('winners');
+  const innovationAward = await one('innovationAward');
+  const qualified = await one('qualified');
+  const shortlisted = await one('shortlisted');
+  return {
+    registered,
+    winners: { ...winners, teams: winners.teams.map((w) => ({ ...w, team: team(w.id, 'winners') })) },
+    innovationAward: { ...innovationAward, teams: innovationAward.teams.map((id) => team(id, 'innovation-award')) },
+    qualified: { ...qualified, slots: qualified.slots.map((s) => ({ ...s, team: team(s.id, 'qualified') })) },
+    shortlisted: { ...shortlisted, teams: shortlisted.teams.map((id) => team(id, 'shortlisted')) },
+  };
+}

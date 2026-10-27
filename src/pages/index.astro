@@ -15,7 +15,7 @@ import Sponsors from '../components/sections/Sponsors.astro';
 import Contact from '../components/sections/Contact.astro';
 import About from '../components/sections/About.astro';
 import PastEvents from '../components/sections/PastEvents.astro';
-import { one } from '../lib/content';
+import { one, teams } from '../lib/content';
 import type { Section } from '../lib/sections';
 
 const components = {
@@ -35,6 +35,8 @@ const components = {
 } satisfies Record<Section, unknown>;
 
 const { sections } = await one('edition');
+// Check the team ids even when the teams section is not shown.
+await teams();
 ---
 
 <Base>
