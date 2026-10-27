@@ -1,3 +1,7 @@
+// Searches Google for an institute and prints its website and address, tab-separated.
+// Usage: node getlocurl.js "<institute>"
+// For every institute in column 4 of a CSV export:
+//   cut -d, -f4 < teams.csv | tail -n +2 | while read -r line; do node getlocurl.js "$line"; done
 const puppeteer = require('puppeteer');
 
 var args = process.argv.slice(2);

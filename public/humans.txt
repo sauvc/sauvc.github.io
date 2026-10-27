@@ -13,5 +13,5 @@
 
 # TECHNOLOGY COLOPHON
 
-    CSS3, HTML5
+    Astro, HTML5, CSS
     Normalize.css

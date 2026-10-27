@@ -31,7 +31,7 @@ The team lists in `teams/` refer to teams in `registered.yml` by id (for example
 Images go in [`public/img/`](public/img) and are referred to by their path from there, e.g. `img/sponsors/oes.png`. Preferred sizes:
 
 - [AUV images](public/img/auv) `200 x 200` pixels, `JPG`
-- [Competitors' images](public/img/competitors) `640` pixels wide, `JPG`
+- Competitors' images, in `public/img/competitors/`, `640` pixels wide, `JPG`
 - Landscape photos `1200` pixels wide, `JPG`
 - [Social icons](public/img/social) `120 x 120`, `PNG`
 - [Sponsor logos](public/img/sponsors) `300` pixels wide
@@ -49,7 +49,7 @@ Each year's site is archived as a fork of this repository, served from `sauvc.or
 2. In the fork, set `base: '/2027'` in `astro.config.mjs`.
 3. In the fork's settings, enable Actions and set Pages → Source to "GitHub Actions".
 4. In the fork, run the Deploy workflow once by hand (Actions → Deploy → Run workflow).
-5. Here, add the year to `past-events.yml`, then update the content for the new year.
+5. Here, add the year to `past-events.yml`, then update the content for the new year. Delete images the new content no longer uses; the fork keeps a copy.
 
 ## Development
 
