@@ -26,10 +26,9 @@ action_info: <a href="https://sauvc.org/rulebook/">Rulebook</a> for SAUVC 2027 R
 
 # Sections shown on the home page, in order. Delete or comment out a line to hide a section.
 sections:
-  # - photos       # links to photo albums after the competition
   - info
   # - teams        # winners, finals, innovation award, short-listed and registered teams
-  # - videos       # video playlists after the competition
+  # - media        # photo albums and video playlists after the competition
   - competition
   # - schedule
   # - speakers
