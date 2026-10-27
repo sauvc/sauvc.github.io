@@ -1,0 +1,5 @@
+# Innovation award winner ids from registered.yml, in display order.
+open: true # expand the table when the page loads
+# hidden: true # keep this table off the page, e.g. while entering results
+teams:
+  # - TR-98

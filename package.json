@@ -1,8 +1,22 @@
 {
+  "name": "sauvc.org",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@12.8.1",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "check": "astro check"
+  },
   "dependencies": {
-    "csvtojson": "^2.0.10",
-    "googleapis": "^100.0.0",
-    "puppeteer": "^14.2.1",
-    "yamljs": "^0.3.0"
+    "astro": "^7.4.2"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.12",
+    "typescript": "^6.0.3"
   }
 }

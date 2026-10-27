@@ -1,0 +1,24 @@
+---
+import { one } from '../../lib/content';
+
+const { years } = await one('pastEvents');
+---
+
+<section id="past-events">
+  <h2>Past Events</h2>
+  <ul class="years">
+    {/* Archives are separate sites at the root of the domain, so these links ignore the base path. */}
+    {years.map((year) => <li><a href={`/${year}/`}>SAUVC {year}</a></li>)}
+  </ul>
+</section>
+
+<style>
+  .years {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em 2em;
+    font-size: 1.2em;
+  }
+</style>

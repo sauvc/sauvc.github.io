@@ -1,0 +1,16 @@
+# Photo albums, one link per competition day.
+photos:
+  name: Facebook Photos
+  icon: img/social/facebook.png
+  days:
+    - https://www.facebook.com/media/set/?set=a.1989919364534072&type=3
+    - https://www.facebook.com/media/set/?set=a.464114492422331&type=3
+    - https://www.facebook.com/media/set/?set=a.465676755599438&type=3
+    - https://www.facebook.com/media/set/?set=a.465726582261122&type=3
+
+# YouTube playlists.
+videos:
+  - title: Daily Highlights
+    playlist: https://www.youtube.com/playlist?list=PLIdhGHLNlpMGrYkJV9Gf-B17eVINnz7_X
+  - title: Technical Talks
+    playlist: https://www.youtube.com/playlist?list=PLIdhGHLNlpMGSwMsZZJNzwnGbNg5l04Wp

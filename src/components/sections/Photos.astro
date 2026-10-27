@@ -1,0 +1,16 @@
+---
+import { one, url } from '../../lib/content';
+
+const { photos } = await one('media');
+const { year } = await one('edition');
+---
+
+<ul class="social">
+  <li>{year} photos:</li>
+  {photos.days.map((link, i) => (
+    <li>
+      <img src={url(photos.icon)} alt={`Day ${i + 1} from ${photos.name} album`} loading="lazy" />
+      <a href={link}>Day {i + 1}</a>
+    </li>
+  ))}
+</ul>

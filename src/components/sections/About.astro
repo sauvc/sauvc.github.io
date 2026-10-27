@@ -1,0 +1,54 @@
+---
+import { one, url } from '../../lib/content';
+
+const organizers = await one('organizers');
+---
+
+<section id="about">
+  <h2>About us</h2>
+  <ul class="team">
+    {organizers.list.map((o) => (
+      <li>
+        <img src={url(o.image_path)} alt={o.name} loading="lazy" />
+        <p class="name">{o.name}</p>
+        <p class="role">{o.role}</p>
+      </li>
+    ))}
+  </ul>
+</section>
+
+<style>
+  .team {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+
+    li {
+      display: inline-block;
+      vertical-align: top;
+      width: 15%;
+      margin: .5%;
+      padding: 15px;
+    }
+
+    img {
+      border-radius: 50%;
+    }
+  }
+
+  .name, .role {
+    text-align: center;
+    margin: .2em .2em 0;
+    font-size: .8em;
+  }
+
+  .role {
+    margin: 0;
+    font-size: .6em;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .team li { width: 23%; }
+  }
+</style>

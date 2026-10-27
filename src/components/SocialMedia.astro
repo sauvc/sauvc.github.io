@@ -1,0 +1,14 @@
+---
+import { one, url } from '../lib/content';
+
+const social = await one('social');
+---
+
+<ul class="social">
+  {social.list.map((s) => (
+    <li>
+      <img src={url(s.image_path)} alt={s.name} />
+      <a href={s.url}>{s.name}</a>
+    </li>
+  ))}
+</ul>

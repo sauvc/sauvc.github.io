@@ -1,0 +1,85 @@
+---
+import { one, url } from '../../lib/content';
+
+const speakers = await one('speakers');
+---
+
+<section id="speakers">
+  <h2>Speakers</h2>
+
+  <ul class="speakers">
+    {speakers.list.map((s) => (
+      <li>
+        <div class="photo">
+          <img src={url(s.profile_image)} alt={`Speaker: ${s.name}`} loading="lazy" />
+          <p class="name">{s.name}</p>
+          <p class="title"><small>{s.title}</small></p>
+        </div>
+        <div class="talk">
+          <p class="heading">{s.talk_title}</p>
+          <p>{s.talk_description}</p>
+        </div>
+        <div class="bio">
+          <p class="heading">Speaker's Bio</p>
+          <p>{s.bio}</p>
+        </div>
+      </li>
+    ))}
+  </ul>
+</section>
+
+<style>
+  .speakers {
+    list-style-type: none;
+    padding: 0;
+
+    li {
+      display: flex;
+      justify-content: space-between;
+      border-bottom: 1px solid var(--background-color);
+      padding: 2em 0;
+
+      &:last-child {
+        border-bottom: none;
+      }
+    }
+  }
+
+  .name {
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 0;
+  }
+
+  .title {
+    text-align: center;
+    margin-top: 0;
+  }
+
+  .photo {
+    flex: 0 0 18%;
+
+    img {
+      max-width: 70%;
+      margin: 0 auto;
+      display: block;
+      box-shadow: 1px 0px var(--primary-color), 0px 1px var(--primary-color), 2px 1px var(--primary-color), 1px 2px var(--primary-color), 3px 2px var(--primary-color), 2px 3px var(--primary-color), 4px 3px var(--primary-color), 3px 4px var(--primary-color), 5px 4px var(--primary-color), 4px 5px var(--primary-color), 6px 5px var(--primary-color), 5px 6px var(--primary-color), 7px 6px var(--primary-color), 6px 7px var(--primary-color), 8px 7px var(--primary-color), 7px 8px var(--primary-color);
+    }
+  }
+
+  .talk, .bio {
+    flex: 0 0 35%;
+  }
+
+  .heading {
+    font-weight: bold;
+    margin-top: 0;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .speakers li, .photo, .talk, .bio {
+      display: block;
+    }
+  }
+</style>

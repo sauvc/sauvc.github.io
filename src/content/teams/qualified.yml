@@ -1,0 +1,9 @@
+# Finals day results. Each slot refers to a team id from registered.yml.
+open: false # expand the table when the page loads
+# hidden: true # keep this table off the page, e.g. while entering results
+title: Final standings
+slots:
+  # - id: TR-98
+  #   rank: 8 # qualifier rank
+  #   finals_rank: 1
+  #   prize: 1st

@@ -1,0 +1,34 @@
+---
+/** A collapsible table of teams. Its rows go in the default slot. */
+interface Props {
+  /** Anchor of the table, e.g. `finals` for /#finals */
+  id: string;
+  title: string;
+  class: string;
+  columns: string[];
+  open: boolean;
+}
+
+const { id, title, class: className, columns, open } = Astro.props;
+---
+
+<div class="collapsible">
+  <input id={`collapsible-${id}`} type="checkbox" checked={open} />
+  <label for={`collapsible-${id}`} id={id}>{title}</label>
+  <div class="content">
+    <table class={className}>
+      <tr>{columns.map((c) => <th>{c}</th>)}</tr>
+      <slot />
+    </table>
+  </div>
+</div>
+
+<script>
+  // Expands the table named by the URL hash, e.g. /#finals.
+  const expand = () => {
+    const toggle = document.getElementById(`collapsible-${location.hash.slice(1)}`);
+    if (toggle instanceof HTMLInputElement) toggle.checked = true;
+  };
+  expand();
+  window.addEventListener('hashchange', expand);
+</script>

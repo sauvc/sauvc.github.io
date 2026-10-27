@@ -1,0 +1,305 @@
+@import "./normalize.css";
+@import "./boilerplate.css";
+@import "./helper.css";
+@import "./fonts.css";
+
+:root {
+  --important-color: #F15E50;
+  --emphasis-color: #F59A63;
+  --highlight-color: #F8C86C;
+  --background-color: #A0DCF1;
+  --dark-color: #1C455D;
+  --light-color: #E5F2F7;
+  --primary-color: #35A6D3;
+  --secondary-color: #467F9F;
+
+  --white: #fff;
+  --grey: #ccc;
+  --grey-light: #eee;
+  --grey-lighter: #fbfbfb;
+
+  --navbar-height: 4.5rem;
+}
+
+/* Layout */
+
+html {
+  scroll-padding-top: var(--navbar-height);
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: var(--dark-color);
+  font-size: 1.4em;
+  position: relative;
+}
+
+img {
+  border-radius: 4px;
+  max-width: 100%;
+}
+
+section {
+  width: 70%;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 1300px) {
+  body { font-size: 1.2em; }
+  section { width: 80%; }
+}
+
+@media only screen and (max-width: 800px) {
+  body { font-size: 1.1em; }
+  section { width: 95%; }
+}
+
+/* Typography */
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+h2 {
+  color: var(--important-color);
+  font-size: 3em;
+  margin: 1em 0;
+}
+
+h3 {
+  font-size: 1.5em;
+  margin: 1em 0;
+  color: var(--dark-color);
+}
+
+a {
+  &:link, &:visited {
+    text-decoration: none;
+    color: var(--primary-color);
+  }
+  &:hover, &:active {
+    color: var(--background-color);
+    text-decoration: underline;
+  }
+}
+
+code {
+  background: var(--light-color);
+}
+
+.highlight {
+  background: var(--highlight-color);
+}
+
+.landscape {
+  max-width: 100%;
+}
+
+.flag {
+  margin: 0 .5em 0 0;
+}
+
+/* Icon and link rows: social media, contact, photo albums */
+
+.social {
+  padding: 0;
+  list-style-type: none;
+  background: var(--light-color);
+  margin: 0;
+  text-align: center;
+
+  li {
+    display: inline-block;
+    margin: 1em;
+  }
+  img {
+    max-width: 60px;
+    max-height: 30px;
+  }
+  a {
+    font-size: 1.2em;
+    vertical-align: middle;
+    margin: 0 .2em;
+  }
+}
+
+/* Cards: information, travel and venue */
+
+.info-list {
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+
+  li {
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
+    margin: 1em;
+
+    &:nth-child(4n) .info-title { color: var(--primary-color); }
+    &:nth-child(4n+1) .info-title { color: var(--secondary-color); }
+    &:nth-child(4n+2) .info-title { color: var(--highlight-color); }
+    &:nth-child(4n+3) .info-title { color: var(--important-color); }
+  }
+}
+
+.info-title, .info-content {
+  margin: .2em;
+}
+
+.info-content > :first-child { margin-top: 0; }
+.info-content > :last-child { margin-bottom: 0; }
+
+.info-title {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 1100px) {
+  .info-list li {
+    margin: .5em;
+    width: 45%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .info-list li {
+    width: 100%;
+    margin: 1em 0;
+    text-align: left;
+  }
+}
+
+/* Tables: schedule and teams */
+
+table {
+  display: table;
+  width: 100%;
+  border-collapse: collapse;
+
+  tr {
+    padding: 1em;
+    border-top-style: solid;
+    border-top-width: 4px;
+
+    &:nth-child(3n) { border-top-color: var(--important-color); }
+    &:nth-child(3n+1) { border-top-color: var(--primary-color); }
+    &:nth-child(3n+2) { border-top-color: var(--emphasis-color); }
+  }
+  td, th {
+    padding: 1em;
+  }
+}
+
+/* Team tables. Each cell has a label that is shown on narrow screens. */
+table.table-teams td, table.table-finals td {
+  text-align: left;
+
+  &::before {
+    display: none;
+    font-weight: bold;
+  }
+}
+
+/* The finals table keeps the default table style; the others are compact. */
+table.table-teams {
+  font-size: .8em;
+
+  th {
+    text-align: left;
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
+  tr {
+    border-top-width: 2px;
+    border-color: var(--grey-light);
+  }
+  td {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-right: 0.2em;
+  }
+}
+
+table.table-teams td {
+  &:nth-child(1) { width: 8%; &::before { content: "Team ID: "; } }
+  &:nth-child(2) { width: 24%; &::before { content: "Team Name: "; } }
+  &:nth-child(3) { width: 34%; &::before { content: "Institute: "; } }
+  &:nth-child(4) { width: 18%; &::before { content: "Location: "; } }
+}
+
+table.table-finals td {
+  &:nth-child(1) { width: 6%; &::before { content: "Finals Rank: "; } }
+  &:nth-child(2) { width: 6%; &::before { content: "Prize: "; } }
+  &:nth-child(3) { width: 6%; &::before { content: "Qualifier Rank: "; } }
+  &:nth-child(4) { width: 10%; &::before { content: "Team ID: "; } }
+  &:nth-child(5) { width: 20%; &::before { content: "Team Name: "; } }
+  &:nth-child(6) { width: 30%; &::before { content: "Institute: "; } }
+  &:nth-child(7) { width: 22%; &::before { content: "Location: "; } }
+}
+
+@media only screen and (max-width: 600px) {
+  table.table-teams, table.table-finals {
+    font-size: 1em;
+
+    th {
+      display: none;
+    }
+    td:nth-child(n) {
+      width: 100%;
+      display: block;
+      padding: .3em;
+
+      &::before {
+        display: inline-block;
+        padding-right: .2em;
+      }
+    }
+  }
+}
+
+/* Collapsible team tables */
+
+.collapsible {
+  input[type='checkbox'] {
+    display: none;
+  }
+
+  label {
+    display: block;
+    cursor: pointer;
+    transition: all 0.25s ease-out;
+    font-size: 1.5em;
+    margin: 1em 0;
+    color: var(--dark-color);
+    font-weight: bold;
+
+    &:hover {
+      color: var(--primary-color);
+    }
+    &::after {
+      content: ' ';
+      display: inline-block;
+      border-top: 10px solid transparent;
+      border-bottom: 10px solid transparent;
+      border-left: 10px solid currentColor;
+      vertical-align: middle;
+      margin-left: .7rem;
+      transform: translateY(-1px);
+      transition: transform .2s ease-out;
+    }
+  }
+
+  .content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height .25s ease-in-out;
+  }
+
+  input:checked + label::after {
+    transform: rotate(90deg) translateX(-3px);
+  }
+  input:checked + label + .content {
+    max-height: 100%;
+  }
+}

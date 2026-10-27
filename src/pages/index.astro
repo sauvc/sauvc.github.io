@@ -1,0 +1,47 @@
+---
+import Base from '../layouts/Base.astro';
+import Hero from '../components/Hero.astro';
+import SocialMedia from '../components/SocialMedia.astro';
+import Photos from '../components/sections/Photos.astro';
+import Info from '../components/sections/Info.astro';
+import Teams from '../components/sections/Teams.astro';
+import Videos from '../components/sections/Videos.astro';
+import Competition from '../components/sections/Competition.astro';
+import Schedule from '../components/sections/Schedule.astro';
+import Speakers from '../components/sections/Speakers.astro';
+import Travel from '../components/sections/Travel.astro';
+import Venue from '../components/sections/Venue.astro';
+import Sponsors from '../components/sections/Sponsors.astro';
+import Contact from '../components/sections/Contact.astro';
+import About from '../components/sections/About.astro';
+import PastEvents from '../components/sections/PastEvents.astro';
+import { one } from '../lib/content';
+import type { Section } from '../lib/sections';
+
+const components = {
+  photos: Photos,
+  info: Info,
+  teams: Teams,
+  videos: Videos,
+  competition: Competition,
+  schedule: Schedule,
+  speakers: Speakers,
+  travel: Travel,
+  venue: Venue,
+  sponsors: Sponsors,
+  contact: Contact,
+  about: About,
+  'past-events': PastEvents,
+} satisfies Record<Section, unknown>;
+
+const { sections } = await one('edition');
+---
+
+<Base>
+  <Hero />
+  <SocialMedia />
+  {sections.map((name) => {
+    const Section = components[name];
+    return <Section />;
+  })}
+</Base>
