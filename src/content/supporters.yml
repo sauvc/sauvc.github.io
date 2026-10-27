@@ -2,8 +2,8 @@ list:
   - name: IEEE
     url: https://www.ieee.org
     image_path: img/sponsors/ieee.jpg
-  - name: OES
-    url: http://www.oceanicengineering.org
+  - name: IEEE Oceanic Engineering Society
+    url: https://ieeeoes.org/
     image_path: img/sponsors/oes.png
   - name: NUS
     url: http://nus.edu.sg
