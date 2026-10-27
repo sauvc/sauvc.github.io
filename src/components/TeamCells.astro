@@ -1,0 +1,16 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import { flag } from '../lib/content';
+
+/** The name, institute and location cells of a team table row. */
+interface Props {
+  team: CollectionEntry<'registered'>['data']['teams'][number];
+}
+
+const { team } = Astro.props;
+const institute = team['institute-url'];
+---
+
+<td>{team.url ? <a href={team.url}>{team.name}</a> : team.name}</td>
+<td>{institute ? <a href={institute}>{team.institute}</a> : team.institute}</td>
+<td><span class="flag">{team.flag ?? flag(team.id)}</span>{team.location}</td>

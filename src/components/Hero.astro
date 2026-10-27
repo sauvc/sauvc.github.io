@@ -1,0 +1,349 @@
+---
+import { one, url } from '../lib/content';
+
+const edition = await one('edition');
+---
+
+<div class="hero">
+  <p class="synopsis">
+    <span class="highlight">Design</span> to compete. <span class="highlight">Destined</span> to explore.<br /> at
+    <strong>Singapore AUV Challenge</strong>
+  </p>
+
+  <img src={url('img/mascot.svg')} class="mascot" alt="SAUVC mascot" />
+
+  <ul class="stats">
+    {edition.stats.map((stat) => (
+      <li>
+        <div class="num">{stat.number} <span>{stat.type}</span></div>
+        <div class="caption">{stat.caption}</div>
+      </li>
+    ))}
+  </ul>
+
+  <h1 class="welcome">
+    Welcome to<br />
+    <span class="welcome-name">SAUVC {edition.year}</span>
+    <span class="welcome-info">{edition.city}, {edition.dates}</span>
+  </h1>
+
+  <div id="action" class="action">
+    {edition.action_link
+      ? <a href={url(edition.action_link)} class="action-button" set:html={edition.action} />
+      : <p class="action-emphasis" set:html={edition.action} />}
+    {edition.action_info && <p class="action-info" set:html={edition.action_info} />}
+  </div>
+
+  <audio id="bubbles-audio" loop preload="none" src={url('assets/bubbles.mp3')}></audio>
+  <button class="sound" type="button" aria-pressed="true" title="Bubble sounds">
+    <svg viewBox="0 0 24 24" aria-hidden="true">
+      <path class="speaker" d="M4 9h4l5-4v14l-5-4H4z" />
+      <path class="on" d="M16 9a4 4 0 0 1 0 6M18.5 6.5a7.5 7.5 0 0 1 0 11" />
+      <path class="off" d="M16.5 9.5l5 5m0-5l-5 5" />
+    </svg>
+    <span class="visually-hidden">Bubble sounds</span>
+  </button>
+</div>
+
+<script>
+  // Bubbles audio: fades in while the call to action is on screen and the tab is visible.
+  // Browsers only allow audio to start after a user gesture.
+  const MAX_GAIN = 0.5;
+  const FADE_TIME = 2; // seconds
+
+  const audio = document.getElementById('bubbles-audio') as HTMLAudioElement;
+  const ac = new AudioContext();
+  const gain = ac.createGain();
+  gain.gain.value = 0;
+  ac.createMediaElementSource(audio).connect(gain).connect(ac.destination);
+
+  let inView = false;
+  let muted = localStorage.getItem('sound') === 'off';
+  const fade = () => {
+    const target = !muted && inView && document.visibilityState === 'visible' ? MAX_GAIN : 0;
+    gain.gain.setTargetAtTime(target, ac.currentTime, FADE_TIME / 3);
+  };
+  new IntersectionObserver(([entry]) => {
+    inView = entry.isIntersecting;
+    fade();
+  }).observe(document.getElementById('action')!);
+  document.addEventListener('visibilitychange', fade);
+
+  // The sound button switches the audio off and on; the choice is remembered.
+  const sound = document.querySelector('.sound')!;
+  const showSound = () => sound.setAttribute('aria-pressed', String(!muted));
+  showSound();
+  sound.addEventListener('click', () => {
+    muted = !muted;
+    localStorage.setItem('sound', muted ? 'off' : 'on');
+    showSound();
+    fade();
+  });
+
+  // touchstart is not a gesture that allows audio, so keep listening until resume succeeds.
+  const unlock = new AbortController();
+  for (const type of ['touchstart', 'touchend', 'mousedown', 'keydown']) {
+    document.addEventListener(
+      type,
+      () =>
+        ac.resume().then(() => {
+          unlock.abort();
+          audio.play();
+        }),
+      { signal: unlock.signal },
+    );
+  }
+
+  // Bubbles rising through the hero, each with a random size, position, speed and blur.
+  const hero = document.querySelector('.hero')!;
+  const random = (min: number, max: number) => min + Math.floor(Math.random() * (max - min + 1));
+  for (let i = random(5, 10); i > 0; i--) {
+    const container = document.createElement('div');
+    container.className = 'bubble-container';
+    Object.assign(container.style, {
+      left: `${random(0, 100)}%`,
+      animationDuration: `${random(3, 11)}s`,
+      animationDelay: `${random(0, 15)}s`,
+      filter: `blur(${random(1, 3)}px)`,
+    });
+    const bubble = document.createElement('div');
+    bubble.className = 'bubble';
+    bubble.style.width = bubble.style.height = `${random(3, 15)}px`;
+    container.append(bubble);
+    hero.append(container);
+  }
+</script>
+
+<style>
+  .hero {
+    background: var(--background-color);
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    padding-top: 2.5em;
+  }
+
+  .synopsis {
+    margin: 0 auto;
+    padding: 3em 0;
+    font-size: 1.5em;
+
+    strong {
+      font-size: 1.2em;
+    }
+  }
+
+  .stats {
+    padding: 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+
+    li {
+      display: inline-block;
+      vertical-align: top;
+      width: 15vw;
+    }
+  }
+
+  .num {
+    background: var(--dark-color);
+    color: var(--important-color);
+    padding: .5em 0;
+    font-size: 2em;
+    border: 1px solid var(--light-color);
+    font-weight: bold;
+
+    span {
+      font-size: .5em;
+    }
+  }
+
+  .caption {
+    font-size: .75em;
+    margin: .5em;
+  }
+
+  .welcome {
+    margin: 1em 0;
+    font-weight: normal;
+    font-size: 1.8em;
+    line-height: 1.1;
+  }
+
+  .welcome-name {
+    font-size: 1.2em;
+    font-weight: 900;
+  }
+
+  .welcome-info {
+    font-size: .5em;
+    margin-bottom: 3em;
+    display: block;
+  }
+
+  .action {
+    margin: 0 auto 1.5em;
+  }
+
+  .action-button, .action-emphasis {
+    background: var(--emphasis-color);
+    display: inline-block;
+    text-transform: uppercase;
+    padding: .2em 1em;
+    border: 4px solid var(--dark-color);
+    font-size: 2em;
+    border-radius: 10px;
+    margin: 0;
+  }
+
+  .action-button {
+    &:link, &:visited, &:hover, &:active {
+      color: var(--dark-color);
+      text-decoration: none;
+    }
+    &:hover {
+      background: var(--important-color);
+    }
+  }
+
+  .action-info {
+    width: 50%;
+    margin: 1.2em auto 2em;
+    font-size: 1.3em;
+
+    :global(a) {
+      color: var(--secondary-color);
+    }
+  }
+
+  .sound {
+    position: absolute;
+    right: 1em;
+    bottom: 1em;
+    width: 44px;
+    height: 44px;
+    padding: 10px;
+    border: 0;
+    border-radius: 50%;
+    background: rgb(255 255 255 / .5);
+    color: var(--dark-color);
+    cursor: pointer;
+    transition: background-color .15s ease-out;
+
+    &:hover { background: var(--white); }
+    &:focus-visible { outline: 2px solid var(--dark-color); outline-offset: 2px; }
+
+    svg {
+      display: block;
+      fill: none;
+      stroke: currentColor;
+      stroke-width: 2;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+    .speaker { fill: currentColor; }
+    &[aria-pressed='true'] .off, &[aria-pressed='false'] .on { display: none; }
+  }
+
+  .mascot {
+    position: absolute;
+    top: 5em;
+    left: 1em;
+    animation:
+      floating-updown 3s ease-in-out infinite,
+      floating-rotate 3s ease-in-out infinite,
+      move 40s ease-in-out infinite;
+  }
+
+  @keyframes floating-updown {
+    0%, 100% { margin-top: 5px; }
+    50% { margin-top: 15px; }
+  }
+
+  @keyframes floating-rotate {
+    0%, 100% { transform: rotate(0deg); }
+    50% { transform: rotate(3deg); }
+    75% { transform: rotate(-2deg); }
+  }
+
+  @keyframes move {
+    0% { translate: 100vw 0; }
+    100% { translate: -25vw 0; }
+  }
+
+  /* Bubbles are created by the script above, so their styles are global. */
+  .hero :global(.bubble-container) {
+    position: absolute;
+    bottom: 0;
+    will-change: transform, opacity;
+    animation: bubblerise 4s infinite ease-in;
+    opacity: 0;
+  }
+
+  .hero :global(.bubble) {
+    margin: 0 auto;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.25);
+    will-change: transform, opacity;
+    border-radius: 15px;
+    animation: bubblewobble 1s infinite linear;
+  }
+
+  @keyframes bubblerise {
+    0% { transform: translateY(0); opacity: 0; }
+    5% { transform: translateY(0); opacity: 1; }
+    99% { opacity: 1; }
+    100% { transform: translateY(-800px); opacity: 0; }
+  }
+
+  @keyframes bubblewobble {
+    0% { transform: translateX(0); }
+    50% { transform: translateX(2px); }
+  }
+
+  @media only screen and (max-width: 1450px) {
+    .stats li { width: 22vw; }
+  }
+
+  @media only screen and (max-width: 1100px) {
+    .stats li { width: 24vw; }
+  }
+
+  @media only screen and (max-width: 800px) {
+    .synopsis { padding: 2em 0; }
+    .num span { display: block; }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .welcome { margin: .5em 0; }
+    .action-button {
+      box-sizing: border-box;
+      width: 90%;
+    }
+    .mascot { width: 30vw; }
+    .sound {
+      position: static;
+      display: block;
+      margin: 0 auto 1em;
+    }
+
+    @keyframes move {
+      0% { translate: 100vw 0; }
+      100% { translate: -40vw 0; }
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .hero :global(.bubble-container) { display: none; }
+    .mascot {
+      animation: none;
+      left: auto;
+      right: 1em;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) and (max-width: 800px) {
+    .mascot { display: none; }
+  }
+</style>

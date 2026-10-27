@@ -1,0 +1,45 @@
+---
+import Base from '../layouts/Base.astro';
+import Hero from '../components/Hero.astro';
+import SocialMedia from '../components/SocialMedia.astro';
+import Info from '../components/sections/Info.astro';
+import Teams from '../components/sections/Teams.astro';
+import Media from '../components/sections/Media.astro';
+import Competition from '../components/sections/Competition.astro';
+import Schedule from '../components/sections/Schedule.astro';
+import Speakers from '../components/sections/Speakers.astro';
+import Travel from '../components/sections/Travel.astro';
+import Venue from '../components/sections/Venue.astro';
+import Sponsors from '../components/sections/Sponsors.astro';
+import Contact from '../components/sections/Contact.astro';
+import About from '../components/sections/About.astro';
+import { one, teams } from '../lib/content';
+import type { Section } from '../lib/sections';
+
+const components = {
+  info: Info,
+  teams: Teams,
+  media: Media,
+  competition: Competition,
+  schedule: Schedule,
+  speakers: Speakers,
+  travel: Travel,
+  venue: Venue,
+  sponsors: Sponsors,
+  contact: Contact,
+  about: About,
+} satisfies Record<Section, unknown>;
+
+const { sections } = await one('edition');
+// Check the team ids even when the teams section is not shown.
+await teams();
+---
+
+<Base>
+  <Hero />
+  <SocialMedia />
+  {sections.map((name) => {
+    const Section = components[name];
+    return <Section />;
+  })}
+</Base>

@@ -1,0 +1,53 @@
+---
+import { one } from '../../lib/content';
+
+const { days } = await one('schedule');
+---
+
+<section id="schedule">
+  <h2>Schedule</h2>
+
+  {days.map((day) => (
+    <div class="day">
+      <h3>Day {day.sequence}: {day.date} ({day.day_of_week})</h3>
+      {day.slots.length > 0 && (
+        <table>
+          {day.slots.map((slot) => (
+            <tr>
+              <td>{slot.time}</td>
+              <td>
+                <p>{slot.description}</p>
+                {slot.note && <p><small class="note">{slot.note}</small></p>}
+              </td>
+              <td>{slot.venue_link ? <a href={slot.venue_link}>{slot.venue}</a> : slot.venue}</td>
+            </tr>
+          ))}
+        </table>
+      )}
+    </div>
+  ))}
+</section>
+
+<style>
+  .day {
+    margin: 5em 0;
+  }
+
+  td {
+    &:nth-child(1) { width: 18%; white-space: nowrap; }
+    &:nth-child(2) { width: 40%; }
+    &:nth-child(3) { width: 42%; }
+
+    p {
+      margin: 3px 0;
+    }
+  }
+
+  .note {
+    font-size: 0.7em;
+  }
+
+  @media only screen and (max-width: 800px) {
+    .day { margin: 4em 0; }
+  }
+</style>

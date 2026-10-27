@@ -1,0 +1,146 @@
+---
+import { one } from '../lib/content';
+
+const { years } = await one('pastEvents');
+---
+
+{years.length > 0 && (
+  <details class="past-events">
+    <summary>
+      Past Events
+      <svg class="chevron" viewBox="0 0 12 8" aria-hidden="true"><path d="M1 1.5l5 5 5-5" /></svg>
+    </summary>
+    <ul class="panel">
+      {/* Archives are separate sites at the root of the domain, so these links ignore the base path. */}
+      {years.map((year) => <li><a href={`/${year}/`}><span>SAUVC</span> {year}</a></li>)}
+    </ul>
+  </details>
+)}
+
+<script>
+  // Close the menus on a click outside them, or on Escape.
+  const menus = document.querySelectorAll<HTMLDetailsElement>('details.past-events');
+  document.addEventListener('click', (event) => {
+    for (const menu of menus) if (!menu.contains(event.target as Node)) menu.open = false;
+  });
+  document.addEventListener('keydown', (event) => {
+    if (event.key !== 'Escape') return;
+    for (const menu of menus) {
+      if (!menu.open) continue;
+      menu.open = false;
+      menu.querySelector('summary')!.focus();
+    }
+  });
+</script>
+
+<style>
+  .past-events {
+    position: relative;
+    display: inline-block;
+  }
+
+  summary {
+    list-style: none;
+    cursor: pointer;
+    color: var(--primary-text);
+
+    &::-webkit-details-marker { display: none; }
+    &:hover { color: var(--dark-color); }
+    &:focus-visible {
+      outline: 2px solid var(--dark-color);
+      outline-offset: 4px;
+      border-radius: 2px;
+    }
+  }
+
+  .chevron {
+    width: .6em;
+    margin-left: .2em;
+    vertical-align: .1em;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    transition: rotate .2s ease-out;
+  }
+
+  [open] .chevron { rotate: 180deg; }
+
+  /* A grid of years under the link, each with the table rows' coloured rule. */
+  .panel {
+    position: absolute;
+    top: calc(100% + 1em);
+    left: 50%;
+    translate: -50% 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: .5em;
+    width: max-content;
+    margin: 0;
+    padding: .75em;
+    list-style: none;
+    background: var(--white);
+    border-radius: 4px;
+    box-shadow: 0 8px 24px rgb(28 69 93 / .18), 0 1px 3px rgb(28 69 93 / .12);
+
+    li {
+      border-top: 3px solid var(--primary-color);
+
+      &:nth-child(3n+2) { border-top-color: var(--emphasis-color); }
+      &:nth-child(3n) { border-top-color: var(--important-color); }
+    }
+
+    a {
+      display: block;
+      padding: .4em .9em .5em;
+      font-size: 1.2em;
+      font-weight: bold;
+      font-variant-numeric: tabular-nums;
+      color: var(--dark-color);
+      text-decoration: none;
+      transition: background-color .15s ease-out;
+
+      span {
+        font-size: .55em;
+        letter-spacing: .08em;
+        color: var(--primary-text);
+      }
+
+      &:hover, &:focus-visible {
+        background: var(--light-color);
+        color: var(--dark-color);
+        text-decoration: none;
+      }
+      &:focus-visible {
+        outline: 2px solid var(--dark-color);
+        outline-offset: -2px;
+      }
+    }
+  }
+
+  [open] .panel { animation: drain .28s cubic-bezier(.16, 1, .3, 1); }
+
+  @keyframes drain {
+    from { clip-path: inset(0 -2em 100% -2em); }
+    to { clip-path: inset(0 -2em -2em -2em); }
+  }
+
+  /* In the mobile menu the years open in place, three to a row. */
+  :global(.mobile-menu) .past-events { display: block; }
+  :global(.mobile-menu) summary { padding: 10px 0; }
+  :global(.mobile-menu) .panel {
+    position: static;
+    translate: none;
+    grid-template-columns: repeat(3, 1fr);
+    width: auto;
+    margin: 0 1em .5em;
+    padding: 0;
+    box-shadow: none;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    [open] .panel { animation: none; }
+    .chevron { transition: none; }
+  }
+</style>

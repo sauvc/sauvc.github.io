@@ -1,0 +1,37 @@
+# Builds the site on every pull request, and deploys it to GitHub Pages on every push to master.
+# Run it by hand (Actions → Deploy → Run workflow) for the first deploy of an archive fork.
+name: Deploy
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      # Installs with pnpm, runs the build, and uploads dist/ for GitHub Pages.
+      - uses: withastro/action@v6
+
+  deploy:
+    if: github.event_name != 'pull_request'
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v5

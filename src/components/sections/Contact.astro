@@ -1,0 +1,16 @@
+---
+import { one, url } from '../../lib/content';
+
+const contacts = await one('contacts');
+---
+
+<section id="contact">
+  <h2>Contact us</h2>
+  <ul class="social">
+    {contacts.list.map((c) => (
+      <li>
+        <a href={c.url} target="_blank"><img src={url(c.image_path)} alt="" loading="lazy" />{c.action}</a>
+      </li>
+    ))}
+  </ul>
+</section>

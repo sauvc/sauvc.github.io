@@ -1,0 +1,142 @@
+---
+import TeamsTable from '../TeamsTable.astro';
+import TeamCells from '../TeamCells.astro';
+import { one, teams, url } from '../../lib/content';
+
+const { year } = await one('edition');
+const { registered, winners, innovationAward, qualified, shortlisted } = await teams();
+
+const shown = (table: { hidden: boolean }, rows: unknown[]) => !table.hidden && rows.length > 0;
+const columns = ['Team ID', 'Team Name', 'Institute', 'Location'];
+---
+
+<section id="teams">
+  <h2 class="visually-hidden">Teams</h2>
+  {shown(winners, winners.teams) && (
+    <>
+      <h3 id="winners">SAUVC {year} Winners (in no particular order)</h3>
+      <ul class="winners">
+        {winners.teams.map(({ id, position, image_path, team: t }) => (
+          <li data-caption={position}>
+            <img src={url(image_path)} alt={position} loading="lazy" />
+            <p>
+              {t.url ? <a href={t.url}>{t.name}</a> : t.name} ({id})<br />
+              {t['institute-url'] ? <a href={t['institute-url']}>{t.institute}</a> : t.institute}<br />
+              {t.location}
+            </p>
+          </li>
+        ))}
+      </ul>
+    </>
+  )}
+
+  {shown(innovationAward, innovationAward.teams) && (
+    <TeamsTable
+      id="innovation-award"
+      title={`SAUVC ${year} Innovation Award Winners (in no particular order)`}
+      class="table-teams"
+      columns={columns}
+      open={innovationAward.open}>
+      {innovationAward.teams.map((t) => <tr><td>{t.id}</td><TeamCells team={t} /></tr>)}
+    </TeamsTable>
+  )}
+
+  {shown(qualified, qualified.slots) && (
+    <TeamsTable
+      id="finals"
+      title={`SAUVC ${year} — ${qualified.title}`}
+      class="table-finals"
+      columns={['Finals Rank', 'Prize', 'Qualifier Rank', ...columns]}
+      open={qualified.open}>
+      {qualified.slots.map((slot) => (
+        <tr>
+          <td>{slot.finals_rank ?? '-'}</td>
+          <td>{slot.prize ?? '-'}</td>
+          <td>{slot.rank ?? '-'}</td>
+          <td>{slot.id}</td>
+          <TeamCells team={slot.team} />
+        </tr>
+      ))}
+    </TeamsTable>
+  )}
+
+  {shown(shortlisted, shortlisted.teams) && (
+    <TeamsTable
+      id="shortlisted"
+      title={`SAUVC ${year} Short-listed Teams`}
+      class="table-teams"
+      columns={columns}
+      open={shortlisted.open}>
+      {shortlisted.teams.map((t) => <tr><td>{t.id}</td><TeamCells team={t} /></tr>)}
+    </TeamsTable>
+  )}
+
+  {shown(registered, registered.teams) && (
+    <TeamsTable
+      id="registered"
+      title={`SAUVC ${year} Registered Teams`}
+      class="table-teams"
+      columns={columns}
+      open={registered.open}>
+      {registered.teams.map((t) => <tr><td>{t.id}</td><TeamCells team={t} /></tr>)}
+    </TeamsTable>
+  )}
+</section>
+
+<style>
+  .winners {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+
+    li {
+      width: 40%;
+      display: inline-block;
+      position: relative;
+      margin: 1em 0;
+      vertical-align: top;
+
+      &::before {
+        content: attr(data-caption);
+        padding: 3px 1em;
+        background-color: var(--primary-text);
+        color: var(--white);
+        position: absolute;
+        top: 15px;
+        left: -5px;
+      }
+    }
+
+    /* Two champions, three runners-up, then the rest */
+    li:nth-child(1), li:nth-child(2), li:nth-child(7), li:nth-child(8) {
+      width: 47%;
+      padding: 0 1%;
+    }
+    li:nth-child(3), li:nth-child(4), li:nth-child(5) {
+      width: 30%;
+      padding: 0 1%;
+    }
+    li:nth-child(6) {
+      width: 40%;
+      padding: 0 10%;
+    }
+
+    img {
+      height: auto;
+      box-shadow: 1px 0px var(--primary-color), 0px 1px var(--primary-color), 2px 1px var(--primary-color), 1px 2px var(--primary-color), 3px 2px var(--primary-color), 2px 3px var(--primary-color), 4px 3px var(--primary-color), 3px 4px var(--primary-color), 5px 4px var(--primary-color), 4px 5px var(--primary-color), 6px 5px var(--primary-color), 5px 6px var(--primary-color), 7px 6px var(--primary-color), 6px 7px var(--primary-color), 8px 7px var(--primary-color), 7px 8px var(--primary-color);
+    }
+
+    p {
+      margin: .5em;
+      font-size: .8em;
+    }
+  }
+
+  @media only screen and (max-width: 800px) {
+    .winners li:nth-child(n) {
+      width: 90%;
+      padding: 0 2vw;
+    }
+  }
+</style>

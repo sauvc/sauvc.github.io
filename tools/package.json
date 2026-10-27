@@ -1,0 +1,11 @@
+{
+  "name": "sauvc-tools",
+  "private": true,
+  "description": "One-off scripts for preparing team data. Not part of the website build.",
+  "packageManager": "pnpm@12.8.1",
+  "dependencies": {
+    "csvtojson": "^2.0.10",
+    "puppeteer": "^14.2.1",
+    "yamljs": "^0.3.0"
+  }
+}

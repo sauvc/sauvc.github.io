@@ -1,0 +1,139 @@
+---
+import PastEvents from './PastEvents.astro';
+import { url } from '../lib/content';
+import { sections, type Section } from '../lib/sections';
+
+interface Props {
+  title: string;
+  sections: Section[];
+}
+
+// One link per listed section that has a navbar entry.
+const items = Astro.props.sections.flatMap((name) => sections[name] ?? []);
+---
+
+<nav class="nav">
+  <ul class="menu">
+    <li><a href={url('/')}><img src={url('img/logo_notext.png')} class="logo" alt="SAUVC" /></a></li>
+    {items.map(({ label, anchor }) => <li><a href={url(`#${anchor}`)}>{label}</a></li>)}
+    <li><PastEvents /></li>
+  </ul>
+</nav>
+
+<nav class="mobile-menu">
+  <details>
+    <summary>
+      <span class="mobile-title">{Astro.props.title}</span>
+      <span class="lines"><span class="visually-hidden">Menu</span></span>
+    </summary>
+    <ul>
+      {items.map(({ label, anchor }) => <li><a href={url(`#${anchor}`)}>{label}</a></li>)}
+      <li><PastEvents /></li>
+    </ul>
+  </details>
+</nav>
+
+<script>
+  // Close the mobile menu once a section is picked.
+  const menu = document.querySelector<HTMLDetailsElement>('.mobile-menu > details')!;
+  menu.querySelector('ul')!.addEventListener('click', (event) => {
+    if ((event.target as Element).closest('a')) menu.open = false;
+  });
+</script>
+
+<style>
+  .nav, .mobile-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background: var(--white);
+    border-bottom: 1px solid var(--light-color);
+  }
+
+  .nav {
+    padding: 1em;
+  }
+
+  .menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    > li {
+      display: inline-block;
+      margin: 0 0.75em;
+    }
+  }
+
+  .logo {
+    width: 55px;
+    margin: -20px;
+    margin-right: 0;
+  }
+
+  .mobile-menu {
+    display: none;
+    line-height: 1.6em;
+    text-align: center;
+
+    > details > summary {
+      display: block;
+      list-style: none;
+      padding: 10px 15px;
+      cursor: pointer;
+      text-transform: uppercase;
+
+      &::-webkit-details-marker { display: none; }
+    }
+
+    > details > ul {
+      list-style-type: none;
+      margin: 0 auto;
+      padding-left: 0;
+    }
+
+    > details > ul > li {
+      margin-bottom: 1px;
+    }
+
+    > details > ul > li > a {
+      display: block;
+      color: var(--primary-text);
+      padding: 10px 0;
+      transition: all 0.4s ease 0s;
+
+      &:hover {
+        background-color: var(--light-color);
+        text-decoration: none;
+      }
+    }
+  }
+
+  .mobile-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: var(--dark-color);
+    padding-left: 35px;
+  }
+
+  .lines {
+    border-bottom: 15px double var(--primary-color);
+    border-top: 5px solid var(--primary-color);
+    height: 5px;
+    width: 15px;
+    padding-right: 15px;
+    float: right;
+  }
+
+  /* The full menu wraps below this width. */
+  @media screen and (max-width: 1200px) {
+    .nav {
+      display: none;
+    }
+    .mobile-menu {
+      display: block;
+    }
+  }
+</style>

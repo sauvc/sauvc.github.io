@@ -1,0 +1,17 @@
+---
+import { cards } from '../../lib/content';
+
+const info = await cards('info');
+---
+
+<section id="information">
+  <h2 class="visually-hidden">Information</h2>
+  <ul class="info-list">
+    {info.map(({ title, Content }) => (
+      <li>
+        <p class="info-title">{title}</p>
+        <div class="info-content"><Content /></div>
+      </li>
+    ))}
+  </ul>
+</section>

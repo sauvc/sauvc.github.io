@@ -1,0 +1,11 @@
+# All registered teams, in display order. The other team lists refer to these by id.
+open: false # expand the table when the page loads
+# hidden: true # keep this table off the page, e.g. while entering results
+teams:
+  # - id: AU-05
+  #   name: Manta Claus
+  #   url: https://example.com # optional
+  #   institute: University of New South Wales
+  #   institute-url: https://www.unsw.edu.au/ # optional
+  #   location: Australia
+  #   flag: 🇦🇺 # optional, derived from the first two letters of the id

@@ -1,0 +1,7 @@
+# Venue photos. The address is in venue.md.
+images:
+  - path: img/sanyavenue2.jpg
+    name: Aofei Culture & Sports Group Park photo
+  - path: img/sanyacanteen.png
+    name: Taste of Yazhou Bay · Canteen No.10
+# map: https://www.google.com/maps/embed?pb=... # optional, embedded below the photos

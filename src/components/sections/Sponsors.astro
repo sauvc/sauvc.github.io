@@ -1,0 +1,50 @@
+---
+import { one, text, url } from '../../lib/content';
+
+const sponsors = await one('sponsors');
+const Intro = await text('sponsors');
+---
+
+<section id="sponsors">
+  <h2>Sponsors</h2>
+  <Intro />
+
+  {sponsors.list.length > 0 && (
+    <ul class="sponsors">
+      {sponsors.list.map((s) => {
+        const logo = <img src={url(s.image_path)} alt={s.name} loading="lazy" />;
+        return <li>{s.url ? <a href={s.url}>{logo}</a> : logo}</li>;
+      })}
+    </ul>
+  )}
+</section>
+
+<style>
+  .sponsors {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+
+    li {
+      display: inline-flex;
+      flex-direction: column;
+      justify-content: center;
+      vertical-align: top;
+      width: 19vw;
+      height: 20vh;
+      margin: 1em;
+      padding: 2vw;
+      box-sizing: content-box;
+      background-color: var(--grey-lighter);
+    }
+
+    img {
+      max-height: 90%;
+    }
+  }
+
+  @media only screen and (max-width: 800px) {
+    .sponsors li { width: 35vw; }
+  }
+</style>

@@ -1,0 +1,6 @@
+# Winners, in display order. Each refers to a team id from registered.yml.
+# hidden: true # keep the winners off the page, e.g. while entering results
+teams:
+  # - id: TR-98
+  #   position: Joint Champion
+  #   image_path: img/competitors/TR98.png

@@ -1,0 +1,40 @@
+---
+import '../styles/global.css';
+import Navbar from '../components/Navbar.astro';
+import Footer from '../components/Footer.astro';
+import { one, url } from '../lib/content';
+
+const site = await one('site');
+const edition = await one('edition');
+const title = `${site.title} ${edition.year}`;
+const home = new URL(url('/'), Astro.site).href;
+const image = new URL(url(site.image), Astro.site).href;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={site.description} />
+    <link rel="icon" href={url('favicon.ico')} />
+
+    <meta property="og:title" content={site.longname} />
+    <meta property="og:url" content={home} />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content={site.description} />
+    <meta property="og:image" content={image} />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:creator" content={`@${site.twitter}`} />
+    <meta name="twitter:image" content={image} />
+  </head>
+  <body>
+    <Navbar title={title} sections={edition.sections} />
+    <main>
+      <slot />
+    </main>
+    <Footer />
+  </body>
+</html>
