@@ -14,8 +14,8 @@ stats:
   - number: 0
     type: Controls
     caption: Completely autonomous
-action: Rules Released!
-# action_link: /#teams # optional, turns the action into a button
+action: Registration Open
+action_link: https://forms.gle/YyoVd9U8wkAErJ3HA # optional, turns the action into a button
 action_info: <a href="https://sauvc.org/rulebook/">Rulebook</a> for SAUVC 2027 Released! # optional, may contain HTML
 
     # EXAMPLES:
