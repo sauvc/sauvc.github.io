@@ -1,4 +1,7 @@
 list:
+  - name: Schmidt Ocean Institute
+    url: https://schmidtocean.org/
+    image_path: img/sponsors/soi.svg
   # - name: IEEE Oceanic Engineering Society
   #   url: https://ieeeoes.org/ # optional
   #   image_path: img/sponsors/oes.png
