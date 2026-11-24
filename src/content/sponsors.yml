@@ -2,6 +2,9 @@ list:
   - name: Schmidt Ocean Institute
     url: https://schmidtocean.org/
     image_path: img/sponsors/soi.svg
+  - name: Blue Robotics
+    url: https://bluerobotics.com/
+    image_path: img/sponsors/bluerobotics.png
   # - name: IEEE Oceanic Engineering Society
   #   url: https://ieeeoes.org/ # optional
   #   image_path: img/sponsors/oes.png
